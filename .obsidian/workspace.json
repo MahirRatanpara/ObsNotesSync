@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "bcf25d28046323d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "abc6b97fd3763798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "443ffad4657fc78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Coding_Interview_Patterns_Checklist"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cbd4ece0092998c",
+    "type": "split",
+    "children": [
+      {
+        "id": "821b12df5d5d08f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80adf5975e135de9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d79d45ecf20a870a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bbe182ddd31b9cde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321
+  },
+  "right": {
+    "id": "36f4326f84202314",
+    "type": "split",
+    "children": [
+      {
+        "id": "1757cfc88995204b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c8087eb9f1f57cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PLACEMENT PREP/LEETCODE TOP 150/Revisit.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Revisit"
+            }
+          },
+          {
+            "id": "1743f4dde85437f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "443ffad4657fc78b",
+  "lastOpenFiles": [
+    "Mahir' Notes/LLD/Ticket booking System.md",
+    "Shared Attachments/Movie Booking System.drawio.png",
+    "Shared Attachments/Pasted image 20250626233913.png",
+    "Shared Attachments/Untitled Diagram.drawio.png",
+    "Shared Attachments/Pasted image 20250626225713.png",
+    "Shared Attachments/Pasted image 20250626225215.png",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
+    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
+    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
+    "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
+    "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
+    "Other's Notes/LLD/Solid Principles.md",
+    "Mahir' Notes/LLD",
+    "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
+    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
+    "Mahir' Notes/HLD/Rate Limiter",
+    "Mahir' Notes/HLD/High Availablity",
+    "Mahir' Notes/HLD/Proxy",
+    "Mahir' Notes/HLD/Proxy/Proxy Server.pdf",
+    "Mahir' Notes/HLD/MQ",
+    "Mahir' Notes/HLD/Idempodency",
+    "Mahir' Notes/HLD/Databases/Indexing",
+    "Mahir' Notes/HLD/Databases/Untitled.md",
+    "Mahir' Notes/HLD/Databases/Indexing/Database Indexing.md",
+    "Mahir' Notes/HLD/Databases/Indexing/Types of DB Indexing.md",
+    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
+    "Mahir' Notes/HLD/Concurrency Control/2 Phase Locking.md",
+    "Mahir' Notes/HLD/Concurrency Control/Concurrency Control.md",
+    "Mahir' Notes/HLD/Caching/Caching.md",
+    "Other's Notes/HLD/CAP Theorem.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
+    "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
+    "Mahir' Notes/HLD/Untitled.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Service Mesh Config.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Service Mesh.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Service Discovery.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Circuit Breaking.md",
+    "Other's Notes/HLD/SAGA Pattern.md",
+    "Shared Attachments/Pasted image 20250618002937.png",
+    "Shared Attachments/Pasted image 20250618001304.png",
+    "Shared Attachments/Pasted image 20250617234506.png",
+    "Shared Attachments/Pasted image 20250617233724.png",
+    "Shared Attachments/Pasted image 20250617233710.png"
+  ]
+}

@@ -1,0 +1,16 @@
+
+- thread vs process
+- context switching
+	- explain parallelism, how many threads can actually run concurrently, what determines this?
+- two ways to implement
+	- implements Runnable
+	- extends Thread class
+- thread lifecycle
+- monitor locks on objects
+- producer consumer problem and solution
+	- synchronized
+	- wait
+	- notifyAll
+	- sleep
+	- start
+- why stop, resume and suspended are deprecated methods
