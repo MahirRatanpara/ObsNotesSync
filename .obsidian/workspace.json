@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Super DSA List.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Super DSA List"
+              "title": "README"
             }
           }
         ]
@@ -140,6 +140,8 @@
   },
   "active": "443ffad4657fc78b",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
+    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Push Obsidian Notes Scheduler.xml",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "push_obsidian.ps1",
@@ -151,9 +153,7 @@
     "Shared Attachments/Pasted image 20250626225713.png",
     "Shared Attachments/Pasted image 20250626225215.png",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
-    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
-    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
     "Other's Notes/LLD/Solid Principles.md",
@@ -165,7 +165,6 @@
     "Mahir' Notes/HLD/Proxy",
     "Mahir' Notes/HLD/Proxy/Proxy Server.pdf",
     "Mahir' Notes/HLD/MQ",
-    "Mahir' Notes/HLD/Idempodency",
     "Mahir' Notes/HLD/Databases/Untitled.md",
     "Mahir' Notes/HLD/Databases/Indexing/Database Indexing.md",
     "Mahir' Notes/HLD/Databases/Indexing/Types of DB Indexing.md",
