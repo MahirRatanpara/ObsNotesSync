@@ -1,5 +1,7 @@
 # ObsNotesSync
 
-## Here Github acts as a cloud storage  of my local notes :) 
+## Here GitHub acts as a cloud storage  of my local notes :) 
 
-### We have established a hourly sync between the windows folder and Github using the Scheduler XML provided in this repo.
+### We have established a hourly sync between the windows folder and GitHub using the Scheduler XML provided in this repo.
+
+- **STEP-1:** Pushing notes writt
