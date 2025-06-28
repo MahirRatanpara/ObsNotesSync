@@ -136,7 +136,7 @@
 - [x] Number of Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-islands/)  
 - [x] Biggest Island (easy)  
 - [x] Flood Fill (easy) [Leetcode](https://leetcode.com/problems/flood-fill/)  
-- [ ] Number of Closed Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-closed-islands/)  
+- [x] Number of Closed Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-closed-islands/)  
 - [ ] Problem Challenge 1 (easy)  
 - [ ] Problem Challenge 2 (medium)  
 - [ ] Problem Challenge 3 (medium)  
