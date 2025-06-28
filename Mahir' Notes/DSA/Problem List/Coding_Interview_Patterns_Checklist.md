@@ -132,9 +132,9 @@
 - [x] Minimum Number of Vertices to Reach All Nodes(medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)  
 
 ### 13. Pattern: Island (Matrix traversal)
-- [ ] Introduction to Island Pattern  
-- [ ] Number of Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-islands/)  
-- [ ] Biggest Island (easy)  
+- [x] Introduction to Island Pattern  
+- [x] Number of Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-islands/)  
+- [x] Biggest Island (easy)  
 - [ ] Flood Fill (easy) [Leetcode](https://leetcode.com/problems/flood-fill/)  
 - [ ] Number of Closed Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-closed-islands/)  
 - [ ] Problem Challenge 1 (easy)  

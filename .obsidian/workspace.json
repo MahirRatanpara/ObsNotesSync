@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLACEMENT PREP/LEETCODE TOP 150/Revisit.md",
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Revisit"
+              "title": "Backlinks for Coding_Interview_Patterns_Checklist"
             }
           },
           {
@@ -114,7 +114,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -135,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263
+    "width": 263,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
