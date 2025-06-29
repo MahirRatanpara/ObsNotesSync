@@ -143,7 +143,7 @@
 
 ### 14. Pattern: Two Heaps
 - [ ] Introduction  
-- [ ] Find the Median of a Number Stream (medium) [Leetcode](https://leetcode.com/problems/find-median-from-data-stream/)  
+- [x] Find the Median of a Number Stream (medium) [Leetcode](https://leetcode.com/problems/find-median-from-data-stream/)  
 - [ ] Sliding Window Median (hard) [Leetcode](https://leetcode.com/problems/sliding-window-median/)  
 - [ ] Maximize Capital (hard) [Leetcode](https://leetcode.com/problems/ipo/)  
 - [ ] Maximum Sum Combinations (medium) [InterviewBit](https://www.interviewbit.com/problems/maximum-sum-combinations/)  

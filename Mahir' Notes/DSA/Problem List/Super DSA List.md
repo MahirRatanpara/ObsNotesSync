@@ -6,7 +6,7 @@ A shuffled, mixed bag of 75 top-tier Leetcode problems for FAANG prep. Tick them
 - [ ] 2. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [ ] 3. [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)
 - [ ] 4. [Zuma Game](https://leetcode.com/problems/zuma-game/)
-- [ ] 5. [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [x] 5. [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [ ] 6. [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 - [ ] 7. [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 - [ ] 8. [Concatenated Words](https://leetcode.com/problems/concatenated-words/)

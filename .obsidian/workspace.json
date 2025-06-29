@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c2b95bec8b9ab65",
+        "id": "a3558d481f703657",
         "type": "tabs",
         "children": [
           {
-            "id": "4f0ef65ed3ccd646",
+            "id": "a81a16b99bae193d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "https://leetcode.com/problems/find-median-from-data-stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,13 +151,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f0ef65ed3ccd646",
+  "active": "a81a16b99bae193d",
   "lastOpenFiles": [
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/LLD/Ticket booking System.md",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
+    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "README.md",
-    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
+    "Mahir' Notes/LLD/Ticket booking System.md",
     "Push Obsidian Notes Scheduler.xml",
     "push_obsidian.ps1",
     "Shared Attachments/Movie Booking System.drawio.png",
@@ -166,7 +167,6 @@
     "Shared Attachments/Pasted image 20250626225713.png",
     "Shared Attachments/Pasted image 20250626225215.png",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
     "Other's Notes/LLD/Solid Principles.md",
