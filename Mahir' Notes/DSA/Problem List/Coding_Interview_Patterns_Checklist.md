@@ -149,9 +149,9 @@
 - [x] Maximum Sum Combinations (medium) [InterviewBit](https://www.interviewbit.com/problems/maximum-sum-combinations/)  
 
 ### 15. Pattern: Subsets
-- [ ] Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/R87WmWYrELz)  
-- [ ] Subsets (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG)  
-- [ ] Subsets With Duplicates (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr)  
+- [x] Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/R87WmWYrELz)  
+- [x] Subsets (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG)  
+- [x] Subsets With Duplicates (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr)  
 - [ ] Permutations (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/B8R83jyN3KY)  
 - [ ] String Permutations by changing case (medium)  
 - [ ] Balanced Parentheses (hard)  
