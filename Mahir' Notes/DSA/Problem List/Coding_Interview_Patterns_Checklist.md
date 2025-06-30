@@ -142,11 +142,11 @@
 - [ ] Problem Challenge 3 (medium)  
 
 ### 14. Pattern: Two Heaps
-- [ ] Introduction  
+- [x] Introduction  
 - [x] Find the Median of a Number Stream (medium) [Leetcode](https://leetcode.com/problems/find-median-from-data-stream/)  
 - [x] Sliding Window Median (hard) [Leetcode](https://leetcode.com/problems/sliding-window-median/)  
-- [ ] Maximize Capital (hard) [Leetcode](https://leetcode.com/problems/ipo/)  
-- [ ] Maximum Sum Combinations (medium) [InterviewBit](https://www.interviewbit.com/problems/maximum-sum-combinations/)  
+- [x] Maximize Capital (hard) [Leetcode](https://leetcode.com/problems/ipo/)  
+- [x] Maximum Sum Combinations (medium) [InterviewBit](https://www.interviewbit.com/problems/maximum-sum-combinations/)  
 
 ### 15. Pattern: Subsets
 - [ ] Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/R87WmWYrELz)  
