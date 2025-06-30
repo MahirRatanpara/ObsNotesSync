@@ -8,3 +8,6 @@ A vending machine system is designed to efficiently manage product inventory, ha
 - Products
 - Payments
 
+![[Untitled Diagram.drawio (1).png]]
+
+

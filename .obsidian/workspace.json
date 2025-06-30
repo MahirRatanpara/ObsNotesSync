@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "36f4326f84202314",
@@ -154,6 +153,7 @@
   },
   "active": "d045952877d748d4",
   "lastOpenFiles": [
+    "Shared Attachments/Untitled Diagram.drawio (1).png",
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
@@ -194,7 +194,6 @@
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Mahir' Notes/HLD/Untitled.md",
     "Mahir' Notes/HLD/Microservice Architecture/Service Mesh Config.md",
-    "Mahir' Notes/HLD/Microservice Architecture/Service Mesh.md",
     "Shared Attachments/Pasted image 20250618002937.png",
     "Shared Attachments/Pasted image 20250618001304.png",
     "Shared Attachments/Pasted image 20250617234506.png",
