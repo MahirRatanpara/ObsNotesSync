@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26411e1943751d37",
+        "id": "db04fe1bed15a1d8",
         "type": "tabs",
         "children": [
           {
-            "id": "89b1164394dba2e9",
+            "id": "1dc0c7f9c22335e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,12 +151,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89b1164394dba2e9",
+  "active": "1dc0c7f9c22335e7",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/Database Replication.md",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/HLD/High Availablity/Scaling Databases.md",
+    "Mahir' Notes/HLD/Databases/Write-Ahead Logging (WAL).md",
+    "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
-    "Mahir' Notes/HLD/High Availablity/Scaling Databases.md",
     "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "Mahir' Notes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "Mahir' Notes/HLD/Databases/Consistent Hashing.pdf",
@@ -165,7 +169,6 @@
     "Mahir' Notes/LLD/Vending Machine.md",
     "Shared Attachments/Untitled Diagram.drawio (1).png",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
@@ -185,7 +188,6 @@
     "Other's Notes/LLD/Solid Principles.md",
     "Mahir' Notes/LLD",
     "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
-    "Mahir' Notes/HLD/Databases/Untitled.md",
     "Mahir' Notes/HLD/Databases/Indexing/Database Indexing.md",
     "Mahir' Notes/HLD/Databases/Indexing/Types of DB Indexing.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -196,8 +198,6 @@
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Shared Attachments/Pasted image 20250618002937.png",
-    "Shared Attachments/Pasted image 20250618001304.png",
-    "Shared Attachments/Pasted image 20250617234506.png",
-    "Shared Attachments/Pasted image 20250617233724.png"
+    "Shared Attachments/Pasted image 20250618001304.png"
   ]
 }
