@@ -1,9 +1,6 @@
 
 Keep the database layer different from the application layer so that it can be scaled independently.
 
-
-# Failover Strategies
-
 ## Cold Standby:
 
 **Cold standby** in database failover refers to a **disaster recovery setup** where a **secondary database server (standby)** is available but **not running or synchronized in real time** with the primary server.
@@ -65,7 +62,7 @@ Ideal for systems where **some downtime and minimal data loss** is tolerable, bu
 
 **Hot standby** is a **real-time, fully synchronized backup** server that is **always running and ready** to take over **immediately** if the primary database fails.
 
-- **NOTE:** we can read from the  
+#### **NOTE:** we can read from the secondary database in this standby as the database is almost real time replicated. But here we would have only one master and it can follow any of the replication strategy to keep the slave ready for the disaster or next read.
 
 ---
 ### 🔑 **Key Characteristics:**
@@ -93,3 +90,85 @@ Ideal for systems where **some downtime and minimal data loss** is tolerable, bu
 ### 📌 Use Case:
 
 Ideal for **critical systems** (e.g., banking, trading platforms, healthcare, etc.) where **even seconds of downtime or data loss** is unacceptable.
+
+
+# All the above stand by types are master slave, now we look at multi master.
+
+## Multi-Primary Standby (Multi-Master Replication)
+
+## 🌐 What is Multi-Primary Standby?
+
+**Multi-primary standby**, also known as **multi-master replication**, is a database setup where **two or more nodes can all accept write operations**. All nodes replicate changes to each other to maintain data consistency.
+
+---
+## 🔑 Key Characteristics
+
+| Feature                     | Description                                                             |
+| --------------------------- | ----------------------------------------------------------------------- |
+| **Multiple writable nodes** | All nodes can handle **read and write operations**                      |
+| **Data replication**        | Changes are **replicated across nodes**, often in near real-time        |
+| **Conflict resolution**     | Mechanisms must be in place to **handle write conflicts**               |
+| **High availability**       | No single point of failure — one primary can fail, others still operate |
+| **Geographic distribution** | Often used in **multi-region setups** for latency and redundancy        |
+  
+---
+## 🧠 Example
+
+Two database nodes:
+
+- **Node A (India)** accepts writes from users in Asia.
+
+- **Node B (US)** accepts writes from users in America.
+
+Each node replicates its changes to the other.  
+
+Conflicts may arise if both update the same record simultaneously.
+
+---
+
+## ⚠️ Challenges
+
+  
+| Challenge               | Description                                                                                                                                                             |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Conflict resolution** | If two users update the same row on different nodes at the same time, the system must decide **which version wins** (last-write-wins, version vector, timestamps, etc.) |
+| **Latency**             | Propagating changes across data centers can cause **replication lag**                                                                                                   |
+| **Complexity**          | Configuration, monitoring, and failure handling are **significantly more complex**                                                                                      |
+| **Data consistency**    | Must deal with **eventual consistency**, or use consensus protocols (e.g., Paxos, Raft)                                                                                 |
+
+---
+
+  ## ✅ Benefits
+
+  
+
+- **High Availability**: One node can fail without affecting writes.
+
+- **Write Scalability**: Load distributed across writable nodes.
+
+- **Geographic Flexibility**: Local nodes reduce latency for users.
+
+  
+
+---
+
+## 🛠️ Technologies That Support It
+
+  
+- **CockroachDB**
+
+- **Cassandra**
+
+- **MySQL Group Replication / Galera Cluster**
+
+- **PostgreSQL BDR (Bi-Directional Replication)**
+
+  
+
+---
+
+  ## 📌 When to Use
+
+- Global apps needing **high availability and local writes**
+
+- Systems that **tolerate eventual consistency**

@@ -1,0 +1,116 @@
+# 📈 Database Scaling Strategies
+
+Scaling your database is crucial to support higher traffic as your application grows. Here are key strategies, categorized by read and write optimization.
+
+---
+
+## 🔁 Read vs Write Bottlenecks
+
+First, identify whether your **read** operations or **write** operations are the primary bottleneck. This helps determine which strategies to focus on.
+
+---
+
+## 📚 Read Scaling Strategies
+
+### ✅ Read Replicas (Replication)
+- **Description**: Create copies of your database that handle **read-only** traffic.
+- **Benefit**: Reduces load on the primary (write) DB.
+- **Note**: Beware of **replication lag** — replicas may not have the most recent data.
+
+### ✅ Caching Layer
+- **Tools**: `Redis`, `Memcached`
+- **Use Cases**: Cache frequently accessed data like:
+  - User sessions
+  - Product info
+  - Popular queries
+- **Benefit**: Drastically reduces database load and improves latency.
+
+### ✅ Content Delivery Network (CDN)
+- **Use For**: Serving static content (images, JSON, etc.)
+- **Benefit**: Offloads static requests from the backend/database.
+
+---
+
+## 🧾 Write Scaling Strategies
+
+### ✅ Write Optimization
+- Use **bulk inserts**, batch writes
+- Optimize indexes (avoid redundant ones)
+- Partition large tables
+
+### ✅ Sharding (Horizontal Partitioning)
+- **What**: Split large tables or datasets across multiple databases or shards.
+- **Example**: Users A–M in one DB, N–Z in another.
+- **Benefit**: Spreads load and improves write throughput.
+- **Trade-off**: Complex queries and joins across shards.
+
+### ✅ Message Queues for Asynchronous Writes
+- **Tools**: `Kafka`, `RabbitMQ`, `SQS`
+- **What**: Queue up writes during traffic spikes and process in background.
+- **Benefit**: Prevents overwhelming your primary DB.
+
+---
+
+## 🔧 Schema and Query Optimization
+
+- Use **EXPLAIN ANALYZE** to find slow queries.
+- Avoid **N+1** problems in ORM queries.
+- Use **connection pooling**.
+- **Denormalize** data where appropriate to reduce joins.
+
+---
+
+## ☁️ Cloud Auto-Scaling Options
+
+- **Amazon Aurora**, **Google Cloud SQL**, **Azure SQL** offer:
+  - Read replicas
+  - Auto-scaling
+  - Multi-zone failover
+  - Serverless scaling
+
+---
+
+## 🔄 Database Partitioning
+
+### Vertical Partitioning
+- Split table by columns (e.g., move infrequently accessed columns to a different table).
+
+### Horizontal Partitioning (Sharding)
+- Split table by rows (e.g., range-based or hash-based user IDs).
+
+---
+
+## 🧠 Eventual Consistency & CQRS
+
+### CQRS (Command Query Responsibility Segregation)
+- **Writes (Commands)**: Hit the main DB.
+- **Reads (Queries)**: Served from a denormalized, read-optimized model.
+- **Benefit**: Scalability and performance with acceptable eventual consistency.
+
+---
+
+## 🛡️ Failover, Backups, Monitoring
+
+- Use **automated failover** mechanisms.
+- Ensure **regular backups**.
+- Set up **monitoring & alerts**:
+  - Tools: `Prometheus`, `Grafana`, `Datadog`, `New Relic`
+
+---
+
+## 🧩 Combine Strategies
+
+A real-world scalable architecture often combines:
+- 🔁 **Caching**
+- 📚 **Read Replicas**
+- 🧾 **Sharding**
+- 📦 **Asynchronous queues**
+- 🔧 **Query & schema tuning**
+
+---
+
+# Next Steps:
+
+- [[Database Failover]]
+- [[Database Replication]]
+- Database Sharding
