@@ -153,7 +153,7 @@
 - [x] Subsets (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG)  
 - [x] Subsets With Duplicates (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr)  
 - [x] Permutations (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/B8R83jyN3KY)  
-- [ ] String Permutations by changing case (medium)  
+- [x] String Permutations by changing case (medium)  
 - [ ] Balanced Parentheses (hard)  
 - [ ] Unique Generalized Abbreviations (hard) [Leetcode](https://leetcode.com/problems/generalized-abbreviation/)  
 
