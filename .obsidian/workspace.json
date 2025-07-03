@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "file": "Mahir' Notes/Java/Streams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "title": "Streams"
             }
           }
         ]
@@ -153,6 +153,10 @@
   },
   "active": "01d7dd44e1645ae8",
   "lastOpenFiles": [
+    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
+    "Mahir' Notes/Java/Streams.md",
+    "Mahir' Notes/Java/Java Masterclass.md",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/HLD/Databases/Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
@@ -163,7 +167,6 @@
     "Mahir' Notes/HLD/Databases/Database Replication.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Databases/SQL vs NoSQL.pdf",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
     "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
@@ -194,9 +197,6 @@
     "Mahir' Notes/HLD/Databases/Indexing/Types of DB Indexing.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Mahir' Notes/HLD/Concurrency Control/2 Phase Locking.md",
-    "Mahir' Notes/HLD/Concurrency Control/Concurrency Control.md",
-    "Mahir' Notes/HLD/Caching/Caching.md",
-    "Other's Notes/HLD/CAP Theorem.md",
     "Shared Attachments/Pasted image 20250618002937.png",
     "Shared Attachments/Pasted image 20250618001304.png"
   ]
