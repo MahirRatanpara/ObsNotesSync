@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4bb843b97a44d80",
+        "id": "e1dd828529bf1ef3",
         "type": "tabs",
         "children": [
           {
-            "id": "2e7885b57f1c727b",
+            "id": "6c8735491b4b02a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,12 +151,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e7885b57f1c727b",
+  "active": "6c8735491b4b02a4",
   "lastOpenFiles": [
-    "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
-    "Mahir' Notes/LLD/Creational Pattern",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "binary-search/BinarySearch.md",
+    "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
+    "Mahir' Notes/LLD/Creational Pattern",
     "binary-search",
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/LLD/Ticket booking System.md",
@@ -183,7 +184,6 @@
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "README.md",
     "Push Obsidian Notes Scheduler.xml",
