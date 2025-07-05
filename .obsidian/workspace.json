@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
+                "file": "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Write-Ahead Logging (WAL)"
+              "title": "1. Database 0 to 1B"
             }
           }
         ]
@@ -153,11 +153,11 @@
   },
   "active": "a132223e48cb07dd",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "Shared Attachments/Pasted image 20250705125740.png",
     "Mahir' Notes/HLD/Databases/3. Database Replication.md",
     "Shared Attachments/Pasted image 20250705124001.png",
-    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
