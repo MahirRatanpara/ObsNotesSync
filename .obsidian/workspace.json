@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1dd828529bf1ef3",
+        "id": "b80373532666b444",
         "type": "tabs",
         "children": [
           {
-            "id": "6c8735491b4b02a4",
+            "id": "a132223e48cb07dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,11 +151,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c8735491b4b02a4",
+  "active": "a132223e48cb07dd",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
+    "Mahir' Notes/HLD/Databases/5. Database Sharding.md",
+    "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
+    "Mahir' Notes/HLD/Databases/3. Database Replication.md",
+    "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "binary-search/BinarySearch.md",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
     "Mahir' Notes/LLD/Creational Pattern",
     "binary-search",
@@ -165,13 +169,10 @@
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
     "Mahir' Notes/Java/Java Masterclass.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
-    "Mahir' Notes/HLD/Databases/Write-Ahead Logging (WAL).md",
+    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
-    "Mahir' Notes/HLD/Databases/Database 0 to 1B.md",
-    "Mahir' Notes/HLD/Databases/Database Failover.md",
     "Mahir' Notes/HLD/Databases/Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
-    "Mahir' Notes/HLD/Databases/Database Replication.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Databases/SQL vs NoSQL.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
