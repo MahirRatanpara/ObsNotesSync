@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/3. Database Replication.md",
+                "file": "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Database Replication"
+              "title": "5. Database Partitioning and Sharding"
             }
           }
         ]
@@ -153,10 +153,12 @@
   },
   "active": "a132223e48cb07dd",
   "lastOpenFiles": [
+    "Shared Attachments/Pasted image 20250705124001.png",
+    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
+    "Mahir' Notes/HLD/Databases/3. Database Replication.md",
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-    "Mahir' Notes/HLD/Databases/3. Database Replication.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "binary-search/BinarySearch.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
@@ -169,7 +171,6 @@
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
     "Mahir' Notes/Java/Java Masterclass.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
-    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "Mahir' Notes/HLD/Databases/Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
@@ -196,7 +197,6 @@
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
     "Other's Notes/LLD/Solid Principles.md",
-    "Mahir' Notes/HLD/Databases/Indexing/Database Indexing.md",
     "Shared Attachments/Pasted image 20250618002937.png",
     "Shared Attachments/Pasted image 20250618001304.png"
   ]
