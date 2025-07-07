@@ -164,7 +164,7 @@
 - [x] Next Letter (medium) [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)  
 - [x] Number Range (medium) [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 - [x] Search in a Sorted Infinite Array (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)  
-- [ ] Minimum Difference Element (medium)  
+- [x] Minimum Difference Element (medium)  
 - [ ] Bitonic Array Maximum (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/)  
 - [ ] Problem Challenge 1: Search Bitonic Array (medium) [Leetcode](https://leetcode.com/problems/find-in-mountain-array/)  
 - [ ] Problem Challenge 2: Search in Rotated Array (medium) [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
