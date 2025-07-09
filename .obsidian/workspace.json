@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e67e85eb6d8e2b83",
+        "id": "938de98dcb0b01b9",
         "type": "tabs",
         "children": [
           {
-            "id": "bdd982f32e6221ce",
+            "id": "4afa54320d8e0c66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "8. Consistent Hashing"
             }
           }
         ]
@@ -147,12 +149,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdd982f32e6221ce",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
+    "Other's Notes/HLD/SQL vs NoSQL.md",
+    "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
+    "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/6. CAP.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "Mahir' Notes/HLD/Databases/3. Database Replication.md",
-    "Mahir' Notes/HLD/Databases/Consistent Hashing.pdf",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
@@ -173,7 +178,6 @@
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
-    "Mahir' Notes/HLD/Databases/SQL vs NoSQL.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
     "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
@@ -191,8 +195,6 @@
     "Shared Attachments/Pasted image 20250626233913.png",
     "Shared Attachments/Untitled Diagram.drawio.png",
     "Shared Attachments/Pasted image 20250626225713.png",
-    "Shared Attachments/Pasted image 20250626225215.png",
-    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
-    "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md"
+    "Shared Attachments/Pasted image 20250626225215.png"
   ]
 }
