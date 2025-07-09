@@ -168,7 +168,7 @@
 - [x] Bitonic Array Maximum (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/)  
 - [x] Problem Challenge 1: Search Bitonic Array (medium) [Leetcode](https://leetcode.com/problems/find-in-mountain-array/)  
 - [x] Problem Challenge 2: Search in Rotated Array (medium) [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Leetcode-II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
-- [ ] Problem Challenge 3: Rotation Count (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)  
+- [x] Problem Challenge 3: Rotation Count (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)  
 - [x] Search a 2D Matrix (medium) [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/)  
 - [ ] Minimum Number of Days to Make m Bouquets (medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-days-to-make-bouquets/)  
 - [ ] Koko Eating Bananas (medium) [Leetcode](https://leetcode.com/problems/koko-eating-bananas/)  
