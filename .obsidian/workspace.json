@@ -11,12 +11,14 @@
             "id": "4afa54320d8e0c66",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf"
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "8. Consistent Hashing"
+              "icon": "lucide-file",
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -149,12 +151,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80adf5975e135de9",
+  "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Other's Notes/HLD/SQL vs NoSQL.md",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
-    "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/6. CAP.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "Mahir' Notes/HLD/Databases/3. Database Replication.md",
