@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf"
+                "file": "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. Consistent Hashing"
+              "title": "9. Design Key-Value Database"
             }
           }
         ]
@@ -151,7 +151,14 @@
   },
   "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
-    "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
+    "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
+    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
+    "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
+    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
+    "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
@@ -183,17 +190,11 @@
     "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
     "Mahir' Notes/Java/Java Masterclass.md",
-    "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
-    "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
-    "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "Mahir' Notes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
-    "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
     "Shared Attachments/Untitled Diagram.drawio (1).png",
-    "Mahir' Notes/DSA/Topics/Subset Pattern.md",
-    "Push Obsidian Notes Scheduler.xml",
     "Shared Attachments/Movie Booking System.drawio.png",
     "Shared Attachments/Pasted image 20250626233913.png"
   ]
