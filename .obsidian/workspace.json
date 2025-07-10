@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "file": "Mahir' Notes/LLD/Tic Tac Toe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "title": "Tic Tac Toe"
             }
           }
         ]
@@ -153,6 +153,9 @@
   },
   "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
+    "Shared Attachments/Pasted image 20250710092003.png",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Other's Notes/HLD/SQL vs NoSQL.md",
@@ -160,7 +163,6 @@
     "Mahir' Notes/HLD/Databases/6. CAP.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "Mahir' Notes/HLD/Databases/3. Database Replication.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
@@ -191,7 +193,6 @@
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Claude Research List.md",
-    "README.md",
     "Push Obsidian Notes Scheduler.xml",
     "Shared Attachments/Movie Booking System.drawio.png",
     "Shared Attachments/Pasted image 20250626233913.png",
