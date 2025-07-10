@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/LLD/Tic Tac Toe.md",
+                "file": "Mahir' Notes/DSA/Problem List/Super DSA List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tic Tac Toe"
+              "title": "Super DSA List"
             }
           }
         ]
@@ -153,11 +153,15 @@
   },
   "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
+    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
+    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-    "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Other's Notes/HLD/SQL vs NoSQL.md",
@@ -171,7 +175,6 @@
     "Shared Attachments/Pasted image 20250705125740.png",
     "Shared Attachments/Pasted image 20250705124001.png",
     "binary-search/BinarySearch.md",
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
     "Mahir' Notes/LLD/Creational Pattern",
     "binary-search",
@@ -193,11 +196,8 @@
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
-    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "Push Obsidian Notes Scheduler.xml",
     "Shared Attachments/Movie Booking System.drawio.png",
-    "Shared Attachments/Pasted image 20250626233913.png",
-    "Shared Attachments/Untitled Diagram.drawio.png"
+    "Shared Attachments/Pasted image 20250626233913.png"
   ]
 }
