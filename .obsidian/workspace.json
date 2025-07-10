@@ -11,14 +11,12 @@
             "id": "4afa54320d8e0c66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "icon": "lucide-file-text",
+              "title": "8. Consistent Hashing"
             }
           }
         ]
@@ -153,17 +151,18 @@
   },
   "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
+    "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/DSA/Problem List/Claude Research List.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
-    "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Other's Notes/HLD/SQL vs NoSQL.md",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
@@ -186,7 +185,6 @@
     "Mahir' Notes/Java/Java Masterclass.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
-    "Mahir' Notes/HLD/Databases/Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
@@ -195,7 +193,6 @@
     "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
     "Shared Attachments/Untitled Diagram.drawio (1).png",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
-    "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Push Obsidian Notes Scheduler.xml",
     "Shared Attachments/Movie Booking System.drawio.png",
     "Shared Attachments/Pasted image 20250626233913.png"
