@@ -11,12 +11,14 @@
             "id": "4afa54320d8e0c66",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf"
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "9. Design Key-Value Database"
+              "icon": "lucide-file",
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -151,13 +153,13 @@
   },
   "active": "4afa54320d8e0c66",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
-    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
