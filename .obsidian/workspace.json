@@ -11,12 +11,14 @@
             "id": "324d21abf0c0635f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf"
+                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Idempodency Handler"
+              "icon": "lucide-file",
+              "title": "Ad Aggregator"
             }
           }
         ]
@@ -151,6 +153,11 @@
   },
   "active": "324d21abf0c0635f",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
+    "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
@@ -160,9 +167,6 @@
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
@@ -190,7 +194,6 @@
     "binary-search",
     "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
-    "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
     "Shared Attachments/Untitled Diagram.drawio (1).png",
