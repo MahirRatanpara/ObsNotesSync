@@ -178,8 +178,8 @@
 ### 17. Pattern: Bitwise XOR
 - [ ] Introduction [Pattern](https://emre.me/coding-patterns/bitwise-xor/)
 - [x] Single Number (easy)  [Leetcode](https://leetcode.com/problems/single-number/)
-- [ ] Two Single Numbers (medium) [Leetcode](https://leetcode.com/problems/single-number-iii/description/)
-- [ ] Complement of Base 10 Number (medium)  
+- [x] Two Single Numbers (medium) [Leetcode](https://leetcode.com/problems/single-number-iii/description/)
+- [x] Complement of Base 10 Number (medium)  
 - [ ] Problem Challenge 1: Flip and Invert an Image (hard)  
 
 ### 18. Pattern: Top 'K' Elements
