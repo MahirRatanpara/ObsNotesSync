@@ -42,9 +42,9 @@
   
 ### 4. Pattern: Merge Intervals
 
-- [ ] Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3YVYvogqXpA)  
-- [ ] Merge Intervals (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jyVPKRA8yx)  
-- [ ] Insert Interval (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jKlyNMJPEM)  
+- [x] Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3YVYvogqXpA)  
+- [x] Merge Intervals (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jyVPKRA8yx)  
+- [x] Insert Interval (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jKlyNMJPEM)  
 - [ ] Intervals Intersection (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/JExVVqRAN9D)  
 - [ ] Conflicting Appointments (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/)  
 - [ ] Problem Challenge 1: Minimum Meeting Rooms (hard) [Lintcode](https://www.lintcode.com/problem/meeting-rooms-ii/)  
