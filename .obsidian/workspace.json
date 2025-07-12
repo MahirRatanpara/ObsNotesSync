@@ -11,14 +11,12 @@
             "id": "324d21abf0c0635f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "icon": "lucide-file-text",
+              "title": "Idempodency Handler"
             }
           }
         ]
@@ -153,12 +151,12 @@
   },
   "active": "324d21abf0c0635f",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
