@@ -173,7 +173,7 @@
 - [x] Minimum Number of Days to Make m Bouquets (medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets)  
 - [x] Koko Eating Bananas (medium) [Leetcode](https://leetcode.com/problems/koko-eating-bananas/)  
 - [x] Capacity To Ship Packages Within D Days (medium) [Leetcode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)  
-- [ ] Median of Two Sorted Arrays (hard) [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
+- [x] Median of Two Sorted Arrays (hard) [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
 
 ### 17. Pattern: Bitwise XOR
 - [ ] Introduction  

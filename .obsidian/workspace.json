@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "54f7241ba2d0fcda",
+        "id": "a65388ff086e6dee",
         "type": "tabs",
         "children": [
           {
-            "id": "b436a3462d329fa1",
+            "id": "324d21abf0c0635f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf"
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "9. Design Key-Value Database"
+              "icon": "lucide-file",
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -149,12 +151,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b436a3462d329fa1",
+  "active": "324d21abf0c0635f",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
-    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
+    "Mahir' Notes/LLD/Tic Tac Toe.md",
+    "Mahir' Notes/LLD/Ticket booking System.md",
+    "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
@@ -167,7 +172,6 @@
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Claude Research List.md",
-    "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
@@ -186,11 +190,8 @@
     "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
     "Mahir' Notes/LLD/Creational Pattern",
     "binary-search",
-    "Mahir' Notes/LLD/Vending Machine.md",
-    "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
-    "Mahir' Notes/Java/Java Masterclass.md",
     "Mahir' Notes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
