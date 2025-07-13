@@ -46,7 +46,7 @@
 - [x] Merge Intervals (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jyVPKRA8yx)  
 - [x] Insert Interval (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/3jKlyNMJPEM)  
 - [x] Intervals Intersection (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/JExVVqRAN9D)  
-- [ ] Conflicting Appointments (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/)  
+- [x] Conflicting Appointments (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/)  
 - [ ] Problem Challenge 1: Minimum Meeting Rooms (hard) [Lintcode](https://www.lintcode.com/problem/meeting-rooms-ii/)  
 - [ ] Problem Challenge 2: Maximum CPU Load (hard) [Geeksforgeeks](https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/)  
 - [ ] Problem Challenge 3: Employee Free Time (hard) [CoderTrain](https://www.codertrain.co/employee-free-time)  
