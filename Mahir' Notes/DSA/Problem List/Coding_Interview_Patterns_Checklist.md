@@ -176,14 +176,14 @@
 - [x] Median of Two Sorted Arrays (hard) [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
 
 ### 17. Pattern: Bitwise XOR
-- [ ] Introduction [Pattern](https://emre.me/coding-patterns/bitwise-xor/)
+- [x] Introduction [Pattern](https://emre.me/coding-patterns/bitwise-xor/)
 - [x] Single Number (easy)  [Leetcode](https://leetcode.com/problems/single-number/)
 - [x] Two Single Numbers (medium) [Leetcode](https://leetcode.com/problems/single-number-iii/description/)
 - [x] Complement of Base 10 Number (medium)  
-- [ ] Problem Challenge 1: Flip and Invert an Image (hard)  
+- [x] Problem Challenge 1: Flip and Invert an Image (hard)  
 
 ### 18. Pattern: Top 'K' Elements
-- [ ] Introduction  
+- [x] Introduction  
 - [ ] Top 'K' Numbers (easy)  
 - [ ] Kth Smallest Number (easy)  
 - [ ] 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)  
