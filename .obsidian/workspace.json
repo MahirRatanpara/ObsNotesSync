@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other's Notes/HLD/CQRS Pattern.md",
+                "file": "Other's Notes/HLD/SAGA Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CQRS Pattern"
+              "title": "SAGA Pattern"
             }
           }
         ]
@@ -153,6 +153,10 @@
   },
   "active": "618df7c69b3463b3",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
+    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
+    "Other's Notes/HLD/CQRS Pattern.md",
     "Other's Notes/System Design/Course/5. Load Balancing/5.1 DNS.md",
     "Other's Notes/System Design/Course/5. Load Balancing/5.2 Load Balancing Methods.md",
     "Other's Notes/System Design/Course/5. Load Balancing/5.0 Load Balancing.md",
@@ -162,14 +166,12 @@
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "Mahir' Notes/HLD/Microservice Architecture/Circuit Breaking.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
-    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Vending Machine.md",
@@ -182,7 +184,6 @@
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
@@ -190,7 +191,6 @@
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Other's Notes/HLD/SQL vs NoSQL.md",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
-    "Mahir' Notes/HLD/Databases/6. CAP.md",
     "Shared Attachments/Pasted image 20250705125740.png",
     "Shared Attachments/Pasted image 20250705124001.png",
     "Mahir' Notes/LLD/Creational Pattern",
