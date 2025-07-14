@@ -190,7 +190,7 @@
 - [x] Connect Ropes (easy)  [LeetCode](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
 - [x] Top 'K' Frequent Numbers (medium) [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)
 - [x] Frequency Sort (medium)  
-- [ ] Kth Largest Number in a Stream (medium) [Leetcode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
+- [x] Kth Largest Number in a Stream (medium) [Leetcode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
 - [ ] 'K' Closest Numbers (medium)  
 - [ ] Maximum Distinct Elements (medium)  
 - [ ] Sum of Elements (medium)  
