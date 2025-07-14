@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Microservice Architecture/Service Mesh.md",
+                "file": "Other's Notes/HLD/CQRS Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Service Mesh"
+              "title": "CQRS Pattern"
             }
           }
         ]
@@ -153,6 +153,11 @@
   },
   "active": "618df7c69b3463b3",
   "lastOpenFiles": [
+    "Other's Notes/System Design/Course/5. Load Balancing/5.1 DNS.md",
+    "Other's Notes/System Design/Course/5. Load Balancing/5.2 Load Balancing Methods.md",
+    "Other's Notes/System Design/Course/5. Load Balancing/5.0 Load Balancing.md",
+    "Other's Notes/Java/Java Syntax.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Service Mesh.md",
     "Mahir' Notes/HLD/Microservice Architecture/Service Discovery.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
@@ -186,11 +191,6 @@
     "Other's Notes/HLD/SQL vs NoSQL.md",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/6. CAP.md",
-    "Mahir' Notes/HLD/Databases/2. Database Failover.md",
-    "Mahir' Notes/HLD/Databases/3. Database Replication.md",
-    "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
-    "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
-    "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "Shared Attachments/Pasted image 20250705125740.png",
     "Shared Attachments/Pasted image 20250705124001.png",
     "Mahir' Notes/LLD/Creational Pattern",
