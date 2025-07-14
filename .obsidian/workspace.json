@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ca32dc9371d7a66",
+        "id": "ce11529a4f010578",
         "type": "tabs",
         "children": [
           {
-            "id": "cf3ecd56fe890274",
+            "id": "f3a52c0044f413e0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -147,8 +147,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf3ecd56fe890274",
+  "active": "f3a52c0044f413e0",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
+    "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
     "test-your-knowledge/1.EasyProblems.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "test-your-knowledge",
@@ -182,12 +184,10 @@
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
-    "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
-    "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Shared Attachments/Pasted image 20250705125740.png",
     "Shared Attachments/Pasted image 20250705124001.png",
     "Shared Attachments/Pasted image 20250701225156.png",
