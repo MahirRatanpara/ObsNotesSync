@@ -184,8 +184,8 @@
 
 ### 18. Pattern: Top 'K' Elements
 - [x] Introduction  
-- [ ] Top 'K' Numbers (easy)  
-- [ ] Kth Smallest Number (easy)  
+- [x] Top 'K' Numbers (easy)  
+- [x] Kth Smallest Number (easy)  
 - [ ] 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)  
 - [ ] Connect Ropes (easy)  
 - [ ] Top 'K' Frequent Numbers (medium)  
