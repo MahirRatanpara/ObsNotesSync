@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9255a620325facf6",
+        "id": "ad3c43513ca53149",
         "type": "tabs",
         "children": [
           {
-            "id": "1cecfc1903261646",
+            "id": "a290b4a07da6765b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,10 +151,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cecfc1903261646",
+  "active": "a290b4a07da6765b",
   "lastOpenFiles": [
-    "Other's Notes/HLD/SAGA Pattern.md",
+    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
+    "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
+    "Mahir' Notes/DSA/DSA Patterns.md",
+    "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Other's Notes/HLD/SAGA Pattern.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Other's Notes/HLD/CQRS Pattern.md",
@@ -177,19 +181,15 @@
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf",
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/8. Consistent Hashing.pdf",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
-    "Mahir' Notes/DSA/Problem List/Claude Research List.md",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
-    "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Shared Attachments/Pasted image 20250705125740.png",
     "Shared Attachments/Pasted image 20250705124001.png",
