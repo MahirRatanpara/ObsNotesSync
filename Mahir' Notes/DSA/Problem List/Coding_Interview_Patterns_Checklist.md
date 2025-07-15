@@ -184,14 +184,14 @@
 
 ### 18. Pattern: Top 'K' Elements
 - [x] Introduction  
-- [x] Top 'K' Numbers (easy)  [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [x] Kth Smallest Number (easy)  
+- [x] Top 'K' Numbers (easy)  [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/description/)
+- [x] Kth Smallest Number (easy)  [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [x] 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)  
 - [x] Connect Ropes (easy)  [LeetCode](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
 - [x] Top 'K' Frequent Numbers (medium) [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)
 - [x] Frequency Sort (medium)  
 - [x] Kth Largest Number in a Stream (medium) [Leetcode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
-- [ ] 'K' Closest Numbers (medium)  
+- [ ] 'K' Closest Numbers (medium)  [LeetCode](https://leetcode.com/problems/find-k-closest-elements/description/)
 - [ ] Maximum Distinct Elements (medium)  
 - [ ] Sum of Elements (medium)  
 - [ ] Rearrange String (hard)  
