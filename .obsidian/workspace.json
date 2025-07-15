@@ -11,14 +11,12 @@
             "id": "1a967221f90c758c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "icon": "lucide-file-text",
+              "title": "Design Chat System"
             }
           }
         ]
@@ -153,6 +151,7 @@
   },
   "active": "1a967221f90c758c",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -162,7 +161,6 @@
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "test-your-knowledge/1.EasyProblems.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "test-your-knowledge",
     "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
