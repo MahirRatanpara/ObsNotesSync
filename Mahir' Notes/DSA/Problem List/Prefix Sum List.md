@@ -20,6 +20,8 @@ prefix[i] = sum(arr[0] … arr[i]);
 sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 ```
 
+## **NOTE**: if we require only one value of prefix at a time (not the range), we can use only variable to calculate the prefix sum, Similar if you want suffix, precalculated the sum and keep on subtracting the values as we go
+
 ### Practice Questions
 - [Range Sum Query ‑ Immutable](https://leetcode.com/problems/range-sum-query-immutable/)  
 - [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)  
