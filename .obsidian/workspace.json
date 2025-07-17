@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "58788742443f11f9",
+        "id": "bdc3a5a8951ba52f",
         "type": "tabs",
         "children": [
           {
-            "id": "1a967221f90c758c",
+            "id": "9e672de6972ef5a9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mahir' Notes/HLD/Design Questions/Design Chat System.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Design Chat System"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -149,8 +147,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a967221f90c758c",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/Job Search",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
@@ -181,7 +180,6 @@
     "Mahir' Notes/HLD/Microservice Architecture/Circuit Breaking.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
