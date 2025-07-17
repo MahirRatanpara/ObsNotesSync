@@ -275,6 +275,8 @@
 ### 28. Miscellaneous
 - [ ] Kth Smallest Number (hard)  
 
+### 29. [[Prefix Sum List]]
+
 ### Revision
 - [ ] [Coding Patterns: A Cheat Sheet](revision/Revision.md)  
 
