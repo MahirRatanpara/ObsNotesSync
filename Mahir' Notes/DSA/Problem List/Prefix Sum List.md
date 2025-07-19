@@ -28,7 +28,7 @@ sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 - [x] [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)  
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  
 - [x] [Number of Sub-arrays with Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)  
-- [ ] [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+- [x] [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
 ### Extra Practice (Not mandatory)
 - [ ]  Yosupo static_range_sum  
