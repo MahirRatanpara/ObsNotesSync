@@ -277,6 +277,10 @@
 
 ### 29. [[Prefix Sum List]]
 
+### 30. Dynamic Programming Misc
+ - [ ] https://leetcode.com/problems/last-stone-weight-ii/description/
+ - [ ] 
+
 ### Revision
 - [ ] [Coding Patterns: A Cheat Sheet](revision/Revision.md)  
 

@@ -26,7 +26,7 @@ sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 - [x] [Range Sum Query ‑ Immutable](https://leetcode.com/problems/range-sum-query-immutable/)  
 - [x] [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)  
 - [x] [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)  
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  
+- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  
 - [x] [Number of Sub-arrays with Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)  
 - [ ] [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
