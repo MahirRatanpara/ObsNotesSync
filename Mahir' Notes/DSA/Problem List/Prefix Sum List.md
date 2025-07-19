@@ -32,7 +32,7 @@ sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 
 ### Extra Practice (Not mandatory)
 - [ ]  Yosupo static_range_sum  
-- [ ] USACO problems (cpid 572, 595)  
+-  99  
 - [ ] SPOJ RANGESUM
 
 ### Prefix Sum + Hashmap
