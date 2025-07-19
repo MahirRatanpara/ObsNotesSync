@@ -30,13 +30,8 @@ sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 - [x] [Number of Sub-arrays with Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)  
 - [x] [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
-### Extra Practice (Not mandatory)
-- [ ]  Yosupo static_range_sum  
--  99  
-- [ ] SPOJ RANGESUM
-
 ### Prefix Sum + Hashmap
-- [ ]  CSES 1660 & 1661  
+- [x]  CSES 1660 & 1661  
 - [ ]  Codeforces 1398C  
 - [ ]  [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 
