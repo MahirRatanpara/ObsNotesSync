@@ -33,7 +33,7 @@ sum[L..R] = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 ### Prefix Sum + Hashmap
 - [x]  CSES 1660 & 1661  
 - [ ]  Codeforces 1398C  
-- [ ]  [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
+- [x]  [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 
 ---
 
