@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41580f67b12bd61e",
+        "id": "524c126d4e343da2",
         "type": "tabs",
         "children": [
           {
-            "id": "779f0433d21c09fd",
+            "id": "557cfdb020abb7c4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -147,8 +147,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "779f0433d21c09fd",
+  "active": "557cfdb020abb7c4",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
+    "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
+    "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
+    "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
+    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/DSA/Topics/DP/Recursion and Mathematical Induction.md",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
@@ -176,15 +181,9 @@
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Other's Notes/HLD/CQRS Pattern.md",
-    "Other's Notes/System Design/Course/5. Load Balancing/5.1 DNS.md",
-    "Other's Notes/System Design/Course/5. Load Balancing/5.2 Load Balancing Methods.md",
-    "Other's Notes/System Design/Course/5. Load Balancing/5.0 Load Balancing.md",
-    "Other's Notes/Java/Java Syntax.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
-    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
