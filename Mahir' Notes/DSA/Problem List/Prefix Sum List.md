@@ -65,16 +65,16 @@ sum = prefix[r2][c2]
 ## ✅ Summary of LeetCode Problems with Links
 
 ### 1D Problems
-- [ ] https://leetcode.com/problems/running-sum-of-1d-array/  
-- [ ] https://leetcode.com/problems/find-the-highest-altitude/  
-- [ ] https://leetcode.com/problems/find-the-middle-index-in-array/  
-- [ ] https://leetcode.com/problems/range-sum-query-immutable/  
-- [ ] https://leetcode.com/problems/number-of-ways-to-split-array/  
-- [ ] https://leetcode.com/problems/corporate-flight-bookings/  
-- [ ] https://leetcode.com/problems/product-of-array-except-self/  
-- [ ] https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/  
-- [ ] https://leetcode.com/problems/contiguous-array/  
-- [ ] https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+- [x] https://leetcode.com/problems/running-sum-of-1d-array/  
+- [x] https://leetcode.com/problems/find-the-highest-altitude/  
+- [x] https://leetcode.com/problems/find-the-middle-index-in-array/  
+- [x] https://leetcode.com/problems/range-sum-query-immutable/  
+- [x] https://leetcode.com/problems/number-of-ways-to-split-array/  
+- [x] https://leetcode.com/problems/corporate-flight-bookings/  
+- [x] https://leetcode.com/problems/product-of-array-except-self/  
+- [x] https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/  
+- [x] https://leetcode.com/problems/contiguous-array/  
+- [x] https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 
 ### 2D Problems
 - [ ] https://leetcode.com/problems/range-sum-query-2d-immutable/  

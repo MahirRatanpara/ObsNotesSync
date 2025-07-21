@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1dbdbf304a5e70fa",
+        "id": "41580f67b12bd61e",
         "type": "tabs",
         "children": [
           {
-            "id": "a5481055cf962a66",
+            "id": "779f0433d21c09fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Prefix Sum List"
+              "title": "New tab"
             }
           }
         ]
@@ -151,10 +147,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5481055cf962a66",
+  "active": "779f0433d21c09fd",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
+    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
+    "Mahir' Notes/DSA/Topics/DP/Recursion and Mathematical Induction.md",
+    "Mahir' Notes/DSA/Topics/Subset Pattern.md",
+    "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
+    "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
+    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
+    "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
+    "Mahir' Notes/DSA/Topics/DP",
     "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
+    "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/Job Search",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
@@ -167,10 +171,7 @@
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "test-your-knowledge/1.EasyProblems.md",
     "test-your-knowledge",
-    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
-    "Mahir' Notes/DSA/Topics/Binary Search (on Ans).md",
     "Mahir' Notes/DSA/DSA Patterns.md",
-    "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
     "Other's Notes/HLD/SAGA Pattern.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
@@ -179,16 +180,11 @@
     "Other's Notes/System Design/Course/5. Load Balancing/5.2 Load Balancing Methods.md",
     "Other's Notes/System Design/Course/5. Load Balancing/5.0 Load Balancing.md",
     "Other's Notes/Java/Java Syntax.md",
-    "Mahir' Notes/HLD/Microservice Architecture/Service Mesh.md",
-    "Mahir' Notes/HLD/Microservice Architecture/Service Discovery.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
-    "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
-    "Mahir' Notes/HLD/Microservice Architecture/Circuit Breaking.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
-    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
