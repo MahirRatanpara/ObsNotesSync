@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
+                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knapsack"
+              "title": "Rate Limiting"
             }
           }
         ]
@@ -153,8 +153,8 @@
   },
   "active": "ed66808b4b534857",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
+    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
