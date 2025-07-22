@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "524c126d4e343da2",
+        "id": "dca1316599a3cff2",
         "type": "tabs",
         "children": [
           {
-            "id": "557cfdb020abb7c4",
+            "id": "cc36a8802e67935e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -147,8 +147,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "557cfdb020abb7c4",
+  "active": "cc36a8802e67935e",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
+    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
+    "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
@@ -166,13 +172,11 @@
     "Mahir' Notes/DSA/Problem List/Perplexity Research List.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/Job Search",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/HLD/Caching/Caching.pdf",
     "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
     "test-your-knowledge/1.EasyProblems.md",
     "test-your-knowledge",
@@ -180,10 +184,8 @@
     "Other's Notes/HLD/SAGA Pattern.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
-    "Other's Notes/HLD/CQRS Pattern.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
-    "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
@@ -192,7 +194,6 @@
     "Shared Attachments/Pasted image 20250701225156.png",
     "Shared Attachments/Pasted image 20250701224738.png",
     "Shared Attachments/Untitled Diagram.drawio (1).png",
-    "Shared Attachments/Movie Booking System.drawio.png",
-    "Shared Attachments/Pasted image 20250626233913.png"
+    "Shared Attachments/Movie Booking System.drawio.png"
   ]
 }
