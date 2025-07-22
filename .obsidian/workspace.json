@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dca1316599a3cff2",
+        "id": "599ea17ffa98b6a9",
         "type": "tabs",
         "children": [
           {
-            "id": "cc36a8802e67935e",
+            "id": "065691380baad657",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Knapsack"
             }
           }
         ]
@@ -147,11 +151,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc36a8802e67935e",
+  "active": "065691380baad657",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
+    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
@@ -160,7 +166,6 @@
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/DSA/Topics/DP/Recursion and Mathematical Induction.md",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
     "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
@@ -183,7 +188,6 @@
     "Mahir' Notes/DSA/DSA Patterns.md",
     "Other's Notes/HLD/SAGA Pattern.md",
     "Mahir' Notes/DSA/Problem List/GPT Research List.md",
-    "Mahir' Notes/DSA/Problem List/Gemini Research List.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",

@@ -361,10 +361,4 @@ If each region enforces 1000 RPM independently:
 | High latency from global checks | Low latency via local buffering |
 | Central bottleneck or SPOF | Decentralized & resilient |
 
----
 
-## 📁 Related Concepts
-- [[Rate Limiting Algorithms]]
-- [[CRDT]]
-- [[Token Bucket vs Leaky Bucket]]
-- [[Distributed System Design]]
