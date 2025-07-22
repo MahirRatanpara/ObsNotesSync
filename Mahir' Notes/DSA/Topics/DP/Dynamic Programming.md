@@ -174,3 +174,8 @@ The power of DP lies not just in finding solutions, but in recognizing that many
 - Can you explain why this particular problem exhibits optimal substructure?
 - What makes the subproblems overlap in this scenario?
 - How would you trace the dependency graph for this problem?
+
+# Question Types:
+
+1. [[Knapsack]]
+2. 
