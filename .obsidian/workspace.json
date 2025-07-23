@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "873ec9fbdef4dcbc",
+        "id": "c4c4c94889b4d362",
         "type": "tabs",
         "children": [
           {
-            "id": "ed66808b4b534857",
+            "id": "fe31cb5ea8d51d30",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf"
+                "file": "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Rate Limiter"
+              "icon": "lucide-file",
+              "title": "Knapsack"
             }
           }
         ]
@@ -149,15 +151,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed66808b4b534857",
+  "active": "fe31cb5ea8d51d30",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/File Chunking (Dropbox design).md",
-    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
@@ -185,7 +187,6 @@
     "test-your-knowledge",
     "Mahir' Notes/DSA/DSA Patterns.md",
     "Other's Notes/HLD/SAGA Pattern.md",
-    "Mahir' Notes/DSA/Problem List/GPT Research List.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
