@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Caching/Redis.md",
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -153,9 +153,9 @@
   },
   "active": "3b29898bf1b2d636",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Mahir' Notes/HLD/Caching/Caching.md",
-    "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
