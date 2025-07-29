@@ -11,10 +11,14 @@
             "id": "447792aa7fdf7e3c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -147,7 +151,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80adf5975e135de9",
+  "active": "447792aa7fdf7e3c",
   "lastOpenFiles": [
     "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
     "Mahir' Notes/LLD/Vending Machine.md",
