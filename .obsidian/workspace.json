@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5e2db36a363212d9",
+        "id": "64cc198b22e96c5c",
         "type": "tabs",
         "children": [
           {
-            "id": "7966263a5c90b034",
+            "id": "447792aa7fdf7e3c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mahir' Notes/HLD/MQ/Messaging Queue.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Messaging Queue"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -149,8 +147,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7966263a5c90b034",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
+    "Mahir' Notes/LLD/Vending Machine.md",
+    "Mahir' Notes/LLD/Ticket booking System.md",
+    "Mahir' Notes/LLD/Tic Tac Toe.md",
+    "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -181,13 +184,8 @@
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
     "Mahir' Notes/HLD/Caching/Caching.pdf",
     "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
-    "Mahir' Notes/HLD/Databases/5. Database Partitioning and Sharding.md",
-    "test-your-knowledge/1.EasyProblems.md",
     "test-your-knowledge",
-    "Mahir' Notes/DSA/DSA Patterns.md",
-    "Other's Notes/HLD/SAGA Pattern.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
