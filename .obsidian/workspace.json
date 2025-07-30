@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fa4d385194a6dd5e",
+        "id": "4694570f25f6aff8",
         "type": "tabs",
         "children": [
           {
-            "id": "3b56bd6066deabb8",
+            "id": "6ebea770907d305d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Editorial - Partition Sum.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Editorial - Partition Sum"
+              "icon": "lucide-file-text",
+              "title": "Idempodency Handler"
             }
           }
         ]
@@ -74,11 +72,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "36f4326f84202314",
@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263
+    "width": 263,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,10 +151,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b56bd6066deabb8",
+  "active": "6ebea770907d305d",
   "lastOpenFiles": [
-    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
+    "Mahir' Notes/HLD/Caching/Caching.md",
+    "Mahir' Notes/HLD/Caching/Redis.md",
+    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
+    "Mahir' Notes/HLD/Caching/Caching.pdf",
+    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
+    "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/DSA/Problem List/Editorial - Partition Sum.md",
+    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
     "Mahir' Notes/Java/Java Masterclass.md",
     "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
@@ -162,9 +169,6 @@
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
-    "Mahir' Notes/HLD/Caching/Redis.md",
-    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
-    "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
@@ -180,12 +184,8 @@
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/DSA/Topics/DP/Recursion and Mathematical Induction.md",
     "Mahir' Notes/DSA/Topics/Subset Pattern.md",
-    "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
-    "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
-    "Mahir' Notes/DSA/Topics/Cyclic Sort.md",
     "Mahir' Notes/DSA/Topics/DP",
     "Mahir' Notes/Job Search",
-    "Mahir' Notes/HLD/Caching/Caching.pdf",
     "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
     "test-your-knowledge",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
