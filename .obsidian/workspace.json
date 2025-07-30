@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4694570f25f6aff8",
+        "id": "19bbad122231b8ab",
         "type": "tabs",
         "children": [
           {
-            "id": "6ebea770907d305d",
+            "id": "2db1d3ef6bb62f62",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf"
+                "file": "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Idempodency Handler"
+              "icon": "lucide-file",
+              "title": "Idempotency Key Gen"
             }
           }
         ]
@@ -72,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "36f4326f84202314",
@@ -151,8 +151,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ebea770907d305d",
+  "active": "2db1d3ef6bb62f62",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
+    "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -188,7 +190,6 @@
     "Mahir' Notes/Job Search",
     "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
     "test-your-knowledge",
-    "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
