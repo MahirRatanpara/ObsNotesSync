@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "590f4e224e4328e8",
+        "id": "0459ab77f589da13",
         "type": "tabs",
         "children": [
           {
-            "id": "24acc822850aa753",
+            "id": "cc9ffd59f18a2294",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/Job Search/LinkedIn.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LinkedIn"
             }
           }
         ]
@@ -147,8 +151,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24acc822850aa753",
+  "active": "cc9ffd59f18a2294",
   "lastOpenFiles": [
+    "Mahir' Notes/Job Search/LinkedIn.md",
+    "test-your-knowledge/1.EasyProblems.md",
+    "Mahir' Notes/Job Search 1",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/High Availablity/Distributed Systems.md",
@@ -180,11 +187,9 @@
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
-    "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/DSA/Topics/DP",
     "Mahir' Notes/Job Search",
-    "Mahir' Notes/HLD/Design Questions/Design URL Shortner.pdf",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
