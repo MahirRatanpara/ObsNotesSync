@@ -11,10 +11,14 @@
             "id": "f4512942ad54a221",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Web Crawler"
             }
           }
         ]
@@ -146,8 +150,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5b5688872624a21",
+  "active": "f4512942ad54a221",
   "lastOpenFiles": [
+    "Shared Attachments/Pasted image 20250802135621.png",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Mahir' Notes/LLD/Logging Singleton.md",
     "Mahir' Notes/Java/Exec Service.md",
     "Mahir' Notes/LLD/Pattern Practice.md",
@@ -178,8 +184,6 @@
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Url Shortner Counter Deepdive.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Twitter Timeline.md",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
