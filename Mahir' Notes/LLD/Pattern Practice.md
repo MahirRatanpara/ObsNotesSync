@@ -235,8 +235,7 @@ Sending push notification to deviceId:xyz
 
 ## 🏭🏭 3. Abstract Factory (Expert Level)  
 
-### 💡 Use Case: Cross-platform UI Widget Library for Web and Desktop
-
+### 💡 Use Case: Cross-platform UI Widget Library for Web and Deskto
   
 
 ### 🧩 Problem Statement  
