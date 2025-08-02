@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "49d7567ee2a3f386",
+        "id": "6a766d7521a4fd23",
         "type": "tabs",
         "children": [
           {
-            "id": "78101a1c9eaa3227",
+            "id": "f4512942ad54a221",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,7 +146,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78101a1c9eaa3227",
+  "active": "c5b5688872624a21",
   "lastOpenFiles": [
     "Mahir' Notes/LLD/Logging Singleton.md",
     "Mahir' Notes/Java/Exec Service.md",
