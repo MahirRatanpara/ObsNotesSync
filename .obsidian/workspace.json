@@ -11,10 +11,14 @@
             "id": "d4f1a031869b905d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/LLD/Pattern Practice.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Pattern Practice"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "36f4326f84202314",
