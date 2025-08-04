@@ -11,14 +11,12 @@
             "id": "d4f1a031869b905d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/LLD/Pattern Practice.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/MQ/Messaging Queue.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Pattern Practice"
+              "icon": "lucide-file-text",
+              "title": "Messaging Queue"
             }
           }
         ]
@@ -153,11 +151,11 @@
   },
   "active": "d4f1a031869b905d",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Shared Attachments/Pasted image 20250802135621.png",
     "Mahir' Notes/LLD/Logging Singleton.md",
     "Mahir' Notes/Java/Exec Service.md",
-    "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/Job Search/LinkedIn.md",
     "test-your-knowledge/1.EasyProblems.md",
     "Mahir' Notes/Job Search 1",
