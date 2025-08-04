@@ -11,12 +11,14 @@
             "id": "0006a1c3e1eb812b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/MQ/Messaging Queue.pdf"
+                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Messaging Queue"
+              "icon": "lucide-file",
+              "title": "Web Crawler"
             }
           }
         ]
@@ -151,8 +153,10 @@
   },
   "active": "0006a1c3e1eb812b",
   "lastOpenFiles": [
-    "Mahir' Notes/Java/Advanced Locks.md",
+    "Mahir' Notes/HLD/MQ/Retrial in MQ.md",
+    "Mahir' Notes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
+    "Mahir' Notes/Java/Advanced Locks.md",
     "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Shared Attachments/Pasted image 20250802135621.png",
@@ -181,7 +185,6 @@
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
-    "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
