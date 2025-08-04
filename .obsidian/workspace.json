@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "264778d363b24a40",
+        "id": "4c797c495fa8cbc1",
         "type": "tabs",
         "children": [
           {
-            "id": "d4f1a031869b905d",
+            "id": "0006a1c3e1eb812b",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -149,8 +149,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4f1a031869b905d",
+  "active": "0006a1c3e1eb812b",
   "lastOpenFiles": [
+    "Mahir' Notes/Java/Advanced Locks.md",
+    "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
     "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Shared Attachments/Pasted image 20250802135621.png",
@@ -179,10 +181,8 @@
     "Mahir' Notes/LLD/Vending Machine.md",
     "Mahir' Notes/LLD/Ticket booking System.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
-    "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
-    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
