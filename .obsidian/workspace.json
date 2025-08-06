@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b23cae7074327aa",
+        "id": "2a92ed9f73b53550",
         "type": "tabs",
         "children": [
           {
-            "id": "4e52ed9b03d4eca0",
+            "id": "67194998028f31e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/Java/Concurrency/Exec Service.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Exec Service"
             }
           }
         ]
@@ -146,17 +150,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e52ed9b03d4eca0",
+  "active": "67194998028f31e2",
   "lastOpenFiles": [
+    "Mahir' Notes/Java/Concurrency/Executors.md",
+    "Mahir' Notes/Java/Concurrency/Exec Service.md",
+    "Mahir' Notes/Java/Concurrency/Advanced Locks.md",
+    "Mahir' Notes/Java/Streams.md",
+    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
+    "Mahir' Notes/Java/Concurrency",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Mahir' Notes/HLD/MQ/Retrial in MQ.md",
     "Mahir' Notes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
-    "Mahir' Notes/Java/Advanced Locks.md",
     "Mahir' Notes/LLD/Pattern Practice.md",
     "Shared Attachments/Pasted image 20250802135621.png",
     "Mahir' Notes/LLD/Logging Singleton.md",
-    "Mahir' Notes/Java/Exec Service.md",
     "Mahir' Notes/Job Search/LinkedIn.md",
     "test-your-knowledge/1.EasyProblems.md",
     "Mahir' Notes/Job Search 1",
@@ -172,20 +180,15 @@
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/DSA/Problem List/Editorial - Partition Sum.md",
-    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
     "Mahir' Notes/Java/Java Masterclass.md",
-    "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/LLD/Creational Pattern/Factory Pattern.md",
     "Mahir' Notes/LLD/Vending Machine.md",
-    "Mahir' Notes/LLD/Ticket booking System.md",
-    "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/DSA/Topics/DP",
-    "Mahir' Notes/Job Search",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
