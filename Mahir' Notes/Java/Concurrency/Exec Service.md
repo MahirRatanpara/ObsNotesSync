@@ -7,13 +7,13 @@
 ### ✅ Key Benefits:
 
 - Thread reuse
-    
+
 - Task scheduling
-    
+
 - Graceful shutdown
-    
+
 - Future-based result handling
-    
+
 
 ---
 
@@ -25,30 +25,30 @@ All implementations of `ExecutorService` (e.g., `newFixedThreadPool`, `newSingle
 
 ```java
 ThreadPoolExecutor pool = new ThreadPoolExecutor(
-    corePoolSize,
-    maximumPoolSize,
-    keepAliveTime,
-    timeUnit,
-    workQueue,
-    threadFactory,
-    handler
+corePoolSize,
+maximumPoolSize,
+keepAliveTime,
+timeUnit,
+workQueue,
+threadFactory,
+handler
 );
 ```
 
 ### Components:
 
 - **corePoolSize**: Minimum number of threads always alive
-    
+
 - **maximumPoolSize**: Max threads allowed
-    
+
 - **keepAliveTime**: Time to keep idle threads alive
-    
+
 - **workQueue**: Queue to store pending tasks
-    
+
 - **threadFactory**: How threads are created
-    
+
 - **handler**: How rejected tasks are handled
-    
+
 
 ---
 
@@ -59,13 +59,13 @@ ThreadPoolExecutor pool = new ThreadPoolExecutor(
 ```
 
 - **RUNNING**: Accepts new tasks
-    
+
 - **SHUTDOWN**: No new tasks, completes queued ones
-    
+
 - **STOP**: Interrupts running tasks, discards queue
-    
+
 - **TERMINATED**: All tasks completed
-    
+
 
 ---
 
@@ -75,14 +75,14 @@ ThreadPoolExecutor pool = new ThreadPoolExecutor(
 submit(task)
    |
    |--> Is current thread count < corePoolSize?
-   |      |--> YES: Create new thread to run task
-   |      |--> NO:
-   |           |--> Is workQueue full?
-   |                 |--> NO: Add task to queue
-   |                 |--> YES:
-   |                      |--> Is thread count < maxPoolSize?
-   |                      |     |--> YES: Create new thread
-   |                      |     |--> NO: Reject task
+   |  |--> YES: Create new thread to run task
+   |  |--> NO:
+   |   |--> Is workQueue full?
+   | |--> NO: Add task to queue
+   | |--> YES:
+   |  |--> Is thread count < maxPoolSize?
+   |  | |--> YES: Create new thread
+   |  | |--> NO: Reject task
 ```
 
 ---
@@ -110,27 +110,27 @@ submit(task)
 ### Key Point:
 
 - `join()` = main thread waits for a thread to finish.
-    
+
 - Daemon = JVM doesn’t wait for the thread.
-    
+
 - Non-daemon = JVM stays alive until thread finishes.
-    
+
 
 ---
 
 ## 🛑 Shutdown Behavior
 
 - `shutdown()`: Finishes submitted tasks, no new ones
-    
+
 - `shutdownNow()`: Tries to interrupt all tasks and empties the queue
-    
+
 
 ### Proper shutdown pattern:
 
 ```java
 executor.shutdown();
 if (!executor.awaitTermination(10, TimeUnit.SECONDS)) {
-    executor.shutdownNow();
+executor.shutdownNow();
 }
 ```
 
@@ -144,7 +144,7 @@ By default, `ExecutorService` stays alive. To auto-shutdown:
 
 ```java
 ThreadPoolExecutor executor = new ThreadPoolExecutor(
-    1, 5, 10, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+1, 5, 10, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
 
 executor.allowCoreThreadTimeOut(true);
 ```
@@ -153,16 +153,16 @@ executor.allowCoreThreadTimeOut(true);
 
 ```java
 new Thread(() -> {
-    while (!executor.isShutdown()) {
-        if (executor.getActiveCount() == 0 &&
-            executor.getQueue().isEmpty() &&
-            executor.getPoolSize() == 0) {
-            System.out.println("No activity, shutting down...");
-            executor.shutdown();
-            break;
-        }
-        Thread.sleep(2000);
-    }
+while (!executor.isShutdown()) {
+if (executor.getActiveCount() == 0 &&
+executor.getQueue().isEmpty() &&
+executor.getPoolSize() == 0) {
+System.out.println("No activity, shutting down...");
+executor.shutdown();
+break;
+}
+Thread.sleep(2000);
+}
 }).start();
 ```
 
@@ -186,10 +186,10 @@ new Thread(() -> {
 ## 📘 Notes:
 
 - Use custom `ThreadFactory` to create daemon threads
-    
+
 - Always shut down your ExecutorService to avoid JVM hang
-    
+
 - Use `RejectedExecutionHandler` to customize overflow behavior
-    
+
 
 Let me know if you want reusable utility classes or wrapper implementations!
