@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a92ed9f73b53550",
+        "id": "8343d8d40f028090",
         "type": "tabs",
         "children": [
           {
-            "id": "67194998028f31e2",
+            "id": "867b7cf425d366dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/Java/Concurrency/Exec Service.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Exec Service"
+              "title": "New tab"
             }
           }
         ]
@@ -150,10 +146,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67194998028f31e2",
+  "active": "867b7cf425d366dd",
   "lastOpenFiles": [
-    "Mahir' Notes/Java/Concurrency/Executors.md",
     "Mahir' Notes/Java/Concurrency/Exec Service.md",
+    "Mahir' Notes/Java/Concurrency/Executors.md",
     "Mahir' Notes/Java/Concurrency/Advanced Locks.md",
     "Mahir' Notes/Java/Streams.md",
     "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
