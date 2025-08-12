@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "acb81cc1b13c73fd",
+        "id": "234559bcf441895c",
         "type": "tabs",
         "children": [
           {
-            "id": "3154d7cb7b2c70a5",
+            "id": "d734fabaf252d455",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/Job Search/Cold Message.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cold Message"
+              "title": "New tab"
             }
           }
         ]
@@ -151,10 +147,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3154d7cb7b2c70a5",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
-    "Mahir' Notes/Job Search/Cold Mail.md",
     "Mahir' Notes/Job Search/Cold Message.md",
+    "Mahir' Notes/Job Search/Cold Mail.md",
     "Mahir' Notes/Job Search/LinkedIn.md",
     "Mahir' Notes/Java/Concurrency/Multi Threaded WebCrawler.md",
     "Mahir' Notes/Java/Concurrency/Multi-Threaded WebCrawler.md",
