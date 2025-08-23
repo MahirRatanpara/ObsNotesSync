@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35561b501c9063da",
+        "id": "56331250262a1f74",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9349b8e985ece3",
+            "id": "cf15661821d530b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Lua Scripting for Rate Limiting.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lua Scripting for Rate Limiting"
+              "title": "New tab"
             }
           }
         ]
@@ -150,8 +146,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a9349b8e985ece3",
+  "active": "cf15661821d530b0",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Tic Tac Toe.md",
+    "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Lua Scripting for Rate Limiting.md",
     "Mahir' Notes/Java/Concurrency/Sync DS.md",
     "Mahir' Notes/Java/Concurrency/CopyOnWriteArrayList.md",
@@ -162,7 +160,6 @@
     "Mahir' Notes/Java/Concurrency/Advanced Locks.md",
     "Mahir' Notes/Java/Concurrency/AtomicStampedReference.md",
     "Mahir' Notes/Job Search/Cold Mail.md",
-    "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/LLD/Logging Singleton.md",
     "Mahir' Notes/Job Search/Cold Message.md",
     "Mahir' Notes/Job Search/LinkedIn.md",
@@ -183,7 +180,6 @@
     "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
     "Mahir' Notes/HLD/Caching/Caching.md",
-    "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/HLD/Caching/Caching.pdf",
     "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
