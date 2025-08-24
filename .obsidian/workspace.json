@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ccb463ed95fd5bc4",
+        "id": "2d47c3ed718e149a",
         "type": "tabs",
         "children": [
           {
-            "id": "6d7c482a559db802",
+            "id": "e2cbdd5b6f5a9b8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/Enriched/02-System-Design/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -150,25 +154,32 @@
   },
   "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md",
+    "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md.tmp.1312.1756045247153",
+    "Mahir' Notes/Enriched/04-Critical-SDE2-Topics",
+    "Mahir' Notes/Enriched/03-Java-Concurrency/Complete-Java-Concurrency-Guide.md",
+    "Mahir' Notes/Enriched/03-Java-Concurrency",
+    "Mahir' Notes/Enriched/02-System-Design/Complete-HLD-Guide.md",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Complete-Patterns-Guide.md",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Complete-Patterns-Guide.md.tmp.1312.1756044593104",
+    "Design-Problems/Ride-Sharing.md",
+    "Design-Problems",
+    "Mahir' Notes/HLD/Caching/Redis.md",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Dynamic-Programming.md",
+    "Mahir' Notes/Enriched/02-System-Design/Caching-Strategies.md",
+    "Mahir' Notes/Enriched/README.md",
+    "Mahir' Notes/Enriched/02-System-Design/README.md",
     "Mahir' Notes/Enriched/07-Behavioral-Questions/README.md",
     "Mahir' Notes/Enriched/08-Low-Level-Design/README.md",
     "Mahir' Notes/Enriched/03-Java-Scala-Concepts/Inheritance-and-Polymorphism.md",
     "Mahir' Notes/Enriched/03-Java-Scala-Concepts/README.md",
-    "Mahir' Notes/Enriched/02-System-Design/Caching-Strategies.md",
-    "Mahir' Notes/Enriched/02-System-Design/README.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Monotonic-Stack.md",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Dynamic-Programming.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/README.md",
-    "Mahir' Notes/Enriched/README.md",
     "Mahir' Notes/Enriched/08-Low-Level-Design",
     "Mahir' Notes/Enriched/07-Behavioral-Questions",
     "Mahir' Notes/Enriched/06-Big-Data-Distributed-Systems",
     "Mahir' Notes/Enriched/05-Databases",
     "Mahir' Notes/Enriched/04-Concurrency-Multithreading",
-    "Mahir' Notes/Enriched/03-Java-Scala-Concepts",
-    "Mahir' Notes/Enriched/02-System-Design",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms",
-    "Mahir' Notes/Enriched",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/LLD/Pattern Practice.md",
@@ -179,13 +190,6 @@
     "Mahir' Notes/Java/Concurrency/Concurrent HashMaps.md",
     "Mahir' Notes/Java/Concurrency/Exec Service.md",
     "Mahir' Notes/Java/Concurrency/Multi Threaded WebCrawler.md",
-    "Mahir' Notes/Java/Concurrency/Advanced Locks.md",
-    "Mahir' Notes/Java/Concurrency/AtomicStampedReference.md",
-    "Mahir' Notes/Job Search/Cold Mail.md",
-    "Mahir' Notes/LLD/Logging Singleton.md",
-    "Mahir' Notes/Job Search/Cold Message.md",
-    "Mahir' Notes/Job Search/LinkedIn.md",
-    "Mahir' Notes/Java/Concurrency",
     "Shared Attachments/Pasted image 20250802135621.png",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Shared Attachments/Pasted image 20250710103010.png",
