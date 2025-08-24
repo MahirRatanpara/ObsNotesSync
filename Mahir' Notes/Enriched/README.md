@@ -8,59 +8,59 @@
 
 ### [01 - Data Structures & Algorithms](./01-Data-Structures-Algorithms/README.md)
 **Master the fundamentals that 80% of coding interviews test**
-- Arrays & Strings
-- Linked Lists & Trees
-- Graphs & Dynamic Programming
-- Common Patterns & Problem-Solving Frameworks
+- Arrays & Strings → *Links to [Java Collections](./03-Java-Scala-Concepts/README.md)*
+- Dynamic Programming → *Apply in [System Design](./02-System-Design/README.md) caching*
+- Graph Algorithms → *Used in [Distributed Systems](./02-System-Design/README.md)*
+- Problem-Solving Patterns → *Demonstrate in [Behavioral Stories](./07-Behavioral-Questions/README.md)*
 
-### [02 - System Design](./02-System-Design/README.md)
+### [02 - System Design](./02-System-Design/README.md)  
 **Design scalable systems like a senior engineer**
-- High-Level Design Principles
-- Scalability, Availability & Consistency
-- Real-world System Examples
-- Trade-offs & Decision Making
+- Caching Strategies → *Implements [DSA algorithms](./01-Data-Structures-Algorithms/README.md)*
+- Database Design → *Uses [Java concurrency](./03-Java-Scala-Concepts/README.md) patterns*
+- Scalability Patterns → *Applied in [LLD](./08-Low-Level-Design/README.md) systems*
+- Trade-offs Analysis → *Present in [Behavioral interviews](./07-Behavioral-Questions/README.md)*
 
 ### [03 - Java & Scala Concepts](./03-Java-Scala-Concepts/README.md)
-**Deep dive into language-specific concepts**
-- OOP Principles & Design Patterns
-- Java Collections & Streams
-- Memory Management & Performance
-- Scala Functional Programming
+**Deep dive into language-specific concepts**  
+- Collections Framework → *Foundational for [DSA](./01-Data-Structures-Algorithms/README.md) problems*
+- Concurrency Utilities → *Essential for [System Design](./02-System-Design/README.md)*
+- Streams & Functional Programming → *Modern approach to [data processing](./01-Data-Structures-Algorithms/README.md)*
+- Design Patterns → *Core of [LLD](./08-Low-Level-Design/README.md) interviews*
 
 ### [04 - Concurrency & Multithreading](./04-Concurrency-Multithreading/README.md)
 **Master parallel programming concepts**
-- Thread Safety & Synchronization
-- Java Concurrency Utilities
-- Producer-Consumer Patterns
-- Distributed System Concurrency
+- Thread Safety → *Critical for [System Design](./02-System-Design/README.md) at scale*  
+- Synchronization Patterns → *Used in [LLD](./08-Low-Level-Design/README.md) implementations*
+- Producer-Consumer → *Classic [DSA](./01-Data-Structures-Algorithms/README.md) problem*
+- Concurrent Collections → *Part of [Java mastery](./03-Java-Scala-Concepts/README.md)*
 
 ### [05 - Databases](./05-Databases/README.md)
 **From SQL basics to distributed database design**
-- ACID Properties & Transactions
-- Indexing & Query Optimization
-- SQL vs NoSQL Trade-offs
-- Sharding & Replication
+- ACID Properties → *Foundation for [System Design](./02-System-Design/README.md)*
+- Database Algorithms → *B-trees connect to [DSA](./01-Data-Structures-Algorithms/README.md)*  
+- Sharding Strategies → *Distributed system [patterns](./02-System-Design/README.md)*
+- Query Optimization → *Technical leadership [stories](./07-Behavioral-Questions/README.md)*
 
-### [06 - Big Data & Distributed Systems](./06-Big-Data-Distributed-Systems/README.md)
+### [06 - Big Data & Distributed Systems](./06-Big-Data-Distributed-Systems/README.md)  
 **Handle data at scale like FAANG companies**
-- CAP Theorem & Consistency Models
-- Message Queues & Event Streaming
-- Load Balancing & Service Discovery
-- Microservices Architecture
+- CAP Theorem → *Core [System Design](./02-System-Design/README.md) concept*
+- Message Queues → *Async patterns in [Java](./03-Java-Scala-Concepts/README.md)*
+- Load Balancing → *Algorithms from [DSA](./01-Data-Structures-Algorithms/README.md)*
+- Microservices → *[LLD](./08-Low-Level-Design/README.md) at architectural scale*
 
 ### [07 - Behavioral Questions](./07-Behavioral-Questions/README.md)
 **Nail the "soft skills" that make or break offers**
-- STAR Method Framework
-- Leadership & Conflict Resolution
-- Technical Decision Making
-- Career Growth Stories
+- Technical Leadership → *Stories from [System Design](./02-System-Design/README.md) projects*
+- Problem Solving → *Examples from [DSA](./01-Data-Structures-Algorithms/README.md) challenges*  
+- Code Quality → *Discuss [LLD](./08-Low-Level-Design/README.md) principles*
+- Team Collaboration → *Share [Java](./03-Java-Scala-Concepts/README.md) knowledge*
 
 ### [08 - Low Level Design](./08-Low-Level-Design/README.md)
 **Design clean, maintainable code architectures**
-- Object-Oriented Design Principles
-- Design Patterns in Practice
-- API Design & Documentation
-- Code Organization & Testing
+- SOLID Principles → *Applied with [Java](./03-Java-Scala-Concepts/README.md) examples*
+- Design Patterns → *Solve [DSA](./01-Data-Structures-Algorithms/README.md) elegantly*  
+- Threading Considerations → *Use [Concurrency](./04-Concurrency-Multithreading/README.md) knowledge*
+- System Components → *Scale to [HLD](./02-System-Design/README.md) level*
 
 ---
 
