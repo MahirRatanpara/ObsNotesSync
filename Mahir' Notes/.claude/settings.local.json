@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "C:\\Users\\mahir\\Desktop\\PrepNotes\\Mahir'''' Notes"
+    ],
+    "allow": [
+      "Bash(mkdir:*)"
+    ]
+  }
+}

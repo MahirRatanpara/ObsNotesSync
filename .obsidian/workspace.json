@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "56331250262a1f74",
+        "id": "ccb463ed95fd5bc4",
         "type": "tabs",
         "children": [
           {
-            "id": "cf15661821d530b0",
+            "id": "6d7c482a559db802",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/DSA/Misc DSA.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Misc DSA"
-            }
-          },
-          {
-            "id": "9be4bd291cb902b2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,8 +148,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9be4bd291cb902b2",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Dynamic-Programming.md",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/README.md",
+    "Mahir' Notes/Enriched/README.md",
+    "Mahir' Notes/Enriched/08-Low-Level-Design",
+    "Mahir' Notes/Enriched/07-Behavioral-Questions",
+    "Mahir' Notes/Enriched/06-Big-Data-Distributed-Systems",
+    "Mahir' Notes/Enriched/05-Databases",
+    "Mahir' Notes/Enriched/04-Concurrency-Multithreading",
+    "Mahir' Notes/Enriched/03-Java-Scala-Concepts",
+    "Mahir' Notes/Enriched/02-System-Design",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms",
+    "Mahir' Notes/Enriched",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/LLD/Tic Tac Toe.md",
     "Mahir' Notes/LLD/Pattern Practice.md",
@@ -190,21 +185,9 @@
     "Mahir' Notes/HLD/Design Questions/Design Deepdives/Web Crawler.md",
     "Mahir' Notes/HLD/MQ/Retrial in MQ.md",
     "Mahir' Notes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
-    "Mahir' Notes/HLD/MQ/Messaging Queue.pdf",
     "Shared Attachments/Pasted image 20250802135621.png",
     "test-your-knowledge/1.EasyProblems.md",
-    "Mahir' Notes/Job Search 1",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
-    "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
-    "Mahir' Notes/HLD/High Availablity/Distributed Systems.md",
-    "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
-    "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
-    "Mahir' Notes/HLD/Caching/Caching.pdf",
-    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
     "Shared Attachments/Pasted image 20250722001628.png",
-    "Mahir' Notes/HLD/Databases/7.1 SQL vs NoSQL.pdf",
-    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/DSA/Topics/DP",
     "Shared Attachments/Pasted image 20250710103010.png",
     "Shared Attachments/Pasted image 20250710102941.png",
     "Shared Attachments/Pasted image 20250710092003.png",
