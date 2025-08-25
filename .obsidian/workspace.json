@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fabf7d5189ca912c",
+        "id": "0ffbe99abb92e20d",
         "type": "tabs",
         "children": [
           {
-            "id": "9276b6279dc477c6",
+            "id": "132633a4805fccf7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LeetCode_Problems_Random"
+              "title": "New tab"
             }
           }
         ]
@@ -152,10 +148,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9276b6279dc477c6",
+  "active": "132633a4805fccf7",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
+    "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
