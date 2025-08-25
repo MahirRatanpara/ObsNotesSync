@@ -1,4 +1,4 @@
-- [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
+- [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits)
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)
