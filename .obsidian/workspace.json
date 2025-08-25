@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Misc DSA.md",
+                "file": "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc DSA"
+              "title": "LeetCode_Problems_Random"
             }
           }
         ]
@@ -154,8 +154,8 @@
   },
   "active": "9276b6279dc477c6",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
     "Mahir' Notes/DSA/Misc DSA.md",
+    "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
