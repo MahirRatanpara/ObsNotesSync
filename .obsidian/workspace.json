@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2d47c3ed718e149a",
+        "id": "bb877beebd566892",
         "type": "tabs",
         "children": [
           {
-            "id": "e2cbdd5b6f5a9b8d",
+            "id": "f2e7b016061c8121",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Caching-Guide"
+              "title": "New tab"
             }
           }
         ]
@@ -152,20 +148,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e2cbdd5b6f5a9b8d",
+  "active": "f2e7b016061c8121",
   "lastOpenFiles": [
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
+    "Mahir' Notes/Enriched/06-Behavioral-Interviews/Complete-Behavioral-Guide.md",
+    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-System-Design-Examples.md",
+    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-Design-Patterns-Guide.md",
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Scalability-Guide.md",
+    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
+    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
+    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/README.md",
     "Mahir' Notes/Enriched/02-System-Design/Caching-Strategies.md",
     "Mahir' Notes/Enriched/03-Java-Concurrency/Complete-Java-Concurrency-Guide.md",
     "Mahir' Notes/Enriched/03-Java-Scala-Concepts/Inheritance-and-Polymorphism.md",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/API-Design-Guide.md",
     "Mahir' Notes/Enriched/08-Low-Level-Design/README.md",
-    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-System-Design-Examples.md",
-    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-Design-Patterns-Guide.md",
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/DevOps-Guide.md",
-    "Mahir' Notes/Enriched/06-Behavioral-Interviews/Complete-Behavioral-Guide.md",
     "Mahir' Notes/Enriched/06-Behavioral-Interviews",
     "Mahir' Notes/Enriched/05-Low-Level-Design",
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts",
@@ -186,7 +183,6 @@
     "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/Enriched/README.md",
     "Mahir' Notes/Enriched/07-Behavioral-Questions/README.md",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/README.md",
     "Mahir' Notes/Enriched/08-Low-Level-Design",
     "Mahir' Notes/Enriched/07-Behavioral-Questions",
     "Mahir' Notes/DSA/Misc DSA.md",
