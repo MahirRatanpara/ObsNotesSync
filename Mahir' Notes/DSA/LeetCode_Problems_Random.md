@@ -2,7 +2,7 @@
 - [x] [Counting Bits](https://leetcode.com/problems/counting-bits)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)
-- [ ] [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
+- [x] [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change)
 - [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 - [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
