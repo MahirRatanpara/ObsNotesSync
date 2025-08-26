@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
+                "file": "Mahir' Notes/HLD/Hot Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LeetCode_Problems_Random"
+              "title": "Hot Links"
             }
           }
         ]
@@ -154,8 +154,9 @@
   },
   "active": "132633a4805fccf7",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/LeetCode_Problems_Random.md",
+    "Mahir' Notes/HLD/Hot Links.md",
+    "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
@@ -187,7 +188,6 @@
     "Mahir' Notes/Enriched/02-System-Design/Complete-HLD-Guide.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Monotonic-Stack.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Dynamic-Programming.md",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Complete-Patterns-Guide.md",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md.tmp.1312.1756045247153",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics",
     "Mahir' Notes/Enriched/03-Java-Concurrency",
