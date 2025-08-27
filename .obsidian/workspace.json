@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Misc DSA"
             }
-          },
-          {
-            "id": "816954fd46d33283",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,11 +152,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "816954fd46d33283",
+  "active": "132633a4805fccf7",
   "lastOpenFiles": [
-    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/DSA/AlgoMaster75.md",
+    "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/DSA/Misc DSA.md",
+    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
@@ -200,7 +188,6 @@
     "Mahir' Notes/Enriched/03-Java-Scala-Concepts/README.md",
     "Mahir' Notes/Enriched/02-System-Design/Complete-HLD-Guide.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Monotonic-Stack.md",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Dynamic-Programming.md",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md.tmp.1312.1756045247153",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics",
     "Mahir' Notes/Enriched/03-Java-Concurrency",
