@@ -44,7 +44,7 @@
 1. [ ] [Word Search II](https://leetcode.com/problems/word-search-ii)  
 2. [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)  
 3. [ ] [LFU Cache](https://leetcode.com/problems/lfu-cache)  
-4. [ ] [Design Hit Counter](https://leetcode.com/problems/design-hit-counter)  
+4. [x] [Design Hit Counter](https://leetcode.com/problems/design-hit-counter)  
 5. [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)  
 6. [ ] [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k)  
 7. [ ] [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)  
