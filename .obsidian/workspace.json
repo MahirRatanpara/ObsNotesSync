@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Hot Links.md",
+                "file": "Mahir' Notes/DSA/Misc DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hot Links"
+              "title": "Misc DSA"
             }
           }
         ]
@@ -154,12 +154,12 @@
   },
   "active": "132633a4805fccf7",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/DSA Patterns.md",
+    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/DSA/AlgoMaster75.md",
-    "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/DSA/Misc DSA.md",
-    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
