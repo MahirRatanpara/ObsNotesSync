@@ -71,5 +71,5 @@
 - [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
-- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache)
+- [x] [LRU Cache](https://leetcode.com/problems/lru-cache)
 - [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
