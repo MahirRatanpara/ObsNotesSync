@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/AlgoMaster75.md",
+                "file": "Mahir' Notes/HLD/Hot Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AlgoMaster75"
+              "title": "Hot Links"
             }
           }
         ]
@@ -154,9 +154,11 @@
   },
   "active": "132633a4805fccf7",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/Misc DSA.md",
+    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
+    "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
+    "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -186,8 +188,6 @@
     "Mahir' Notes/Enriched/05-Low-Level-Design",
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts",
     "Mahir' Notes/Enriched/03-Java-Scala-Concepts/README.md",
-    "Mahir' Notes/Enriched/02-System-Design/Complete-HLD-Guide.md",
-    "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/Monotonic-Stack.md",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md.tmp.1312.1756045247153",
     "Mahir' Notes/Enriched/04-Critical-SDE2-Topics",
     "Mahir' Notes/Enriched/03-Java-Concurrency",
