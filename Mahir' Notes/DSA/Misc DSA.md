@@ -50,7 +50,7 @@
 7. [ ] [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)  
 8. [ ] [Word Ladder II](https://leetcode.com/problems/word-ladder-ii)  
 9. [ ] [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)  
-10. [ ] [Expression Add Operators](https://leetcode.com/problems/expression-add-operators)  
+10. [x] [Expression Add Operators](https://leetcode.com/problems/expression-add-operators)  
 11. [ ] [Nested Ranges Count (Count of Range Sum)](https://leetcode.com/problems/count-of-range-sum)  
 12. [ ] [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii)  
 13. [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons)  
