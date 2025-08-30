@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Hot Links.md",
+                "file": "Mahir' Notes/DSA/Misc DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hot Links"
+              "title": "Misc DSA"
             }
           }
         ]
@@ -154,6 +154,9 @@
   },
   "active": "57d53b6439857156",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/DSA Patterns.md",
+    "Mahir' Notes/DSA/AlgoMaster75.md",
+    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
     "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
@@ -163,11 +166,8 @@
     "Mahir' Notes/LLD/Practice Problem/Tic Tac Toe.md",
     "Mahir' Notes/LLD/Practice Problem/Vending Machine.md",
     "Mahir' Notes/LLD/Practice Problem",
-    "Mahir' Notes/DSA/AlgoMaster75.md",
-    "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
