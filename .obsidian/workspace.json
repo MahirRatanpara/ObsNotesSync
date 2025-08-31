@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c8035c88403b1e9",
+        "id": "868f1266d5d5294b",
         "type": "tabs",
         "children": [
           {
-            "id": "57d53b6439857156",
+            "id": "77d47f7ac3ccbfa3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/DSA/AlgoMaster75.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AlgoMaster75"
+              "title": "New tab"
             }
           }
         ]
@@ -152,11 +148,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57d53b6439857156",
+  "active": "77d47f7ac3ccbfa3",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
-    "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
     "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
