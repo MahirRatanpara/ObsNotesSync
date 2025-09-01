@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "868f1266d5d5294b",
+        "id": "c27397bd6f60ac64",
         "type": "tabs",
         "children": [
           {
-            "id": "77d47f7ac3ccbfa3",
+            "id": "0f98820252c99ccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Topics/Monotonic Queue.md",
+                "file": "Other's Notes/HLD/2 Phase Commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monotonic Queue"
+              "title": "2 Phase Commit"
             }
           }
         ]
@@ -152,10 +152,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77d47f7ac3ccbfa3",
+  "active": "0f98820252c99ccb",
   "lastOpenFiles": [
-    "Mahir' Notes/DSA/AlgoMaster75.md",
+    "Other's Notes/HLD/2 Phase Locking.md",
+    "Other's Notes/HLD/2 Phase Commit.md",
+    "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
+    "Mahir' Notes/HLD/Caching/Caching.md",
+    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
+    "Personal Projects/Job Cold Email Automation (ECold).md",
+    "Personal Projects/job_app_automation_requirements.md",
     "Mahir' Notes/DSA/Topics/Monotonic Queue.md",
+    "Personal Projects",
+    "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
@@ -172,7 +180,6 @@
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
-    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Design-Problems/Ride-Sharing.md",
     "LeetCode_Problems_Random.md",
     "problems_randomized.txt",
@@ -183,15 +190,8 @@
     "AlgoMaster.io - Master DSA Patterns_files/unnamed.png",
     "AlgoMaster.io - Master DSA Patterns_files/algomaster.png",
     "Mahir' Notes/Enriched/06-Behavioral-Interviews/Complete-Behavioral-Guide.md",
-    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-System-Design-Examples.md",
-    "Mahir' Notes/Enriched/05-Low-Level-Design/Complete-Design-Patterns-Guide.md",
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Scalability-Guide.md",
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
     "Mahir' Notes/Enriched/06-Behavioral-Interviews",
     "Mahir' Notes/Enriched/05-Low-Level-Design",
-    "Mahir' Notes/Enriched/02-System-Design/Core-Concepts",
-    "Mahir' Notes/Enriched/04-Critical-SDE2-Topics/Testing-Guide.md.tmp.1312.1756045247153",
     "Shared Attachments/Pasted image 20250802135621.png",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Shared Attachments/Pasted image 20250710103010.png",
