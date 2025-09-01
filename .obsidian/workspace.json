@@ -11,10 +11,14 @@
             "id": "77d47f7ac3ccbfa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Elegant Maximum Points formula"
             }
           }
         ]
@@ -150,6 +154,7 @@
   },
   "active": "77d47f7ac3ccbfa3",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
     "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
@@ -183,7 +188,6 @@
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
     "Mahir' Notes/Enriched/01-Data-Structures-Algorithms/README.md",
-    "Mahir' Notes/Enriched/02-System-Design/Caching-Strategies.md",
     "Mahir' Notes/Enriched/06-Behavioral-Interviews",
     "Mahir' Notes/Enriched/05-Low-Level-Design",
     "Mahir' Notes/Enriched/02-System-Design/Core-Concepts",
