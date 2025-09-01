@@ -42,7 +42,7 @@
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)
 - [ ] [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
 - [ ] [Permutations](https://leetcode.com/problems/permutations)
-- [ ] [Is Subsequence](https://leetcode.com/problems/is-subsequence)
+- [x] [Is Subsequence](https://leetcode.com/problems/is-subsequence)
 - [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands)
 - [ ] [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
