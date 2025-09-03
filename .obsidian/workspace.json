@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dd6b457f6fbf24f7",
+        "id": "76e8c088fbe0016b",
         "type": "tabs",
         "children": [
           {
-            "id": "5fae1b57f67a8c92",
+            "id": "127ab53758522bfc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Meal - Builder Pattern"
             }
           }
         ]
@@ -148,8 +152,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5fae1b57f67a8c92",
+  "active": "127ab53758522bfc",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
+    "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
+    "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/DSA/Misc DSA.md",
     "Personal Projects/Job Cold Email Automation (ECold).md",
@@ -163,11 +172,7 @@
     "Personal Projects",
     "Mahir' Notes/DSA/AlgoMaster75.md",
     "Mahir' Notes/DSA/DSA Patterns.md",
-    "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
     "Mahir' Notes/HLD/Hot Links.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
-    "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
     "Mahir' Notes/Job Search/Referral Ask.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions",
     "Mahir' Notes/LLD/Pattern Prac",
@@ -175,7 +180,6 @@
     "Mahir' Notes/LLD/Practice Problem/Vending Machine.md",
     "Mahir' Notes/LLD/Practice Problem",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/DSA/Problem List/Prefix Sum List.md",
     "Mahir' Notes/HLD/Databases/4. Write-Ahead Logging (WAL).md",
     "Design-Problems/Ride-Sharing.md",
     "LeetCode_Problems_Random.md",
