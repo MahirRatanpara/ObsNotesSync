@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
+                "file": "Mahir' Notes/DSA/Misc DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Database 0 to 1B"
+              "title": "Misc DSA"
             }
           }
         ]
@@ -153,10 +153,10 @@
   },
   "active": "144f2239cbe6a444",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
-    "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
     "Mahir' Notes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
     "Mahir' Notes/HLD/Design Questions/Answering/Answering Eventual Consistency.md",
@@ -190,7 +190,6 @@
     "text.html",
     "AlgoMaster.io - Master DSA Patterns_files/unnamed.png",
     "AlgoMaster.io - Master DSA Patterns_files/algomaster.png",
-    "Mahir' Notes/Enriched/06-Behavioral-Interviews",
     "Shared Attachments/Pasted image 20250802135621.png",
     "Shared Attachments/Pasted image 20250722001628.png",
     "Shared Attachments/Pasted image 20250710103010.png",
