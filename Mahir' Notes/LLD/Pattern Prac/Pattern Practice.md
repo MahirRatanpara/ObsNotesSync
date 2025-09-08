@@ -1,1167 +1,573 @@
+# 🧠 Expert-Level Low-Level Design Pattern Practice
 
+## 🔒 1. Singleton Pattern - Thread-Safe Configuration Manager
 
+### Expert Challenge: Distributed Configuration System
+Design a `ConfigurationManager` for a microservices architecture that:
+- Manages environment-specific configurations (dev, staging, prod)
+- Supports hot-reloading of configuration changes without service restart
+- Maintains configuration versioning and rollback capability
+- Thread-safe with minimal locking overhead
+- Protects against reflection and serialization attacks
+- Implements circuit breaker pattern for external config sources
 
-# 🧠 Expert-Level Low-Level Design Pattern Practice Questions
+**Key Requirements:**
+- Use enum-based singleton or holder pattern
+- Implement configuration caching with TTL
+- Support configuration inheritance (global → service-specific)
+- Provide configuration change listeners
+- Handle configuration source failures gracefully
 
-  
-
-Each section below contains a **design pattern**, an **expert-level scenario**, and a **practice template** (problem, class scaffolding, hints, and expected output) to help you master the pattern and understand its real-world use.
-
-  
+**Test Scenario:**
+Simulate 100 concurrent threads accessing configurations while another thread triggers hot-reload. Verify thread safety, performance, and data consistency.
 
 ---
 
-  
+## 🏭 2. Factory Method - Plugin Architecture for Payment Processing
 
-## 🔒 1. Singleton Pattern (Expert Level)  
+### Expert Challenge: Extensible Payment Gateway System
+Build a payment processing system supporting multiple providers (Stripe, PayPal, Razorpay) with:
+- Runtime plugin discovery and registration
+- Provider-specific transaction routing based on amount, currency, region
+- Fallback mechanism when primary provider fails
+- Transaction cost optimization across providers
+- Support for new payment methods without code changes
 
-### 💡 Use Case: Distributed Logging System with Multi-threading Support and Lazy Initialization
+**Advanced Features:**
+- Implement provider health monitoring
+- Add transaction retry logic with exponential backoff
+- Support provider-specific error handling and mapping
+- Implement provider load balancing
+- Add compliance checks (PCI DSS) per provider
 
-  
-
-### 🧩 Problem Statement  
-
-You're building a distributed microservices platform. Each service logs to a central location, but within each service, all logs must go through a single logging instance (singleton) to ensure thread safety, performance, and consistency.
-
-  
-
-The `Logger` must:
-
-- Be lazily initialized.
-
-- Be thread-safe.
-
-- Support log levels (INFO, WARN, ERROR).
-
-- Maintain a recent in-memory cache of the last 10 log messages (ring buffer).
-
-- Optionally support log forwarding to a centralized system (mock it for now).
-
-  
-
-You must ensure the singleton property holds even under reflection and serialization attacks.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-public class Logger {
-
-    // private constructor
-
-  
-
-    // getInstance(): static method
-
-  
-
-    // log(level, message): logs to console + stores in in-memory ring buffer
-
-  
-
-    // getRecentLogs(): returns last 10 logs
-
-  
-
-    // Optional: enableCentralForwarding(): mocks sending logs to central system
-
-}
-
-```
-
-  
-
-### 🧵 Concurrency Requirements
-
-- Multiple threads can log concurrently.
-
-- Ring buffer should be synchronized or use a lock-free structure.
-
-- Use `volatile` and `synchronized` or alternatives like `Holder` pattern.
-
-  
-
-### 🧠 Hints
-
-- Use double-checked locking or Bill Pugh’s inner static holder.
-
-- Use `Enum`-based singleton to protect against serialization/reflection.
-
-- Use `LinkedBlockingDeque` or `CircularFifoQueue` from Apache Commons.
-
-- Mock forwarding using a `forwardToCentral(String log)` method (just print to stdout).
-
-  
-
-### ✅ Expected Output (Sample)
-
-```
-
-[INFO] 2025-08-01 10:00:01 - Service started
-
-[WARN] 2025-08-01 10:05:01 - Disk usage 90%
-
-[ERROR] 2025-08-01 10:06:01 - NullPointerException in ModuleX
-
-```
-
-  
-
-### 🧪 Test Scenario
-
-- Spawn 10 threads, each logging 50 messages.
-
-- Validate:
-
-  - Singleton instance is shared.
-
-  - Only one instance is created.
-
-  - Logs are collected safely.
-
-  - Ring buffer holds only last 10 logs.
-
-  - Optional: toggle central forwarding and verify logs are sent.
-
-  
+**Test Scenario:**
+Process 1000 transactions across multiple providers, simulate provider failures, and verify automatic failover and cost optimization.
 
 ---
 
-  
+## 🏭🏭 3. Abstract Factory - Multi-Cloud Infrastructure Provisioning
 
-*More design patterns coming next...*
+### Expert Challenge: Cross-Cloud Resource Management
+Design an infrastructure provisioning system that creates families of cloud resources (compute, storage, networking) across AWS, Azure, and GCP:
+- Maintain cloud-agnostic client code
+- Support hybrid cloud deployments
+- Handle cloud-specific configurations and limitations
+- Implement resource dependency management
+- Provide cost estimation across clouds
 
-  
+**Advanced Requirements:**
+- Support resource tagging and lifecycle management
+- Implement cloud-specific security configurations
+- Handle resource state synchronization
+- Support disaster recovery across clouds
+- Implement resource optimization recommendations
 
----
-
-  
-
-## 🏭 2. Factory Method (Expert Level)  
-
-### 💡 Use Case: Extensible Notification System with Runtime Plugin Support
-
-  
-
-### 🧩 Problem Statement  
-
-Design a notification system that supports Email, SMS, and Push notifications. The system must:
-
-- Allow new notification types to be plugged in without modifying the existing factory logic.
-
-- Select the appropriate notification sender at runtime using configuration.
-
-- Handle invalid or unsupported types gracefully.
-
-  
-
-You must implement a `NotificationFactory` that delegates creation to appropriate concrete creators and encapsulates object instantiation logic.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface Notification {
-
-    void send(String to, String message);
-
-}
-
-  
-
-class EmailNotification implements Notification { ... }
-
-class SMSNotification implements Notification { ... }
-
-class PushNotification implements Notification { ... }
-
-  
-
-abstract class NotificationCreator {
-
-    public abstract Notification create();
-
-}
-
-  
-
-class EmailNotificationCreator extends NotificationCreator { ... }
-
-// Same for SMS, Push
-
-  
-
-class NotificationFactory {
-
-    public static Notification getNotification(String type) { ... }
-
-}
-
-```
-
-  
-
-### 🧠 Hints
-
-- Use `ServiceLoader` or a registration map for pluggability.
-
-- Apply Open-Closed Principle for new notification types.
-
-- Inject via config/environment properties.
-
-  
-
-### ✅ Expected Output
-
-```
-
-Sending email to foo@bar.com
-
-Sending SMS to +91900000000
-
-Sending push notification to deviceId:xyz
-
-```
-
-  
+**Test Scenario:**
+Provision identical infrastructure across three cloud providers, validate resource compatibility, and demonstrate seamless migration between clouds.
 
 ---
 
-  
+## 🧱 4. Builder Pattern - Complex Query Builder for Analytics
 
-## 🏭🏭 3. Abstract Factory (Expert Level)  
+### Expert Challenge: Multi-Dimensional Analytics Query Engine
+Create a fluent query builder for complex analytics queries supporting:
+- Multiple data sources (SQL, NoSQL, time-series)
+- Complex aggregations and window functions
+- Dynamic filtering with operator precedence
+- Query optimization and caching
+- Result pagination and streaming
 
-### 💡 Use Case: Cross-platform UI Widget Library for Web and Deskto
-  
+**Advanced Features:**
+- Support nested subqueries and CTEs
+- Implement query plan visualization
+- Add query performance profiling
+- Support parameterized queries with type safety
+- Implement query result caching with invalidation
 
-### 🧩 Problem Statement  
-
-Build a cross-platform UI toolkit that can produce families of components (Button, Menu, Checkbox) for different operating systems (e.g., Windows, MacOS, Linux).
-
-  
-
-The client code should remain agnostic to the operating system.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface Button { void render(); }
-
-interface Menu { void show(); }
-
-  
-
-interface UIFactory {
-
-    Button createButton();
-
-    Menu createMenu();
-
-}
-
-  
-
-class WindowsUIFactory implements UIFactory { ... }
-
-class MacOSUIFactory implements UIFactory { ... }
-
-  
-
-class UIClient {
-
-    private UIFactory factory;
-
-    public UIClient(UIFactory factory) { ... }
-
-}
-
+**Complex Example:**
 ```
-
-  
-
-### 🧠 Hints
-
-- Inject the concrete factory based on OS detection logic.
-
-- Follow Open/Closed Principle for adding new OS support.
-
-  
-
-### ✅ Expected Output
-
+QueryBuilder.from("sales")
+    .join("products").on("product_id")
+    .join("customers").on("customer_id")
+    .where("sales.date").between("2024-01-01", "2024-12-31")
+    .groupBy("products.category", "customers.region")
+    .having("SUM(sales.amount)").greaterThan(10000)
+    .orderBy("total_sales").descending()
+    .window("running_total").partitionBy("region")
+    .optimize()
+    .build();
 ```
-
-Rendering Windows button
-
-Showing Windows menu
-
-Rendering Mac button
-
-Showing Mac menu
-
-```
-
-  
 
 ---
 
-  
+## 🧬 5. Prototype Pattern - Game Object Cloning System
 
-## 🧱 4. Builder Pattern (Expert Level)  
+### Expert Challenge: Real-Time Game Entity Management
+Design a game entity system where complex game objects (characters, weapons, environments) can be efficiently cloned:
+- [ ] Support deep cloning of complex object hierarchies
+- [ ]  Handle circular references in object graphs
+- [ ]  Implement prototype registry with versioning
+- [ ]  Support selective property cloning
+- Optimize memory usage with copy-on-write semantics
 
-### 💡 Use Case: Immutable Meal Plan Generator with Fluent API
+**Advanced Requirements:**
+- Implement prototype inheritance chains
+- Support lazy loading of expensive resources
+- Add prototype validation and integrity checks
+- Handle prototype serialization for network sync
+- Implement prototype pooling for performance
 
-  
-
-### 🧩 Problem Statement  
-
-Design a `Meal` class that supports the building of complex, immutable objects representing daily meal plans. Use a fluent builder interface to construct combinations.
-
-  
-
-Constraints:
-
-- `Meal` is immutable.
-
-- Support validation (e.g., max 2 desserts, 1 drink).
-
-- Builder should support chaining and enforce valid build sequences.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-class Meal {
-
-    private final List<String> mainCourse;
-
-    private final String drink;
-
-    private final List<String> desserts;
-
-    // Getters
-
-  
-
-    static class Builder {
-
-        // fluent methods like addMainCourse(), setDrink(), addDessert(), build()
-
-    }
-
-}
-
-```
-
-  
-
-### 🧠 Hints
-
-- Use private constructor in `Meal`.
-
-- Use nested `Builder` class.
-
-- Apply validation logic inside `build()`.
-
-  
-
-### ✅ Expected Output
-
-```
-
-Meal: Pasta, Coke, IceCream, Brownie
-
-```
-
-  
+**Test Scenario:**
+Clone 10,000 complex game entities with nested components, verify memory efficiency, and test modification isolation between clones.
 
 ---
 
-  
+## 🔌 6. Adapter Pattern - Legacy System Integration Hub
 
-## 🧬 5. Prototype Pattern (Expert Level)  
+### Expert Challenge: Enterprise Integration Platform
+Build an integration hub that adapts multiple legacy systems to a modern API gateway:
+- Handle various data formats (XML, JSON, fixed-width, binary)
+- Support protocol translation (SOAP to REST, FTP to HTTP)
+- Implement data transformation and validation
+- Provide audit trails and error handling
+- Support batch and real-time processing
 
-### 💡 Use Case: Graphic Editor with Cloneable Shapes and Undo
+**Advanced Features:**
+- Implement schema evolution and backward compatibility
+- Add data quality checks and cleansing
+- Support transaction coordination across systems
+- Implement rate limiting and throttling
+- Add monitoring and alerting for integration health
 
-  
-
-### 🧩 Problem Statement  
-
-You are building a graphics editor. Shapes like `Circle`, `Rectangle`, and `Polygon` must support cloning so users can copy, paste, and undo actions quickly.
-
-  
-
-All shapes should:
-
-- Support deep cloning.
-
-- Be registered and cloned via a shape registry.
-
-- Allow modifying position or color post-cloning without affecting the original.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-abstract class Shape implements Cloneable {
-
-    int x, y;
-
-    String color;
-
-    public abstract Shape clone();
-
-}
-
-  
-
-class Circle extends Shape { ... }
-
-class Rectangle extends Shape { ... }
-
-  
-
-class ShapeRegistry {
-
-    Map<String, Shape> registry;
-
-    Shape getClone(String type);
-
-}
-
-```
-
-  
-
-### 🧠 Hints
-
-- Use `super.clone()` and deep copy mutable fields.
-
-- Use a registry to avoid repeated instantiations.
-
-  
-
-### ✅ Expected Output
-
-```
-
-Cloned Circle at (0,0)
-
-Original Circle at (10,10)
-
-```
-
-  
+**Test Scenario:**
+Integrate 5 different legacy systems with varying data formats, simulate data corruption scenarios, and verify error handling and recovery mechanisms.
 
 ---
 
-  
+## 🎨 7. Decorator Pattern - Security and Caching Pipeline
 
-## 🔌 6. Adapter Pattern (Expert Level)  
+### Expert Challenge: Request Processing Pipeline
+Design a flexible request processing system with pluggable decorators for:
+- Authentication (basic, OAuth, JWT, API keys)
+- Authorization (RBAC, ABAC, resource-based)
+- Rate limiting (per-user, per-IP, per-endpoint)
+- Caching (Redis, in-memory, distributed)
+- Monitoring and logging
 
-### 💡 Use Case: Integrating Legacy Payment Gateway with New Interface
+**Advanced Requirements:**
+- Support conditional decorator application
+- Implement decorator ordering and dependencies
+- Add decorator configuration hot-swapping
+- Support async decorator execution
+- Implement decorator circuit breakers
 
-  
-
-### 🧩 Problem Statement  
-
-You are replacing your old payment system but need to keep the legacy one functional during the transition. Build an adapter that makes the legacy system conform to the new `PaymentProcessor` interface.
-
-  
-
-The system must:
-
-- Handle currency conversion.
-
-- Translate error codes between the two systems.
-
-- Log compatibility warnings if legacy API is used.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface PaymentProcessor {
-
-    boolean pay(String account, double amount);
-
-}
-
-  
-
-class LegacyPaymentSystem {
-
-    boolean sendMoney(String acc, float amt) { ... }
-
-}
-
-  
-
-class LegacyAdapter implements PaymentProcessor {
-
-    private LegacyPaymentSystem legacy;
-
-    // implements pay()
-
-}
-
+**Complex Pipeline Example:**
 ```
-
-  
-
-### 🧠 Hints
-
-- Handle data type conversion carefully.
-
-- Add logging for tracking legacy usage.
-
-- Use adapter wherever PaymentProcessor is required.
-
-  
-
-### ✅ Expected Output
-
+request
+  .decorate(Authentication.jwt())
+  .decorate(Authorization.rbac())
+  .decorate(RateLimit.perUser(100, TimeUnit.MINUTES))
+  .decorate(Cache.redis().ttl(300))
+  .decorate(Monitoring.metrics())
+  .decorate(Logging.audit())
+  .process()
 ```
-
-[Adapter] Converted $50.00 to ₹4150.00 and processed via legacy
-
-```
-
-  
 
 ---
 
-  
+## 🧠 8. Strategy Pattern - AI Model Selection Engine
 
-*(More patterns will follow in the next step due to space)*  
+### Expert Challenge: Dynamic ML Model Routing
+Create an AI inference system that dynamically selects optimal models based on:
+- Request characteristics (data size, latency requirements)
+- Model performance metrics (accuracy, speed, resource usage)
+- Cost optimization across different model providers
+- A/B testing and gradual rollouts
+- Fallback strategies for model failures
 
-  
+**Advanced Features:**
+- Implement model warm-up and preloading
+- Support ensemble strategies combining multiple models
+- Add model performance monitoring and auto-scaling
+- Implement request routing based on user segments
+- Support canary deployments for new models
 
----
-
-  
-
-## 🎨 7. Decorator Pattern (Expert Level)  
-
-### 💡 Use Case: Dynamic Pricing Engine with Pluggable Discounts and Taxes
-
-  
-
-### 🧩 Problem Statement  
-
-You are building a pricing engine for an e-commerce platform. Base products have prices, but discounts and taxes can be dynamically applied.  
-
-Use decorators to add various pricing features like:
-
-- Loyalty discount
-
-- Seasonal discount
-
-- GST/VAT tax
-
-  
-
-Support chaining decorators and log each transformation.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface PriceComponent {
-
-    double getPrice();
-
-    String getBreakdown();
-
-}
-
-  
-
-class BasePrice implements PriceComponent { ... }
-
-  
-
-abstract class PriceDecorator implements PriceComponent { ... }
-
-  
-
-class GSTDecorator extends PriceDecorator { ... }
-
-class LoyaltyDiscountDecorator extends PriceDecorator { ... }
-
-```
-
-  
-
-### 🧠 Hints  
-
-- Decorators wrap and delegate to `PriceComponent`.
-
-- Append to `getBreakdown()` string for log.
-
-- Ensure immutability.
-
-  
-
-### ✅ Expected Output  
-
-```
-
-Base: 100.0 + GST: 18.0 - Loyalty: 10.0 => Final: 108.0
-
-```
-
-  
+**Test Scenario:**
+Route 10,000 inference requests across 5 different models, implement A/B testing with 80/20 split, and verify optimal model selection based on performance metrics.
 
 ---
 
-  
+## 👀 9. Observer Pattern - Event-Driven Microservices
 
-## 🧠 8. Strategy Pattern (Expert Level)  
+### Expert Challenge: Distributed Event Processing System
+Build a robust event notification system for microservices with:
+- Event sourcing and replay capabilities
+- Dead letter queue handling
+- Event ordering guarantees
+- Subscriber health monitoring
+- Event schema evolution
 
-### 💡 Use Case: Pluggable Routing Algorithms for a Map Navigation App
+**Advanced Requirements:**
+- Implement event deduplication
+- Support event filtering and routing
+- Add subscriber backpressure handling
+- Implement event replay with time windows
+- Support event aggregation and correlation
 
-  
-
-### 🧩 Problem Statement  
-
-Design a routing engine where users can switch between routing strategies (ShortestPath, FastestRoute, ScenicRoute).  
-
-Strategies must be dynamically interchangeable during runtime.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface RouteStrategy {
-
-    List<String> computeRoute(String from, String to);
-
-}
-
-  
-
-class ShortestPathStrategy implements RouteStrategy { ... }
-
-class FastestRouteStrategy implements RouteStrategy { ... }
-
-  
-
-class NavigationContext {
-
-    private RouteStrategy strategy;
-
-    void setStrategy(RouteStrategy strategy);
-
-    List<String> navigate(String from, String to);
-
-}
-
-```
-
-  
-
-### 🧠 Hints
-
-- Switch strategies using `setStrategy()`.
-
-- Use dummy route computation for mocking.
-
-  
-
-### ✅ Expected Output
-
-```
-
-Using Shortest Path Strategy: A → B → C
-
-Using Fastest Route Strategy: A → D → C
-
-```
-
-  
+**Test Scenario:**
+Process 100,000 events across 50 subscribers, simulate subscriber failures and network partitions, verify event delivery guarantees and system recovery.
 
 ---
 
-  
+## 🕹️ 10. Command Pattern - Distributed Transaction Manager
 
-## 👀 9. Observer Pattern (Expert Level)  
+### Expert Challenge: SAGA Pattern Implementation
+Design a distributed transaction system using the SAGA pattern with:
+- Compensating action execution for rollbacks
+- Transaction state persistence and recovery
+- Timeout handling and retry mechanisms
+- Concurrent saga execution
+- Saga choreography vs orchestration
 
-### 💡 Use Case: Stock Price Notifier System for Real-Time Subscribers
+**Advanced Features:**
+- Implement saga visualization and monitoring
+- Support nested sagas and sub-transactions
+- Add saga performance optimization
+- Implement saga testing and simulation
+- Support saga pause/resume functionality
 
-  
-
-### 🧩 Problem Statement  
-
-Create a real-time stock monitoring system. Users can subscribe to stock tickers and get notified on price changes.
-
-  
-
-- Observers can subscribe/unsubscribe at runtime.
-
-- Avoid memory leaks using weak references or deregistration.
-
-- Support broadcasting updates to all subscribers.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface Observer {
-
-    void update(String stock, double price);
-
-}
-
-  
-
-interface Subject {
-
-    void register(Observer o);
-
-    void unregister(Observer o);
-
-    void notifyObservers(String stock, double price);
-
-}
-
-  
-
-class StockTicker implements Subject { ... }
-
-class InvestorDashboard implements Observer { ... }
-
+**Complex Saga Example:**
 ```
-
-  
-
-### 🧠 Hints
-
-- Use `CopyOnWriteArrayList` or similar for thread-safe observer list.
-
-- Ensure scalability for 1000s of subscribers.
-
-  
-
-### ✅ Expected Output
-
+Order Processing Saga:
+1. Reserve Inventory → Compensate: Release Inventory
+2. Process Payment → Compensate: Refund Payment
+3. Update Loyalty Points → Compensate: Deduct Points
+4. Send Confirmation → Compensate: Send Cancellation
 ```
-
-AAPL price updated to $210.5 → Notified 3 dashboards
-
-```
-
-  
 
 ---
 
-  
+## 🔗 11. Chain of Responsibility - Request Authorization Pipeline
 
-## 🕹️ 10. Command Pattern (Expert Level)  
+### Expert Challenge: Multi-Level Security Authorization
+Build a sophisticated authorization system with:
+- Role-based and attribute-based access control
+- Dynamic policy evaluation
+- Authorization caching and invalidation
+- Audit logging with detailed reasoning
+- Performance optimization for high-throughput scenarios
 
-### 💡 Use Case: Smart Home Controller with Undo/Redo and Macro Commands
+**Advanced Requirements:**
+- Support policy composition and inheritance
+- Implement conditional authorization chains
+- Add authorization decision reasoning
+- Support external policy engines (OPA)
+- Implement authorization testing framework
 
-  
-
-### 🧩 Problem Statement  
-
-You are designing a smart home remote that can control appliances like lights, fans, etc. Each command should support execution, undo, and macro commands.
-
-  
-
-- Each button press triggers a command.
-
-- Commands can be batched as a MacroCommand.
-
-- Support undo/redo functionality.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface Command {
-
-    void execute();
-
-    void undo();
-
-}
-
-  
-
-class LightOnCommand implements Command { ... }
-
-class LightOffCommand implements Command { ... }
-
-  
-
-class RemoteControl {
-
-    void setCommand(Command cmd);
-
-    void pressButton();
-
-    void undoButton();
-
-}
-
+**Authorization Chain:**
 ```
-
-  
-
-### 🧠 Hints
-
-- Use Stack for undo/redo.
-
-- Composite pattern for MacroCommand.
-
-  
-
-### ✅ Expected Output
-
+Request → IP Whitelist → API Key Validation → JWT Verification → 
+RBAC Check → Resource Access Control → Rate Limiting → Audit Logging
 ```
-
-[Command] Turned Light ON → Undo → Turned Light OFF
-
-```
-
-  
 
 ---
 
-  
+## 🧪 12. Template Method - Data Processing Pipeline
 
-## 🔗 11. Chain of Responsibility (Expert Level)  
+### Expert Challenge: ETL Framework for Big Data
+Create a flexible ETL framework supporting multiple data sources and formats:
+- Schema discovery and validation
+- Data quality checks and cleansing
+- Incremental and full load strategies
+- Error handling and data lineage tracking
+- Performance optimization and parallelization
 
-### 💡 Use Case: Customer Support Escalation System
+**Advanced Features:**
+- Support streaming and batch processing
+- Implement data transformation functions
+- Add data masking and encryption
+- Support schema evolution
+- Implement pipeline monitoring and alerting
 
-  
-
-### 🧩 Problem Statement  
-
-Design a support system where customer requests are passed through Level1 → Level2 → Manager until someone handles it.
-
-  
-
-- Each handler checks if it can handle the request.
-
-- Passes to next if not applicable.
-
-- Log the handler chain.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-abstract class SupportHandler {
-
-    protected SupportHandler next;
-
-    void setNext(SupportHandler handler);
-
-    abstract void handle(Request r);
-
-}
-
-  
-
-class Level1Support extends SupportHandler { ... }
-
-class ManagerSupport extends SupportHandler { ... }
-
+**Pipeline Template:**
 ```
-
-  
-
-### 🧠 Hints
-
-- Apply chain by linking handlers in order.
-
-- Use request metadata to decide eligibility.
-
-  
-
-### ✅ Expected Output
-
+Extract → Validate Schema → Apply Quality Rules → 
+Transform Data → Validate Business Rules → Load to Target → 
+Update Lineage → Generate Metrics
 ```
-
-Level1 → Level2 → Manager → [Handled Ticket: Refund for Product X]
-
-```
-
-  
 
 ---
 
-  
+## 🧿 13. State Pattern - Advanced Workflow Engine
 
-## 🧪 12. Template Method (Expert Level)  
+### Expert Challenge: Business Process Management System
+Design a workflow engine supporting complex business processes with:
+- Parallel and conditional state transitions
+- State persistence and recovery
+- Workflow versioning and migration
+- Timer-based transitions
+- Human task integration
 
-### 💡 Use Case: ETL Data Pipeline Parser for Multiple File Types
+**Advanced Requirements:**
+- Support nested state machines
+- Implement workflow analytics and optimization
+- Add workflow simulation and testing
+- Support dynamic workflow modification
+- Implement workflow collaboration features
 
-  
-
-### 🧩 Problem Statement  
-
-You are implementing a parser for multiple file types: CSV, JSON, XML. The flow includes: read → parse → validate → transform → load.
-
-  
-
-- Use Template Method in base class.
-
-- Override specific steps in subclasses.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-abstract class FileParser {
-
-    public final void parseFile(String path) {
-
-        read(path);
-
-        validate();
-
-        transform();
-
-        load();
-
-    }
-
-    protected abstract void read(String path);
-
-    protected abstract void validate();
-
-    protected abstract void transform();
-
-    protected abstract void load();
-
-}
-
+**Complex Workflow:**
 ```
-
-  
-
-### ✅ Expected Output
-
+Loan Application → Document Verification → Credit Check → 
+Approval (Manager/Auto) → Disbursement → Monitoring → Closure
 ```
-
-Parsing CSV → Validating rows → Loading to DB
-
-```
-
-  
 
 ---
 
-  
+## 💬 14. Mediator Pattern - Event Bus Architecture
 
-## 🧿 13. State Pattern (Expert Level)  
+### Expert Challenge: Enterprise Service Bus
+Build a sophisticated message routing system with:
+- Topic-based and content-based routing
+- Message transformation and enrichment
+- Guaranteed delivery and ordering
+- Service discovery and load balancing
+- Cross-cutting concerns (security, monitoring)
 
-### 💡 Use Case: Vending Machine with State Transitions
+**Advanced Features:**
+- Implement message replay and debugging
+- Support message aggregation and splitting
+- Add service contract management
+- Implement API gateway integration
+- Support event sourcing and CQRS
 
-  
-
-### 🧩 Problem Statement  
-
-Design a vending machine that reacts differently based on internal state: `Idle`, `HasMoney`, `Dispensing`, `OutOfStock`.
-
-  
-
-- All actions are delegated to state objects.
-
-- Support state transitions inside state handlers.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-interface State {
-
-    void insertCoin();
-
-    void selectProduct(String product);
-
-    void dispense();
-
-}
-
-  
-
-class VendingMachine {
-
-    State currentState;
-
-    void setState(State s);
-
-}
-
+**Message Flow:**
 ```
-
-  
-
-### ✅ Expected Output
-
+Service A → [Transform] → Event Bus → [Route/Filter] → 
+Service B, C, D (parallel) → [Aggregate] → Service E
 ```
-
-Coin inserted → Product selected → Dispensing chocolate
-
-```
-
-  
 
 ---
 
-  
+## 🪶 15. Flyweight Pattern - Memory-Optimized Text Editor
 
-## 💬 14. Mediator Pattern (Expert Level)  
+### Expert Challenge: Large Document Processing Engine
+Design a text editor capable of handling documents with millions of characters:
+- Efficient character and formatting representation
+- Lazy loading of document sections
+- Undo/redo with memory optimization
+- Real-time collaboration support
+- Search and replace optimization
 
-### 💡 Use Case: In-App Chat Room Mediator
+**Advanced Requirements:**
+- Implement piece table data structure
+- Support rich text formatting sharing
+- Add document streaming and caching
+- Implement collaborative editing (OT/CRDT)
+- Support plugin architecture for features
 
-  
-
-### 🧩 Problem Statement  
-
-Build a chatroom mediator system. Each user sends/receives messages through the chatroom mediator instead of talking to each other directly.
-
-  
-
-- Mediator handles routing.
-
-- Support group and private messages.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-class ChatRoomMediator {
-
-    void send(String from, String to, String msg);
-
-}
-
-  
-
-class User {
-
-    ChatRoomMediator mediator;
-
-    void send(String to, String msg);
-
-    void receive(String from, String msg);
-
-}
-
-```
-
-  
-
-### ✅ Expected Output
-
-```
-
-[Bob → Alice]: Hi Alice!
-
-```
-
-  
+**Memory Optimization:**
+- Share character formatting objects across positions
+- Implement rope/piece table for large text
+- Use flyweight for common text elements
+- Optimize memory for repeated patterns
+- Support virtual scrolling for large documents
 
 ---
 
-  
+## 🌉 16. Bridge Pattern - Cross-Platform Rendering Engine
 
-## 🪶 15. Flyweight Pattern (Expert Level)  
+### Expert Challenge: Multi-Platform Graphics Framework
+Design a graphics rendering system that separates the abstraction (shapes, UI components) from their platform-specific implementations (DirectX, OpenGL, Vulkan, Metal):
+- Support multiple rendering backends without changing client code
+- Enable runtime switching between rendering engines
+- Handle platform-specific optimizations and capabilities
+- Support both 2D and 3D rendering abstractions
+- Implement resource management across different backends
 
-### 💡 Use Case: Character Rendering Engine for Text Editor
+**Advanced Requirements:**
+- Implement shader abstraction across different graphics APIs
+- Support asynchronous rendering operations
+- Add performance profiling per backend
+- Handle feature detection and fallbacks
+- Implement resource pooling and caching per platform
 
-  
-
-### 🧩 Problem Statement  
-
-Design a text editor that renders millions of characters efficiently. Characters with same font/size/style must share the same intrinsic object.
-
-  
-
-- Store extrinsic state (position, color) outside the flyweight.
-
-- Maintain a character object pool.
-
-  
-
-### 🧱 Class Scaffolding
-
-```java
-
-class CharacterFlyweight {
-
-    String font;
-
-    int size;
-
-    void render(int x, int y, String color);
-
-}
-
-  
-
-class CharacterFactory {
-
-    Map<String, CharacterFlyweight> cache;
-
-    CharacterFlyweight get(char c, String font, int size);
-
-}
-
-```
-
-  
-
-### ✅ Expected Output
-
-```
-
-Reused flyweight for 'A' 1000 times.
-
-```
-
-  
+**Test Scenario:**
+Create the same complex scene using different rendering backends, measure performance differences, and verify visual consistency across platforms.
 
 ---
 
-  
+## 🏛️ 17. Facade Pattern - Enterprise Integration Gateway
 
-# ✅ End of Design Pattern Practice Templates
+### Expert Challenge: Microservices Integration Platform
+Build a unified API gateway that provides a simplified interface to a complex microservices ecosystem:
+- Aggregate data from multiple backend services
+- Handle service discovery and load balancing
+- Implement circuit breakers and retry mechanisms
+- Provide unified authentication and authorization
+- Support API versioning and backward compatibility
 
-  
+**Advanced Features:**
+- Implement request/response transformation
+- Add distributed tracing and correlation IDs
+- Support GraphQL federation across services
+- Implement rate limiting and throttling
+- Add API analytics and monitoring
 
-Each example helps you apply the pattern in a realistic scenario while thinking in terms of scalability, extensibility, and performance.
+**Complex Integration:**
+```
+Client Request → Gateway Facade → [
+  User Service (auth),
+  Product Service (catalog),
+  Inventory Service (stock),
+  Pricing Service (calculations),
+  Recommendation Service (ML)
+] → Aggregated Response
+```
+
+---
+
+## 🛡️ 18. Proxy Pattern - Intelligent Caching and Security Layer
+
+### Expert Challenge: Multi-Tier Caching and Access Control System
+Design a sophisticated proxy system for a distributed database that provides:
+- Multi-level caching (in-memory, Redis, CDN)
+- Smart cache invalidation and warming
+- Access control with fine-grained permissions
+- Query optimization and rewriting
+- Connection pooling and load balancing
+
+**Advanced Requirements:**
+- Implement cache coherence across multiple nodes
+- Support read replicas and write-through caching
+- Add query result aggregation and transformation
+- Implement audit logging and compliance tracking
+- Support dynamic policy updates without downtime
+
+**Proxy Chain:**
+```
+Client → Security Proxy → Cache Proxy → Connection Pool Proxy → 
+Load Balancer Proxy → Database Proxy → Actual Database
+```
+
+---
+
+## 🔄 19. Iterator Pattern - Distributed Data Stream Processing
+
+### Expert Challenge: Large-Scale Data Pipeline Iterator
+Create a sophisticated iterator system for processing massive datasets across distributed storage:
+- Support lazy loading from multiple data sources (HDFS, S3, databases)
+- Handle parallel iteration across partitioned data
+- Implement fault tolerance and resumable iteration
+- Support different iteration strategies (sequential, random, stratified)
+- Provide memory-efficient processing for billion-record datasets
+
+**Advanced Features:**
+- Implement adaptive batch sizing based on memory pressure
+- Support schema evolution during iteration
+- Add data quality validation during traversal
+- Implement backpressure handling for downstream consumers
+- Support time-based and window-based iteration
+
+**Complex Example:**
+```
+// Multi-source iterator with transformation pipeline
+DistributedIterator<ProcessedRecord> iterator = DataSources
+    .from(hdfsCluster, s3Bucket, mongoCollection)
+    .partition(1000)
+    .transform(record -> enrichWithMetadata(record))
+    .filter(record -> record.isValid())
+    .batch(1000)
+    .withFaultTolerance(RetryPolicy.exponentialBackoff())
+    .iterator();
+```
+
+---
+
+## 💾 20. Memento Pattern - Distributed State Management System
+
+### Expert Challenge: Multi-Node State Synchronization and Recovery
+Build a distributed state management system that maintains consistent snapshots across multiple nodes:
+- Support distributed snapshots with vector clocks
+- Implement incremental state capture and compression
+- Handle concurrent state modifications across nodes
+- Provide point-in-time recovery with consistency guarantees
+- Support state migration and cluster rebalancing
+
+**Advanced Requirements:**
+- Implement state deduplication and compression
+- Support cross-datacenter state replication
+- Add state analytics and drift detection
+- Implement automated state healing and verification
+- Support partial state recovery for specific components
+
+**Distributed Memento:**
+```
+Cluster State Snapshot:
+- Node A: State_v123 + Vector_Clock[A:123, B:119, C:121]
+- Node B: State_v119 + Vector_Clock[A:120, B:119, C:118]  
+- Node C: State_v121 + Vector_Clock[A:122, B:119, C:121]
+→ Consensus Algorithm → Consistent Global Snapshot
+```
+
+---
+
+## 🚶‍♂️ 21. Visitor Pattern - AST Processing and Code Analysis Engine
+
+### Expert Challenge: Multi-Language Code Analysis Platform
+Design a code analysis system that can process Abstract Syntax Trees (ASTs) from multiple programming languages:
+- Support various analysis operations (linting, optimization, refactoring)
+- Handle different language constructs without modifying AST classes
+- Implement parallel visitor execution for large codebases
+- Support incremental analysis and caching
+- Provide plugin architecture for custom analyzers
+
+**Advanced Features:**
+- Implement visitor composition and chaining
+- Support cross-language analysis and dependency tracking
+- Add semantic analysis with symbol table integration
+- Implement code transformation and generation
+- Support custom visitor execution strategies
+
+**Visitor Pipeline:**
+```
+AST → Syntax Validator → Semantic Analyzer → Style Checker → 
+Security Scanner → Performance Optimizer → Dependency Analyzer → 
+Code Generator → Report Aggregator
+```
+
+**Complex Analysis:**
+- **Security Visitor**: Detect SQL injection, XSS vulnerabilities
+- **Performance Visitor**: Identify bottlenecks, suggest optimizations
+- **Refactoring Visitor**: Extract methods, remove code smells
+- **Documentation Visitor**: Generate API docs, check coverage
+- **Metrics Visitor**: Calculate complexity, maintainability scores
+
+---
+
+# 🎯 Advanced Practice Guidelines
+
+## Performance Testing Requirements
+Each pattern implementation should be tested with:
+- **Load Testing**: 10,000+ concurrent operations
+- **Memory Profiling**: Verify optimal memory usage
+- **Scalability**: Test with increasing data sizes
+- **Failure Scenarios**: Simulate and recover from failures
+
+## Code Quality Standards
+- **SOLID Principles**: Ensure adherence to all principles
+- **Design by Contract**: Use assertions and preconditions
+- **Error Handling**: Comprehensive exception handling
+- **Thread Safety**: Concurrent access verification
+- **Documentation**: Comprehensive API documentation
+
+## Real-World Integration
+Each pattern should demonstrate:
+- **Monitoring**: Health checks and metrics
+- **Configuration**: External configuration support
+- **Logging**: Structured logging with correlation IDs
+- **Testing**: Unit, integration, and performance tests
+- **Deployment**: Container and cloud-ready implementations
+
+---
+
+*Master these expert-level implementations to become proficient in applying design patterns to solve complex, real-world software engineering challenges.*
