@@ -104,11 +104,11 @@ QueryBuilder.from("sales")
 
 ### Expert Challenge: Real-Time Game Entity Management
 Design a game entity system where complex game objects (characters, weapons, environments) can be efficiently cloned:
-- [ ] Support deep cloning of complex object hierarchies
-- [ ]  Handle circular references in object graphs
-- [ ]  Implement prototype registry with versioning
-- [ ]  Support selective property cloning
-- Optimize memory usage with copy-on-write semantics
+- [x] Support deep cloning of complex object hierarchies
+- [ ] Handle circular references in object graphs
+- [x] Implement prototype registry with versioning
+- [ ] Support selective property cloning
+- [ ] Optimize memory usage with copy-on-write semantics
 
 **Advanced Requirements:**
 - Implement prototype inheritance chains
