@@ -11,14 +11,12 @@
             "id": "0601c3cfe449a6b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
-                "mode": "source",
-                "source": false
+                "file": "Mahir' Notes/HLD/Caching/Caching.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Pattern Practice"
+              "icon": "lucide-file-text",
+              "title": "Caching"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "36f4326f84202314",
@@ -155,11 +152,11 @@
   },
   "active": "0601c3cfe449a6b8",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/WidgetLib - Abstract Factory.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Notificaiton System - Factory.md",
-    "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
     "Mahir' Notes/DSA/Problem List/Misc DSA.md",
     "Mahir' Notes/DSA/Problem List/Super DSA List.md",
     "Mahir' Notes/DSA/Problem List/AlgoMaster75.md",
