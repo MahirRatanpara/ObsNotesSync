@@ -11,12 +11,14 @@
             "id": "0601c3cfe449a6b8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Caching/Caching.pdf"
+                "file": "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Caching"
+              "icon": "lucide-file",
+              "title": "Caching Interview Perspective"
             }
           }
         ]
@@ -152,6 +154,9 @@
   },
   "active": "0601c3cfe449a6b8",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Caching/Caching.pdf",
+    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
+    "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
     "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
@@ -178,16 +183,12 @@
     "Mahir' Notes/HLD/Databases/11_Indexing/Types of DB Indexing.md",
     "Mahir' Notes/HLD/Databases/11_Indexing/Non Clustered Index Lookup.md",
     "Mahir' Notes/HLD/Databases/11_Indexing/Database Indexing.md",
-    "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
-    "Personal Projects/Job Cold Email Automation (ECold).md",
-    "Other's Notes/HLD/2 Phase Commit.md",
     "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
     "Personal Projects",
     "Mahir' Notes/LLD/Pattern Prac/Solutions",
     "Mahir' Notes/LLD/Pattern Prac",
     "Mahir' Notes/LLD/Practice Problem",
     "problems_randomized.txt",
-    "leetcode_links.txt",
     "AlgoMaster.io - Master DSA Patterns_files/unnamed.png",
     "AlgoMaster.io - Master DSA Patterns_files/algomaster.png",
     "Shared Attachments/Pasted image 20250802135621.png",
