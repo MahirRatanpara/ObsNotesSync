@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7bfc7b0e89bcc686",
+        "id": "dc024da85d7df5e6",
         "type": "tabs",
         "children": [
           {
-            "id": "0601c3cfe449a6b8",
+            "id": "ac6455d2972bb214",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/Job Search/Cold Mail.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cold Mail"
+              "title": "New tab"
             }
           }
         ]
@@ -152,10 +148,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0601c3cfe449a6b8",
+  "active": "ac6455d2972bb214",
   "lastOpenFiles": [
-    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Mahir' Notes/HLD/Caching/Redis.md",
+    "Mahir' Notes/Job Search/Cold Mail.md",
+    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
     "Mahir' Notes/HLD/Caching/Caching.pdf",
     "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
@@ -183,7 +180,6 @@
     "Mahir' Notes/HLD/Concurrency Control/2 Phase Locking.md",
     "Mahir' Notes/HLD/Databases/11_Indexing/Types of DB Indexing.md",
     "Mahir' Notes/HLD/Databases/11_Indexing/Non Clustered Index Lookup.md",
-    "Mahir' Notes/HLD/Databases/11_Indexing/Database Indexing.md",
     "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
     "Personal Projects",
     "Mahir' Notes/LLD/Pattern Prac/Solutions",
