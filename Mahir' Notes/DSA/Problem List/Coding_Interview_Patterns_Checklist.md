@@ -213,7 +213,7 @@
 - [x] Valid Palindrome II (easy) [Leetcode](https://leetcode.com/problems/valid-palindrome-ii/)  
 - [x] Maximum Length of Pair Chain (medium) [Leetcode](https://leetcode.com/problems/maximum-length-of-pair-chain/)  
 - [x] Minimum Add to Make Parentheses Valid (medium) [Leetcode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)  
-- [ ] Remove Duplicate Letters (medium) [Leetcode](https://leetcode.com/problems/remove-duplicate-letters/)  
+- [x] Remove Duplicate Letters (medium) [Leetcode](https://leetcode.com/problems/remove-duplicate-letters/)  
 - [ ] Largest Palindromic Number (Medium) [Leetcode](https://leetcode.com/problems/largest-palindromic-number/)  
 - [ ] Removing Minimum and Maximum From Array (medium) [Leetcode](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)  
 
