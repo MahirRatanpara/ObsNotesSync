@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc024da85d7df5e6",
+        "id": "561af324da3a01f1",
         "type": "tabs",
         "children": [
           {
-            "id": "ac6455d2972bb214",
+            "id": "643efd8126acb7ee",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,8 +148,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac6455d2972bb214",
+  "active": "80adf5975e135de9",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
+    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/Caching/Redis.md",
     "Mahir' Notes/Job Search/Cold Mail.md",
     "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
@@ -169,7 +171,6 @@
     "Mahir' Notes/DSA/Topics/DSA Patterns.md",
     "Mahir' Notes/DSA/Problem List/Others",
     "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
-    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
     "Mahir' Notes/HLD/Databases/2. Database Failover.md",
@@ -179,7 +180,6 @@
     "Mahir' Notes/HLD/Design Questions/Answering",
     "Mahir' Notes/HLD/Concurrency Control/2 Phase Locking.md",
     "Mahir' Notes/HLD/Databases/11_Indexing/Types of DB Indexing.md",
-    "Mahir' Notes/HLD/Databases/11_Indexing/Non Clustered Index Lookup.md",
     "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
     "Personal Projects",
     "Mahir' Notes/LLD/Pattern Prac/Solutions",
