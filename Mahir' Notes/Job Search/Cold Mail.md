@@ -7,7 +7,9 @@ I’m Mahir Ratanpara, currently an SDE-2 at Deutsche Bank with over 3 years of 
 
 My expertise includes Java, Spring Boot, GCP, Scala, Spark and DevOps. I focus on designing scalable, resilient solutions that power mission-critical financial platforms.
 
-If there are any SDE-2 openings at [Company Name], I’d be grateful if you could consider my profile. I’ve attached my resume for reference.
+If there are any SDE-2 openings at [Company Name], I’d be grateful if you could consider my profile. 
+
+Here's is my resume: http://bit.ly/4gGyFPn
 
 Best regards,
 Mahir Ratanpara
