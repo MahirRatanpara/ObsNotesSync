@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "bcf25d28046323d4",
+    "id": "c377b053c1c8c8a9",
     "type": "split",
     "children": [
       {
-        "id": "bc59688020f43987",
+        "id": "e324d22b8424d5e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c8147b3d58522657",
+            "id": "5c9bfc85d9c5b628",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/Job Search/Cold Mail.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cold Mail"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4cbd4ece0092998c",
+    "id": "8a55e5e4dee92fd0",
     "type": "split",
     "children": [
       {
-        "id": "821b12df5d5d08f8",
+        "id": "977d80e5d87d05a6",
         "type": "tabs",
         "children": [
           {
-            "id": "80adf5975e135de9",
+            "id": "8c4964d7da6fec32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +44,12 @@
             }
           },
           {
-            "id": "d79d45ecf20a870a",
+            "id": "8813b0fdbe9429a4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "https://leetcode.com/problems/find-median-from-data-stream",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "bbe182ddd31b9cde",
+            "id": "3f1cf4a3d07810bf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,37 +74,36 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 300
   },
   "right": {
-    "id": "36f4326f84202314",
+    "id": "30a8156c470c1591",
     "type": "split",
     "children": [
       {
-        "id": "1757cfc88995204b",
+        "id": "ca3161df4c185b53",
         "type": "tabs",
         "children": [
           {
-            "id": "8c8087eb9f1f57cb",
+            "id": "cdd636ed83bc21b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/LLD/Ticket booking System.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ticket booking System"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1743f4dde85437f0",
+            "id": "b8f23b4eaf3487d6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,83 +116,26 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "c5b5688872624a21",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8147b3d58522657",
-  "lastOpenFiles": [
-    "Mahir' Notes/HLD/Concurrency Control/2 Phase Locking.md",
-    "Mahir' Notes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
-    "Mahir' Notes/HLD/Rate Limiter/Rate Limiter.pdf",
-    "Mahir' Notes/HLD/Transaction Control/Distributed Transaction.pdf",
-    "Mahir' Notes/HLD/Concurrency Control/Concurrency Control.md",
-    "Mahir' Notes/HLD/Caching/Caching.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-    "Mahir' Notes/HLD/Microservice Architecture/API Gateway.md",
-    "Mahir' Notes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
-    "Mahir' Notes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "Mahir' Notes/HLD/Caching/Redis.md",
-    "Mahir' Notes/Job Search/Cold Mail.md",
-    "Mahir' Notes/HLD/Caching/Caching Interview Perspective.md",
-    "Mahir' Notes/HLD/Caching/Caching.pdf",
-    "Mahir' Notes/LLD/Pattern Prac/Pattern Practice.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/WidgetLib - Abstract Factory.md",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions/Notificaiton System - Factory.md",
-    "Mahir' Notes/DSA/Problem List/Misc DSA.md",
-    "Mahir' Notes/DSA/Problem List/Super DSA List.md",
-    "Mahir' Notes/DSA/Problem List/AlgoMaster75.md",
-    "Mahir' Notes/DSA/Problem List/Others/Prefix Sum List.md",
-    "Mahir' Notes/DSA/Problem List/Others/Claude Research List.md",
-    "Mahir' Notes/DSA/Topics/DSA Patterns.md",
-    "Mahir' Notes/DSA/Problem List/Others",
-    "Mahir' Notes/HLD/Databases/1. Database 0 to 1B.md",
-    "Mahir' Notes/HLD/Databases/10. Dynamo DB Deepdive.md",
-    "Mahir' Notes/HLD/Databases/7. Choosing Right Database.md",
-    "Mahir' Notes/HLD/Databases/2. Database Failover.md",
-    "Mahir' Notes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
-    "Mahir' Notes/HLD/Design Questions/Answering",
-    "Personal Projects",
-    "Mahir' Notes/LLD/Pattern Prac/Solutions",
-    "Mahir' Notes/LLD/Pattern Prac",
-    "AlgoMaster.io - Master DSA Patterns_files/unnamed.png",
-    "AlgoMaster.io - Master DSA Patterns_files/algomaster.png",
-    "Shared Attachments/Pasted image 20250802135621.png",
-    "Shared Attachments/Pasted image 20250722001628.png",
-    "Shared Attachments/Pasted image 20250710103010.png",
-    "Shared Attachments/Pasted image 20250710102941.png",
-    "Shared Attachments/Pasted image 20250710092003.png",
-    "Shared Attachments/Pasted image 20250705125740.png",
-    "Shared Attachments/Pasted image 20250705124001.png",
-    "Shared Attachments/Pasted image 20250701225156.png"
-  ]
+  "active": "5c9bfc85d9c5b628",
+  "lastOpenFiles": []
 }
