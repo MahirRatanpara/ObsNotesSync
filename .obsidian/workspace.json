@@ -11,10 +11,12 @@
             "id": "5c9bfc85d9c5b628",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           }
         ]
@@ -136,7 +138,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "5c9bfc85d9c5b628",
   "lastOpenFiles": [
     "AI"
   ]
