@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e324d22b8424d5e9",
+        "id": "c59114055e94b9d4",
         "type": "tabs",
         "children": [
           {
-            "id": "5c9bfc85d9c5b628",
+            "id": "1ae94392c27e861b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -138,8 +136,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c9bfc85d9c5b628",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "Personal Projects/Job Cold Email Automation (ECold).md",
     "AI"
   ]
 }
