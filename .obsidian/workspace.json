@@ -11,10 +11,14 @@
             "id": "1ae94392c27e861b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/HLD/Design Questions/Design Deepdives/Book My Show.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Book My Show"
             }
           }
         ]
@@ -136,8 +140,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "1ae94392c27e861b",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Practice Problem/Ticket booking System.md",
+    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Book My Show.md",
     "Personal Projects/Job Cold Email Automation (ECold).md",
     "AI"
   ]
