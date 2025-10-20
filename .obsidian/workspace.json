@@ -35,7 +35,8 @@
               "title": "Amazon Revision Prep"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,10 +155,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "faa0e832c28487e2",
+  "active": "48a00eadbc842581",
   "lastOpenFiles": [
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "Mahir' Notes/Company-Wise",
     "Mahir' Notes/Job Search/Automation/3. Output Spec.md",
