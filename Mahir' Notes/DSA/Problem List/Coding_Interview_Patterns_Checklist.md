@@ -15,7 +15,7 @@
 - [x] Problem Challenge 2: Comparing Strings containing Backspaces (medium) [Leetcode](https://leetcode.com/problems/backspace-string-compare/)  
 - [x] Problem Challenge 3: Minimum Window Sort (medium) [Leetcode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [Ideserve](https://www.ideserve.co.in/learn/minimum-length-subarray-sorting-which-results-in-sorted-array)  
 
-### 2. Pattern: Fast & Slow Pointers
+### 2. Pattern: Fast & Slow Pointers {[Revise](https://cp-algorithms.com/others/tortoise_and_hare.html#step-2-starting-point-of-the-cycle_1)}
 - [x] Introduction [emre.me](https://emre.me/coding-patterns/fast-slow-pointers/)  
 - [x] LinkedList Cycle (easy) [Leetcode](https://leetcode.com/problems/linked-list-cycle/)  
 - [x] Start of LinkedList Cycle (medium) [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)  
@@ -23,7 +23,7 @@
 - [x] Middle of the LinkedList (easy) [Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
 - [x] Problem Challenge 1: Palindrome LinkedList (medium) [Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
 - [x] Problem Challenge 2: Rearrange a LinkedList (medium) [Leetcode](https://leetcode.com/problems/reorder-list/)  
-- [ ] Problem Challenge 3: Cycle in a Circular Array (hard) [Leetcode](https://leetcode.com/problems/circular-array-loop/)  
+- [x] **Problem Challenge 3: Cycle in a Circular Array (hard) [Leetcode](https://leetcode.com/problems/circular-array-loop/)**  
 
 ### 3. Pattern: Sliding Window
 - [x] Introduction  
@@ -34,10 +34,10 @@
 - [x] No-repeat Substring (hard) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
 - [x] Longest Substring with Same Letters after Replacement (hard) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)  
 - [x] Longest Subarray with Ones after Replacement (hard) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)  
-- [ ] Problem Challenge 1: Permutation in a String (hard) [Leetcode](https://leetcode.com/problems/permutation-in-string/)  
-- [ ] Problem Challenge 2: String Anagrams (hard) [Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/)  
-- [ ] Problem Challenge 3: Smallest Window containing Substring (hard) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)  
-- [ ] Problem Challenge 4: Words Concatenation (hard) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)  
+- [x] Problem Challenge 1: Permutation in a String (hard) [Leetcode](https://leetcode.com/problems/permutation-in-string/)  
+- [x] Problem Challenge 2: String Anagrams (hard) [Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/)  
+- [x] Problem Challenge 3: Smallest Window containing Substring (hard) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)  
+- [x] **Problem Challenge 4: Words Concatenation (hard) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)**  
 
   
 ### 4. Pattern: Merge Intervals
