@@ -21,8 +21,8 @@
 - [x] Start of LinkedList Cycle (medium) [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)  
 - [x] Happy Number (medium) [Leetcode](https://leetcode.com/problems/happy-number/)  
 - [x] Middle of the LinkedList (easy) [Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
-- [ ] Problem Challenge 1: Palindrome LinkedList (medium) [Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
-- [ ] Problem Challenge 2: Rearrange a LinkedList (medium) [Leetcode](https://leetcode.com/problems/reorder-list/)  
+- [x] Problem Challenge 1: Palindrome LinkedList (medium) [Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
+- [x] Problem Challenge 2: Rearrange a LinkedList (medium) [Leetcode](https://leetcode.com/problems/reorder-list/)  
 - [ ] Problem Challenge 3: Cycle in a Circular Array (hard) [Leetcode](https://leetcode.com/problems/circular-array-loop/)  
 
 ### 3. Pattern: Sliding Window
