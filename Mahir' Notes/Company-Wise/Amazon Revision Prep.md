@@ -126,7 +126,7 @@ This plan is designed for someone with strong fundamentals who needs targeted re
 
 #### Afternoon Session (3 hours): Trees & Graphs
 
-- [ ] 13:30-15:00: **Problem 4**: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297) - Hard
+- [x] 13:30-15:00: **Problem 4**: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297) - Hard
 - [ ] 15:00-16:30: **Problem 5**: [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) (LC 126) - Hard
 - [x] **Additional Problem 6**: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (LC 124) - Hard
 
