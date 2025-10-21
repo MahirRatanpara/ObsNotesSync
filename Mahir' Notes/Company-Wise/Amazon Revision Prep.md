@@ -122,7 +122,7 @@ This plan is designed for someone with strong fundamentals who needs targeted re
 - [x] 09:00-10:30: **Problem 1**: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (LC 76) - Hard
 - [x] 10:30-12:00: **Problem 2**: [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (LC 340) - Hard
 - [x] **Additional Problem 3**: [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (LC 30) - Hard
-- [ ] 12:00-12:30: Pattern notes + edge cases documentation
+- [x] 12:00-12:30: Pattern notes + edge cases documentation
 
 #### Afternoon Session (3 hours): Trees & Graphs
 
