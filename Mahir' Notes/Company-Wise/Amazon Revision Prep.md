@@ -118,8 +118,8 @@ This plan is designed for someone with strong fundamentals who needs targeted re
 
 #### Morning Session (4 hours): DSA - Arrays & Sliding Window
 
-- [ ] 08:00-09:00: Review sliding window pattern theory + template
-- [ ] 09:00-10:30: **Problem 1**: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (LC 76) - Hard
+- [x] 08:00-09:00: Review sliding window pattern theory + template
+- [x] 09:00-10:30: **Problem 1**: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (LC 76) - Hard
 - [x] 10:30-12:00: **Problem 2**: [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (LC 340) - Hard
 - [x] **Additional Problem 3**: [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (LC 30) - Hard
 - [ ] 12:00-12:30: Pattern notes + edge cases documentation
@@ -128,7 +128,7 @@ This plan is designed for someone with strong fundamentals who needs targeted re
 
 - [ ] 13:30-15:00: **Problem 4**: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297) - Hard
 - [ ] 15:00-16:30: **Problem 5**: [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) (LC 126) - Hard
-- [ ] **Additional Problem 6**: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (LC 124) - Hard
+- [x] **Additional Problem 6**: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (LC 124) - Hard
 
 #### Evening Session (2 hours): Leadership Principles
 
