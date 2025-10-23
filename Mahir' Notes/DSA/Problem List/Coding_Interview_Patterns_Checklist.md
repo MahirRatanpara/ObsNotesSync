@@ -110,8 +110,8 @@
 - [x] Maximum Depth of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  
 - [x] Level Order Successor (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)  
 - [x] Connect Level Order Siblings (medium) [Leetcode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  
-- [ ] Problem Challenge 1: Connect All Level Order Siblings (medium) [Educative](https://www.educative.io/m/connect-all-siblings)  
-- [ ] Problem Challenge 2: Right View of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/)  
+- [x] Problem Challenge 1: Connect All Level Order Siblings (medium) [Educative](https://www.educative.io/m/connect-all-siblings)  
+- [x] Problem Challenge 2: Right View of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/)  
 
 ### 11. Pattern: Tree Depth First Search
 - [x] Introduction  
@@ -120,8 +120,8 @@
 - [x] Sum of Path Numbers (medium) [Leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  
 - [x] Path With Given Sequence (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/)  
 - [x] Count Paths for a Sum (medium) [Leetcode](https://leetcode.com/problems/path-sum-iii/)  
-- [ ] Problem Challenge 1: Tree Diameter (medium) [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/)  
-- [ ] Problem Challenge 2: Path with Maximum Sum (hard) [Leetcode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  
+- [x] Problem Challenge 1: Tree Diameter (medium) [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/)  
+- [x] Problem Challenge 2: Path with Maximum Sum (hard) [Leetcode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  
 
 ### 12. Pattern: Graphs
 - [x] Introduction to Graph (Representations, Abstract Data Type (ADT))  
