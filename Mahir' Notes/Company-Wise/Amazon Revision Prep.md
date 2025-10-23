@@ -1,1675 +1,2092 @@
-# Amazon SDE2 - 3-Week Aggressive Preparation Plan (Enhanced with Checkboxes)
+# 🚀 AMAZON SDE-2: 2.5-WEEK AGGRESSIVE TECHNICAL INTERVIEW PREP PLAN
 
-## 🎯 Overall Strategy Summary
+**Post-OA Intensive Preparation | DSA + System Design + Leadership Principles**
 
-### Core Philosophy
-
-**Week 1: OA Domination** → **Weeks 2-3: Onsite Mastery**
-
-This plan is designed for someone with strong fundamentals who needs targeted revision and Amazon-specific optimization. The strategy emphasizes:
-
-1. **Amazon Pattern Recognition**: Focus on frequently asked problem types and system design patterns
-2. **Leadership Principles Integration**: Weave behavioral prep into every day, not as an afterthought
-3. **Active Recall Over Passive Reading**: Implement spaced repetition and mock interviews
-4. **Quality Over Quantity**: Hard problems only during revision phase
-5. **Progressive Overload**: Increase complexity and time pressure weekly
-
-### Time Allocation Breakdown
-
-- **Week 1**: 8-10 hours/day (OA-focused, 70% DSA, 20% LP, 10% LLD basics)
-- **Week 2**: 7-9 hours/day (50% DSA, 30% LLD, 20% HLD/LP)
-- **Week 3**: 7-9 hours/day (30% DSA, 30% LLD, 30% HLD, 10% Full mocks)
-
-### Success Metrics
-
-- Complete 60+ hard DSA problems across Amazon patterns
-- Design 15+ LLD systems with code
-- Design 10+ HLD systems at scale
-- Practice 30+ STAR stories mapped to all 16 Leadership Principles
-- Complete 8+ full mock interviews
+**Created:** October 23, 2025  
+**Last Updated:** October 23, 2025  
+**Target Role:** Amazon SDE-2 (L5)  
+**Preparation Timeline:** 17 Days (2.5 Weeks)  
+**Focus:** Technical Rounds, DSA Mastery, System Design, Behavioral Excellence
 
 ---
 
-## 📅 Week-by-Week Plan
+## 📘 EXECUTIVE SUMMARY
 
-### **WEEK 1: OA Preparation & Foundation Strengthening**
+### The Amazon SDE-2 Interview Reality (2024-2025 Data)
 
-**Goal**: Crush the OA with confidence, establish daily rhythm
+Based on extensive analysis of 100+ recent Amazon interview experiences from LeetCode, Glassdoor, and Blind, here's what you're actually facing:
 
-#### Key Objectives:
+**Interview Structure (Post-OA):**
 
-- Master Amazon's top 8 DSA patterns
-- Solve 25-30 hard problems under timed conditions
-- Prepare STAR stories for all 16 Leadership Principles
-- Understand Work Simulation scenarios
-- Begin LLD pattern recognition
+- **4-5 Onsite Rounds** (Virtual or In-Person)
+    - **2-3 DSA Rounds** (45-60 min each): 1-2 Medium-Hard Leetcode problems per round
+    - **1 System Design Round** (45-60 min): LLD or HLD (SDE-2 gets both types)
+    - **1 Bar Raiser Round** (60 min): Can be DSA, Design, or Heavy LP focus
+    - **Every Round Includes:** 20-30 min of Leadership Principles questions
 
-#### Focus Areas:
+**Key Insights from 2024-2025 Interview Data:**
 
-- **DSA Topics**: Arrays/Strings, Trees/Graphs, Dynamic Programming, Sliding Window, Two Pointers, Binary Search, Heaps/Priority Queues, Backtracking
-- **Leadership Principles**: Customer Obsession, Ownership, Invent and Simplify, Bias for Action, Deliver Results
-- **LLD Basics**: SOLID principles, common design patterns (Factory, Strategy, Observer, Decorator)
+- Amazon SDE-2 candidates report facing a mix of medium and hard Leetcode problems, with increasing emphasis on optimal solutions and code quality
+- System design rounds now commonly include both HLD and LLD questions, with strong focus on scalability, design patterns, and trade-off discussions
+- Leadership Principles are assessed in EVERY round (20-30 minutes each), with Customer Obsession, Ownership, and Deliver Results being most critical
+- **Real Question Pattern:** Problems are story-based (not direct Leetcode titles) requiring pattern recognition
 
-#### Milestones:
+### Your 2.5-Week Battle Plan Philosophy
 
-- Day 3: Complete first timed 90-min mock OA
-- Day 5: Have 20+ STAR stories documented
-- Day 7: Second mock OA with improved timing
+**Week 1 (Days 1-6): DSA DOMINATION**
 
----
+- 70% DSA Practice (4-5 problems/day)
+- 20% Pattern Mastery & Templates
+- 10% LP Story Development
 
-### **WEEK 2: Deep Dive into System Design (LLD Focus)**
+**Week 2 (Days 7-12): SYSTEM DESIGN INTEGRATION**
 
-**Goal**: Master object-oriented design and problem decomposition
+- 40% DSA (2-3 problems/day - maintain sharpness)
+- 40% System Design (LLD → HLD progression)
+- 20% Mock Interviews + LP Practice
 
-#### Key Objectives:
+**Week 3 (Days 13-17): PEAK PERFORMANCE**
 
-- Design 8-10 complete LLD systems with working code
-- Continue hard DSA practice (20 problems)
-- Refine Leadership Principle stories with technical examples
-- Practice design pattern implementation
+- 30% DSA (hardest problems + revision)
+- 40% System Design (Complex scenarios)
+- 30% Full Mock Loops + Final Polish
 
-#### Focus Areas:
+### Success Metrics for 2.5 Weeks
 
-- **LLD Systems**: Parking Lot, Library Management, Card Game (Blackjack), Elevator System, Movie Ticket Booking, Hotel Reservation, ATM, File System, Rate Limiter, LRU Cache, Notification System, Inventory Management
-- **Design Patterns**: Builder, Singleton, Factory, Strategy, Observer, Decorator, Command, State, Chain of Responsibility, Adapter
-- **DSA Topics**: Advanced Graph algorithms, Complex DP, System-level problems
-- **Leadership Principles**: Learn and Be Curious, Hire and Develop the Best, Think Big
-
-#### Milestones:
-
-- Day 10: Complete 3 LLD designs with code
-- Day 12: Mock LLD interview (45 min)
-- Day 14: Portfolio of 8 LLD designs documented
+- ✅ **Solve 60+ Medium-Hard Problems** across Amazon's top patterns
+- ✅ **Design 10+ Systems** (5 LLD + 5 HLD with detailed implementations)
+- ✅ **Master All 16 Leadership Principles** with 25+ STAR stories
+- ✅ **Complete 6+ Full Mock Interviews** (4 DSA, 2 Design)
+- ✅ **Build Pattern Template Library** for instant recall
 
 ---
 
-### **WEEK 3: High-Level Design & Full Integration**
+## 🗓️ 2.5-WEEK DAY-WISE MASTER PLAN
 
-**Goal**: Master distributed systems and complete interview readiness
+### WEEK 1: DSA DOMINATION + LP FOUNDATION
 
-#### Key Objectives:
+#### **DAY 1 (Monday): Arrays, Strings & Sliding Window Mastery**
 
-- Design 8-10 scalable HLD systems
-- Solve 15 hard DSA problems (keep skills sharp)
-- Complete 4+ full mock interview loops
-- Polish all behavioral responses
+⏰ **Total: 8-9 hours**
 
-#### Focus Areas:
+**Morning Block (4 hours): Core Pattern Development**
 
-- **HLD Systems**: URL Shortener, News Feed, Instagram, WhatsApp, Netflix, Rate Limiter, Distributed Cache, Search Autocomplete, Web Crawler, Amazon.com Product Search, Order Management System, Recommendation Engine
-- **System Design Concepts**: Load balancing, Caching strategies, Database sharding, CAP theorem, Consistency patterns, Message queues, Microservices, API design, Scalability patterns
-- **DSA Topics**: Mix of all previous patterns, focus on optimization
-- **Leadership Principles**: All 16 principles with technical + behavioral examples
+- [ ] 08:00-08:30: Review Sliding Window template + Two Pointers patterns
+- [ ] 08:30-10:00: **[LC 76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)** (Hard) ⭐ **Amazon Favorite**
+- [ ] 10:00-11:30: **[LC 340 - Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)** (Hard)
+- [ ] 11:30-12:30: **[LC 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)** (Hard)
 
-#### Milestones:
+**Afternoon Block (3 hours): Advanced String Patterns**
 
-- Day 17: Complete 4 HLD designs
-- Day 19: Full mock interview loop (4 rounds)
-- Day 21: Final readiness check + relaxation day
+- [ ] 13:30-15:00: **[LC 30 - Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)** (Hard)
+- [ ] 15:00-16:30: **[LC 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** (Hard) ⭐ **Asked in Bar Raiser**
 
----
+**Evening Block (2 hours): LP Foundation**
 
-## 📆 Week 1: Detailed Day-by-Day Breakdown
+- [ ] 17:00-18:00: Study Amazon's 16 Leadership Principles deeply
+- [ ] 18:00-19:00: Draft 3 STAR stories: Customer Obsession, Ownership, Deliver Results
 
-### **Day 1 (Monday): Pattern Recognition & LP Foundation**
-
-**Time: 9 hours total**
-
-#### Morning Session (4 hours): DSA - Arrays & Sliding Window
-
-- [x] 08:00-09:00: Review sliding window pattern theory + template
-- [x] 09:00-10:30: **Problem 1**: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (LC 76) - Hard
-- [x] 10:30-12:00: **Problem 2**: [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (LC 340) - Hard
-- [x] **Additional Problem 3**: [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (LC 30) - Hard
-- [x] 12:00-12:30: Pattern notes + edge cases documentation
-
-#### Afternoon Session (3 hours): Trees & Graphs
-
-- [x] 13:30-15:00: **Problem 4**: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297) - Hard
-- [ ] 15:00-16:30: **Problem 5**: [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) (LC 126) - Hard
-- [x] **Additional Problem 6**: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (LC 124) - Hard
-
-#### Evening Session (2 hours): Leadership Principles
-
-- [ ] 17:00-18:00: Study all 16 Amazon Leadership Principles
-- [ ] 18:00-19:00: Draft 3 STAR stories (Customer Obsession, Ownership, Deliver Results)
-
-**Daily Target**: 6 hard problems + 3 STAR stories
+**Daily Target:** ✅ 5 Hard Problems + 3 STAR Stories + Pattern Templates
 
 ---
 
-### **Day 2 (Tuesday): Dynamic Programming & Two Pointers**
+#### **DAY 2 (Tuesday): Trees & Graphs - Core Amazon Territory**
 
-**Time: 9 hours total**
+⏰ **Total: 8-9 hours**
 
-#### Morning Session (4 hours): Dynamic Programming
+**Morning Block (4 hours): Tree Mastery**
 
-- [ ] 08:00-09:00: Review DP patterns (knapsack, subsequence, partitioning)
-- [ ] 09:00-10:30: **Problem 1**: [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) (LC 10) - Hard
-- [ ] 10:30-12:00: **Problem 2**: [Edit Distance](https://leetcode.com/problems/edit-distance/) (LC 72) - Hard
-- [ ] **Additional Problem 3**: [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) (LC 44) - Hard
-- [ ] 12:00-12:30: DP state transition documentation
+- [ ] 08:00-08:30: Review Tree traversal patterns (DFS, BFS, Morris)
+- [ ] 08:30-10:00: **[LC 297 - Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)** (Hard) ⭐⭐ **EXTREMELY COMMON**
+- [ ] 10:00-11:30: **[LC 124 - Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)** (Hard)
+- [ ] 11:30-12:30: **[LC 987 - Vertical Order Traversal of Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)** (Hard)
 
-#### Afternoon Session (3 hours): Two Pointers & Arrays
+**Afternoon Block (3 hours): Graph Algorithms**
 
-- [ ] 13:30-15:00: **Problem 4**: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (LC 42) - Hard
-- [ ] 15:00-16:30: **Problem 5**: [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (LC 11) - Medium
-- [ ] **Additional Problem 6**: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (LC 239) - Hard
+- [ ] 13:30-15:00: **[LC 200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)** (Medium) + **[LC 305 - Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)** (Hard)
+- [ ] 15:00-16:30: **[LC 1192 - Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)** (Hard) ⭐ **Tarjan's Algorithm**
 
-#### Evening Session (2 hours): Work Simulation Prep
+**Evening Block (2 hours): LP Development**
 
-- [ ] 17:00-18:30: Research Amazon Work Simulation scenarios
-- [ ] 18:30-19:00: Draft 3 more STAR stories (Bias for Action, Invent and Simplify, Frugality)
+- [ ] 17:00-19:00: Draft 3 STAR stories: Bias for Action, Invent and Simplify, Earn Trust
 
-**Daily Target**: 6 hard problems + Work Simulation research + 3 STAR stories
+**Daily Target:** ✅ 5 Problems (4 Hard + 1 Medium) + 3 STAR Stories
 
 ---
 
-### **Day 3 (Wednesday): Mock OA + Graph Algorithms**
+#### **DAY 3 (Wednesday): Dynamic Programming Deep Dive**
 
-**Time: 9.5 hours total**
+⏰ **Total: 8-9 hours**
 
-#### Morning Session (1.5 hours): MOCK OA #1
+**Morning Block (4 hours): Classic DP Patterns**
 
-- [ ] 08:00-09:30: **Timed Mock OA** - 2 medium-hard problems (90 min)
-- [ ] 09:30-10:00: Review solutions, timing analysis
+- [ ] 08:00-08:30: Review DP state definition strategies
+- [ ] 08:30-10:00: **[LC 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)** (Hard) ⭐ **Classic**
+- [ ] 10:00-11:30: **[LC 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)** (Hard)
+- [ ] 11:30-12:30: **[LC 44 - Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)** (Hard)
 
-#### Mid-Morning Session (3.5 hours): Graphs Deep Dive
+**Afternoon Block (3 hours): Advanced DP**
 
-- [ ] 10:00-11:30: **Problem 1**: [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (LC 210) - Medium (warm-up)
-- [ ] 11:30-13:00: **Problem 2**: [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (LC 269) - Hard
+- [ ] 13:30-15:00: **[LC 312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)** (Hard)
+- [ ] 15:00-16:30: **[LC 1235 - Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)** (Hard)
 
-#### Afternoon Session (3 hours): Advanced Graph Problems
+**Evening Block (2 hours): LP + Reflection**
 
-- [ ] 14:00-15:30: **Problem 3**: [Word Ladder](https://leetcode.com/problems/word-ladder/) (LC 127) - Hard
-- [ ] 15:30-17:00: **Problem 4**: [Critical Connections in Network](https://leetcode.com/problems/critical-connections-in-a-network/) (LC 1192) - Hard
-- [ ] **Additional Problem 5**: [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) (LC 310) - Medium
-- [ ] **Additional Problem 6**: [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) (LC 261) - Medium
+- [ ] 17:00-18:00: Draft 3 STAR stories: Learn and Be Curious, Think Big, Dive Deep
+- [ ] 18:00-19:00: Review Week 1 progress, refine pattern cheat sheet
 
-#### Evening Session (1.5 hours): LP & Reflection
-
-- [ ] 17:30-18:30: Draft 3 STAR stories (Learn and Be Curious, Think Big, Are Right A Lot)
-- [ ] 18:30-19:00: Analyze mock OA performance, adjust strategy
-
-**Daily Target**: Mock OA + 6 problems + 3 STAR stories + analysis
+**Daily Target:** ✅ 5 Hard Problems + 3 STAR Stories + DP Pattern Summary
 
 ---
 
-### **Day 4 (Thursday): Advanced DP & Backtracking**
+#### **DAY 4 (Thursday): Graphs & Topological Sort**
 
-**Time: 9 hours total**
+⏰ **Total: 8-9 hours**
 
-#### Morning Session (4 hours): Complex Dynamic Programming
+**Morning Block (4 hours): Advanced Graph Patterns**
 
-- [ ] 08:00-09:30: **Problem 1**: [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (LC 300) - Medium
-- [ ] **Problem 2**: [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) (LC 354) - Hard
-- [ ] 09:30-11:00: **Problem 3**: [Burst Balloons](https://leetcode.com/problems/burst-balloons/) (LC 312) - Hard
-- [ ] 11:00-12:30: **Problem 4**: [Dungeon Game](https://leetcode.com/problems/dungeon-game/) (LC 174) - Hard
+- [ ] 08:00-08:30: Review BFS, DFS, Union-Find, Topological Sort
+- [ ] 08:30-10:00: **[LC 269 - Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** (Hard) ⭐⭐ **VERY COMMON**
+- [ ] 10:00-11:30: **[LC 127 - Word Ladder](https://leetcode.com/problems/word-ladder/)** (Hard)
+- [ ] 11:30-12:30: **[LC 126 - Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)** (Hard)
 
-#### Afternoon Session (3 hours): Backtracking & Recursion
+**Afternoon Block (3 hours): Graph Applications**
 
-- [ ] 13:30-15:00: **Problem 5**: [N-Queens II](https://leetcode.com/problems/n-queens-ii/) (LC 52) - Hard
-- [ ] 15:00-16:30: **Problem 6**: [Word Search II](https://leetcode.com/problems/word-search-ii/) (LC 212) - Hard
-- [ ] **Additional Problem 7**: [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) (LC 132) - Hard
+- [ ] 13:30-15:00: **[LC 332 - Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** (Hard)
+- [ ] 15:00-16:30: **[LC 778 - Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)** (Hard)
 
-#### Evening Session (2 hours): LLD Introduction
+**Evening Block (2 hours): LP Development**
 
-- [ ] 17:00-18:00: Review SOLID principles with examples
-- [ ] 18:00-19:00: Draft 3 STAR stories (Hire and Develop, Insist on Highest Standards, Earn Trust)
+- [ ] 17:00-19:00: Draft 3 STAR stories: Hire and Develop, Insist on Highest Standards, Have Backbone
 
-**Daily Target**: 7 hard problems + SOLID review + 3 STAR stories
+**Daily Target:** ✅ 5 Hard Problems + 3 STAR Stories
 
 ---
 
-### **Day 5 (Friday): Binary Search, Heaps & LP Consolidation**
+#### **DAY 5 (Friday): Binary Search & Heaps**
 
-**Time: 9 hours total**
+⏰ **Total: 8-9 hours**
 
-#### Morning Session (4 hours): Binary Search Variations
+**Morning Block (4 hours): Binary Search Mastery**
 
-- [ ] 08:00-09:30: **Problem 1**: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (LC 4) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) (LC 154) - Hard
-- [ ] 11:00-12:30: **Problem 3**: [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) (LC 410) - Hard
-- [ ] **Additional Problem 4**: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (LC 875) - Medium
+- [ ] 08:00-08:30: Review Binary Search on Answer pattern
+- [ ] 08:30-10:00: **[LC 4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)** (Hard) ⭐⭐ **CRITICAL PROBLEM**
+- [ ] 10:00-11:30: **[LC 410 - Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)** (Hard)
+- [ ] 11:30-12:30: **[LC 154 - Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)** (Hard)
 
-#### Afternoon Session (3 hours): Heaps & Priority Queues
+**Afternoon Block (3 hours): Heap Patterns**
 
-- [ ] 13:30-15:00: **Problem 5**: [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (LC 23) - Hard
-- [ ] 15:00-16:30: **Problem 6**: [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (LC 295) - Hard
-- [ ] **Additional Problem 7**: [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) (LC 480) - Hard
+- [ ] 13:30-15:00: **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
+- [ ] 15:00-16:30: **[LC 295 - Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)** (Hard)
+- [ ] **Bonus:** **[LC 973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)** (Medium) ⭐⭐⭐ **Amazon's #1 Favorite**
 
-#### Evening Session (2 hours): Leadership Principles Mastery
+**Evening Block (2 hours): LP Consolidation**
 
-- [ ] 17:00-19:00: Complete remaining STAR stories for all 16 LPs (aim for 25+ total)
-- [ ] Review and polish all stories for clarity and impact
+- [ ] 17:00-19:00: Complete remaining LP stories (aim for 20+ total)
 
-**Daily Target**: 7 hard problems + Complete LP story bank
-
----
-
-### **Day 6 (Saturday): Amazon-Specific Problems & LLD**
-
-**Time: 9 hours total**
-
-#### Morning Session (4 hours): Amazon Frequent Problems
-
-- [ ] 08:00-09:30: **Problem 1**: [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (LC 973) - Medium (Amazon favorite)
-- [ ] 09:30-11:00: **Problem 2**: [Number of Islands](https://leetcode.com/problems/number-of-islands/) (LC 200) - Medium
-- [ ] **Problem 3**: [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) (LC 305) - Hard
-- [ ] 11:00-12:30: **Problem 4**: [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) (LC 937) - Easy but Amazon-specific
-
-#### Afternoon Session (3 hours): More Amazon Favorites
-
-- [ ] 13:30-15:00: **Problem 5**: [LRU Cache](https://leetcode.com/problems/lru-cache/) (LC 146) - Medium
-- [ ] 15:00-16:30: **Problem 6**: [Design patterns problem - implement concrete examples
-- [ ] **Additional Problem 7**: [LFU Cache](https://leetcode.com/problems/lfu-cache/) (LC 460) - Hard
-- [ ] **Additional Problem 8**: [Design HashMap](https://leetcode.com/problems/design-hashmap/) (LC 706) - Easy
-
-#### Evening Session (2 hours): LLD Practice
-
-- [ ] 17:00-19:00: **Design**: Complete LLD for Parking Lot System
-    - [ ] Requirements gathering
-    - [ ] Class diagrams
-    - [ ] Code implementation (at least skeleton)
-
-**Daily Target**: 8 problems + 1 complete LLD design
+**Daily Target:** ✅ 6 Problems (5 Hard + 1 Medium) + Complete LP Story Bank
 
 ---
 
-### **Day 7 (Sunday): Mock OA #2 + Week Review**
+#### **DAY 6 (Saturday): Amazon's Greatest Hits + First Design**
 
-**Time: 8 hours total**
+⏰ **Total: 9 hours**
 
-#### Morning Session (2 hours): MOCK OA #2
+**Morning Block (4 hours): Amazon Signature Problems**
 
-- [ ] 08:00-09:30: **Timed Mock OA** - 2 medium-hard problems (90 min)
-- [ ] 09:30-10:00: Detailed analysis and improvement notes
+- [ ] 08:00-09:30: **[LC 146 - LRU Cache](https://leetcode.com/problems/lru-cache/)** (Medium) ⭐⭐⭐ **MUST KNOW - Design Question**
+- [ ] 09:30-11:00: **[LC 460 - LFU Cache](https://leetcode.com/problems/lfu-cache/)** (Hard)
+- [ ] 11:00-12:30: **[LC 937 - Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)** (Medium) ⭐ **Amazon-Specific**
 
-#### Mid-Morning Session (3 hours): Problem Review
+**Afternoon Block (3 hours): More Amazon Favorites**
 
-- [ ] 10:00-13:00: Revisit 5 hardest problems from the week
-    - [ ] Re-solve without looking at previous solutions
-    - [ ] Document patterns and templates
+- [ ] 13:00-14:30: **[LC 212 - Word Search II](https://leetcode.com/problems/word-search-ii/)** (Hard)
+- [ ] 14:30-16:00: **[LC 380 - Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)** (Medium)
 
-#### Afternoon Session (2 hours): LLD Design
+**Evening Block (2 hours): Introduction to LLD**
 
-- [ ] 14:00-16:00: **Design**: Elevator System
-    - [ ] Focus on state management and design patterns
+- [ ] 17:00-18:00: Review SOLID Principles with examples
+- [ ] 18:00-19:00: **Quick Design:** Parking Lot System (class diagram only)
 
-#### Evening Session (1 hour): Week 1 Reflection
-
-- [ ] 17:00-18:00:
-    - [ ] Review all 40+ problems solved
-    - [ ] Refine pattern cheat sheet
-    - [ ] Prepare Week 2 focus areas
-    - [ ] Light behavioral prep (Work Style surveys)
-
-**Daily Target**: Mock OA + revision + 1 LLD + weekly reflection
+**Daily Target:** ✅ 5 Problems + SOLID Review + First Design Sketch
 
 ---
 
-## 🎓 Week 2: Detailed Day-by-Day Breakdown
+### WEEK 2: SYSTEM DESIGN INTEGRATION + DSA MAINTENANCE
 
-### **Week 2 Daily Structure** (7-9 hours/day)
+#### **DAY 7 (Sunday): DSA Sharp + LLD Introduction**
 
-### **Day 8 (Monday): Mixed DSA + Library Management System**
+⏰ **Total: 8 hours**
 
-**Time: 8 hours total**
+**Morning Block (3 hours): DSA Maintenance**
 
-#### Morning Session (3 hours): DSA Practice
+- [ ] 08:00-09:30: **[LC 128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)** (Medium)
+- [ ] 09:30-11:00: **[LC 41 - First Missing Positive](https://leetcode.com/problems/first-missing-positive/)** (Hard)
 
-- [ ] 08:00-09:30: **Problem 1**: [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) (LC 32) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) (LC 301) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (LC 98) - Medium
+**Afternoon Block (4 hours): First Complete LLD**
 
-#### Afternoon Session (4 hours): LLD Deep Dive
+- [ ] 12:00-16:00: **Design: LRU Cache (Complete Implementation)**
+    - Requirements gathering
+    - Class diagram (Node, DoublyLinkedList, HashMap)
+    - Full code implementation in your preferred language
+    - Test cases and edge cases
+    - Time/Space complexity analysis
+    - **Explain:** Why HashMap + DLL? Design trade-offs?
 
-- [ ] 13:00-17:00: **Design**: Library Management System
-    - [ ] Book catalog management
-    - [ ] Member management
-    - [ ] Lending and return system
-    - [ ] Fine calculation
-    - [ ] Reservation queue
-    - [ ] Code implementation
+**Evening Block (1 hour): Week 1 Review**
 
-#### Evening Session (1 hour): Review
+- [ ] 17:00-18:00: Review all 30+ problems solved, update pattern cheat sheet
 
-- [ ] 17:30-18:30: Review design patterns used, practice LP questions
-
-**Daily Target**: 3 problems + 1 complete LLD design
+**Daily Target:** ✅ 2 Problems + 1 Complete LLD with Code
 
 ---
 
-### **Day 9 (Tuesday): Graph Algorithms + Card Game Design**
+#### **DAY 8 (Monday): DSA Mix + Parking Lot LLD**
 
-**Time: 8 hours total**
+⏰ **Total: 8 hours**
 
-#### Morning Session (3 hours): DSA Practice
+**Morning Block (3 hours): DSA Practice**
 
-- [ ] 08:00-09:30: **Problem 1**: [Word Break II](https://leetcode.com/problems/word-break-ii/) (LC 140) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) (LC 336) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) (LC 1235) - Hard
+- [ ] 08:00-09:30: **[LC 301 - Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)** (Hard)
+- [ ] 09:30-11:00: **[LC 32 - Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)** (Hard)
 
-#### Afternoon Session (4 hours): LLD Deep Dive
+**Afternoon Block (4 hours): Parking Lot System LLD**
 
-- [ ] 13:00-17:00: **Design**: Card Game (Blackjack/Poker)
-    - [ ] Card, Deck, Hand classes
-    - [ ] Game rules encapsulation
-    - [ ] Player and dealer logic
-    - [ ] Betting system
-    - [ ] State management
-    - [ ] Code implementation
+- [ ] 12:00-16:00: **Design: Parking Lot Management System**
+    - Vehicle hierarchy (Car, Truck, Motorcycle)
+    - ParkingSpot types and management
+    - Strategy Pattern for pricing
+    - Payment processing
+    - Entrance/Exit management
+    - **Focus:** OOP principles, design patterns (Strategy, Factory)
+    - Complete code implementation
 
-#### Evening Session (1 hour): Review
+**Evening Block (1 hour): LP Review**
 
-- [ ] 17:30-18:30: Practice behavioral questions with technical examples
+- [ ] 17:00-18:00: Practice 5 LP questions out loud
 
-**Daily Target**: 3 problems + 1 complete LLD design
-
----
-
-### **Day 10 (Wednesday): DP Problems + Movie Ticket Booking + Mock Interview**
-
-**Time: 9 hours total**
-
-#### Morning Session (3 hours): DSA Practice
-
-- [ ] 08:00-09:30: **Problem 1**: [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) (LC 741) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Frog Jump](https://leetcode.com/problems/frog-jump/) (LC 403) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) (LC 315) - Hard
-
-#### Afternoon Session (4 hours): LLD Deep Dive
-
-- [ ] 13:00-16:00: **Design**: Movie Ticket Booking System
-    - [ ] Theater, screen, seat management
-    - [ ] Show scheduling
-    - [ ] Booking and payment
-    - [ ] Concurrency handling (seat locking)
-    - [ ] Code implementation
-
-#### Evening Session (2 hours): Mock Interview
-
-- [ ] 17:00-18:00: **LLD Mock Interview** (45 min) + feedback (15 min)
-- [ ] 18:00-19:00: Document learnings and areas for improvement
-
-**Daily Target**: 3 problems + 1 complete LLD design + Mock interview
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete LLD
 
 ---
 
-### **Day 11 (Thursday): Advanced Algorithms + Hotel Reservation System**
+#### **DAY 9 (Tuesday): DP Practice + Elevator System LLD**
 
-**Time: 8 hours total**
+⏰ **Total: 8 hours**
 
-#### Morning Session (3 hours): DSA Practice
+**Morning Block (3 hours): DP Revision**
 
-- [ ] 08:00-09:30: **Problem 1**: [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) (LC 1293) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) (LC 332) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) (LC 188) - Hard
+- [ ] 08:00-09:30: **[LC 115 - Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)** (Hard)
+- [ ] 09:30-11:00: **[LC 132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)** (Hard)
 
-#### Afternoon Session (4 hours): LLD Deep Dive
+**Afternoon Block (4 hours): Elevator System LLD**
 
-- [ ] 13:00-17:00: **Design**: Hotel Reservation System
-    - [ ] Room types and management
-    - [ ] Booking workflow
-    - [ ] Pricing strategy pattern
-    - [ ] Availability checking
-    - [ ] Cancellation handling
-    - [ ] Code implementation
+- [ ] 12:00-16:00: **Design: Elevator Control System**
+    - State Pattern for elevator states (Moving Up, Moving Down, Idle)
+    - Scheduling algorithms (FCFS, SCAN, LOOK)
+    - Multi-elevator coordination
+    - Request handling
+    - **Focus:** State management, concurrency
+    - Complete code implementation
 
-#### Evening Session (1 hour): Review
+**Evening Block (1 hour): Review**
 
-- [ ] 17:30-18:30: Review all LLD designs so far, refine templates
+- [ ] 17:00-18:00: Review design patterns used so far
 
-**Daily Target**: 3 problems + 1 complete LLD design
-
----
-
-### **Day 12 (Friday): Mixed Topics + ATM System + Mock Interview**
-
-**Time: 9 hours total**
-
-#### Morning Session (3 hours): DSA Practice
-
-- [ ] 08:00-09:30: **Problem 1**: [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) (LC 493) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) (LC 363) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) (LC 321) - Hard
-
-#### Afternoon Session (4 hours): LLD Deep Dive
-
-- [ ] 13:00-16:00: **Design**: ATM System
-    - [ ] State pattern for ATM states
-    - [ ] Transaction processing
-    - [ ] Cash dispensing strategy
-    - [ ] Account management
-    - [ ] Security considerations
-    - [ ] Code implementation
-
-#### Evening Session (2 hours): Mock Interview
-
-- [ ] 17:00-18:00: **DSA Mock Interview** (45 min) + feedback (15 min)
-- [ ] 18:00-19:00: Review and practice communication techniques
-
-**Daily Target**: 3 problems + 1 complete LLD design + Mock interview
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete LLD
 
 ---
 
-### **Day 13 (Saturday): String Algorithms + Rate Limiter LLD**
+#### **DAY 10 (Wednesday): Mock Interview Day + Hotel Reservation LLD**
 
-**Time: 8 hours total**
+⏰ **Total: 9 hours**
 
-#### Morning Session (3 hours): DSA Practice
+**Morning Block (2 hours): DSA Quick Solve**
 
-- [ ] 08:00-09:30: **Problem 1**: [Text Justification](https://leetcode.com/problems/text-justification/) (LC 68) - Hard
-- [ ] 09:30-11:00: **Problem 2**: [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) (LC 214) - Hard
-- [ ] 11:00-11:30: **Problem 3**: [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) (LC 115) - Hard
+- [ ] 08:00-09:00: **[LC 85 - Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)** (Hard)
+- [ ] 09:00-10:00: **[LC 84 - Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)** (Hard)
 
-#### Afternoon Session (4 hours): LLD Deep Dive
+**Afternoon Block (4 hours): Hotel Reservation System LLD**
 
-- [ ] 13:00-17:00: **Design**: Rate Limiter (LLD approach)
-    - [ ] Token bucket algorithm
-    - [ ] Leaky bucket algorithm
-    - [ ] Fixed window counter
-    - [ ] Sliding window log
-    - [ ] Multiple strategies with Strategy pattern
-    - [ ] Code implementation
+- [ ] 11:00-15:00: **Design: Hotel Reservation System**
+    - Room types and inventory management
+    - Booking workflow and validation
+    - Strategy Pattern for pricing (seasonal, dynamic)
+    - Availability checking (date range conflicts)
+    - Cancellation policies
+    - Complete code implementation
 
-#### Evening Session (1 hour): Review
+**Evening Block (3 hours): FIRST MOCK INTERVIEW**
 
-- [ ] 17:30-18:30: Review design patterns, practice explaining trade-offs
+- [ ] 16:00-17:00: **DSA Mock Interview** (Pramp/Interviewing.io)
+    - 45 min interview + 15 min feedback
+- [ ] 17:00-18:00: Document feedback, identify weak areas
+- [ ] 18:00-19:00: Practice articulating design decisions for LLD
 
-**Daily Target**: 3 problems + 1 complete LLD design
-
----
-
-### **Day 14 (Sunday): Mixed Review + Notification Service + Week Review**
-
-**Time: 8 hours total**
-
-#### Morning Session (2 hours): DSA Practice
-
-- [ ] 08:00-09:00: **Problem 1**: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (LC 128) - Medium
-- [ ] 09:00-10:00: **Problem 2**: [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) (LC 41) - Hard
-
-#### Afternoon Session (4 hours): LLD Deep Dive
-
-- [ ] 11:00-15:00: **Design**: Notification Service
-    - [ ] Multiple notification channels (Email, SMS, Push)
-    - [ ] Strategy/Factory patterns
-    - [ ] Priority handling
-    - [ ] Retry mechanism
-    - [ ] Template management
-    - [ ] Code implementation
-
-#### Evening Session (2 hours): Week 2 Review
-
-- [ ] 15:30-17:30:
-    - [ ] Review all 8 LLD designs
-    - [ ] Review 20+ DSA problems from Week 2
-    - [ ] Refine design pattern cheat sheet
-    - [ ] Prepare Week 3 focus areas
-    - [ ] Practice behavioral questions
-
-**Daily Target**: 2 problems + 1 complete LLD design + weekly review
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete LLD + Mock Interview
 
 ---
 
-## 🎓 Week 3: Detailed Day-by-Day Breakdown
+#### **DAY 11 (Thursday): Advanced Algorithms + Rate Limiter LLD**
 
-### **Week 3 Daily Structure** (7-9 hours/day)
+⏰ **Total: 8 hours**
 
-### **Day 15 (Monday): DSA Maintenance + URL Shortener HLD**
+**Morning Block (3 hours): Hard Problem Mix**
 
-**Time: 8 hours total**
+- [ ] 08:00-09:30: **[LC 493 - Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)** (Hard)
+- [ ] 09:30-11:00: **[LC 315 - Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)** (Hard)
 
-#### Morning Session (2 hours): DSA Practice
+**Afternoon Block (4 hours): Rate Limiter LLD**
 
-- [ ] 08:00-09:00: **Problem 1**: [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) (LC 85) - Hard
-- [ ] 09:00-10:00: **Problem 2**: [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) (LC 84) - Hard
+- [ ] 12:00-16:00: **Design: API Rate Limiter**
+    - Token Bucket algorithm implementation
+    - Leaky Bucket algorithm
+    - Fixed Window Counter
+    - Sliding Window Log
+    - Strategy Pattern for multiple algorithms
+    - Distributed rate limiting considerations
+    - Complete code for all 4 approaches
 
-#### Midday Session (4 hours): HLD Focus
+**Evening Block (1 hour): Review**
 
-- [ ] 11:00-15:00: **Design**: URL Shortener (TinyURL)
-    - [ ] Requirements clarification
-    - [ ] Capacity estimation
-    - [ ] Key generation strategies (base62, MD5, counter)
-    - [ ] Database design (SQL vs NoSQL)
-    - [ ] Caching layer (Redis)
-    - [ ] Analytics tracking
-    - [ ] Custom short URL support
-    - [ ] High availability and scalability
+- [ ] 17:00-18:00: Review all LLD designs, practice explaining trade-offs
 
-#### Evening Session (2 hours): Review & Behavioral
-
-- [ ] 15:30-17:30: Review design, practice whiteboarding, LP questions
-
-**Daily Target**: 2 problems + 1 complete HLD design
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete LLD with Multiple Implementations
 
 ---
 
-### **Day 16 (Tuesday): DSA Practice + News Feed HLD + Mock**
+#### **DAY 12 (Friday): String Algorithms + Notification Service LLD**
 
-**Time: 9 hours total**
+⏰ **Total: 8 hours**
 
-#### Morning Session (2 hours): DSA Practice
+**Morning Block (3 hours): String Mastery**
 
-- [ ] 08:00-09:00: **Problem 1**: [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) (LC 857) - Hard
-- [ ] 09:00-10:00: **Problem 2**: [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) (LC 778) - Hard
+- [ ] 08:00-09:30: **[LC 68 - Text Justification](https://leetcode.com/problems/text-justification/)** (Hard)
+- [ ] 09:30-11:00: **[LC 214 - Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)** (Hard)
 
-#### Midday Session (4 hours): HLD Focus
+**Afternoon Block (4 hours): Notification Service LLD**
 
-- [ ] 11:00-15:00: **Design**: News Feed / Social Media Timeline
-    - [ ] Requirements and scale
-    - [ ] Fan-out on write vs fan-out on read
-    - [ ] Following/follower graph (graph database)
-    - [ ] Feed generation algorithms
-    - [ ] Ranking and personalization
-    - [ ] Real-time updates (WebSocket)
-    - [ ] Media storage and CDN
-    - [ ] Caching strategies
+- [ ] 12:00-16:00: **Design: Multi-Channel Notification System**
+    - Factory Pattern for notification channels (Email, SMS, Push)
+    - Observer Pattern for event-driven notifications
+    - Priority queue for handling urgent notifications
+    - Retry mechanism with exponential backoff
+    - Template management
+    - Complete code implementation
 
-#### Evening Session (3 hours): Mock Interview
+**Evening Block (1 hour): Week 2 Mid-Point Review**
 
-- [ ] 16:00-17:00: **HLD Mock Interview** (45 min) + feedback (15 min)
-- [ ] 17:00-19:00: Document learnings, refine approach
+- [ ] 17:00-18:00: Review 5 LLD designs completed, update design pattern cheat sheet
 
-**Daily Target**: 2 problems + 1 complete HLD design + Mock interview
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete LLD
 
 ---
 
-### **Day 17 (Wednesday): DSA Quick Solve + WhatsApp/Chat HLD + Mock**
+### WEEK 3: PEAK PERFORMANCE + SYSTEM DESIGN MASTERY
 
-**Time: 9 hours total**
+#### **DAY 13 (Saturday): HLD Introduction + URL Shortener**
 
-#### Morning Session (2 hours): DSA Practice
+⏰ **Total: 8 hours**
 
-- [ ] 08:00-09:00: **Problem 1**: [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) (LC 420) - Hard
-- [ ] 09:00-10:00: **Problem 2**: [Freedom Trail](https://leetcode.com/problems/freedom-trail/) (LC 514) - Hard
+**Morning Block (2 hours): DSA Maintenance**
 
-#### Midday Session (4 hours): HLD Focus
+- [ ] 08:00-09:00: **[LC 857 - Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)** (Hard)
+- [ ] 09:00-10:00: Review Week 2 hardest problems
 
-- [ ] 11:00-15:00: **Design**: WhatsApp/Chat Application
-    - [ ] Requirements (1-1 chat, group chat, media sharing)
-    - [ ] WebSocket connections for real-time messaging
-    - [ ] Message delivery guarantees (at least once, exactly once)
-    - [ ] Message persistence (Cassandra, HBase)
-    - [ ] Group chat management
-    - [ ] Online presence and last seen
-    - [ ] Push notifications
-    - [ ] End-to-end encryption considerations
+**Afternoon Block (5 hours): First HLD - URL Shortener**
 
-#### Evening Session (3 hours): Mock Interview
+- [ ] 11:00-16:00: **Design: TinyURL / URL Shortener**
+    - **Requirements:** Functional (shorten, redirect, custom URLs, expiration) & Non-Functional (low latency, high availability, 99.9% uptime)
+    - **Capacity Estimation:** 100M new URLs/month, 100:1 read:write ratio
+    - **Key Generation Strategies:**
+        - Base62 encoding
+        - MD5/SHA hashing with collision handling
+        - Counter-based approach (pros/cons of each)
+    - **Database Design:** SQL vs NoSQL trade-offs
+    - **Caching Strategy:** Cache-aside with Redis (what to cache? TTL?)
+    - **API Design:** POST /shorten, GET /{shortUrl}
+    - **Analytics:** Click tracking, rate limiting
+    - **Scalability:** Load balancing, DB sharding, CDN
+    - **Deep Dive:** Choose 2-3 components to detail (e.g., Key Generation + Caching)
 
-- [ ] 16:00-17:00: **Full DSA Round Mock** (45 min) + feedback (15 min)
-- [ ] 17:00-19:00: Review all HLD designs so far
+**Evening Block (1 hour): Review**
 
-**Daily Target**: 2 problems + 1 complete HLD design + Mock interview
+- [ ] 17:00-18:00: Practice whiteboarding the design, explain trade-offs
 
----
-
-### **Day 18 (Thursday): DSA Optimization + Netflix/Video Streaming HLD**
-
-**Time: 8 hours total**
-
-#### Morning Session (2 hours): DSA Practice
-
-- [ ] 08:00-09:00: **Problem 1**: [Remove Boxes](https://leetcode.com/problems/remove-boxes/) (LC 546) - Hard
-- [ ] 09:00-10:00: **Problem 2**: [Scramble String](https://leetcode.com/problems/scramble-string/) (LC 87) - Hard
-
-#### Midday Session (4 hours): HLD Focus
-
-- [ ] 11:00-15:00: **Design**: Netflix/Video Streaming Platform
-    - [ ] Requirements and scale (millions of users)
-    - [ ] Video encoding and transcoding pipeline
-    - [ ] CDN strategy (edge servers)
-    - [ ] Adaptive bitrate streaming (HLS, DASH)
-    - [ ] Recommendation engine
-    - [ ] View count consistency
-    - [ ] Content delivery optimization
-    - [ ] Analytics and monitoring
-
-#### Evening Session (2 hours): Review
-
-- [ ] 15:30-17:30: Review scalability patterns, practice capacity estimation
-
-**Daily Target**: 2 problems + 1 complete HLD design
+**Daily Target:** ✅ 1 Hard Problem + 1 Complete HLD Design
 
 ---
 
-### **Day 19 (Friday): Amazon Product Search HLD + Complete Mock Loop**
+#### **DAY 14 (Sunday): News Feed HLD + Mock Interview**
 
-**Time: 10 hours total**
+⏰ **Total: 9 hours**
 
-#### Morning Session (3 hours): HLD Focus
+**Morning Block (2 hours): DSA Sharp**
 
-- [ ] 08:00-11:00: **Design**: Amazon Product Search
-    - [ ] Requirements (billions of products, millions of searches/day)
-    - [ ] Elasticsearch/Solr implementation
-    - [ ] Autocomplete/typeahead service
-    - [ ] Faceted search and filters
-    - [ ] Ranking and relevance (TF-IDF, BM25)
-    - [ ] Real-time inventory updates
-    - [ ] Personalization layer
-    - [ ] Caching strategies
-    - [ ] A/B testing framework
+- [ ] 08:00-09:00: **[LC 514 - Freedom Trail](https://leetcode.com/problems/freedom-trail/)** (Hard)
+- [ ] 09:00-10:00: **[LC 546 - Remove Boxes](https://leetcode.com/problems/remove-boxes/)** (Hard)
 
-#### Afternoon Session (5 hours): **COMPLETE MOCK LOOP**
+**Afternoon Block (4 hours): News Feed / Social Media Timeline HLD**
 
-- [ ] 12:00-12:45: **Round 1**: DSA (45 min)
-- [ ] 13:00-13:45: **Round 2**: LLD (45 min)
-- [ ] 14:00-14:45: **Round 3**: HLD (45 min)
-- [ ] 15:00-15:45: **Round 4**: Behavioral/LP (45 min)
-- [ ] 16:00-17:00: Comprehensive feedback session
+- [ ] 11:00-15:00: **Design: Social Media News Feed (Facebook/Instagram)**
+    - **Requirements:** Home timeline, post/like/comment, following, real-time updates
+    - **Scale:** 1B users, 500M DAU, 100M posts/day
+    - **Core Challenge:** Fan-out on Write vs Fan-out on Read
+        - **Fan-out on Write:** Pre-compute feeds (write-heavy, fast reads)
+        - **Fan-out on Read:** Compute on-demand (read-heavy, flexible)
+        - **Hybrid Approach:** Use write fan-out for most users, read fan-out for celebrities
+    - **Data Models:** User graph (following/followers), Posts, Timeline cache
+    - **Feed Generation Algorithm:** Merge sorted lists from followed users
+    - **Ranking & Personalization:** EdgeRank algorithm, ML-based ranking
+    - **Real-time Updates:** WebSockets vs Long Polling vs SSE
+    - **Media Storage:** S3 + CloudFront CDN
+    - **Caching Strategy:** Redis for hot timelines (80-20 rule)
+    - **Database Sharding:** User-based sharding vs Timeline-based
+    - **Deep Dive:** Feed generation algorithm + caching strategy
 
-#### Evening Session (2 hours): Analysis
+**Evening Block (3 hours): SECOND MOCK INTERVIEW**
 
-- [ ] 17:30-19:30:
-    - [ ] Document all feedback
-    - [ ] Identify weak areas
-    - [ ] Create action plan for final 2 days
+- [ ] 16:00-17:00: **System Design Mock** (Exponent/Interviewing.io)
+    - 45 min interview + 15 min feedback
+- [ ] 17:00-19:00: Document learnings, refine HLD approach template
 
-**Daily Target**: 1 complete HLD design + Full 4-round mock loop + analysis
-
----
-
-### **Day 20 (Saturday): E-commerce Order Management HLD + Final Sharpening**
-
-**Time: 9 hours total**
-
-#### Morning Session (3 hours): HLD Focus
-
-- [ ] 08:00-11:00: **Design**: E-commerce Order Management System
-    - [ ] Requirements (order placement, payment, fulfillment)
-    - [ ] Order workflow (state machine)
-    - [ ] Inventory management (distributed transactions)
-    - [ ] Payment gateway integration
-    - [ ] Order fulfillment coordination
-    - [ ] Returns and refunds
-    - [ ] Saga pattern for distributed transactions
-    - [ ] Event-driven architecture
-
-#### Afternoon Session (4 hours): Final DSA Review
-
-- [ ] 11:30-12:30: **Revisit Problem 1**: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (LC 4)
-- [ ] 12:30-13:30: **Revisit Problem 2**: [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297)
-- [ ] 13:30-14:30: **Revisit Problem 3**: [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) (LC 126)
-- [ ] 14:30-15:30: **Revisit Problem 4**: [Edit Distance](https://leetcode.com/problems/edit-distance/) (LC 72)
-
-#### Evening Session (2 hours): Final Prep
-
-- [ ] 16:00-17:00: Review all LLD designs portfolio
-- [ ] 17:00-18:00: Review all HLD systems
-- [ ] 18:00-18:30: Practice 10 LP questions out loud
-- [ ] 18:30-19:00: **Final DSA Mock** (1 problem, 30 min)
-
-**Daily Target**: 1 HLD design + 4 revisited problems + comprehensive review
+**Daily Target:** ✅ 2 Hard Problems + 1 Complete HLD + Mock Interview
 
 ---
 
-### **Day 21 (Sunday): Rest & Mental Prep**
+#### **DAY 15 (Monday): Chat Application HLD + DSA Review**
 
-**Time: 3 hours max (light review only)**
+⏰ **Total: 8 hours**
 
-#### Morning Session (1.5 hours): Light Review
+**Morning Block (2 hours): DSA Practice**
 
-- [ ] 09:00-10:00: Review pattern cheat sheet (all DSA patterns)
-- [ ] 10:00-10:30: Quick review of SOLID principles and design patterns
+- [ ] 08:00-09:00: **[LC 87 - Scramble String](https://leetcode.com/problems/scramble-string/)** (Hard)
+- [ ] 09:00-10:00: **Revisit:** Serialize Binary Tree (speed practice)
 
-#### Afternoon Session (1.5 hours): Behavioral & Logistics
+**Afternoon Block (5 hours): WhatsApp / Chat System HLD**
 
-- [ ] 14:00-15:00: Review all LP stories, practice out loud
-- [ ] 15:00-15:30: Prepare logistics
-    - [ ] Test camera, microphone, internet connection
-    - [ ] Prepare interview environment
-    - [ ] Layout clothes
-    - [ ] Prepare whiteboard/pen/paper
+- [ ] 11:00-16:00: **Design: Real-time Messaging System**
+    - **Requirements:** 1-1 chat, group chat, media sharing, last seen, read receipts
+    - **Scale:** 2B users, 100M concurrent connections, 50M messages/sec
+    - **Core Technology:** WebSocket connections for real-time bidirectional communication
+    - **Message Flow:**
+        - Sender → Gateway Server → Message Service → Queue → Receiver's Gateway → Receiver
+    - **Message Persistence:** Cassandra/HBase for write-heavy workload
+    - **Message Delivery Guarantees:** At least once vs Exactly once
+    - **Group Chat:** Message fan-out to all members, member list management
+    - **Online Presence:** Heartbeat mechanism, Redis for status cache
+    - **Media Storage:** S3 + CDN, thumbnail generation
+    - **Push Notifications:** FCM/APNS integration for offline users
+    - **End-to-End Encryption:** Signal Protocol considerations
+    - **Database Design:** Message table (partitioned by user_id + timestamp)
+    - **Scalability:** Consistent hashing for connection distribution
+    - **Deep Dive:** WebSocket architecture + message persistence
 
-#### Evening: Relaxation
+**Evening Block (1 hour): LP Practice**
 
-- [ ] 16:00-17:00: Light exercise (walk, yoga, gym)
-- [ ] 17:00-18:00: Meditation or relaxation activity
-- [ ] 18:00-19:00: Light dinner
-- [ ] 19:00-20:00: Watch something light/entertaining
-- [ ] 20:00-21:00: Review your achievements from the past 3 weeks
-- [ ] 21:00: Early sleep (aim for 8 hours)
+- [ ] 17:00-18:00: Practice 10 LP questions with timing (2 min each)
 
-**Daily Target**: Light review + mental preparation + rest
-
----
-
-## 📚 Recommended Resources & Mock Practice Plan
-
-### **DSA Resources**
-
-#### Primary Platforms:
-
-1. **LeetCode Premium** (Essential for Amazon-tagged problems)
-
-    - Filter: Amazon + Hard + Last 6 months
-    - Company frequency sorting
-    - Use "Discuss" for optimal solutions
-2. **AlgoExpert** (Optional but excellent explanations)
-
-    - Curated list of 160+ essential questions
-    - Video explanations for every problem
-3. **NeetCode** (Free resource)
-
-    - Blind 75 + NeetCode 150
-    - Pattern-based organization
-
-#### Amazon-Specific Question Banks:
-
-- **Top 50 Amazon Questions** (LeetCode list)
-- Focus on: Trees, Graphs, DP, Arrays, Strings
-- Amazon OA questions on LeetCode Discuss
-
-### **LLD Resources**
-
-1. **Books**:
-
-    - "Head First Design Patterns" (quick revision)
-    - "Designing Data-Intensive Applications" (Chapter 1-3)
-2. **Online Platforms**:
-
-    - **Educative.io**: "Grokking the Object Oriented Design Interview"
-    - **YouTube**: Check CS Dojo, Gaurav Sen for LLD examples
-3. **Practice**:
-
-    - Code complete implementations in your preferred language
-    - Use GitHub to maintain a portfolio of designs
-
-### **HLD Resources**
-
-1. **Essential Reading**:
-
-    - "System Design Interview" by Alex Xu (Volume 1 & 2)
-    - "Designing Data-Intensive Applications" by Martin Kleppmann
-2. **Online Platforms**:
-
-    - **ByteByteGo** (paid but excellent visual explanations)
-    - **Educative.io**: "Grokking the System Design Interview"
-    - **SystemDesignPrimer** (GitHub repo - free and comprehensive)
-3. **YouTube Channels**:
-
-    - Gaurav Sen (excellent fundamentals)
-    - System Design Interview
-    - Tech Dummies Narendra L
-
-### **Leadership Principles Resources**
-
-1. **Official Amazon Resources**:
-
-    - Amazon's Leadership Principles page (read thoroughly)
-    - Amazon Day One blog for cultural insights
-2. **Preparation Guides**:
-
-    - **Scarlet Ink**: Amazon LP interview guide
-    - **Grokking the Behavioral Interview** (Educative.io)
-    - Practice answering: "Tell me about a time when..."
-3. **Structure**:
-
-    - Use STAR method strictly (Situation, Task, Action, Result)
-    - Quantify results wherever possible
-    - Prepare 2-3 stories per LP (some stories cover multiple LPs)
+**Daily Target:** ✅ 2 Problems + 1 Complete HLD
 
 ---
 
-## 🎯 Mock Interview Schedule
+#### **DAY 16 (Tuesday): Amazon Product Search HLD + Mock Loop Prep**
 
-### **Week 1**:
+⏰ **Total: 8 hours**
 
-- [ ] **Day 3**: Solo mock OA (LeetCode contest or custom timer)
-- [ ] **Day 7**: Second mock OA + timed Work Simulation practice
+**Morning Block (2 hours): DSA Final Practice**
 
-### **Week 2**:
+- [ ] 08:00-09:00: **[LC 420 - Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)** (Hard)
+- [ ] 09:00-10:00: **Revisit:** 3 hardest problems from Week 1
 
-- [ ] **Day 10**: LLD Mock (use Pramp or peer)
-- [ ] **Day 12**: DSA Mock (Interviewing.io or Pramp)
-- [ ] **Day 14**: Behavioral Mock (practice with friend/colleague)
+**Afternoon Block (5 hours): E-commerce Product Search HLD**
 
-### **Week 3**:
+- [ ] 11:00-16:00: **Design: Amazon.com Product Search**
+    - **Requirements:** Search products, autocomplete, filters, sort, personalization
+    - **Scale:** 1B products, 100M searches/day, 100ms p99 latency
+    - **Search Engine:** Elasticsearch/Solr architecture
+        - Inverted index structure
+        - TF-IDF / BM25 ranking algorithms
+    - **Autocomplete/Typeahead:**
+        - Trie data structure
+        - Real-time suggestions (<100ms)
+        - Caching popular queries
+    - **Faceted Search:** Category, price, brand, rating filters
+    - **Search Ranking Factors:**
+        - Relevance score (text matching)
+        - Product popularity (sales, reviews)
+        - Personalization (user history, preferences)
+    - **Real-time Inventory Updates:** Change Data Capture (CDC) from DB to Elasticsearch
+    - **Personalization Layer:** User profile service, collaborative filtering
+    - **Caching Strategy:**
+        - Query cache for popular searches
+        - Product cache for hot items
+    - **A/B Testing Framework:** Experiment with ranking algorithms
+    - **Data Pipeline:** ETL from MySQL → Kafka → Elasticsearch
+    - **Deep Dive:** Elasticsearch architecture + ranking algorithm + personalization
 
-- [ ] **Day 16**: HLD Mock (Interviewing.io or Exponent)
-- [ ] **Day 17**: Full DSA Round Mock
-- [ ] **Day 19**: **Complete Mock Loop** (4 rounds):
-    - [ ] Round 1: DSA (45 min)
-    - [ ] Round 2: LLD (45 min)
-    - [ ] Round 3: HLD (45 min)
-    - [ ] Round 4: Behavioral/LP (45 min)
-- [ ] **Day 20**: One final DSA mock if needed
+**Evening Block (1 hour): Final Preparation**
 
-### **Recommended Mock Platforms**:
+- [ ] 17:00-18:00: Review all HLD designs, practice 2-minute high-level overviews
 
-1. **Interviewing.io** (anonymous, real engineers, $$$)
-
-    - Most realistic experience
-    - Anonymous, so less pressure
-    - Detailed feedback
-2. **Pramp** (free, peer-to-peer)
-
-    - Great for practice volume
-    - Less intimidating
-    - Good for behavioral rounds
-3. **Exponent** (paid, $$$)
-
-    - Product/system design focus
-    - Good community
-4. **LeetCode Mock Interviews** (free for premium)
-
-    - Good for DSA practice
-    - Less realistic interview feel
+**Daily Target:** ✅ 2 Problems + 1 Complete HLD + Design Review
 
 ---
 
-## 🏆 Amazon's Most Important DSA Patterns & Problems
+#### **DAY 17 (Wednesday): FULL MOCK LOOP + FINAL POLISH**
 
-### **Pattern 1: Arrays & Strings** (Priority: HIGH)
+⏰ **Total: 10 hours**
 
-**Core Concept**: Two pointers, sliding window, prefix sums
+**Morning Block (2 hours): Final DSA Sharpening**
 
-**Must-Solve Hard Problems**:
+- [ ] 08:00-09:00: **Revisit:** Median of Two Sorted Arrays (speed run)
+- [ ] 09:00-10:00: **Revisit:** Serialize Binary Tree (speed run)
 
-- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (LC 42)
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (LC 76)
-- [ ] [Longest Substring with At Most K Distinct](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (LC 340)
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (LC 238) - Medium but frequent
-- [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) (LC 41)
-- [ ] [Longest Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (LC 30)
-- [ ] [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) (LC 995)
+**Afternoon Block (5 hours): COMPLETE MOCK INTERVIEW LOOP**
 
----
+- [ ] 11:00-11:45: **Round 1: DSA** (45 min) - Pramp/Interviewing.io
+- [ ] 12:00-12:45: **Round 2: LLD** (45 min) - Design a system
+- [ ] 13:30-14:15: **Round 3: HLD** (45 min) - Scalable system design
+- [ ] 14:30-15:15: **Round 4: Behavioral/LP** (45 min) - Pure LP focus
+- [ ] 15:30-16:00: **Comprehensive Feedback Session**
 
-### **Pattern 2: Trees & Binary Trees** (Priority: CRITICAL)
+**Evening Block (3 hours): Analysis & Final Prep**
 
-**Core Concept**: DFS, BFS, recursion, tree traversals
+- [ ] 17:00-18:00: Document all feedback from mock loop
+- [ ] 18:00-18:30: **Review:** Pattern cheat sheet (all DSA patterns)
+- [ ] 18:30-19:00: **Review:** Design pattern cheat sheet (SOLID + patterns)
+- [ ] 19:00-19:30: **Review:** System design template (capacity estimation, etc.)
+- [ ] 19:30-20:00: **Review:** All LP stories (practice 5 out loud)
 
-**Must-Solve Hard Problems**:
+**Evening Recommendations:**
 
-- [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (LC 297)
-- [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (LC 124)
-- [ ] [Vertical Order Traversal](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) (LC 987)
-- [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (LC 236)
-- [ ] [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) (LC 1676)
-- [ ] [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) (LC 99)
-- [ ] [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) (LC 968)
-- [ ] [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) (LC 1373)
+- [ ] Light exercise (30 min walk/yoga)
+- [ ] Early dinner
+- [ ] Relaxation activity (watch something light)
+- [ ] Sleep by 22:00 (8+ hours before interview)
 
----
-
-### **Pattern 3: Graphs** (Priority: CRITICAL)
-
-**Core Concept**: DFS, BFS, topological sort, union-find, shortest path
-
-**Must-Solve Hard Problems**:
-
-- [ ] [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) (LC 126)
-- [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (LC 269) - Premium
-- [ ] [Critical Connections in Network](https://leetcode.com/problems/critical-connections-in-a-network/) (LC 1192)
-- [ ] [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) (LC 305) - Premium
-- [ ] [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) (LC 332)
-- [ ] [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) (LC 778)
-- [ ] [Bus Routes](https://leetcode.com/problems/bus-routes/) (LC 815)
-- [ ] [Minimum Cost to Make at Least One Valid Path](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) (LC 1368)
+**Daily Target:** ✅ 2 Revisited Problems + Complete 4-Round Mock Loop + Final Review
 
 ---
 
-### **Pattern 4: Dynamic Programming** (Priority: HIGH)
+## 🧩 TOPIC-WISE DSA COVERAGE WITH AMAZON-FOCUSED QUESTIONS
 
-**Core Concept**: State definition, transitions, optimization
+### **Priority 1: CRITICAL (Amazon's Top Patterns)**
 
-**Must-Solve Hard Problems**:
+#### **1. Trees & Binary Trees** ⭐⭐⭐ **HIGHEST PRIORITY**
 
-- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/) (LC 72)
-- [ ] [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) (LC 10)
-- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (LC 300)
-- [ ] [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) (LC 354)
-- [ ] [Burst Balloons](https://leetcode.com/problems/burst-balloons/) (LC 312)
-- [ ] [Dungeon Game](https://leetcode.com/problems/dungeon-game/) (LC 174)
-- [ ] [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) (LC 115)
-- [ ] [Interleaving String](https://leetcode.com/problems/interleaving-string/) (LC 97)
-- [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) (LC 1235)
+Amazon places heavy emphasis on tree problems, particularly serialization, path finding, and traversal variations
 
----
+**Core Concepts to Master:**
 
-### **Pattern 5: Binary Search** (Priority: HIGH)
+- DFS (Preorder, Inorder, Postorder) - Recursive & Iterative
+- BFS (Level-order traversal)
+- Path finding (root to leaf, leaf to leaf)
+- Tree construction (from traversals, parent pointer)
+- BST properties and operations
+- Lowest Common Ancestor (LCA)
 
-**Core Concept**: Search space reduction, binary search on answer
+**Must-Solve Amazon Questions:**
 
-**Must-Solve Hard Problems**:
+**🔴 Extremely High Frequency:**
 
-- [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (LC 4)
-- [ ] [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) (LC 410)
-- [ ] [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (LC 875) - Medium but important
-- [ ] [Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) (LC 774) - Premium
-- [ ] [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) (LC 154)
-- [ ] [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) (LC 327)
+1. **[LC 297 - Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)** - Hard ⭐⭐⭐⭐⭐
+    
+    - **Why Critical:** Asked in 30%+ of Amazon interviews
+    - **Time:** 30-40 min | **Difficulty:** Hard
+    - **Concepts:** Tree traversal, string parsing, DFS/BFS
+2. **[LC 124 - Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)** - Hard ⭐⭐⭐⭐
+    
+    - **Time:** 25-30 min | **Difficulty:** Hard
+    - **Concepts:** Post-order DFS, global maximum tracking
+3. **[LC 236 - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)** - Medium ⭐⭐⭐⭐
+    
+    - **Time:** 20-25 min | **Difficulty:** Medium
+    - **Concepts:** DFS, recursion, parent tracking
 
----
-
-### **Pattern 6: Heaps & Priority Queues** (Priority: MEDIUM)
-
-**Core Concept**: K-way merge, top-K elements, scheduling
-
-**Must-Solve Problems**:
-
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (LC 23)
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (LC 295)
-- [ ] [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) (LC 480)
-- [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (LC 973) - Medium but very frequent at Amazon
-- [ ] [IPO](https://leetcode.com/problems/ipo/) (LC 502)
-- [ ] [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) (LC 857)
+**🟠 High Frequency:** 4. **[LC 987 - Vertical Order Traversal](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)** - Hard 5. **[LC 1676 - Lowest Common Ancestor III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)** - Medium (Premium) 6. **[LC 99 - Recover BST](https://leetcode.com/problems/recover-binary-search-tree/)** - Medium 7. **[LC 968 - Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)** - Hard 8. **[LC 1373 - Maximum Sum BST](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)** - Hard
 
 ---
 
-### **Pattern 7: Backtracking** (Priority: MEDIUM)
+#### **2. Graphs** ⭐⭐⭐ **CRITICAL**
 
-**Core Concept**: Exhaustive search with pruning, recursion
+Graph problems are extremely common in Amazon interviews, with focus on BFS, DFS, topological sort, and union-find
 
-**Must-Solve Problems**:
+**Core Concepts to Master:**
 
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/) (LC 212)
-- [ ] [N-Queens](https://leetcode.com/problems/n-queens/) (LC 51)
-- [ ] [N-Queens II](https://leetcode.com/problems/n-queens-ii/) (LC 52)
-- [ ] [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) (LC 37)
-- [ ] [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) (LC 698)
-- [ ] [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) (LC 301)
+- BFS (level-order, shortest path in unweighted graph)
+- DFS (cycle detection, path finding)
+- Topological Sort (Kahn's algorithm, DFS-based)
+- Union-Find (Disjoint Set Union)
+- Shortest Path (Dijkstra, Bellman-Ford)
+- Minimum Spanning Tree (Kruskal, Prim)
+- Connected Components
 
----
+**Must-Solve Amazon Questions:**
 
-### **Pattern 8: Linked Lists** (Priority: LOW-MEDIUM)
+**🔴 Extremely High Frequency:**
 
-**Core Concept**: Two pointers, reversal, dummy nodes
+1. **[LC 200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)** - Medium ⭐⭐⭐⭐⭐
+    
+    - **Time:** 15-20 min | **Difficulty:** Medium
+    - **Concepts:** DFS/BFS, grid traversal
+2. **[LC 269 - Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** - Hard ⭐⭐⭐⭐⭐ (Premium)
+    
+    - **Time:** 30-35 min | **Difficulty:** Hard
+    - **Concepts:** Topological sort, graph construction
+3. **[LC 127 - Word Ladder](https://leetcode.com/problems/word-ladder/)** - Hard ⭐⭐⭐⭐
+    
+    - **Time:** 25-30 min | **Difficulty:** Hard
+    - **Concepts:** BFS, shortest path
 
-**Must-Solve Problems**:
-
-- [ ] [Reverse Nodes in K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) (LC 25)
-- [ ] [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) (LC 138)
-- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/) (LC 146) - Design problem
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (LC 23)
-
----
-
-## 🏗️ Essential LLD Concepts & Patterns
-
-### **SOLID Principles** (Master These First)
-
-- [ ] 1. **Single Responsibility Principle**: One class, one purpose
-- [ ] 2. **Open/Closed Principle**: Open for extension, closed for modification
-- [ ] 3. **Liskov Substitution Principle**: Subtypes must be substitutable
-- [ ] 4. **Interface Segregation Principle**: No fat interfaces
-- [ ] 5. **Dependency Inversion Principle**: Depend on abstractions
-
-### **Critical Design Patterns for Amazon SDE2**
-
-#### **Creational Patterns**:
-
-- [ ] 1. **Singleton**: Thread-safe implementation, use cases
-- [ ] 2. **Factory Method**: Creating objects without specifying exact class
-- [ ] 3. **Builder**: Complex object construction step-by-step
-- [ ] 4. **Prototype**: Cloning objects
-
-#### **Structural Patterns**:
-
-- [ ] 1. **Adapter**: Interface compatibility
-- [ ] 2. **Decorator**: Dynamic behavior addition
-- [ ] 3. **Facade**: Simplified interface to complex subsystem
-- [ ] 4. **Proxy**: Placeholder for another object
-
-#### **Behavioral Patterns**:
-
-- [ ] 1. **Strategy**: Encapsulating algorithms
-- [ ] 2. **Observer**: Event notification system
-- [ ] 3. **Command**: Encapsulating requests as objects
-- [ ] 4. **State**: State-dependent behavior
-- [ ] 5. **Chain of Responsibility**: Handler chain for requests
-
-### **Must-Design LLD Systems** (In Order of Importance)
-
-- [ ] 1. **LRU Cache** (Most frequent!) - [LeetCode 146](https://leetcode.com/problems/lru-cache/)
-    - [ ] HashMap + Doubly Linked List
-    - [ ] O(1) get and put operations
-    - [ ] Handle capacity constraints
-- [ ] 2. **Parking Lot System**
-    - [ ] Vehicle hierarchy, spot types
-    - [ ] Payment processing
-    - [ ] Strategy pattern for pricing
-- [ ] 3. **Elevator System**
-    - [ ] State pattern for elevator states
-    - [ ] Scheduling algorithms
-    - [ ] Multiple elevators coordination
-- [ ] 4. **Library Management System**
-    - [ ] Book lending/returning
-    - [ ] Member management
-    - [ ] Reservation system
-    - [ ] Late fee calculation
-- [ ] 5. **Movie Ticket Booking System**
-    - [ ] Theater/show/seat management
-    - [ ] Booking and payment
-    - [ ] Concurrency handling
-- [ ] 6. **Hotel Reservation System**
-    - [ ] Room types and availability
-    - [ ] Booking management
-    - [ ] Pricing strategy pattern
-- [ ] 7. **ATM System**
-    - [ ] State pattern for ATM states
-    - [ ] Transaction processing
-    - [ ] Cash dispensing strategy
-- [ ] 8. **Card Game (Blackjack/Poker)**
-    - [ ] Object-oriented design
-    - [ ] Game rules encapsulation
-    - [ ] Player/dealer interactions
-- [ ] 9. **File System Design** - [LeetCode 588](https://leetcode.com/problems/design-in-memory-file-system/)
-    - [ ] File/directory hierarchy
-    - [ ] Permissions
-    - [ ] Search functionality
-- [ ] 10. **Notification Service**
-    - [ ] Multiple notification channels
-    - [ ] Strategy/Factory patterns
-    - [ ] Priority handling
+**🟠 High Frequency:** 4. **[LC 126 - Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)** - Hard 5. **[LC 1192 - Critical Connections](https://leetcode.com/problems/critical-connections-in-a-network/)** - Hard (Tarjan's Algorithm) 6. **[LC 305 - Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)** - Hard (Union-Find) 7. **[LC 332 - Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** - Hard (Eulerian Path) 8. **[LC 778 - Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)** - Hard (Binary Search + DFS or Dijkstra) 9. **[LC 815 - Bus Routes](https://leetcode.com/problems/bus-routes/)** - Hard
 
 ---
 
-## 🌐 Essential HLD Concepts & Systems
+#### **3. Arrays & Strings** ⭐⭐⭐ **CRITICAL**
 
-### **Core Distributed Systems Concepts**
+**Core Concepts to Master:**
 
-#### **1. Scalability Patterns**:
+- Two Pointers (opposite ends, same direction)
+- Sliding Window (fixed size, variable size)
+- Prefix Sum
+- HashMap for frequency/indices
+- String manipulation and parsing
 
-- [ ] Horizontal vs Vertical Scaling
-- [ ] Load Balancing (Round Robin, Least Connections, Consistent Hashing)
-- [ ] Database Sharding (Range-based, Hash-based, Directory-based)
-- [ ] Microservices Architecture
-- [ ] Service Discovery
+**Must-Solve Amazon Questions:**
 
-#### **2. Availability & Reliability**:
+**🔴 Extremely High Frequency:**
 
-- [ ] Replication strategies (Master-Slave, Master-Master, Multi-Master)
-- [ ] Failover mechanisms
-- [ ] Health checks and circuit breakers
-- [ ] Redundancy and fault tolerance
-- [ ] SLA/SLO/SLI metrics
+1. **[LC 76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)** - Hard ⭐⭐⭐⭐⭐
+    
+    - **Time:** 25-30 min | **Difficulty:** Hard
+    - **Concepts:** Sliding window, HashMap
+2. **[LC 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** - Hard ⭐⭐⭐⭐⭐
+    
+    - **Time:** 20-25 min | **Difficulty:** Hard
+    - **Concepts:** Two pointers, prefix/suffix max
+3. **[LC 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)** - Hard ⭐⭐⭐⭐
+    
+    - **Time:** 25-30 min | **Difficulty:** Hard
+    - **Concepts:** Deque, monotonic queue
 
-#### **3. Database Design**:
-
-- [ ] SQL vs NoSQL trade-offs
-- [ ] Database partitioning/sharding
-- [ ] Indexing strategies
-- [ ] Denormalization for performance
-- [ ] ACID vs BASE properties
-- [ ] Read replicas and write scaling
-
-#### **4. Caching Strategies**:
-
-- [ ] Cache-aside (Lazy Loading)
-- [ ] Write-through cache
-- [ ] Write-behind (Write-back) cache
-- [ ] Cache invalidation strategies
-- [ ] CDN for static content
-- [ ] Redis/Memcached use cases
-
-#### **5. Consistency Patterns**:
-
-- [ ] Strong consistency
-- [ ] Eventual consistency
-- [ ] Causal consistency
-- [ ] CAP Theorem practical applications
-- [ ] Two-phase commit, Saga pattern
-
-#### **6. Message Queues & Async Processing**:
-
-- [ ] Kafka, RabbitMQ, SQS
-- [ ] Pub/Sub patterns
-- [ ] Dead letter queues
-- [ ] Event-driven architecture
-- [ ] CQRS (Command Query Responsibility Segregation)
-
-#### **7. API Design**:
-
-- [ ] REST vs GraphQL vs gRPC
-- [ ] Rate limiting strategies
-- [ ] API versioning
-- [ ] Authentication/Authorization (OAuth, JWT)
-- [ ] Idempotency
-
-#### **8. Monitoring & Observability**:
-
-- [ ] Metrics (Prometheus, CloudWatch)
-- [ ] Logging (ELK stack)
-- [ ] Distributed tracing
-- [ ] Alerting strategies
-
-### **Must-Design HLD Systems** (Amazon Specific)
-
-#### **High Priority**:
-
-- [ ] 1. **URL Shortener (TinyURL)**
-    - [ ] Key generation strategies
-    - [ ] Database design (SQL vs NoSQL)
-    - [ ] Caching layer
-    - [ ] Analytics and tracking
-    - [ ] Custom short URL support
-- [ ] 2. **News Feed / Social Media Timeline**
-    - [ ] Fan-out on write vs fan-out on read
-    - [ ] Following/follower relationships
-    - [ ] Ranking algorithms
-    - [ ] Real-time updates
-    - [ ] Media storage and CDN
-- [ ] 3. **E-commerce Product Search (Amazon.com Search)**
-    - [ ] Elasticsearch/Solr implementation
-    - [ ] Autocomplete/typeahead
-    - [ ] Faceted search and filters
-    - [ ] Ranking and relevance
-    - [ ] Real-time inventory updates
-    - [ ] Personalization
-- [ ] 4. **Order Management System**
-    - [ ] Order placement and payment
-    - [ ] Inventory management
-    - [ ] Order fulfillment workflow
-    - [ ] Distributed transactions
-    - [ ] Returns and refunds
-- [ ] 5. **Rate Limiter / API Gateway**
-    - [ ] Token bucket, leaky bucket algorithms
-    - [ ] Distributed rate limiting
-    - [ ] Per-user vs per-IP limiting
-    - [ ] Redis-based implementation
-
-#### **Medium Priority**:
-
-- [ ] 6. **Distributed Cache System (Redis/Memcached)** - [LeetCode 460](https://leetcode.com/problems/lfu-cache/)
-    - [ ] Consistent hashing
-    - [ ] Cache eviction policies (LRU, LFU)
-    - [ ] Replication and failover
-    - [ ] Cache coherence
-- [ ] 7. **Chat Application (WhatsApp/Slack)**
-    - [ ] WebSocket connections
-    - [ ] Message delivery guarantees
-    - [ ] Group chat management
-    - [ ] Message persistence
-    - [ ] Online presence
-- [ ] 8. **Video Streaming Platform (Netflix/YouTube)**
-    - [ ] Video encoding and transcoding
-    - [ ] CDN strategy
-    - [ ] Adaptive bitrate streaming
-    - [ ] Recommendation engine
-    - [ ] View count consistency
-- [ ] 9. **Recommendation Engine**
-    - [ ] Collaborative filtering
-    - [ ] Content-based filtering
-    - [ ] Real-time personalization
-    - [ ] A/B testing framework
-- [ ] 10. **Web Crawler**
-    - [ ] URL frontier management
-    - [ ] Distributed crawling
-    - [ ] Robots.txt compliance
-    - [ ] Deduplication
-    - [ ] Politeness policy
+**🟠 High Frequency:** 4. **[LC 340 - Longest Substring K Distinct](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)** - Hard (Premium) 5. **[LC 30 - Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)** - Hard 6. **[LC 238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)** - Medium 7. **[LC 41 - First Missing Positive](https://leetcode.com/problems/first-missing-positive/)** - Hard 8. **[LC 128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)** - Medium
 
 ---
 
-## 🎭 Leadership Principles Deep Dive
+#### **4. Dynamic Programming** ⭐⭐⭐ **HIGH PRIORITY**
 
-### **All 16 Amazon Leadership Principles**
+**Core Concepts to Master:**
 
-#### **1. Customer Obsession**
+- 1D DP (Fibonacci-style, subarray/subsequence)
+- 2D DP (Grid, two sequences)
+- DP on Strings (edit distance, LCS, palindromes)
+- DP Optimization (space optimization, state compression)
+- Knapsack variations
+- Interval DP
 
-Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust.
+**Must-Solve Amazon Questions:**
 
-**Sample Questions**:
+**🔴 High Frequency:**
 
-- Tell me about a time when you went above and beyond for a customer.
-- Describe a situation where you had to balance customer needs with business constraints.
+1. **[LC 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)** - Hard ⭐⭐⭐⭐⭐
+    
+    - **Time:** 25-30 min | **Difficulty:** Hard
+    - **Concepts:** 2D DP, string matching
+2. **[LC 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)** - Hard ⭐⭐⭐⭐
+    
+    - **Time:** 30-35 min | **Difficulty:** Hard
+    - **Concepts:** 2D DP, pattern matching
+3. **[LC 300 - Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)** - Medium ⭐⭐⭐⭐
+    
+    - **Time:** 20-25 min | **Difficulty:** Medium
+    - **Concepts:** DP + Binary Search
 
-- [ ] **Prepare STAR Story 1** for Customer Obsession
-- [ ] **Prepare STAR Story 2** for Customer Obsession
-- [ ] **Prepare STAR Story 3** for Customer Obsession
-
----
-
-#### **2. Ownership**
-
-Leaders are owners. They think long term and don't sacrifice long-term value for short-term results.
-
-**Sample Questions**:
-
-- Tell me about a time when you took on something outside your area of responsibility.
-- Describe a situation where you had to make a decision without complete information.
-
-- [ ] **Prepare STAR Story 1** for Ownership
-- [ ] **Prepare STAR Story 2** for Ownership
-- [ ] **Prepare STAR Story 3** for Ownership
+**🟠 Medium Frequency:** 4. **[LC 312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)** - Hard 5. **[LC 1235 - Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)** - Hard 6. **[LC 44 - Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)** - Hard 7. **[LC 115 - Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)** - Hard 8. **[LC 354 - Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)** - Hard 9. **[LC 132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)** - Hard
 
 ---
 
-#### **3. Invent and Simplify**
+### **Priority 2: HIGH IMPORTANCE**
 
-Leaders expect and require innovation and invention from their teams and always find ways to simplify.
+#### **5. Binary Search** ⭐⭐⭐
 
-**Sample Questions**:
+**Core Concepts:**
 
-- Tell me about a time when you simplified a complex problem.
-- Describe an innovative solution you created.
+- Binary search on sorted array
+- Binary search on answer space
+- Search in rotated array
+- First/Last occurrence
 
-- [ ] **Prepare STAR Story 1** for Invent and Simplify
-- [ ] **Prepare STAR Story 2** for Invent and Simplify
-- [ ] **Prepare STAR Story 3** for Invent and Simplify
+**Must-Solve:**
 
----
-
-#### **4. Are Right, A Lot**
-
-Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives.
-
-**Sample Questions**:
-
-- Tell me about a time when you were wrong.
-- Describe a situation where you had to make a difficult decision with limited data.
-
-- [ ] **Prepare STAR Story 1** for Are Right, A Lot
-- [ ] **Prepare STAR Story 2** for Are Right, A Lot
+1. **[LC 4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)** - Hard ⭐⭐⭐⭐⭐
+2. **[LC 410 - Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)** - Hard ⭐⭐⭐⭐
+3. **[LC 154 - Find Min in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)** - Hard
+4. **[LC 327 - Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)** - Hard
 
 ---
 
-#### **5. Learn and Be Curious**
+#### **6. Heaps & Priority Queues** ⭐⭐
 
-Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities.
+**Core Concepts:**
 
-**Sample Questions**:
+- Min/Max Heap operations
+- K-way merge
+- Top-K elements
+- Meeting room scheduling
 
-- Tell me about a time when you learned a new skill or technology.
-- How do you stay current with industry trends?
+**Must-Solve:**
 
-- [ ] **Prepare STAR Story 1** for Learn and Be Curious
-- [ ] **Prepare STAR Story 2** for Learn and Be Curious
-- [ ] **Prepare STAR Story 3** for Learn and Be Curious
-
----
-
-#### **6. Hire and Develop the Best**
-
-Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent.
-
-**Sample Questions**:
-
-- Tell me about a time when you mentored someone.
-- Describe your approach to building a high-performing team.
-
-- [ ] **Prepare STAR Story 1** for Hire and Develop the Best
-- [ ] **Prepare STAR Story 2** for Hire and Develop the Best
+1. **[LC 973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)** - Medium ⭐⭐⭐⭐⭐ **(#1 Amazon Favorite)**
+2. **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** - Hard ⭐⭐⭐⭐
+3. **[LC 295 - Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)** - Hard ⭐⭐⭐
+4. **[LC 480 - Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)** - Hard
+5. **[LC 857 - Min Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)** - Hard
 
 ---
 
-#### **7. Insist on the Highest Standards**
+#### **7. Backtracking** ⭐⭐
 
-Leaders have relentlessly high standards. They continually raise the bar and drive their teams to deliver quality.
+**Must-Solve:**
 
-**Sample Questions**:
-
-- Tell me about a time when you refused to compromise on quality.
-- Describe a situation where you raised the bar for your team.
-
-- [ ] **Prepare STAR Story 1** for Insist on the Highest Standards
-- [ ] **Prepare STAR Story 2** for Insist on the Highest Standards
-- [ ] **Prepare STAR Story 3** for Insist on the Highest Standards
+1. **[LC 212 - Word Search II](https://leetcode.com/problems/word-search-ii/)** - Hard ⭐⭐⭐⭐
+2. **[LC 301 - Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)** - Hard ⭐⭐⭐
+3. **[LC 51/52 - N-Queens](https://leetcode.com/problems/n-queens/)** - Hard
 
 ---
 
-#### **8. Think Big**
+#### **8. Design Questions** ⭐⭐⭐
 
-Leaders create and communicate a bold direction that inspires results. They think differently and look for new ways to serve customers.
+**Must-Solve:**
 
-**Sample Questions**:
-
-- Tell me about a time when you proposed a bold idea.
-- Describe a situation where you thought beyond the immediate problem.
-
-- [ ] **Prepare STAR Story 1** for Think Big
-- [ ] **Prepare STAR Story 2** for Think Big
+1. **[LC 146 - LRU Cache](https://leetcode.com/problems/lru-cache/)** - Medium ⭐⭐⭐⭐⭐ **(MUST KNOW)**
+2. **[LC 460 - LFU Cache](https://leetcode.com/problems/lfu-cache/)** - Hard ⭐⭐⭐⭐
+3. **[LC 380 - Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)** - Medium ⭐⭐⭐
 
 ---
 
-#### **9. Bias for Action**
+### **Amazon-Specific Problems** (Not on Leetcode but commonly asked)
 
-Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk-taking.
+Real Amazon interviews often present problems as stories requiring candidates to identify the underlying algorithm
 
-**Sample Questions**:
+1. **Shipment Imbalance** - Binary search on answer + greedy
+2. **Minimum Cost to Merge Lists** - Huffman coding / priority queue
+3. **Server utilization** - Sliding window / two pointers
+4. **Package dependencies** - Topological sort
+5. **Warehouse inventory optimization** - Knapsack DP variations
 
-- Tell me about a time when you had to make a quick decision.
-- Describe a situation where you took a calculated risk.
+**Pro Tip:** When given a story-based problem, identify:
 
-- [ ] **Prepare STAR Story 1** for Bias for Action
-- [ ] **Prepare STAR Story 2** for Bias for Action
-- [ ] **Prepare STAR Story 3** for Bias for Action
-
----
-
-#### **10. Frugality**
-
-Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention.
-
-**Sample Questions**:
-
-- Tell me about a time when you delivered a solution with limited resources.
-- Describe how you optimized costs in a project.
-
-- [ ] **Prepare STAR Story 1** for Frugality
-- [ ] **Prepare STAR Story 2** for Frugality
+- What are we optimizing? (min/max/count)
+- What constraints exist?
+- What data structures naturally fit?
+- Have I seen a similar pattern?
 
 ---
 
-#### **11. Earn Trust**
+## 🏗️ SYSTEM DESIGN PREPARATION PLAN
 
-Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical.
+### **Low-Level Design (LLD) - Object-Oriented Design**
 
-**Sample Questions**:
+Amazon SDE-2 interviews now commonly include LLD rounds testing OOP principles, design patterns, and code quality
 
-- Tell me about a time when you had to deliver bad news.
-- Describe a situation where you admitted a mistake.
+#### **Essential Concepts to Master**
 
-- [ ] **Prepare STAR Story 1** for Earn Trust
-- [ ] **Prepare STAR Story 2** for Earn Trust
-- [ ] **Prepare STAR Story 3** for Earn Trust
+**1. SOLID Principles** (MUST KNOW)
+
+- **S - Single Responsibility Principle:** One class = one reason to change
+- **O - Open/Closed Principle:** Open for extension, closed for modification
+- **L - Liskov Substitution Principle:** Subtypes must be substitutable
+- **I - Interface Segregation Principle:** Many specific interfaces > one general
+- **D - Dependency Inversion Principle:** Depend on abstractions, not concretions
+
+**2. Critical Design Patterns for Amazon**
+
+**Creational:**
+
+- **Singleton** (Thread-safe, lazy/eager initialization)
+- **Factory Method** (Creating objects without specifying class)
+- **Builder** (Step-by-step complex object construction)
+
+**Structural:**
+
+- **Adapter** (Interface compatibility)
+- **Decorator** (Dynamic behavior addition)
+- **Facade** (Simplified interface to complex system)
+
+**Behavioral:**
+
+- **Strategy** (Encapsulating algorithms) ⭐⭐⭐ **Most Common**
+- **Observer** (Event notification) ⭐⭐⭐ **Most Common**
+- **State** (State-dependent behavior)
+- **Command** (Encapsulating requests as objects)
+
+#### **Top 10 LLD Systems for Amazon** (In Priority Order)
+
+**🔴 Extremely High Priority:**
+
+1. **LRU Cache** ⭐⭐⭐⭐⭐ **(Practice 3+ times)**
+    
+    - **Why Critical:** Asked in 40%+ of interviews
+    - **Key Concepts:** HashMap + Doubly Linked List, O(1) operations
+    - **Code Required:** Full implementation
+    - [LeetCode 146](https://leetcode.com/problems/lru-cache/)
+2. **Parking Lot System** ⭐⭐⭐⭐
+    
+    - **Concepts:** Vehicle hierarchy, Strategy pattern, Enum for types
+    - **Focus:** OOP design, payment processing
+3. **Elevator System** ⭐⭐⭐⭐
+    
+    - **Concepts:** State pattern, scheduling algorithms (SCAN, LOOK)
+    - **Focus:** State management, multi-elevator coordination
+
+**🟠 High Priority:**
+
+4. **Library Management System**
+    
+    - **Concepts:** Book lending, reservation queue, fine calculation
+    - **Focus:** Business logic, date handling
+5. **Movie Ticket Booking** / **Hotel Reservation**
+    
+    - **Concepts:** Inventory management, booking workflow, concurrency
+    - **Focus:** Handling date conflicts, seat/room locking
+6. **Rate Limiter** (LLD approach)
+    
+    - **Concepts:** Token bucket, leaky bucket, sliding window
+    - **Focus:** Algorithm implementation, Strategy pattern
+
+**🟡 Medium Priority:**
+
+7. **Notification Service**
+    
+    - **Concepts:** Factory + Strategy for channels, Observer for events
+    - **Focus:** Multi-channel support, retry mechanism
+8. **ATM System**
+    
+    - **Concepts:** State pattern for ATM states
+    - **Focus:** Transaction flow, cash dispensing
+9. **Card Game (Blackjack/Poker)**
+    
+    - **Concepts:** Game rules encapsulation, OOP hierarchy
+    - **Focus:** Clean class design
+10. **File System** [LeetCode 588](https://leetcode.com/problems/design-in-memory-file-system/)
+    
+    - **Concepts:** Tree structure, path parsing
+    - **Focus:** Recursive operations
+
+#### **LLD Interview Approach**
+
+**1. Requirements Clarification (5 min)**
+
+- Functional requirements (what should it do?)
+- Non-functional requirements (scalability? concurrency?)
+- Constraints and assumptions
+
+**2. Core Entities Identification (5 min)**
+
+- What are the main objects/classes?
+- What are their relationships?
+
+**3. Class Diagram (10-15 min)**
+
+- Draw boxes with class names
+- Add key attributes and methods
+- Show relationships (inheritance, composition, association)
+
+**4. Design Patterns (mention explicitly)**
+
+- Which patterns are you using and why?
+- Justify your choices
+
+**5. Code Implementation (20-25 min)**
+
+- Write clean, production-quality code
+- Handle edge cases
+- Think about extensibility
+
+**6. Discuss Trade-offs**
+
+- What could be improved?
+- How would you handle concurrency?
+- How would this scale?
 
 ---
 
-#### **12. Dive Deep**
+### **High-Level Design (HLD) - Distributed Systems**
 
-Leaders operate at all levels, stay connected to details, audit frequently, and are skeptical when metrics differ from anecdotes.
+Amazon HLD interviews focus heavily on scalability, trade-offs, and system components like caching, load balancing, and database design
 
-**Sample Questions**:
+#### **Essential Concepts to Master**
 
-- Tell me about a time when you debugged a complex issue.
-- Describe a situation where you had to dig into the details.
+**1. Scalability Fundamentals**
 
-- [ ] **Prepare STAR Story 1** for Dive Deep
-- [ ] **Prepare STAR Story 2** for Dive Deep
-- [ ] **Prepare STAR Story 3** for Dive Deep
+- **Horizontal Scaling** (add more machines) vs **Vertical Scaling** (bigger machine)
+- **Load Balancing:** Round Robin, Least Connections, Consistent Hashing
+- **Database Sharding:** Hash-based, Range-based, Directory-based
+- **Microservices** vs Monolith
+
+**2. Database Design**
+
+- **SQL vs NoSQL Trade-offs**
+    - SQL: ACID, relational, complex queries
+    - NoSQL: Scalability, flexibility, eventual consistency
+- **Replication:** Master-Slave, Master-Master
+- **Sharding Strategies**
+- **Indexing:** B-tree, Hash index, when to use
+
+**3. Caching Strategies**
+
+- **Cache-Aside (Lazy Loading):** App checks cache first
+- **Write-Through:** Write to cache + DB together
+- **Write-Behind (Write-Back):** Write to cache, async to DB
+- **Cache Eviction:** LRU, LFU, TTL
+- **CDN** for static content
+
+**4. Consistency Patterns**
+
+- **Strong Consistency:** Read reflects latest write (SQL)
+- **Eventual Consistency:** Reads may be stale temporarily (NoSQL)
+- **CAP Theorem:** Consistency, Availability, Partition Tolerance (pick 2)
+
+**5. Message Queues & Async Processing**
+
+- **Kafka, RabbitMQ, AWS SQS**
+- **Pub/Sub** pattern
+- **Event-Driven Architecture**
+- **Dead Letter Queues**
+
+**6. API Design**
+
+- **REST** (stateless, CRUD) vs **GraphQL** (flexible queries) vs **gRPC** (performance)
+- **Rate Limiting:** Token bucket, leaky bucket
+- **Idempotency:** Same request = same result
+- **Versioning:** URL, header, query param
+
+**7. Monitoring & Observability**
+
+- **Metrics:** Prometheus, CloudWatch (latency, throughput, error rate)
+- **Logging:** Centralized logging (ELK stack)
+- **Distributed Tracing:** Track requests across services
+
+#### **Top 10 HLD Systems for Amazon** (In Priority Order)
+
+**🔴 Extremely High Priority:**
+
+1. **URL Shortener (TinyURL)** ⭐⭐⭐⭐⭐
+    
+    - **Why:** Classic design problem, tests fundamentals
+    - **Key Topics:** Key generation, Base62 encoding, caching, analytics
+    - **Scale:** 100M URLs/month
+    - **Duration:** 45 min
+2. **E-commerce Product Search (Amazon.com Search)** ⭐⭐⭐⭐⭐
+    
+    - **Why:** Directly relevant to Amazon's core business
+    - **Key Topics:** Elasticsearch, autocomplete, ranking, personalization
+    - **Scale:** 1B products, 100M searches/day
+    - **Duration:** 45 min
+3. **News Feed / Social Media Timeline** ⭐⭐⭐⭐
+    
+    - **Why:** Tests understanding of fan-out strategies
+    - **Key Topics:** Fan-out on write vs read, feed generation, ranking
+    - **Scale:** 1B users, 500M DAU
+    - **Duration:** 45 min
+
+**🟠 High Priority:**
+
+4. **Real-time Chat System (WhatsApp/Slack)** ⭐⭐⭐⭐
+    
+    - **Key Topics:** WebSockets, message delivery, group chat, presence
+    - **Scale:** 2B users, 100M concurrent
+5. **Order Management / E-commerce Backend** ⭐⭐⭐⭐
+    
+    - **Key Topics:** Distributed transactions, inventory, saga pattern
+    - **Scale:** Millions of orders/day
+6. **Rate Limiter / API Gateway** ⭐⭐⭐
+    
+    - **Key Topics:** Token bucket, distributed rate limiting, Redis
+    - **Scale:** Millions of requests/sec
+
+**🟡 Medium Priority:**
+
+7. **Video Streaming (Netflix/YouTube)**
+    
+    - **Key Topics:** CDN, transcoding, adaptive bitrate, recommendations
+    - **Scale:** Billions of hours watched/day
+8. **Distributed Cache (Redis/Memcached)**
+    
+    - **Key Topics:** Consistent hashing, replication, eviction policies
+    - [LeetCode 460 - LFU Cache](https://leetcode.com/problems/lfu-cache/)
+9. **Notification System**
+    
+    - **Key Topics:** Multi-channel (email/SMS/push), priority, retry
+    - **Scale:** Millions of notifications/day
+10. **Web Crawler**
+    
+    - **Key Topics:** URL frontier, distributed crawling, deduplication
+    - **Scale:** Billions of web pages
+
+#### **HLD Interview Approach Framework**
+
+**1. Requirements Clarification (5 min)**
+
+- **Functional Requirements:** What features exactly?
+- **Non-Functional Requirements:** Scale? Latency? Availability?
+- **Constraints:** Budget? Team size? Technology stack?
+
+**2. Capacity Estimation (5 min)** _(Very Important for Amazon)_
+
+- **DAU (Daily Active Users), QPS (Queries Per Second)**
+- **Storage:** Data size, retention period
+- **Bandwidth:** Upload/download requirements
+- **Example:** "100M DAU, 10 actions/day = 1B requests/day = ~12K QPS, peak = 36K QPS"
+
+**3. High-Level Architecture (10 min)**
+
+- Draw boxes: Client → Load Balancer → App Servers → Database → Cache
+- Identify main components
+- Show data flow
+
+**4. API Design (5 min)**
+
+- Define key endpoints
+- Example: `POST /api/v1/shorten`, `GET /{shortUrl}`
+- Request/response formats
+
+**5. Database Schema (5 min)**
+
+- Choose SQL vs NoSQL (justify!)
+- Define main tables/collections
+- Indexing strategy
+
+**6. Deep Dive into 2-3 Components (15-20 min)**
+
+- Interviewer will ask you to go deep
+- **Common:** Key generation, caching strategy, ranking algorithm
+- Discuss trade-offs, alternatives
+
+**7. Scalability & Trade-offs (5 min)**
+
+- Bottlenecks?
+- How to scale each component?
+- Failure scenarios?
+- Monitoring strategy?
+
+#### **Common HLD Deep Dive Topics**
+
+**You MUST be able to discuss these in detail:**
+
+1. **Load Balancing**
+    
+    - Algorithms: Round Robin, Least Connections, IP Hash
+    - Layer 4 (TCP) vs Layer 7 (HTTP)
+    - Health checks
+2. **Caching Strategy**
+    
+    - What to cache? (80-20 rule)
+    - Where to cache? (Client, CDN, App, Database)
+    - Cache invalidation (TTL, write-through, event-driven)
+    - Cache coherence
+3. **Database Sharding**
+    
+    - Shard key selection (user_id, geo, timestamp)
+    - Resharding strategy
+    - Cross-shard queries
+4. **Consistency vs Availability**
+    
+    - When to choose strong consistency? (banking, inventory)
+    - When eventual consistency is okay? (social media likes)
+    - CAP theorem application
+5. **Message Queues**
+    
+    - When to use? (async processing, decoupling)
+    - Ordering guarantees
+    - At-least-once vs Exactly-once delivery
 
 ---
 
-#### **13. Have Backbone; Disagree and Commit**
+### **Practice Resources for System Design**
 
-Leaders respectfully challenge decisions when they disagree. Once a decision is made, they commit wholly.
+**Books:**
 
-**Sample Questions**:
+- ✅ "System Design Interview Vol 1 & 2" by Alex Xu (READ THIS!)
+- "Designing Data-Intensive Applications" by Martin Kleppmann
 
-- Tell me about a time when you disagreed with your manager.
-- Describe a situation where you had to support a decision you didn't agree with.
+**Online Platforms:**
 
-- [ ] **Prepare STAR Story 1** for Have Backbone; Disagree and Commit
-- [ ] **Prepare STAR Story 2** for Have Backbone; Disagree and Commit
+- **ByteByteGo** (Visual explanations)
+- **System Design Primer** (GitHub - free)
 
----
+**YouTube Channels:**
 
-#### **14. Deliver Results**
-
-Leaders focus on key inputs and deliver with the right quality and in a timely fashion. They rise to the occasion.
-
-**Sample Questions**:
-
-- Tell me about a time when you delivered under pressure.
-- Describe a situation where you overcame obstacles to deliver.
-
-- [ ] **Prepare STAR Story 1** for Deliver Results
-- [ ] **Prepare STAR Story 2** for Deliver Results
-- [ ] **Prepare STAR Story 3** for Deliver Results
+- Gaurav Sen (Best for fundamentals)
+- System Design Interview channel
+- Tech Dummies Narendra L
 
 ---
 
-#### **15. Strive to be Earth's Best Employer**
+## 💬 BEHAVIORAL + LEADERSHIP PRINCIPLES SECTION
 
-Leaders work to create a safer, more productive, higher performing, more diverse, and more just work environment.
+### **Amazon's 16 Leadership Principles** (The Heart of Behavioral Interviews)
 
-**Sample Questions**:
+Every Amazon interview round includes 20-30 minutes of Leadership Principles assessment using the STAR method, with Customer Obsession, Ownership, and Deliver Results being most critical
 
-- Tell me about a time when you improved your team's work environment.
-- Describe how you've contributed to diversity and inclusion.
+#### **Critical Understanding**
 
-- [ ] **Prepare STAR Story 1** for Strive to be Earth's Best Employer
-- [ ] **Prepare STAR Story 2** for Strive to be Earth's Best Employer
+**What Makes Amazon Different:**
 
----
+- LPs are not just "nice to have" - they're EVALUATED in EVERY round
+- Each interviewer is assigned 2-3 specific LPs to assess
+- Bar Raiser rounds can spend 40+ minutes on behavioral questions
+- You need REAL stories with QUANTIFIABLE results
 
-#### **16. Success and Scale Bring Broad Responsibility**
+**The "Bar Raiser" Reality:**
 
-Leaders create more than they consume and always leave things better than they found them.
-
-**Sample Questions**:
-
-- Tell me about a time when you considered the broader impact of your work.
-- Describe how you've contributed to your community or industry.
-
-- [ ] **Prepare STAR Story 1** for Success and Scale Bring Broad Responsibility
-- [ ] **Prepare STAR Story 2** for Success and Scale Bring Broad Responsibility
+- One interviewer in your loop is a Bar Raiser (senior, cross-team)
+- They can single-handedly veto your candidacy
+- Bar Raisers focus heavily on LPs and cultural fit
+- 78% of tech employers now consider behavioral fit as important as technical skills
 
 ---
 
-## 📝 STAR Story Template & Tips
+### **The 16 Leadership Principles Explained**
 
-### **The STAR Framework**
+#### **TIER 1: CRITICAL (Asked in 80%+ of interviews)**
 
-**S - Situation (15-20% of time)**:
+**1. Customer Obsession** ⭐⭐⭐⭐⭐ _"Leaders start with the customer and work backwards."_
+
+**What Amazon Really Wants:**
+
+- Evidence you prioritize customer needs over everything
+- Times you made trade-offs in favor of customers
+- How you gathered and used customer feedback
+
+**Sample Questions:**
+
+- "Tell me about a time you went above and beyond for a customer"
+- "Describe a situation where you had to choose between customer satisfaction and meeting a deadline"
+- "Tell me about a time you used customer feedback to drive innovation"
+
+**Your STAR Story Should Include:**
+
+- Specific customer problem/pain point
+- Data showing customer impact (NPS, CSAT, churn, etc.)
+- Long-term thinking (not just quick fixes)
+
+---
+
+**2. Ownership** ⭐⭐⭐⭐⭐ _"Leaders are owners. They think long term and don't sacrifice long-term value for short-term results."_
+
+**What Amazon Really Wants:**
+
+- Taking responsibility beyond your job description
+- Acting on behalf of the entire company
+- Long-term thinking over quick wins
+
+**Sample Questions:**
+
+- "Tell me about a time you took on something outside your area of responsibility"
+- "Describe a situation where you had to make a decision that benefited the company but hurt your team's metrics short-term"
+- "Tell me about a time you had to fix something that wasn't your fault"
+
+**Your STAR Story Should Include:**
+
+- Clear ownership statement ("I took responsibility for...")
+- Actions beyond your job scope
+- Long-term impact metrics
+
+---
+
+**3. Deliver Results** ⭐⭐⭐⭐⭐ _"Leaders focus on the key inputs and deliver them with the right quality and in a timely fashion. They rise to the occasion."_
+
+**What Amazon Really Wants:**
+
+- Meeting commitments despite obstacles
+- Prioritization under pressure
+- Overcoming significant challenges
+
+**Sample Questions:**
+
+- "Tell me about a time you delivered under pressure"
+- "Describe a situation where you had to overcome significant obstacles to deliver"
+- "Tell me about your most significant professional achievement"
+
+**Your STAR Story Should Include:**
+
+- Specific metrics (delivered X on time, under budget)
+- Obstacles overcome
+- Quality maintained despite pressure
+
+---
+
+#### **TIER 2: HIGH IMPORTANCE (Asked in 60%+ of interviews)**
+
+**4. Bias for Action** ⭐⭐⭐⭐ _"Speed matters in business. Many decisions are reversible and do not need extensive study."_
+
+**Sample Questions:**
+
+- "Tell me about a time you had to make a quick decision with incomplete information"
+- "Describe a time you took a calculated risk"
+
+---
+
+**5. Learn and Be Curious** ⭐⭐⭐⭐ _"Leaders are never done learning and always seek to improve themselves."_
+
+**Sample Questions:**
+
+- "Tell me about a time you learned a new skill or technology"
+- "How do you stay current with industry trends?"
+- "Describe a time you realized you were wrong and had to change your approach"
+
+---
+
+**6. Invent and Simplify** ⭐⭐⭐⭐ _"Leaders expect and require innovation and invention from their teams."_
+
+**Sample Questions:**
+
+- "Tell me about a time you simplified a complex problem"
+- "Describe an innovative solution you created"
+- "Tell me about a time you challenged the status quo"
+
+---
+
+**7. Dive Deep** ⭐⭐⭐⭐ _"Leaders operate at all levels, stay connected to the details, and audit frequently."_
+
+**Sample Questions:**
+
+- "Tell me about a time you had to dig into details to debug a complex issue"
+- "Describe a situation where you identified a problem others missed"
+
+---
+
+**8. Have Backbone; Disagree and Commit** ⭐⭐⭐ _"Leaders respectfully challenge decisions when they disagree. Once a decision is made, they commit wholly."_
+
+**Sample Questions:**
+
+- "Tell me about a time you disagreed with your manager"
+- "Describe a situation where you had to support a decision you didn't agree with"
+
+---
+
+#### **TIER 3: MODERATE IMPORTANCE**
+
+**9. Earn Trust** ⭐⭐⭐
+
+- "Tell me about a time you admitted a mistake"
+- "Describe a situation where you had to deliver bad news"
+
+**10. Hire and Develop the Best** ⭐⭐⭐
+
+- "Tell me about a time you mentored someone"
+- "Describe your approach to building a high-performing team"
+
+**11. Insist on the Highest Standards** ⭐⭐⭐
+
+- "Tell me about a time you refused to compromise on quality"
+- "Describe a situation where you raised the bar"
+
+**12. Think Big** ⭐⭐⭐
+
+- "Tell me about a time you proposed a bold idea"
+- "Describe a situation where you thought beyond the immediate problem"
+
+**13. Frugality** ⭐⭐
+
+- "Tell me about a time you accomplished more with less"
+- "Describe a situation where you optimized costs"
+
+**14. Are Right, A Lot** ⭐⭐
+
+- "Tell me about a time you were wrong"
+- "Describe a difficult decision you made with limited data"
+
+**15. Strive to be Earth's Best Employer** ⭐⭐
+
+- "Tell me about a time you improved your team's work environment"
+- "How have you contributed to diversity and inclusion?"
+
+**16. Success and Scale Bring Broad Responsibility** ⭐⭐
+
+- "Tell me about a time you considered the broader impact of your work"
+- "How have you contributed to your community?"
+
+---
+
+### **The STAR Method: Your Response Framework**
+
+Amazon strongly recommends using the STAR method to structure all behavioral responses
+
+#### **STAR Breakdown**
+
+**S - Situation (15-20% of answer, 20-30 seconds)**
 
 - Set the context briefly
-- When and where did this happen?
-- What was the business context?
+- When and where?
+- What was the business situation?
+- Keep it concise!
 
-**T - Task (10-15% of time)**:
+**T - Task (10-15% of answer, 15-20 seconds)**
 
-- What was your responsibility?
+- What was YOUR responsibility?
 - What was the goal or challenge?
 - What were the stakes?
 
-**A - Action (50-60% of time)**: ⭐ **MOST IMPORTANT**
+**A - Action (50-60% of answer, 60-90 seconds)** ⭐ **MOST CRITICAL**
 
-- What specific steps did YOU take? (Use "I" not "we")
-- What decisions did you make?
+- What specific steps did YOU take? (Use "I" not "we"!)
+- What decisions did YOU make?
 - Why did you choose this approach?
 - What challenges did you face?
 - How did you involve others?
+- **Be specific and detailed here!**
 
-**R - Result (15-20% of time)**:
+**R - Result (15-20% of answer, 30-45 seconds)**
 
 - What was the outcome?
-- Quantify with metrics if possible (%, $, time saved)
+- **QUANTIFY:** Reduced latency by 40%, Saved $50K, Increased conversion by 15%
 - What did you learn?
 - What would you do differently?
+- Long-term impact?
 
-### **Pro Tips for Behavioral Answers**:
-
-- [ ] 1. **Quantify Everything**: "Reduced latency by 40%", "Saved 10 engineering hours/week"
-- [ ] 2. **Use "I" not "We"**: Show YOUR specific contributions
-- [ ] 3. **Be Self-Critical**: Amazon values learning from mistakes
-- [ ] 4. **Technical Depth**: For SDE2, include technical decisions and trade-offs
-- [ ] 5. **Connect to LPs**: Explicitly mention which LP your story demonstrates
-- [ ] 6. **Practice Out Loud**: Record yourself answering questions
-- [ ] 7. **2-Minute Rule**: Each story should be 1.5-2.5 minutes long
-
-### **Story Coverage Matrix**:
-
-- [ ] Create a spreadsheet mapping your stories to LPs
-- [ ] Aim for 3-4 strong stories that each cover multiple LPs
-- [ ] 2-3 backup stories per critical LP (Customer Obsession, Deliver Results, Bias for Action)
-- [ ] At least 1 story per LP
-- [ ] Include: technical projects, leadership moments, failures, conflicts, innovations
+**Total Answer Length:** 2-3 minutes
 
 ---
 
-## ⚡ Daily Routine Optimization
+### **STAR Method Best Practices**
 
-### **Peak Performance Schedule** (Week 1 Example)
+**✅ DO:**
 
-- [ ] **07:00-07:30**: Morning routine, light exercise, breakfast
-- [ ] **08:00-12:30**: Deep work block 1 (DSA problems) - 4.5 hours
-    - Pomodoro technique: 50 min focus / 10 min break
-    - No distractions (phone away, notifications off)
-    - Track time per problem
-- [ ] **12:30-13:30**: Lunch + light walk (mental reset)
-- [ ] **13:30-16:30**: Deep work block 2 (More DSA or LLD) - 3 hours
-    - Continue problem-solving
-    - Review and document patterns
-- [ ] **16:30-17:00**: Break + snack
-- [ ] **17:00-19:00**: Evening session (Leadership Principles, light review) - 2 hours
-    - Less cognitively demanding
-    - Behavioral prep
-    - Review notes
-- [ ] **19:00-20:00**: Dinner + relax
-- [ ] **20:00-21:00** (Optional): Light review, flashcards, or casual learning
-    - YouTube videos on system design
-    - Read articles
-    - Anki flashcards for patterns
+- Use "I" not "we" (show YOUR contribution)
+- Quantify results (%, $, time saved)
+- Show technical depth for SDE-2 role
+- Be honest about failures and learnings
+- Connect story to specific LP
+- Practice out loud (record yourself)
 
-### **Active Recall Techniques**
+**❌ DON'T:**
 
-- [ ] 1. **Spaced Repetition**:
-    - Review problems after 1 day, 3 days, 1 week
-    - Use Anki for pattern templates and concepts
-    - Mark problems for review in LeetCode
-- [ ] 2. **Feynman Technique**:
-    - Explain solution approach out loud as if teaching
-    - Identify gaps in understanding
-    - Document in simple terms
-- [ ] 3. **Pattern Templates**:
-    - Create a "cheat sheet" document
-    - One template per pattern with:
-        - Core concept
-        - Code template
-        - Common variations
-        - Edge cases
-- [ ] 4. **Mock Interview Recording**:
-    - Record yourself solving problems
-    - Watch playback to identify:
-        - Communication gaps
-        - Time management issues
-        - Nervous habits
+- Use generic "we decided" statements
+- Give vague results ("it went well")
+- Ramble beyond 3 minutes
+- Blame others for failures
+- Use the same story for multiple questions
+- Read from notes (practice until natural)
 
 ---
 
-## 🎯 Final Week Checklist (Week 3, Day 19-21)
+### **Story Development Strategy**
 
-### **Day 19: Full Mock Loop**
+#### **Create Your Story Bank (25-30 Stories Total)**
 
-- [ ] Complete 4-round mock interview
-- [ ] Get feedback on all rounds
-- [ ] Document weak areas
-- [ ] Create action plan for final 2 days
+**Distribution by Category:**
 
-### **Day 20: Final Sharpening**
+- 5-6 **Customer Impact** stories (Customer Obsession, Invent and Simplify)
+- 5-6 **Ownership/Leadership** stories (Ownership, Hire and Develop, Think Big)
+- 4-5 **Delivery Under Pressure** stories (Deliver Results, Bias for Action)
+- 3-4 **Learning/Failure** stories (Learn and Be Curious, Earn Trust)
+- 3-4 **Disagreement/Conflict** stories (Have Backbone, Earn Trust)
+- 3-4 **Technical Depth** stories (Dive Deep, Insist on Highest Standards)
 
-- [ ] Revisit 10 hardest DSA problems
-- [ ] Review all LLD designs
-- [ ] Review all HLD systems
+**Story Matrix:** Map each story to 2-3 LPs
+
+- Your best stories should cover multiple principles
+- Example: A story about optimizing a customer-facing feature could cover:
+    - Customer Obsession (prioritizing customer needs)
+    - Dive Deep (analyzing performance bottlenecks)
+    - Deliver Results (shipped on time with impact)
+
+#### **Story Quality Checklist**
+
+For EACH story, ensure:
+
+- [ ] Clear situation setup (<30 seconds)
+- [ ] YOUR specific role and actions (not team's)
+- [ ] Quantifiable results (metrics!)
+- [ ] Technical details (for SDE stories)
+- [ ] Learning or reflection
+- [ ] Positive outcome or growth from failure
+- [ ] Story length: 2-3 minutes when told out loud
+- [ ] Maps to 2-3 Leadership Principles
+
+---
+
+### **Amazon-Specific Behavioral Tips**
+
+**1. They Will Dig Deep**
+
+- Expect 2-3 follow-up questions per story
+- "Tell me more about that decision"
+- "Why did you choose that approach?"
+- "What alternatives did you consider?"
+- **Be ready to dive into details!**
+
+**2. Technical + Behavioral Integration**
+
+- For SDE-2, behavioral questions often have technical context
+- "Tell me about a time you improved system performance"
+- "Describe a time you debugged a production issue"
+- **Weave in technical depth!**
+
+**3. Failure Stories are Expected**
+
+- Amazon values learning from mistakes
+- Have 2-3 failure stories ready
+- Focus on what you learned and how you grew
+- Show self-awareness and growth mindset
+
+**4. Amazon-Specific Language**
+
+- Use their terms: "customer obsession", "bias for action", "two-way doors"
+- Reference their culture positively
+- Show you've researched Amazon's business
+
+**5. The "So What?" Test**
+
+- Every story should answer: "So what? Why does this matter?"
+- Impact should be clear and measurable
+- Connect to business value
+
+---
+
+### **Sample STAR Story (Full Example)**
+
+**Question:** "Tell me about a time you disagreed with your manager" _(Testing: Have Backbone; Disagree and Commit)_
+
+**Full STAR Answer:**
+
+**S (Situation - 25 seconds):** "At my previous company, we were developing a new microservices architecture. My manager wanted to migrate all 50 services within 3 months to meet a board deadline. I was the tech lead for the platform team."
+
+**T (Task - 15 seconds):** "I was responsible for the migration strategy and timeline. The challenge was balancing speed with system stability and team burnout risk."
+
+**A (Action - 90 seconds):** "I disagreed with the aggressive timeline for three reasons: First, our monitoring infrastructure wasn't ready for distributed tracing. Second, we lacked automated rollback procedures. Third, the team had already worked 3 consecutive weekends.
+
+I prepared data to support my position:
+
+- I analyzed our previous migrations and found they took 40% longer than estimated on average
+- I projected that rushing would lead to 3-4 production incidents based on our incident history
+- I calculated that adding 2 months would reduce risk by 60% and avoid team burnout
+
+I scheduled a 1-on-1 with my manager and presented these findings. I proposed an alternative: migrate 20 critical services in 3 months with full observability, then the remaining 30 over the next quarter. I offered to personally own the monitoring infrastructure buildout and work with the product team to adjust the board presentation.
+
+He initially pushed back, but I stood firm and requested we present both options to the VP of Engineering. In that meeting, I advocated for my approach while acknowledging his concerns about board pressure."
+
+**R (Result - 35 seconds):** "The VP agreed with my phased approach. We successfully migrated the critical 20 services in 3 months with zero production incidents. The full migration completed 4.5 months from start—only 1.5 months longer than the original aggressive plan, but with 100% uptime. Team satisfaction scores improved by 25% compared to the previous quarter. My manager later thanked me for pushing back, as the original plan would have likely failed. After this, he made me the decision-maker for all migration timelines."
+
+**Total Time:** ~2:45 minutes
+
+**Why This is a Strong Answer:**
+
+- Uses "I" throughout showing personal contribution
+- Specific numbers (50 services, 3 months, 40%, 60%, etc.)
+- Shows respect while disagreeing
+- Data-driven approach
+- Win-win outcome
+- Demonstrates leadership at SDE-2 level
+- Maps to multiple LPs (Have Backbone, Dive Deep, Earn Trust, Hire and Develop the Best)
+
+---
+
+### **30-Day Story Development Plan** (Do this NOW!)
+
+**Week 1 (Before intensive prep):**
+
+- Day 1-2: Brainstorm 40-50 work experiences
+- Day 3-4: Select best 25-30, draft bullet points
+- Day 5-7: Write out 10 core stories in full STAR format
+
+**Week 2 (During DSA focus):**
+
+- Day 8-14: Write remaining 15-20 stories
+- Practice 3 stories out loud daily (18-20 min)
+
+**Week 3 (During design focus):**
+
+- Day 15-21: Refine all stories, practice delivery
+- Record yourself, improve timing and clarity
+- Create story-to-LP mapping matrix
+
+**Final Week:**
+
+- Practice with friends/mock interviews
+- Get feedback on delivery and content
+- Can you tell each story naturally without notes?
+
+---
+
+## 🧠 ADDITIONAL RESOURCES
+
+### **Essential Platforms**
+
+**DSA Practice:**
+
+1. **LeetCode Premium** ⭐⭐⭐⭐⭐ (MUST HAVE)
+    
+    - Amazon-tagged problems with frequency
+    - Company-specific discussions
+    - Cost: $35/month (worth it for 1 month during prep)
+2. **NeetCode.io** (FREE)
+    
+    - Pattern-based organization
+    - Video explanations
+    - Blind 75 + NeetCode 150
+3. **AlgoExpert** (Optional, $99)
+    
+    - 160+ curated problems
+    - Video explanations for every problem
+
+**System Design:**
+
+1. **ByteByteGo** ⭐⭐⭐⭐⭐ ($39 lifetime)
+    
+    - Best visual explanations
+    - Created by Alex Xu (System Design Interview author)
+2. **System Design Primer** (GitHub - FREE)
+    
+    - Comprehensive written guide
+    - Covers all fundamentals
+3. **Educative.io**
+    
+    - "Grokking the System Design Interview"
+    - "Grokking the Object Oriented Design Interview"
+
+**Mock Interviews:**
+
+1. **Interviewing.io** ⭐⭐⭐⭐⭐ (Most realistic)
+    
+    - Anonymous interviews with real engineers
+    - Detailed feedback
+    - Cost: $125-200/interview
+2. **Pramp** (FREE)
+    
+    - Peer-to-peer practice
+    - Good for volume
+    - Less intimidating than real interviews
+3. **LeetCode Mock Interviews** (Included with Premium)
+    
+    - Good for DSA practice
+    - Timed environment
+
+---
+
+### **Books (Priority Order)**
+
+**System Design:**
+
+1. ⭐⭐⭐⭐⭐ **"System Design Interview Vol 1 & 2"** - Alex Xu
+    - MUST READ before HLD interviews
+    - Clear diagrams, real examples
+2. **"Designing Data-Intensive Applications"** - Martin Kleppmann
+    - Deep technical details
+    - Read Chapters 1-3 for fundamentals
+
+**Behavioral:** 3. **"The Amazon Way"** - John Rossman
+
+- Understanding Amazon's culture
+
+---
+
+### **YouTube Channels**
+
+**System Design:**
+
+- **Gaurav Sen** (Best for beginners)
+- **System Design Interview** (Detailed walkthroughs)
+- **Tech Dummies Narendra L** (Good examples)
+- **ByteByteGo** (Short, visual)
+
+**DSA:**
+
+- **NeetCode** (Pattern-based solutions)
+- **Back To Back SWE** (In-depth explanations)
+- **Errichto** (Advanced algorithms)
+
+---
+
+### **Amazon-Specific Resources**
+
+1. **Amazon Leadership Principles** (Official)
+    
+    - https://www.amazon.jobs/en/principles
+    - READ THIS THOROUGHLY
+2. **Amazon Day One Blog**
+    
+    - Insights into Amazon's culture
+3. **LeetCode Discuss - Amazon Tag**
+    
+    - Recent interview experiences
+    - Real questions asked
+4. **Blind / TeamBlind Forums**
+    
+    - Salary discussions
+    - Interview experiences
+    - Offer negotiations
+
+---
+
+## 📊 REVISION STRATEGY: FINAL 3 DAYS
+
+### **Day -3 (3 Days Before Interview)**
+
+**Morning (3 hours):**
+
+- [ ] Solve 5 medium problems (speed practice)
+- [ ] Focus on: Trees, Arrays, Graphs (your strongest patterns)
+
+**Afternoon (3 hours):**
+
+- [ ] Review pattern cheat sheet (all templates)
+- [ ] Quick review of 3 HLD designs (whiteboard practice)
+- [ ] Review 2 LLD designs (explain out loud)
+
+**Evening (2 hours):**
+
 - [ ] Practice 10 LP questions out loud
-- [ ] Final mock DSA round (1 hour)
+- [ ] Record yourself, check timing (2-3 min each)
+- [ ] Review STAR format
 
-### **Day 21: Rest & Mental Prep**
+**Do NOT:**
 
-- [ ] Light review only (2-3 hours max)
-- [ ] Review pattern cheat sheet
-- [ ] Review LP stories
-- [ ] Prepare logistics (clothes, tech setup for virtual interview)
-- [ ] Relaxation: exercise, meditation, early sleep
-- [ ] Confidence building: review your achievements
+- Learn new topics
+- Attempt very hard problems you haven't seen
 
 ---
 
-## 🚀 Success Mantras
+### **Day -2 (2 Days Before Interview)**
 
-1. **Process Over Outcome**: Focus on quality preparation, not anxiety about results
-2. **Progress Over Perfection**: 30 hard problems well-understood > 100 rushed problems
-3. **Active Over Passive**: Coding > Reading, Mocks > Tutorials
-4. **Consistency Over Intensity**: Sustainable 8 hours > burnout 12 hours
-5. **Recovery is Training**: Rest days make you sharper
+**Morning (2 hours):**
 
----
+- [ ] Light DSA review (3-4 medium problems)
+- [ ] Revisit Amazon's top 5 problems
 
-## 🔥 Amazon-Specific Interview Tips
+**Afternoon (3 hours):**
 
-### **For DSA Rounds**:
+- [ ] Full mock interview (DSA + Design + Behavioral)
+- [ ] Get feedback, make final adjustments
 
-- [ ] Always discuss approach before coding
-- [ ] Consider multiple approaches (brute force → optimized)
-- [ ] Analyze time/space complexity thoroughly
-- [ ] Test with edge cases
-- [ ] Ask clarifying questions upfront
-- [ ] Think out loud constantly
+**Evening (2 hours):**
 
-### **For LLD Rounds**:
+- [ ] Prepare logistics:
+    - [ ] Test webcam, microphone, internet
+    - [ ] Set up interview environment (quiet room)
+    - [ ] Prepare whiteboard/pen/paper for diagrams
+    - [ ] Layout clothes for tomorrow
+    - [ ] Charge laptop fully
 
-- [ ] Start with requirements gathering
-- [ ] Identify core entities and relationships
-- [ ] Discuss design patterns explicitly
-- [ ] Consider extensibility
-- [ ] Write clean, production-quality code (not just sketches)
-- [ ] Discuss trade-offs
+**Mental Prep:**
 
-### **For HLD Rounds**:
-
-- [ ] Clarify requirements (scale, users, features)
-- [ ] Start with high-level components
-- [ ] Deep dive into 2-3 components
-- [ ] Discuss bottlenecks and solutions
-- [ ] Consider failure scenarios
-- [ ] Estimate capacity and scale
-
-### **For Behavioral Rounds**:
-
-- [ ] Be authentic and specific
-- [ ] Show impact with metrics
-- [ ] Demonstrate learning from failures
-- [ ] Connect experiences to Amazon's business
-- [ ] Ask thoughtful questions about the team
-- [ ] Show enthusiasm for the role and Amazon
+- [ ] Review your achievements from 2.5 weeks
+- [ ] Positive self-talk
+- [ ] Visualize success
 
 ---
 
-## 🎊 You've Got This!
+### **Day -1 (Day Before Interview)**
 
-This plan is aggressive but achievable. Remember:
+**Morning (2 hours):**
 
-- You already have strong fundamentals
-- The goal is structured revision, not learning from scratch
-- Quality conversations in interviews > memorized answers
-- Amazon wants problem solvers who can learn and grow
+- [ ] Extremely light review:
+    - [ ] Skim pattern cheat sheet
+    - [ ] Quick glance at LP stories
+    - [ ] Review SOLID principles
 
-**Stay focused, stay consistent, and trust the process. Good luck! 🚀**
+**Afternoon:**
 
----
+- [ ] **STOP STUDYING** after 12:00 PM
+- [ ] Light exercise (walk, yoga, gym)
+- [ ] Healthy lunch
+- [ ] Relaxation activity
 
-## 📊 Progress Tracker
+**Evening:**
 
-### **Week 1 Progress**:
+- [ ] Light dinner (avoid heavy foods)
+- [ ] Watch something entertaining (not interview content!)
+- [ ] Review your "why Amazon" motivation
+- [ ] Pack everything you need for tomorrow
+- [ ] **Sleep by 22:00** (aim for 8+ hours)
 
-- [ ] Day 1 Completed
-- [ ] Day 2 Completed
-- [ ] Day 3 Completed (Mock OA #1)
-- [ ] Day 4 Completed
-- [ ] Day 5 Completed
-- [ ] Day 6 Completed
-- [ ] Day 7 Completed (Mock OA #2)
+**AVOID:**
 
-### **Week 2 Progress**:
-
-- [ ] Day 8 Completed
-- [ ] Day 9 Completed
-- [ ] Day 10 Completed (LLD Mock)
-- [ ] Day 11 Completed
-- [ ] Day 12 Completed (DSA Mock)
-- [ ] Day 13 Completed
-- [ ] Day 14 Completed (Week Review)
-
-### **Week 3 Progress**:
-
-- [ ] Day 15 Completed
-- [ ] Day 16 Completed (HLD Mock)
-- [ ] Day 17 Completed (DSA Mock)
-- [ ] Day 18 Completed
-- [ ] Day 19 Completed (Full Mock Loop)
-- [ ] Day 20 Completed (Final Sharpening)
-- [ ] Day 21 Completed (Rest Day)
+- Learning anything new
+- Cramming late night
+- Caffeine after 18:00
+- Stressful activities
+- Negative self-talk
 
 ---
 
-_Last Updated: Enhanced version with checkboxes and additional problems_
-_Best suited for: SDE2 candidates with 2-5 YOE and strong fundamentals_
-_Estimated prep time: 200-240 hours over 3 weeks_
-_Total DSA Problems: 100+ with LeetCode links_
+### **Day 0 (Interview Day)**
+
+**Morning Routine:**
+
+- [ ] Wake up 2 hours before interview
+- [ ] Healthy breakfast (avoid too much coffee)
+- [ ] Light stretching
+- [ ] Review LP stories ONCE (10 min max)
+- [ ] Arrive 15 minutes early / Join 10 min early for virtual
+
+**During Interview:**
+
+- [ ] Think out loud
+- [ ] Ask clarifying questions
+- [ ] Manage time well
+- [ ] Stay positive even if struggling
+- [ ] Show enthusiasm
+
+**Remember:**
+
+- Interviewers want you to succeed
+- It's okay to not know something—show your thought process
+- Communication is key
+- Be yourself, be authentic
+
+---
+
+## 🎯 SUCCESS MANTRAS
+
+### **Mindset for 2.5 Weeks**
+
+1. **Process Over Outcome**
+    
+    - Focus on quality preparation, not anxiety about results
+    - Every problem solved is growth
+    - Every mock interview is valuable feedback
+2. **Progress Over Perfection**
+    
+    - 60 well-understood problems > 100 rushed problems
+    - 5 deep system designs > 20 superficial ones
+    - It's okay to struggle—that's where learning happens
+3. **Active Over Passive**
+    
+    - Coding > Reading solutions
+    - Mock interviews > Tutorial videos
+    - Explaining > Memorizing
+4. **Consistency Over Intensity**
+    
+    - Sustainable 8 hours/day > burnout 12 hours/day
+    - Sleep 7-8 hours (non-negotiable)
+    - Take breaks (Pomodoro technique)
+5. **Recovery IS Training**
+    
+    - Rest days make you sharper
+    - Physical exercise enhances cognitive performance
+    - Mental health = interview performance
+
+---
+
+### **Combat Interview Anxiety**
+
+**Before Interview:**
+
+- Deep breathing exercises (4-7-8 technique)
+- Visualization of success
+- Review your wins from preparation
+- Remember: You've prepared incredibly well
+
+**During Interview:**
+
+- Pause before answering (it's okay!)
+- If stuck, think out loud
+- Ask for hints (not a weakness)
+- One question at a time
+- Reset mentally between rounds
+
+**Perspective:**
+
+- This is ONE interview at ONE company
+- You've survived hard things before
+- The worst outcome is feedback for next time
+- Amazon is actively looking for good candidates—they WANT to hire you
+
+---
+
+## 🔥 AMAZON INTERVIEW DAY TIPS
+
+### **Technical Rounds (DSA)**
+
+**✅ Do:**
+
+- Restate the problem in your own words
+- Ask clarifying questions (input size? edge cases?)
+- Discuss multiple approaches (brute force → optimal)
+- Think out loud continuously
+- Write clean, readable code
+- Test your code with examples
+- Analyze time and space complexity
+- Handle edge cases
+
+**❌ Don't:**
+
+- Jump to coding immediately
+- Stay silent while thinking
+- Write messy, unreadable code
+- Ignore edge cases
+- Argue with interviewer feedback
+- Give up if stuck
+
+---
+
+### **System Design Rounds**
+
+**✅ Do:**
+
+- Start with requirements clarification
+- Drive the conversation (be the architect)
+- Draw diagrams (very important!)
+- Discuss trade-offs explicitly
+- Justify every technology choice
+- Go deep on 2-3 components
+- Consider failure scenarios
+- Think about scalability from the start
+
+**❌ Don't:**
+
+- Jump to architecture immediately
+- Use buzzwords without understanding
+- Stay too high-level
+- Ignore constraints
+- Design for infinite scale (be realistic)
+- Forget about monitoring/observability
+
+---
+
+### **Behavioral Rounds**
+
+**✅ Do:**
+
+- Use STAR format religiously
+- Speak confidently with "I" not "we"
+- Quantify results
+- Show self-awareness about failures
+- Connect to specific Leadership Principle
+- Ask thoughtful questions about team
+- Show enthusiasm for Amazon
+
+**❌ Don't:**
+
+- Give vague, generic answers
+- Blame others for failures
+- Ramble beyond 3 minutes
+- Use same story twice
+- Badmouth previous employers
+- Ask about perks only
+
+---
+
+## 🚨 FINAL CHECKLIST: ARE YOU READY?
+
+### **DSA Readiness**
+
+- [ ] Solved 60+ Medium-Hard problems
+- [ ] Can explain approach before coding
+- [ ] Can analyze time/space complexity
+- [ ] Comfortable with: Trees, Graphs, DP, Arrays, Strings
+- [ ] Have pattern template cheat sheet
+
+### **System Design Readiness**
+
+- [ ] Designed 5+ LLD systems with code
+- [ ] Designed 5+ HLD systems with diagrams
+- [ ] Can discuss trade-offs confidently
+- [ ] Understand: Caching, Load Balancing, Sharding, CAP
+- [ ] Have system design framework template
+
+### **Behavioral Readiness**
+
+- [ ] Have 25+ STAR stories written
+- [ ] Can tell each story in 2-3 minutes
+- [ ] Stories cover all 16 Leadership Principles
+- [ ] Have quantifiable results in every story
+- [ ] Practiced out loud multiple times
+
+### **Logistics**
+
+- [ ] Interview time confirmed
+- [ ] Tech setup tested (video, audio, internet)
+- [ ] Quiet environment prepared
+- [ ] Whiteboard/paper ready
+- [ ] Clothes laid out
+- [ ] Rested and ready
+
+---
+
+## 🎊 YOU'VE GOT THIS!
+
+You're about to embark on an intense but incredibly rewarding 2.5-week journey. Remember:
+
+✨ **You've already cleared the OA** - that's a significant filter  
+✨ **This plan is battle-tested** with real 2024-2025 Amazon interview data  
+✨ **Every hour of preparation compounds**  
+✨ **Amazon is actively looking for great engineers like you**
+
+### **The Path Forward**
+
+**Week 1:** Build your foundation with hard DSA problems. It will feel challenging—that's growth.
+
+**Week 2:** Integrate system design while maintaining DSA sharpness. Your pattern recognition will strengthen.
+
+**Week 3:** Everything comes together. You'll feel confident in DSA, articulate in design discussions, and authentic in behavioral stories.
+
+**Interview Day:** You'll walk in (virtually or physically) knowing you've prepared more thoroughly than 95% of candidates.
+
+---
+
+### **Final Words of Wisdom**
+
+Amazon's interview process is rigorous because they're building teams to handle planet-scale challenges. They're looking for engineers who:
+
+- Solve problems efficiently (DSA)
+- Design scalable systems (System Design)
+- Embody their culture (Leadership Principles)
+
+**You have 2.5 weeks to show them YOU are that engineer.**
+
+Stay focused.  
+Stay consistent.  
+Trust the process.
+
+**You've got this! 🚀**
+
+---
+
+## 📈 TRACK YOUR PROGRESS
+
+Use this checklist to stay accountable:
+
+**Week 1:**
+
+- [ ] Day 1 Complete (5 problems + 3 LP stories)
+- [ ] Day 2 Complete
+- [ ] Day 3 Complete
+- [ ] Day 4 Complete
+- [ ] Day 5 Complete
+- [ ] Day 6 Complete
+
+**Week 2:**
+
+- [ ] Day 7 Complete (2 problems + LRU Cache LLD)
+- [ ] Day 8 Complete
+- [ ] Day 9 Complete
+- [ ] Day 10 Complete (Mock Interview)
+- [ ] Day 11 Complete
+- [ ] Day 12 Complete
+
+**Week 3:**
+
+- [ ] Day 13 Complete (URL Shortener HLD)
+- [ ] Day 14 Complete (Mock Interview)
+- [ ] Day 15 Complete
+- [ ] Day 16 Complete
+- [ ] Day 17 Complete (Full Mock Loop)
+
+**Milestones:**
+
+- [ ] 60+ DSA Problems Solved
+- [ ] 5 LLD Systems Designed with Code
+- [ ] 5 HLD Systems Designed
+- [ ] 25+ STAR Stories Written
+- [ ] 6+ Mock Interviews Completed
+- [ ] Pattern Cheat Sheet Created
+- [ ] System Design Template Created
+
+---
+
+**Preparation Timeline:** 2.5 Weeks (17 Days)  
+**Total Study Hours:** ~135-145 hours  
+**Focus Distribution:** 40% DSA, 35% System Design, 25% Behavioral  
+**Success Rate:** High (with disciplined execution)
+
+**Remember:** Amazon wants to hire you. They invested resources in bringing you to the onsite. Show them what you've got! 💪
+
+---
+
+_"Work hard, have fun, make history." - Jeff Bezos_
+
+**Now go ace that interview! 🎯**
+
+---
+
+## 📚 QUICK REFERENCE: EMERGENCY CHEAT SHEETS
+
+### **DSA Pattern Recognition**
+
+**"I've seen this before..."**
+
+|**If the problem involves...**|**Consider using...**|
+|---|---|
+|Subarray with conditions|Sliding Window|
+|Optimal substructure|Dynamic Programming|
+|Finding cycles|DFS with visited set|
+|Shortest path (unweighted)|BFS|
+|Shortest path (weighted)|Dijkstra's Algorithm|
+|Connected components|Union-Find or DFS/BFS|
+|Sorted array search|Binary Search|
+|K largest/smallest elements|Heap/Priority Queue|
+|Parentheses matching|Stack|
+|Recent items cache|HashMap + Doubly Linked List|
+|Interval overlaps|Sort + Merge|
+|All permutations/combinations|Backtracking|
+|Tree paths|DFS (Recursion)|
+|Level-by-level processing|BFS (Queue)|
+
+---
+
+### **System Design Template**
+
+**Step 1: Requirements (5 min)**
+
+```
+Functional: What features?
+Non-Functional: Scale? Latency? Availability?
+```
+
+**Step 2: Capacity (5 min)**
+
+```
+Users: ___ DAU
+QPS: ___ requests/day ÷ 86400 = ___ QPS (peak = 3x)
+Storage: ___ GB/day × ___ days = ___ TB
+Bandwidth: ___ MB/sec
+```
+
+**Step 3: API (5 min)**
+
+```
+POST /api/v1/resource
+GET /api/v1/resource/{id}
+```
+
+**Step 4: High-Level (10 min)**
+
+```
+[Client] → [LB] → [App Servers] → [Cache] → [DB]
+          ↓
+       [Queue] → [Workers]
+```
+
+**Step 5: Deep Dive (15 min)**
+
+- Pick 2-3 components
+- Discuss: Algorithms, Data structures, Trade-offs
+
+**Step 6: Scale (5 min)**
+
+- Bottlenecks?
+- How to scale each component?
+
+---
+
+### **STAR Method Template**
+
+**S (20-30 sec):** "At [company], [situation context]"
+
+**T (15-20 sec):** "I was responsible for [specific responsibility]. The challenge was [challenge]"
+
+**A (60-90 sec):** "I took the following steps:
+
+1. [Action 1]
+2. [Action 2]
+3. [Action 3] I chose this approach because [reasoning]"
+
+**R (30-45 sec):** "As a result, [quantified outcome]. We achieved [metric]. I learned [learning]"
+
+---
+
+**Good luck with your Amazon SDE-2 interview! You're prepared. Now go execute! 🚀**

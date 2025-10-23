@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "title": "Amazon Revision Prep"
             }
           }
         ]
@@ -94,16 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Amazon Revision Prep"
             }
           },
           {
@@ -140,10 +141,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "faa0e832c28487e2",
   "lastOpenFiles": [
-    "Personal Projects/Shiv A.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+    "Personal Projects/Shiv A.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "Mahir' Notes/Company-Wise",
