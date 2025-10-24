@@ -96,7 +96,7 @@
               "state": {
                 "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,7 +140,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "faa0e832c28487e2",
+  "active": "cdd636ed83bc21b9",
   "lastOpenFiles": [
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Personal Projects/Shiv A.md",
