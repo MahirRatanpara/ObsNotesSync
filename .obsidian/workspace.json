@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "Merge Intervals Pattern"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for Merge Intervals Pattern"
             }
           },
           {
@@ -143,9 +143,10 @@
   },
   "active": "faa0e832c28487e2",
   "lastOpenFiles": [
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+    "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Personal Projects/Shiv A.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "Mahir' Notes/Company-Wise",
     "Mahir' Notes/Job Search/Automation/3. Output Spec.md",
