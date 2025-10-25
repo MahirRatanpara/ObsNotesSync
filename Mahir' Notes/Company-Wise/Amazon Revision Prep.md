@@ -74,13 +74,13 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [ ] 08:00-08:30: Review fundamental data structures
 - [x] 08:30-10:00: **[LC 297 - Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)** (Hard)
 - [x] 10:00-11:00: **[LC 56 - Merge Intervals](https://leetcode.com/problems/merge-intervals/)** (Medium)
-- [ ] 11:00-12:00: **[LC 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** (Hard)
-- [ ] 12:00-12:30: **[LC 20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** (Easy)
+- [x] 11:00-12:00: **[LC 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** (Hard)
+- [x] 12:00-12:30: **[LC 20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
-- [ ] 13:30-15:00: **[LC 127 - Word Ladder](https://leetcode.com/problems/word-ladder/)** (Hard)
-- [ ] 15:00-16:00: **[LC 3 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** (Medium)
+- [x] 13:30-15:00: **[LC 127 - Word Ladder](https://leetcode.com/problems/word-ladder/)** (Hard)
+- [x] 15:00-16:00: **[LC 3 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** (Medium)
 - [ ] 16:00-17:00: **[LC 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)** (Medium)
 
 **Evening Block (2 hours):**
