@@ -72,8 +72,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 **Morning Block (4.5 hours):**
 
 - [ ] 08:00-08:30: Review fundamental data structures
-- [ ] 08:30-10:00: **[LC 297 - Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)** (Hard)
-- [ ] 10:00-11:00: **[LC 56 - Merge Intervals](https://leetcode.com/problems/merge-intervals/)** (Medium)
+- [x] 08:30-10:00: **[LC 297 - Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)** (Hard)
+- [x] 10:00-11:00: **[LC 56 - Merge Intervals](https://leetcode.com/problems/merge-intervals/)** (Medium)
 - [ ] 11:00-12:00: **[LC 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** (Hard)
 - [ ] 12:00-12:30: **[LC 20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** (Easy)
 
