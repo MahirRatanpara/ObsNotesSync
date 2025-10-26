@@ -85,7 +85,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 **Evening Block (2 hours):**
 
-- [ ] 17:00-18:00: Study Amazon's 16 Leadership Principles deeply
+- [x] 17:00-18:00: Study Amazon's 16 Leadership Principles deeply
 - [ ] 18:00-19:00: Draft 3 STAR stories: Customer Obsession, Ownership, Deliver Results
 
 **Daily Target:** ✅ 7 Problems (3 Hard + 3 Medium + 1 Easy) + 3 STAR Stories
@@ -98,8 +98,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 **Morning Block (4.5 hours):**
 
-- [ ] 08:00-08:30: Review problem-solving fundamentals
-- [ ] 08:30-10:00: **[LC 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)** (Hard)
+- [x] 08:00-08:30: Review problem-solving fundamentals
+- [x] 08:30-10:00: **[LC 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)** (Hard)
 - [ ] 10:00-11:00: **[LC 146 - LRU Cache](https://leetcode.com/problems/lru-cache/)** (Medium)
 - [ ] 11:00-12:00: **[LC 200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)** (Medium)
 - [ ] 12:00-12:30: **[LC 121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)** (Easy)
