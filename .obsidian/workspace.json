@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "STOCK"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stocks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for STOCK"
             }
           },
           {
@@ -155,10 +155,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8749d9842d52d7fe",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+    "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/DSA/Topics/QuickSelect.md",
     "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
     "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
