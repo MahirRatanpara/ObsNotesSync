@@ -81,7 +81,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 - [x] 13:30-15:00: **[LC 127 - Word Ladder](https://leetcode.com/problems/word-ladder/)** (Hard)
 - [x] 15:00-16:00: **[LC 3 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** (Medium)
-- [ ] 16:00-17:00: **[LC 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)** (Medium)
+- [x] 16:00-17:00: **[LC 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)** (Medium)
 
 **Evening Block (2 hours):**
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/QuickSelect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "QuickSelect"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/QuickSelect.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for QuickSelect"
             }
           },
           {
@@ -143,8 +143,9 @@
   },
   "active": "6ca63ac3ff4923bb",
   "lastOpenFiles": [
-    "Mahir' Notes/Company-Wise/AirBnB.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+    "Mahir' Notes/DSA/Topics/QuickSelect.md",
+    "Mahir' Notes/Company-Wise/AirBnB.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
     "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
