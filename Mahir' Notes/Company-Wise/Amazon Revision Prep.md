@@ -107,8 +107,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 **Afternoon Block (3.5 hours):**
 
 - [x] 13:30-15:00: **[LC 76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)** (Hard)
-- [ ] 15:00-16:00: **[LC 236 - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)** (Medium)
-- [ ] 16:00-17:00: **[LC 48 - Rotate Image](https://leetcode.com/problems/rotate-image/)** (Medium)
+- [x] 15:00-16:00: **[LC 236 - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)** (Medium)
+- [x] 16:00-17:00: **[LC 48 - Rotate Image](https://leetcode.com/problems/rotate-image/)** (Medium)
 
 **Evening Block (2 hours):**
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Pattern Recognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "Pattern Recognition"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Pattern Recognition.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for Pattern Recognition"
             }
           },
           {
@@ -143,10 +143,10 @@
   },
   "active": "d9eb63f0b18c490a",
   "lastOpenFiles": [
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/Stock Span Problem.md",
     "Mahir' Notes/DSA/Topics/QuickSelect.md",
