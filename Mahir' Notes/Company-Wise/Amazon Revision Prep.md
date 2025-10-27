@@ -132,7 +132,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 **Afternoon Block (3.5 hours):**
 
-- [ ] 13:30-15:00: **[LC 269 - Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** (Hard)
+- [x] 13:30-15:00: **[LC 269 - Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)** (Hard)
 - [x] 15:00-16:00: **[LC 973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)** (Medium)
 - [x] 16:00-17:00: **[LC 322 - Coin Change](https://leetcode.com/problems/coin-change/)** (Medium)
 
