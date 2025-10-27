@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Job Search/Referral Ask.md",
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Referral Ask"
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Job Search/Referral Ask.md",
+                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Referral Ask"
+              "title": "Backlinks for Coding_Interview_Patterns_Checklist"
             }
           },
           {
@@ -143,8 +143,9 @@
   },
   "active": "5bc3dd5c224c98e2",
   "lastOpenFiles": [
-    "Mahir' Notes/Job Search/Cold Message.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+    "Mahir' Notes/Job Search/Referral Ask.md",
+    "Mahir' Notes/Job Search/Cold Message.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
@@ -170,7 +171,6 @@
     "Mahir' Notes/Job Search/Automation/1. Resume Spec.md",
     "Mahir' Notes/Job Search/Automation/0. Prompt.md",
     "Mahir' Notes/Job Search/Automation",
-    "Mahir' Notes/Util/Switch Prep Research Prompt.md",
     "AI"
   ]
 }
