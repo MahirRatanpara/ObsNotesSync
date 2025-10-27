@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ee3e1168972a19ba",
+        "id": "8d05daf29a1630a7",
         "type": "tabs",
         "children": [
           {
-            "id": "5ced84f104e3106c",
+            "id": "d9eb63f0b18c490a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Buy Sell Stocks"
+              "title": "Amazon Revision Prep"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Buy Sell Stocks"
+              "title": "Backlinks for Amazon Revision Prep"
             }
           },
           {
@@ -141,10 +141,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "5ced84f104e3106c",
+  "active": "d9eb63f0b18c490a",
   "lastOpenFiles": [
-    "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
+    "Mahir' Notes/DSA/Pattern Recognition.md",
+    "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/Stock Span Problem.md",
@@ -170,7 +171,6 @@
     "Mahir' Notes/Job Search/Automation",
     "Mahir' Notes/Util/Switch Prep Research Prompt.md",
     "Mahir' Notes/Util/Hand Written notes to obsidian.md",
-    "Mahir' Notes/HLD/Design Questions/Design Deepdives/Book My Show.md",
     "AI"
   ]
 }

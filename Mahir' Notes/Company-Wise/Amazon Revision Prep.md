@@ -102,11 +102,11 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [x] 08:30-10:00: **[LC 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)** (Hard)
 - [x] 10:00-11:00: **[LC 146 - LRU Cache](https://leetcode.com/problems/lru-cache/)** (Medium)
 - [x] 11:00-12:00: **[LC 200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)** (Medium)
-- [ ] 12:00-12:30: **[LC 121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)** (Easy)
+- [x] 12:00-12:30: **[LC 121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
-- [ ] 13:30-15:00: **[LC 76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)** (Hard)
+- [x] 13:30-15:00: **[LC 76 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)** (Hard)
 - [ ] 15:00-16:00: **[LC 236 - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)** (Medium)
 - [ ] 16:00-17:00: **[LC 48 - Rotate Image](https://leetcode.com/problems/rotate-image/)** (Medium)
 
