@@ -127,8 +127,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [ ] 08:00-08:30: Review core algorithms
 - [ ] 08:30-10:00: **[LC 4 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)** (Hard)
 - [ ] 10:00-11:00: **[LC 78 - Subsets](https://leetcode.com/problems/subsets/)** (Medium)
-- [ ] 11:00-12:00: **[LC 124 - Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)** (Hard)
-- [ ] 12:00-12:30: **[LC 206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** (Easy)
+- [x] 11:00-12:00: **[LC 124 - Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)** (Hard)
+- [x] 12:00-12:30: **[LC 206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
