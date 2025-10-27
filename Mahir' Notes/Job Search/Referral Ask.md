@@ -8,5 +8,4 @@ I’ve attached my updated resume for your reference. If you feel comfortable, I
 Thank you so much for your time and support!
 
 Warm regards,  
-[Your Full Name]  
-[Your Contact Information]\
+ Mahir Ratanpara

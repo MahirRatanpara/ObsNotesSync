@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/Job Search/Referral Ask.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "Referral Ask"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/Job Search/Referral Ask.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for Referral Ask"
             }
           },
           {
@@ -143,9 +143,10 @@
   },
   "active": "5bc3dd5c224c98e2",
   "lastOpenFiles": [
+    "Mahir' Notes/Job Search/Cold Message.md",
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
     "Mahir' Notes/Company-Wise/Amazon interview.md",
@@ -170,7 +171,6 @@
     "Mahir' Notes/Job Search/Automation/0. Prompt.md",
     "Mahir' Notes/Job Search/Automation",
     "Mahir' Notes/Util/Switch Prep Research Prompt.md",
-    "Mahir' Notes/Util/Hand Written notes to obsidian.md",
     "AI"
   ]
 }
