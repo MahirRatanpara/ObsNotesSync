@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding_Interview_Patterns_Checklist"
+              "title": "Amazon Revision Prep"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
+                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Coding_Interview_Patterns_Checklist"
+              "title": "Backlinks for Amazon Revision Prep"
             }
           },
           {
@@ -143,14 +143,15 @@
   },
   "active": "5bc3dd5c224c98e2",
   "lastOpenFiles": [
+    "Mahir' Notes/Company-Wise/Amazon interview.md",
+    "Mahir' Notes/Company-Wise/Hybrid research.md",
+    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Job Search/Referral Ask.md",
     "Mahir' Notes/Job Search/Cold Message.md",
-    "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
-    "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/Stock Span Problem.md",
     "Mahir' Notes/DSA/Topics/QuickSelect.md",
     "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
@@ -162,7 +163,6 @@
     "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/Company-Wise/AirBnB.md",
     "Mahir' Notes/DSA/Topics/Monotonic Stack.md",
-    "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Personal Projects/Shiv A.md",
     "Mahir' Notes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "Mahir' Notes/Company-Wise",
