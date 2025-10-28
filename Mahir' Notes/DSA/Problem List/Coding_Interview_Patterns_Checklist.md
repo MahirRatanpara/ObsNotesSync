@@ -192,7 +192,7 @@
 - [x] Frequency Sort (medium)  
 - [x] Kth Largest Number in a Stream (medium) [Leetcode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
 - [x] 'K' Closest Numbers (medium)  [LeetCode](https://leetcode.com/problems/find-k-closest-elements/description/)
-- [ ] Maximum Distinct Elements (medium)  [LeetCode](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)
+- [x] Maximum Distinct Elements (medium)  [LeetCode](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/)
 - [ ] Sum of Elements (medium)  
 - [ ] Rearrange String (hard)  
 - [ ] Problem Challenge 1: Rearrange String K Distance Apart (hard)  
