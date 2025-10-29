@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "Merge Intervals Pattern"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for Merge Intervals Pattern"
             }
           },
           {
@@ -143,13 +143,13 @@
   },
   "active": "5bc3dd5c224c98e2",
   "lastOpenFiles": [
+    "Mahir' Notes/DSA/Pattern Recognition.md",
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Job Search/Referral Ask.md",
     "Mahir' Notes/Job Search/Cold Message.md",
-    "Mahir' Notes/DSA/Pattern Recognition.md",
     "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
     "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/Stock Span Problem.md",

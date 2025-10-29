@@ -155,7 +155,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [x] 08:30-10:00: **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
 - [ ] 10:00-11:00: **[LC 139 - Word Break II](https://leetcode.com/problems/word-break-ii/description/)** (Medium)
 - [x] 11:00-12:00: **[LC 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)** (Hard)
-- [ ] 12:00-12:30: **[LC 1 - Two Sum](https://leetcode.com/problems/two-sum/)** (Easy)
+- [x] 12:00-12:30: **[LC 1 - Two Sum](https://leetcode.com/problems/two-sum/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
