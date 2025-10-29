@@ -152,7 +152,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 **Morning Block (4.5 hours):**
 
 - [ ] 08:00-08:30: Review advanced techniques
-- [ ] 08:30-10:00: **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
+- [x] 08:30-10:00: **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
 - [ ] 10:00-11:00: **[LC 139 - Word Break](https://leetcode.com/problems/word-break/)** (Medium)
 - [ ] 11:00-12:00: **[LC 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)** (Hard)
 - [ ] 12:00-12:30: **[LC 1 - Two Sum](https://leetcode.com/problems/two-sum/)** (Easy)
