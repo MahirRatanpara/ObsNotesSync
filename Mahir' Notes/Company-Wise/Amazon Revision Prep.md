@@ -151,7 +151,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 **Morning Block (4.5 hours):**
 
-- [ ] 08:00-08:30: Review advanced techniques
+- [x] 08:00-08:30: Review advanced techniques
 - [x] 08:30-10:00: **[LC 23 - Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
 - [ ] 10:00-11:00: **[LC 139 - Word Break II](https://leetcode.com/problems/word-break-ii/description/)** (Medium)
 - [x] 11:00-12:00: **[LC 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)** (Hard)
@@ -160,8 +160,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 **Afternoon Block (3.5 hours):**
 
 - [ ] 13:30-15:00: **[LC 1192 - Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)** (Hard)
-- [ ] 15:00-16:00: **[LC 253 - Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)** (Medium)
-- [ ] 16:00-17:00: **[LC 11 - Container With Most Water](https://leetcode.com/problems/container-with-most-water/)** (Medium)
+- [x] 15:00-16:00: **[LC 253 - Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)** (Medium)
+- [x] 16:00-17:00: **[LC 11 - Container With Most Water](https://leetcode.com/problems/container-with-most-water/)** (Medium)
 
 **Evening Block (2 hours):**
 
@@ -181,7 +181,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [ ] 08:30-10:00: **[LC 312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)** (Hard)
 - [ ] 10:00-11:00: **[LC 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/)** (Medium)
 - [ ] 11:00-12:00: **[LC 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)** (Hard)
-- [ ] 12:00-12:30: **[LC 283 - Move Zeroes](https://leetcode.com/problems/move-zeroes/)** (Easy)
+- [x] 12:00-12:30: **[LC 283 - Move Zeroes](https://leetcode.com/problems/move-zeroes/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
