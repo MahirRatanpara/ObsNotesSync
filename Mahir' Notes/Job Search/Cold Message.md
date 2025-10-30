@@ -1,14 +1,19 @@
-Hi [name],
+Hi [Name],
 
-I’m Mahir Ratanpara, SDE-2 at Deutsche Bank with over 3 years of experience designing and building low-latency REST APIs and cloud-native microservices for large-scale distributed systems. My work powers mission-critical financial workflows, processing terabytes of data daily with sub-millisecond latency.
+I hope you’re doing well. I’m Mahir Ratanpara, currently working as an SDE-2 at Deutsche Bank with 3+ years of experience building low-latency, scalable, cloud-native backend systems. I specialize in designing high-performance REST APIs and distributed micro services that support mission-critical financial workflows, processing large-scale data with sub-millisecond latency.
 
-My expertise spans Java, Spring Boot, GCP, Scala, Spark and DevOps, with a strong focus on scalability, resilience, and performance optimization.
+My core skills include Java, Spring Boot, GCP, Scala, Spark, and modern DevOps practices — with a strong focus on system scalability, fault tolerance, and performance optimization.
 
-If there are any SDE-2 openings at [company], I’d be happy to be considered. I’ve attached my resume for reference:
-https://drive.google.com/file/d/1LyIbMVlrpjgG9xaXKt6bSohtBidgHWSd/view?usp=drive_link
+I would be truly excited to explore an SDE-2 role at [Company], and I’d love to connect if there are ongoing or upcoming opportunities.
 
-Thank you for your time,
-Mahir
-📧 mahir.ratanpara131@gmail.com | 📱 +91 63541 37706
+Here’s my resume for reference:
+🔗 https://drive.google.com/file/d/1LyIbMVlrpjgG9xaXKt6bSohtBidgHWSd/view?usp=drive_link
+
+Thank you for your time — looking forward to hearing from you.
+
+Warm regards,
+Mahir Ratanpara
+📧 mahir.ratanpara131@gmail.com
+📱 +91 63541 37706
 LinkedIn: https://www.linkedin.com/in/mahir-ratanpara-0bbb59179
 GitHub: https://github.com/MahirRatanpara

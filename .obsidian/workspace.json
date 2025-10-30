@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/Job Search/Cold Message.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Revision Prep"
+              "title": "Cold Message"
             }
           }
         ],
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+                "file": "Mahir' Notes/Job Search/Cold Message.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Revision Prep"
+              "title": "Backlinks for Cold Message"
             }
           },
           {
@@ -156,11 +157,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b5cd86186f337ad",
+  "active": "8813b0fdbe9429a4",
   "lastOpenFiles": [
+    "Mahir' Notes/Job Search/Cold Mail.md",
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
@@ -184,7 +186,6 @@
     "Mahir' Notes/Job Search/Automation/3. Output Spec.md",
     "Mahir' Notes/Job Search/Automation/2. Company Scan Spec.md",
     "Mahir' Notes/Job Search/Automation/1. Resume Spec.md",
-    "Mahir' Notes/Job Search/Automation/0. Prompt.md",
     "Mahir' Notes/Job Search/Automation",
     "AI"
   ]
