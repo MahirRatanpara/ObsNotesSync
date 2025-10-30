@@ -179,7 +179,7 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 - [ ] 08:00-08:30: Review optimization strategies
 - [ ] 08:30-10:00: **[LC 312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)** (Hard)
-- [ ] 10:00-11:00: **[LC 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/)** (Medium)
+- [x] 10:00-11:00: **[LC 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/)** (Medium)
 - [ ] 11:00-12:00: **[LC 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)** (Hard)
 - [x] 12:00-12:30: **[LC 283 - Move Zeroes](https://leetcode.com/problems/move-zeroes/)** (Easy)
 
@@ -263,8 +263,8 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 - [ ] 08:00-09:00: **[LC 128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)** (Medium)
 - [ ] 09:00-10:00: **[LC 332 - Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)** (Hard)
-- [ ] 10:00-11:00: **[LC 2 - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)** (Medium)
-- [ ] 11:00-11:30: **[LC 70 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)** (Easy)
+- [x] 10:00-11:00: **[LC 2 - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)** (Medium)
+- [x] 11:00-11:30: **[LC 70 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)** (Easy)
 
 **Afternoon Block (4 hours):**
 
