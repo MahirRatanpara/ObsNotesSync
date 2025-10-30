@@ -185,9 +185,9 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 **Afternoon Block (3.5 hours):**
 
-- [ ] 13:30-15:00: **[LC 295 - Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)** (Hard)
-- [ ] 15:00-16:00: **[LC 33 - Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)** (Medium)
-- [ ] 16:00-17:00: **[LC 54 - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)** (Medium)
+- [x] 13:30-15:00: **[LC 295 - Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)** (Hard)
+- [x] 15:00-16:00: **[LC 33 - Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)** (Medium)
+- [x] 16:00-17:00: **[LC 54 - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)** (Medium)
 
 **Evening Block (2 hours):**
 
