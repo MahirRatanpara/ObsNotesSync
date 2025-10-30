@@ -205,9 +205,9 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 
 - [ ] 08:00-08:30: Review patterns learned
 - [ ] 08:30-10:00: **[LC 410 - Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)** (Hard)
-- [ ] 10:00-11:00: **[LC 347 - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)** (Medium)
+- [x] 10:00-11:00: **[LC 347 - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)** (Medium)
 - [ ] 11:00-12:00: **[LC 340 - Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)** (Hard)
-- [ ] 12:00-12:30: **[LC 104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** (Easy)
+- [x] 12:00-12:30: **[LC 104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
