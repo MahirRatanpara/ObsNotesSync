@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11447e5ec7bc2588",
+        "id": "89fad0f24ff42ea9",
         "type": "tabs",
         "children": [
           {
-            "id": "85607756512cdb8a",
+            "id": "0f2c94df9ad80de9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -141,14 +141,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "85607756512cdb8a",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
+    "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/DSA/Topics/Merge Intervals Pattern.md",
     "Mahir' Notes/Job Search/Cold Message.md",
     "Mahir' Notes/Job Search/Cold Mail.md",
-    "Mahir' Notes/Company-Wise/Amazon Revision Prep.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
-    "Mahir' Notes/Company-Wise/Amazon interview.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "Mahir' Notes/Job Search/Referral Ask.md",
