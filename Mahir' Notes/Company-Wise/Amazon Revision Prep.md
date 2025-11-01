@@ -206,14 +206,14 @@ Based on extensive analysis of 100+ recent Amazon interview experiences from Lee
 - [ ] 08:00-08:30: Review patterns learned
 - [x] 08:30-10:00: **[LC 410 - Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)** (Hard)
 - [x] 10:00-11:00: **[LC 347 - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)** (Medium)
-- [ ] 11:00-12:00: **[LC 340 - Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)** (Hard)
+- [x] 11:00-12:00: **[LC 340 - Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)** (Hard)
 - [x] 12:00-12:30: **[LC 104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** (Easy)
 
 **Afternoon Block (3.5 hours):**
 
 - [ ] 13:30-14:30: **[LC 22 - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)** (Medium)
 - [ ] 14:30-15:30: **[LC 212 - Word Search II](https://leetcode.com/problems/word-search-ii/)** (Hard)
-- [ ] 15:30-16:30: **[LC 937 - Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)** (Medium)
+- [x] 15:30-16:30: **[LC 937 - Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)** (Medium)
 
 **Evening Block (2.5 hours):**
 
