@@ -58,7 +58,7 @@ Mean Time to Detection improved by ~60%, troubleshooting time dropped ~40%, and 
 
 ### Story 3: Adapting During Cloud Migration
 
-**Situation:** The organization migrated from on-prem to cloud to improve scalability. The existing job scheduler could not support cloud workflows.
+**Situation:** The x migrated from on-prem to cloud to improve scalability. The existing job scheduler could not support cloud workflows.
 
 **Task:** Design a cloud-based scheduler despite unfamiliarity with cloud-native tools.
 
