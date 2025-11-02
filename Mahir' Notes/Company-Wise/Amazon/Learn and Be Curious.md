@@ -4,25 +4,55 @@
 
 ### Story 1: Learning Spark to Build a New Validation Engine
 
-**Situation:** Our regulatory and financial reporting relied heavily on accurate data, but data validation was fully manual. Analysts spent days verifying large datasets using SQL and spreadsheets, causing slow delivery and inconsistency.
+**Situation:**
 
-**Task:** Design a scalable automated validation solution, even though no automated validation system existed.
+In our compliance workflow, business users were performing data validations **manually** using spreadsheets and custom scripts for each dataset. This process took **nearly a full day** for every validation cycle, and every time a validation rule changed, the process had to be repeated from scratch. There was **no centralized validation engine**, and it was causing frequent delays in reporting timelines and high operational overhead. I recognized that the core problem wasn’t the rules themselves, but the **lack of an automated and scalable validation framework.**
 
-**Action:** Researched distributed processing solutions and identified Apache Spark as suitable. Learned Spark from scratch through documentation, courses, and small proof-of-concepts. Designed a validation engine using Spark with configurable rules, parallel processing, and reporting outputs. Collaborated with business users to ensure rules matched domain requirements.
+**Task:**
 
-**Result:** Automated ~80% of validation, reducing processing time from days to hours. Enabled analysts to focus on analysis instead of manual checking. Improved consistency and reporting reliability. The solution became a standard component of the pipeline.
+I took ownership of creating a solution that would **automate** these validations, make them **scalable**, and allow business users to define or modify rules **without involving developers** — so iterations could happen quickly.
+
+**Action (Learn & Be Curious Focus):**
+
+To achieve true scalability, I realized the solution required **distributed data processing**, but I had never worked with Apache Spark before. So I **proactively self-learned Spark**, focusing on:
+- Distributed execution concepts & DAG scheduling
+- Partitioning and data distribution strategies
+- Performance tuning via Spark UI
+- Efficient join and aggregation patterns
+
+Using this knowledge, I designed and implemented a **distributed validation engine** that:
+
+- Processes large datasets **in parallel** using Spark
+- Allows **business users to define validation rules via configuration** instead of code
+- Automatically generates validation summaries and exception report
+- Requires **no developer involvement to update or add rules**
+
+**Result:**
+
+This replaced a **manual, day-long validation process** with an **automated pipeline that completed in just a few minutes.**
+
+Business teams could now run multiple validation cycles per day, leading to faster reporting, fewer manual errors, and significantly reduced operational effort.
 
 ---
 
 ### Story 2: Observability Initiative Driven by Curiosity
 
-**Situation:** Performance issues and outages occurred, but the team lacked visibility and often only discovered problems when business users reported them.
+**Situation:**
 
-**Task:** Improve observability despite it not being part of the assigned role.
+Our platform had recurring performance issues, but we lacked good observability. We often found out about incidents only when business users raised complaints, which delayed response and created frustration.
 
-**Action:** Self-taught Prometheus, Grafana, and distributed tracing. Prototyped a monitoring stack and demonstrated how it could have caught past incidents earlier. Implemented dashboards and SLIs in collaboration with business stakeholders.
+  
+**Task:**
 
-**Result:** Mean Time to Detection improved by ~60%, troubleshooting time reduced ~40%, and proactive incident prevention increased. The stack became a model for other teams.
+Even though observability was not part of my assigned responsibilities, I wanted to proactively improve visibility so we could detect and diagnose issues earlier.
+
+  **Action:**
+
+I self-learned Prometheus, Grafana, and distributed tracing by exploring documentation and internal knowledge bases. I prototyped a monitoring stack and recreated past incidents to show how earlier detection would have been possible. After demonstrating this to product and support stakeholders, I collaborated with the infra team to roll it out—setting up dashboards, alerts, and SLIs aligned with what business users cared about (e.g., response time and error rate).
+
+**Result:**
+
+Mean Time to Detection improved by ~60%, troubleshooting time dropped ~40%, and several incidents were prevented proactively. The observability setup I introduced was later adopted as a reference by other teams.
 
 ---
 
