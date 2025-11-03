@@ -94,32 +94,32 @@ Mean Time to Detection improved by ~60%, troubleshooting time dropped ~40%, and 
 
 ## Mapping Stories to Common Amazon Questions
 
-|Question|Matching Stories|
-|---|---|
-|Time you had to learn something new|Story 1, Story 4|
-|Proactively learned without being asked|Story 2, Story 5|
-|Worked outside responsibility|Story 2, Story 5|
-|Staying up-to-date with trends|Story 5|
-|Built something new that didn’t exist|Story 1, Story 4|
-|Dug deep into a problem|Story 2|
-|Curiosity led to improvement|Story 2, Story 5|
-|Learned complex system independently|Story 1, Story 3|
-|Challenged status quo|Story 2, Story 5|
-|Took initiative to improve system|Story 2, Story 5|
+| Question                                | Matching Stories |
+| --------------------------------------- | ---------------- |
+| Time you had to learn something new     | Story 1, Story 4 |
+| Proactively learned without being asked | Story 2, Story 5 |
+| Worked outside responsibility           | Story 2, Story 5 |
+| Staying up-to-date with trends          | Story 5          |
+| Built something new that didn’t exist   | Story 1, Story 4 |
+| Dug deep into a problem                 | Story 2          |
+| Curiosity led to improvement            | Story 2, Story 5 |
+| Learned complex system independently    | Story 1, Story 3 |
+| Challenged status quo                   | Story 2, Story 5 |
+| Took initiative to improve system       | Story 2, Story 5 |
 
 ---
 
 ## Follow-Up Question Preparation
 
-|Follow-Up Question|Response Focus|
-|---|---|
-|What motivated you to learn this?|Internal curiosity, desire to improve reliability and scalability.|
-|How did you structure your learning?|Docs → hands-on PoC → controlled rollout → production.|
-|How did you measure success?|Use metrics like SLA, time saved, throughput, error reduction.|
-|How did you balance learning with deadlines?|Parallel learning + incremental development.|
-|How did others react to your solution?|Training, documentation, adoption across teams.|
-|What was most difficult to learn?|Mention one deep concept (e.g., Spark shuffle optimization).|
-|How did business users benefit?|Faster delivery, fewer escalations, more predictable outcomes.|
-|What would you do differently?|One high-value optimization or automation improvement.|
+| Follow-Up Question                           | Response Focus                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------ |
+| What motivated you to learn this?            | Internal curiosity, desire to improve reliability and scalability. |
+| How did you structure your learning?         | Docs → hands-on PoC → controlled rollout → production.             |
+| How did you measure success?                 | Use metrics like SLA, time saved, throughput, error reduction.     |
+| How did you balance learning with deadlines? | Parallel learning + incremental development.                       |
+| How did others react to your solution?       | Training, documentation, adoption across teams.                    |
+| What was most difficult to learn?            | Mention one deep concept (e.g., Spark shuffle optimization).       |
+| How did business users benefit?              | Faster delivery, fewer escalations, more predictable outcomes.     |
+| What would you do differently?               | One high-value optimization or automation improvement.             |
 
 ---
