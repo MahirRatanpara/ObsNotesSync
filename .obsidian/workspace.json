@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c0db95ef9a3b42f",
+        "id": "04d8cbd1fbccb1f3",
         "type": "tabs",
         "children": [
           {
-            "id": "79c33721b6f36bd3",
+            "id": "6db4ebea6586cb8e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -137,7 +137,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "6db4ebea6586cb8e",
   "lastOpenFiles": [
     "Mahir' Notes/LLD/Pattern Prac/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md",
