@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cfe92e2533e1a0fd",
+        "id": "0cd6101ce5d13c0a",
         "type": "tabs",
         "children": [
           {
-            "id": "71a45422e36a2646",
+            "id": "8bbad09532f9f2bf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,16 @@
   },
   "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "Mahir' Notes/LLD/Pattern Prac/Builder/INTERVIEW_FOLLOWUPS.md",
     "Mahir' Notes/LLD/Pattern Prac/Prototype/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Pattern Prac/Adapter/Pattern notes.md",
+    "Mahir' Notes/LLD/Pattern Prac/Builder/INTERVIEW_FOLLOWUPS.md",
+    "Mahir' Notes/LLD/Practice Problem/Ticket booking System.md",
+    "Mahir' Notes/LLD/Practice Problem/Tic Tac Toe.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/WidgetLib - Abstract Factory.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/Notificaiton System - Factory.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/Meal - Builder Pattern.md",
+    "Mahir' Notes/LLD/Pattern Prac/Solutions/Logging - Singleton.md",
+    "Mahir' Notes/LLD/Pattern Prac/Adapter",
     "Mahir' Notes/LLD/Pattern Prac/Prototype",
     "Mahir' Notes/LLD/Pattern Prac/Singleton/Singleton Deepdive.md",
     "Mahir' Notes/LLD/Pattern Prac/Builder",
@@ -163,13 +171,6 @@
     "Mahir' Notes/Job Search/Cold Mail.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
     "Mahir' Notes/Job Search/Referral Ask.md",
-    "Mahir' Notes/DSA/Topics/DP/Buy Sell Stocks.md",
-    "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/STOCK.md",
-    "Other's Notes/PLACEMENT PREP/CODING/DYNAMIC PROGRAMMING/Stock Span Problem.md",
-    "Mahir' Notes/DSA/Topics/Quick Select for Kth.md",
-    "Mahir' Notes/DSA/Topics/Editorial - Partition Sum.md",
-    "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
-    "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
     "Mahir' Notes/Company-Wise",
     "Mahir' Notes/Job Search/Automation",
     "AI"
