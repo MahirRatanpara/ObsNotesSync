@@ -11,10 +11,14 @@
             "id": "6db4ebea6586cb8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/LLD/Pattern Prac/Composite/PATTERN_NOTES.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PATTERN_NOTES"
             }
           }
         ]
@@ -139,10 +143,12 @@
   },
   "active": "6db4ebea6586cb8e",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Pattern Prac/Composite/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Pattern Prac/Composite",
+    "Mahir' Notes/LLD/Pattern Prac/untitled folder",
     "Mahir' Notes/LLD/Pattern Prac/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md",
     "Mahir' Notes/LLD/Pattern Prac/Decorator",
-    "Mahir' Notes/LLD/Pattern Prac/untitled folder",
     "Mahir' Notes/LLD/Pattern Prac/Bridge",
     "Mahir' Notes/LLD/Pattern Prac/Prototype/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Pattern Prac/Adapter/Pattern notes.md",
@@ -172,8 +178,6 @@
     "Mahir' Notes/Company-Wise/Amazon/Learn and Be Curious.md",
     "Mahir' Notes/Company-Wise/Amazon",
     "Mahir' Notes/Company-Wise/Amazon/Amazon interview.md",
-    "Mahir' Notes/Job Search/Cold Message.md",
-    "Mahir' Notes/Job Search/Cold Mail.md",
-    "Mahir' Notes/Company-Wise"
+    "Mahir' Notes/Job Search/Cold Message.md"
   ]
 }
