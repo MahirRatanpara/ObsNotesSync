@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/LLD/Pattern Prac/Composite/PATTERN_NOTES.md",
+                "file": "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
                 "mode": "source",
                 "source": false
               },
@@ -144,8 +144,10 @@
   "active": "6db4ebea6586cb8e",
   "lastOpenFiles": [
     "Mahir' Notes/LLD/Pattern Prac/Composite/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Pattern Prac/Composite",
+    "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Pattern Prac/ChainOfResp",
     "Mahir' Notes/LLD/Pattern Prac/untitled folder",
+    "Mahir' Notes/LLD/Pattern Prac/Composite",
     "Mahir' Notes/LLD/Pattern Prac/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md",
     "Mahir' Notes/LLD/Pattern Prac/Decorator",
@@ -176,8 +178,6 @@
     "Mahir' Notes/DSA/Topics/QuickSelect.md",
     "Mahir' Notes/DSA/Pattern Recognition.md",
     "Mahir' Notes/Company-Wise/Amazon/Learn and Be Curious.md",
-    "Mahir' Notes/Company-Wise/Amazon",
-    "Mahir' Notes/Company-Wise/Amazon/Amazon interview.md",
-    "Mahir' Notes/Job Search/Cold Message.md"
+    "Mahir' Notes/Company-Wise/Amazon/Amazon interview.md"
   ]
 }
