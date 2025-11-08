@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "89fad0f24ff42ea9",
+        "id": "cfe92e2533e1a0fd",
         "type": "tabs",
         "children": [
           {
-            "id": "0f2c94df9ad80de9",
+            "id": "71a45422e36a2646",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/LLD/Pattern Prac/Builder/INTERVIEW_FOLLOWUPS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "INTERVIEW_FOLLOWUPS"
+              "title": "New tab"
             }
           }
         ]
@@ -141,10 +137,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "0f2c94df9ad80de9",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "Mahir' Notes/LLD/Pattern Prac/Singleton/Singleton Deepdive.md",
     "Mahir' Notes/LLD/Pattern Prac/Builder/INTERVIEW_FOLLOWUPS.md",
+    "Mahir' Notes/LLD/Pattern Prac/Prototype/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Pattern Prac/Prototype",
+    "Mahir' Notes/LLD/Pattern Prac/Singleton/Singleton Deepdive.md",
     "Mahir' Notes/LLD/Pattern Prac/Builder",
     "Mahir' Notes/LLD/SOLID/SOLID.md",
     "Mahir' Notes/LLD/Pattern Prac/Singleton",
@@ -172,7 +170,6 @@
     "Mahir' Notes/DSA/Topics/Editorial - Partition Sum.md",
     "Mahir' Notes/DSA/Topics/DP/Knapsack.md",
     "Mahir' Notes/DSA/Topics/DP/Dynamic Programming.md",
-    "Mahir' Notes/Company-Wise/AirBnB.md",
     "Mahir' Notes/Company-Wise",
     "Mahir' Notes/Job Search/Automation",
     "AI"
