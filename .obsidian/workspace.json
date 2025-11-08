@@ -11,10 +11,14 @@
             "id": "8bbad09532f9f2bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Pattern Notes"
             }
           }
         ]
@@ -137,8 +141,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "8bbad09532f9f2bf",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md",
+    "Mahir' Notes/LLD/Pattern Prac/Bridge",
     "Mahir' Notes/LLD/Pattern Prac/Prototype/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Pattern Prac/Adapter/Pattern notes.md",
     "Mahir' Notes/LLD/Pattern Prac/Builder/INTERVIEW_FOLLOWUPS.md",
@@ -170,7 +176,6 @@
     "Mahir' Notes/Job Search/Cold Message.md",
     "Mahir' Notes/Job Search/Cold Mail.md",
     "Mahir' Notes/Company-Wise/Hybrid research.md",
-    "Mahir' Notes/Job Search/Referral Ask.md",
     "Mahir' Notes/Company-Wise",
     "Mahir' Notes/Job Search/Automation",
     "AI"
