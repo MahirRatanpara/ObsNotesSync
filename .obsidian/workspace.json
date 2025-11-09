@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc304337a17ffcf7",
+        "id": "f2c7354014a06c41",
         "type": "tabs",
         "children": [
           {
-            "id": "ee1ef6c45d345041",
+            "id": "9e8923657eafc314",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -137,8 +137,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "ee1ef6c45d345041",
+  "active": "9e8923657eafc314",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Patterns/PATTERN_IDENTIFICATION_CHEATSHEET.md",
+    "Mahir' Notes/LLD/Patterns/10_MINUTE_QUICK_REVISION.md",
     "Mahir' Notes/LLD/Patterns/Visitor/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
     "Mahir' Notes/LLD/Patterns/Interpreter/PATTERN_NOTES.md",
@@ -172,8 +174,6 @@
     "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Iterator",
     "Mahir' Notes/LLD/Pattern Practice.md",
-    "Mahir' Notes/LLD/Solutions/WidgetLib - Abstract Factory.md",
-    "Mahir' Notes/LLD/Solutions/Notificaiton System - Factory.md",
-    "Mahir' Notes/LLD/Solutions/Meal - Builder Pattern.md"
+    "Mahir' Notes/LLD/Solutions/WidgetLib - Abstract Factory.md"
   ]
 }
