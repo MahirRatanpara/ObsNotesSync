@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
+                "file": "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PATTERN_NOTES"
+              "title": "Pattern notes"
             }
           }
         ]
@@ -141,16 +141,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "706f6d33283d57d1",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Patterns/Bridge/Pattern Notes.md",
+    "Mahir' Notes/LLD/Patterns/Builder/INTERVIEW_FOLLOWUPS.md",
+    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
+    "Mahir' Notes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Mediator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Command/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/ChainOfResp/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Proxy/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Factory/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Bridge/Pattern Notes.md",
-    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
     "Mahir' Notes/LLD/Patterns/Untitled.md",
     "Mahir' Notes/LLD/Patterns/Iterator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Facade/PATTERN_NOTES.md",
@@ -173,8 +175,6 @@
     "Mahir' Notes/LLD/Patterns/Pattern Practice.md",
     "Mahir' Notes/LLD/Patterns/Singleton/Singleton Deepdive.md",
     "Mahir' Notes/LLD/Patterns/Prototype/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Composite/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Singleton",
     "Mahir' Notes/LLD/Patterns/Prototype",
     "Mahir' Notes/LLD/Patterns/Factory",
