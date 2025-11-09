@@ -197,31 +197,31 @@
 
 ## ⚡ SPEED RECALL TRIGGERS
 
-| Keyword | Pattern |
-|---------|---------|
-| **One instance** | Singleton |
-| **Too many constructors** | Builder |
-| **Clone/Copy** | Prototype |
-| **Don't know type** | Factory Method |
-| **Family of objects** | Abstract Factory |
-| **Interface mismatch** | Adapter |
-| **Two hierarchies** | Bridge |
-| **Tree structure** | Composite |
-| **Add behavior dynamically** | Decorator |
-| **Simplify complex system** | Facade |
-| **Control access** | Proxy |
-| **Save memory** | Flyweight |
-| **Pass request along** | Chain of Responsibility |
-| **Undo/Redo operations** | Command |
-| **Traverse collection** | Iterator |
-| **Reduce coupling** | Mediator |
-| **Event listeners** | Observer |
-| **State machine** | State |
-| **Swap algorithms** | Strategy |
-| **Algorithm skeleton** | Template Method |
-| **Operations on structure** | Visitor |
-| **Undo/Redo state** | Memento |
-| **Language/Grammar** | Interpreter |
+| Keyword                      | Pattern                 |
+| ---------------------------- | ----------------------- |
+| **One instance**             | Singleton               |
+| **Too many constructors**    | Builder                 |
+| **Clone/Copy**               | Prototype               |
+| **Don't know type**          | Factory Method          |
+| **Family of objects**        | Abstract Factory        |
+| **Interface mismatch**       | Adapter                 |
+| **Two hierarchies**          | Bridge                  |
+| **Tree structure**           | Composite               |
+| **Add behavior dynamically** | Decorator               |
+| **Simplify complex system**  | Facade                  |
+| **Control access**           | Proxy                   |
+| **Save memory**              | Flyweight               |
+| **Pass request along**       | Chain of Responsibility |
+| **Undo/Redo operations**     | Command                 |
+| **Traverse collection**      | Iterator                |
+| **Reduce coupling**          | Mediator                |
+| **Event listeners**          | Observer                |
+| **State machine**            | State                   |
+| **Swap algorithms**          | Strategy                |
+| **Algorithm skeleton**       | Template Method         |
+| **Operations on structure**  | Visitor                 |
+| **Undo/Redo state**          | Memento                 |
+| **Language/Grammar**         | Interpreter             |
 
 ---
 
