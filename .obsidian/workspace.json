@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "04d8cbd1fbccb1f3",
+        "id": "813ade66fe01b7d4",
         "type": "tabs",
         "children": [
           {
-            "id": "6db4ebea6586cb8e",
+            "id": "706f6d33283d57d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PATTERN_NOTES"
             }
           }
         ]
@@ -139,14 +143,18 @@
   },
   "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "Mahir' Notes/LLD/Patterns/Proxy/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Iterator/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Factory/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Facade/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Command/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/ChainOfResp/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Proxy/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Factory/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Bridge/Pattern Notes.md",
+    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
+    "Mahir' Notes/LLD/Patterns/Untitled.md",
+    "Mahir' Notes/LLD/Patterns/Iterator/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Facade/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Mediator",
     "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Untitled.md",
     "Mahir' Notes/LLD/Patterns/Iterator",
     "Mahir' Notes/LLD/Patterns/Proxy",
     "Mahir' Notes/LLD/Patterns/untitled folder",
@@ -166,11 +174,7 @@
     "Mahir' Notes/LLD/Patterns/Prototype/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Composite/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Command/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/ChainOfResp/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Builder/INTERVIEW_FOLLOWUPS.md",
-    "Mahir' Notes/LLD/Patterns/Bridge/Pattern Notes.md",
-    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
     "Mahir' Notes/LLD/Patterns/Singleton",
     "Mahir' Notes/LLD/Patterns/Prototype",
     "Mahir' Notes/LLD/Patterns/Factory",
