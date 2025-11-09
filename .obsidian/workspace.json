@@ -139,6 +139,12 @@
   },
   "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Patterns/Proxy/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Iterator/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Factory/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Facade/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Mediator",
     "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Untitled.md",
     "Mahir' Notes/LLD/Patterns/Iterator",
@@ -168,12 +174,6 @@
     "Mahir' Notes/LLD/Patterns/Singleton",
     "Mahir' Notes/LLD/Patterns/Prototype",
     "Mahir' Notes/LLD/Patterns/Factory",
-    "Mahir' Notes/LLD/Patterns/Facade",
-    "Mahir' Notes/LLD/Patterns/Decorator",
-    "Mahir' Notes/LLD/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Pattern Prac/Command/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Pattern Prac/Composite/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Pattern Prac/Decorator/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Pattern Prac/Bridge/Pattern Notes.md"
+    "Mahir' Notes/LLD/Patterns/Facade"
   ]
 }
