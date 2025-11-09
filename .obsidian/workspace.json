@@ -11,10 +11,14 @@
             "id": "4ab4bc939d948858",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir' Notes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Insist on Highest Standards"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mahir' Notes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Insist on Highest Standards"
             }
           },
           {
@@ -138,6 +143,12 @@
   },
   "active": "4ab4bc939d948858",
   "lastOpenFiles": [
+    "Mahir' Notes/Company-Wise/Amazon/LP/Deep Dive.md",
+    "Mahir' Notes/Company-Wise/AirBnB.md",
+    "Mahir' Notes/Company-Wise/Hybrid research.md",
+    "Mahir' Notes/Company-Wise/Self Intro.md",
+    "Mahir' Notes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
+    "Mahir' Notes/Company-Wise/Amazon/LP",
     "Mahir' Notes/HLD/Hot Links.md",
     "Mahir' Notes/Java/CONCURRENCY_PROBLEM_SOLVER.md",
     "Mahir' Notes/Java/15_MINUTE_CONCURRENCY_CHEATSHEET.md",
@@ -160,11 +171,6 @@
     "Mahir' Notes/LLD/Patterns/Memento/PATTERN_NOTES.md",
     "Mahir' Notes/Java/Concurrency/Multi Threaded WebCrawler.md",
     "Mahir' Notes/Java/Concurrency/Sync DS.md",
-    "Mahir' Notes/Java/Java_Inheritance_Class_Abstract_Interface.md",
-    "Mahir' Notes/Java/Streams.md",
-    "Mahir' Notes/Java/Concurrency/Exec Service.md",
-    "Mahir' Notes/LLD/SOLID/SOLID.md",
-    "Mahir' Notes/LLD/Patterns/Visitor/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Interpreter",
     "Mahir' Notes/LLD/Patterns/Memento",
     "Mahir' Notes/LLD/Patterns/Visitor",
@@ -172,7 +178,6 @@
     "Mahir' Notes/LLD/Patterns/Strategy",
     "Mahir' Notes/LLD/Patterns/State",
     "Mahir' Notes/LLD/Patterns/Observer",
-    "Mahir' Notes/LLD/Patterns/Flyweight",
-    "Mahir' Notes/LLD/Patterns/Mediator"
+    "Mahir' Notes/LLD/Patterns/Flyweight"
   ]
 }
