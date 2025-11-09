@@ -81,10 +81,10 @@ daemon.setDaemon(true); // JVM exits even if this runs
 daemon.start();
 ```
 
-| Type | JVM Waits? | Use Case |
-|------|------------|----------|
-| **Daemon** | ❌ No | Background services (GC, logging) |
-| **Non-Daemon** | ✅ Yes | Main application logic |
+| Type           | JVM Waits? | Use Case                          |
+| -------------- | ---------- | --------------------------------- |
+| **Daemon**     | ❌ No       | Background services (GC, logging) |
+| **Non-Daemon** | ✅ Yes      | Main application logic            |
 
 ---
 
