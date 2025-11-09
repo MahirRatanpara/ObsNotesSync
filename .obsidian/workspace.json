@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "813ade66fe01b7d4",
+        "id": "fc304337a17ffcf7",
         "type": "tabs",
         "children": [
           {
-            "id": "706f6d33283d57d1",
+            "id": "ee1ef6c45d345041",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Pattern notes"
+              "title": "New tab"
             }
           }
         ]
@@ -141,11 +137,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "706f6d33283d57d1",
+  "active": "ee1ef6c45d345041",
   "lastOpenFiles": [
+    "Mahir' Notes/LLD/Patterns/Visitor/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
+    "Mahir' Notes/LLD/Patterns/Interpreter/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Interpreter",
+    "Mahir' Notes/LLD/Patterns/Memento/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Memento",
+    "Mahir' Notes/LLD/Patterns/Visitor",
+    "Mahir' Notes/LLD/Patterns/TemplateMethod/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/TemplateMethod",
+    "Mahir' Notes/LLD/Patterns/Strategy/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Strategy",
+    "Mahir' Notes/LLD/Patterns/State/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/State",
+    "Mahir' Notes/LLD/Patterns/Observer/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Observer",
+    "Mahir' Notes/LLD/Patterns/Flyweight/PATTERN_NOTES.md",
+    "Mahir' Notes/LLD/Patterns/Flyweight",
     "Mahir' Notes/LLD/Patterns/Bridge/Pattern Notes.md",
     "Mahir' Notes/LLD/Patterns/Builder/INTERVIEW_FOLLOWUPS.md",
-    "Mahir' Notes/LLD/Patterns/Adapter/Pattern notes.md",
     "Mahir' Notes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Decorator/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Mediator/PATTERN_NOTES.md",
@@ -159,25 +171,9 @@
     "Mahir' Notes/LLD/Patterns/Mediator",
     "Mahir' Notes/LLD/Pattern Prac/ChainOfResp/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/Iterator",
-    "Mahir' Notes/LLD/Patterns/Proxy",
-    "Mahir' Notes/LLD/Patterns/untitled folder",
     "Mahir' Notes/LLD/Pattern Practice.md",
     "Mahir' Notes/LLD/Solutions/WidgetLib - Abstract Factory.md",
     "Mahir' Notes/LLD/Solutions/Notificaiton System - Factory.md",
-    "Mahir' Notes/LLD/Solutions/Meal - Builder Pattern.md",
-    "Mahir' Notes/LLD/Solutions/Logging - Singleton.md",
-    "Mahir' Notes/LLD/Solutions",
-    "Mahir' Notes/LLD/Patterns/Solutions/WidgetLib - Abstract Factory.md",
-    "Mahir' Notes/LLD/Patterns/Solutions/Notificaiton System - Factory.md",
-    "Mahir' Notes/LLD/Patterns/Solutions/Meal - Builder Pattern.md",
-    "Mahir' Notes/LLD/Patterns/Solutions/Logging - Singleton.md",
-    "Mahir' Notes/LLD/Patterns/Solutions",
-    "Mahir' Notes/LLD/Patterns/Pattern Practice.md",
-    "Mahir' Notes/LLD/Patterns/Singleton/Singleton Deepdive.md",
-    "Mahir' Notes/LLD/Patterns/Prototype/PATTERN_NOTES.md",
-    "Mahir' Notes/LLD/Patterns/Singleton",
-    "Mahir' Notes/LLD/Patterns/Prototype",
-    "Mahir' Notes/LLD/Patterns/Factory",
-    "Mahir' Notes/LLD/Patterns/Facade"
+    "Mahir' Notes/LLD/Solutions/Meal - Builder Pattern.md"
   ]
 }
