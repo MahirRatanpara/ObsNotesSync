@@ -40,11 +40,11 @@ I took ownership to **raise the operational quality bar**. I needed a way to **d
 I performed a deep investigation into how context flowed between calls and saw that every service generated its own request ID — so context was being lost at each hop. Instead of making temporary fixes, I designed a **lightweight Correlation ID propagation framework**:
 
 - It generates a unique ID at the entry point
-    
+
 - Injects it into **HTTP headers and message streams**
-    
+
 - And automatically **extracts and forwards it** across all subsequent service calls
-    
+
 
 I integrated this into our **logging layer**, so logs were uniformly tagged without developers needing to change business code. I also deployed centralized trace-search dashboards that enabled one-click tracing for any request across services.
 
