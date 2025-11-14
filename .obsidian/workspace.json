@@ -11,12 +11,14 @@
             "id": "e060e8a0ef3bf805",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf"
+                "file": "Mahir' Notes/HLD/High Availablity/Distributed Systems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Load Balancer"
+              "icon": "lucide-file",
+              "title": "Distributed Systems"
             }
           }
         ]
@@ -141,8 +143,12 @@
   },
   "active": "e060e8a0ef3bf805",
   "lastOpenFiles": [
-    "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
+    "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
+    "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
+    "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
+    "Mahir' Notes/HLD/Microservice Architecture/API Gateway.md",
     "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
+    "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
     "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/HLD/Caching/Redis.md",
@@ -168,14 +174,10 @@
     "Mahir' Notes/Java/Concurrency/Concurrent HashMaps.md",
     "Mahir' Notes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
     "Mahir' Notes/Java/Java Masterclass.md",
-    "Mahir' Notes/Java/Concurrency/Executors.md",
-    "Mahir' Notes/LLD/Patterns/PATTERN_IDENTIFICATION_CHEATSHEET.md",
-    "Mahir' Notes/LLD/Patterns/10_MINUTE_QUICK_REVISION.md",
     "Mahir' Notes/LLD/Patterns/State/Untitled",
     "Mahir' Notes/LLD/Patterns/Interpreter",
     "Mahir' Notes/LLD/Patterns/Memento",
     "Mahir' Notes/LLD/Patterns/Visitor",
-    "Mahir' Notes/LLD/Patterns/TemplateMethod",
-    "Mahir' Notes/LLD/Patterns/Strategy"
+    "Mahir' Notes/LLD/Patterns/TemplateMethod"
   ]
 }
