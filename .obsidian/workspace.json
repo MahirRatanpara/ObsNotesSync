@@ -11,10 +11,12 @@
             "id": "e060e8a0ef3bf805",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Load Balancer"
             }
           }
         ]
@@ -139,6 +141,8 @@
   },
   "active": "e060e8a0ef3bf805",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
+    "Mahir' Notes/HLD/Microservice Architecture/Load Balancer.pdf",
     "Mahir' Notes/DSA/Topics/Elegant Maximum Points formula.md",
     "Mahir' Notes/HLD/Caching/Caching.md",
     "Mahir' Notes/HLD/Caching/Redis.md",
@@ -167,13 +171,11 @@
     "Mahir' Notes/Java/Concurrency/Executors.md",
     "Mahir' Notes/LLD/Patterns/PATTERN_IDENTIFICATION_CHEATSHEET.md",
     "Mahir' Notes/LLD/Patterns/10_MINUTE_QUICK_REVISION.md",
-    "Mahir' Notes/LLD/Patterns/State/PATTERN_NOTES.md",
     "Mahir' Notes/LLD/Patterns/State/Untitled",
     "Mahir' Notes/LLD/Patterns/Interpreter",
     "Mahir' Notes/LLD/Patterns/Memento",
     "Mahir' Notes/LLD/Patterns/Visitor",
     "Mahir' Notes/LLD/Patterns/TemplateMethod",
-    "Mahir' Notes/LLD/Patterns/Strategy",
-    "Mahir' Notes/LLD/Patterns/State"
+    "Mahir' Notes/LLD/Patterns/Strategy"
   ]
 }
