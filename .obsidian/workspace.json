@@ -11,10 +11,12 @@
             "id": "8e2e2a936024f3ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "MahirNotes/HLD/Caching/Caching.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Caching"
             }
           }
         ]
