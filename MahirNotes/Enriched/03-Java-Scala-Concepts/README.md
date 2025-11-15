@@ -54,7 +54,7 @@
 **Key Topics:** Class vs Abstract Class vs Interface, Method overriding, Diamond problem
 **Interview Weight:** 🔥🔥🔥🔥🔥 (Very High)
 
-[📖 Complete Guide →](./Inheritance-and-Polymorphism.md)
+[📖 Complete Guide →](Inheritance-and-Polymorphism.md)
 
 ---
 

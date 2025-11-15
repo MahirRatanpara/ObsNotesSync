@@ -83,7 +83,7 @@
 **Key Problems:** Coin Change, Longest Common Subsequence, Knapsack
 **Interview Weight:** 🔥🔥🔥🔥🔥 (Very High)
 
-[📖 Detailed Study Guide →](./Dynamic-Programming.md)
+[📖 Detailed Study Guide →](Dynamic-Programming.md)
 
 ---
 

@@ -1943,5 +1943,5 @@ public class FraudDetectionService {
 - [[Testing-Guide|Security Testing Practices]]
 - [[API-Design-Guide|Secure API Design]]  
 - [[DevOps-Guide|DevSecOps and Infrastructure Security]]
-- [[03-Java-Concurrency/Complete-Java-Concurrency-Guide|Thread Safety and Secure Concurrency]]
-- [[02-System-Design/Complete-HLD-Guide|Secure System Architecture]]
+- [[Complete-Java-Concurrency-Guide|Thread Safety and Secure Concurrency]]
+- [[Complete-HLD-Guide|Secure System Architecture]]

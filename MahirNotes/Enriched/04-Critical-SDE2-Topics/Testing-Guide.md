@@ -1427,5 +1427,5 @@ void shouldEvictLRUItems() {
 - [[Security-Guide|Security Best Practices]]
 - [[DevOps-Guide|DevOps and CI/CD]]
 - [[API-Design-Guide|API Design and Testing]]
-- [[03-Java-Concurrency/Complete-Java-Concurrency-Guide|Java Concurrency]]
-- [[02-System-Design/Complete-HLD-Guide|System Design Patterns]]
+- [[Complete-Java-Concurrency-Guide|Java Concurrency]]
+- [[Complete-HLD-Guide|System Design Patterns]]

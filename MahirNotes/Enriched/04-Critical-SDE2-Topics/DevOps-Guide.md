@@ -1526,5 +1526,5 @@ experimental_services:
 - [[Security-Guide|DevSecOps Security Practices]]
 - [[Testing-Guide|CI/CD Testing Strategies]]
 - [[API-Design-Guide|API Gateway and Service Mesh]]
-- [[02-System-Design/Complete-HLD-Guide|Scalable System Architecture]]
-- [[03-Java-Concurrency/Complete-Java-Concurrency-Guide|Application Performance]]
+- [[Complete-HLD-Guide|Scalable System Architecture]]
+- [[Complete-Java-Concurrency-Guide|Application Performance]]

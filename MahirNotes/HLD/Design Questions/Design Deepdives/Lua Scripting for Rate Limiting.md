@@ -237,4 +237,4 @@ Modern Redis Architecture:
 - [[Distributed Locking]]
 - [[Rate Limiting Algorithms]]
 - [[Atomic Operations]]
-- [[Concurrency Control]]
+- [[Other's Notes/HLD/Concurrency Control]]

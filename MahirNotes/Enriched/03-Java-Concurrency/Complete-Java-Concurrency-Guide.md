@@ -1361,7 +1361,7 @@ NEW → RUNNABLE → BLOCKED/WAITING/TIMED_WAITING → TERMINATED
 
 ## 📚 Related Topics
 
-- [[02-System-Design/Complete-HLD-Guide|System Design Patterns]]
-- [[01-Data-Structures-Algorithms/Complete-Patterns-Guide|DSA Patterns]]  
+- [[Complete-HLD-Guide|System Design Patterns]]
+- [[Complete-Patterns-Guide|DSA Patterns]]  
 - [[05-Low-Level-Design/Design-Patterns-Guide|Design Patterns]]
 - [[06-Behavioral-Interview/Complete-Behavioral-Guide|Behavioral Interview]]

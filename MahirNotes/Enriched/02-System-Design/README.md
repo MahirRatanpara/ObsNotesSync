@@ -62,7 +62,7 @@
 **Key Topics:** Cache-aside, Write-through, Write-behind, CDN, Redis patterns
 **Interview Weight:** 🔥🔥🔥🔥 (High)
 
-[📖 Complete Guide →](./Caching-Strategies.md)
+[📖 Complete Guide →](Caching-Strategies.md)
 
 ---
 

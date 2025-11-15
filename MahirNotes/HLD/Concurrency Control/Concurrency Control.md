@@ -1,7 +1,7 @@
 
 # 🔀 Optimistic vs Pessimistic Concurrency Control
 
-## 🔐 Pessimistic (e.g. [[Mahir' Notes/HLD/Concurrency Control/2 Phase Locking|2 Phase Locking]])
+## 🔐 Pessimistic (e.g. [[MahirNotes/HLD/Concurrency Control/2 Phase Locking|2 Phase Locking]])
 
 - Assumes conflicts are **likely**
 - Uses **locks** to prevent conflicts

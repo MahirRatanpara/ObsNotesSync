@@ -9,42 +9,42 @@
 
 ### [01 - Data Structures & Algorithms](./01-Data-Structures-Algorithms/)
 **✅ COMPLETE - Master 30+ patterns with FAANG problem tracking**
-- [Complete Patterns Guide](./01-Data-Structures-Algorithms/Complete-Patterns-Guide.md) - All coding patterns with implementations
+- [Complete Patterns Guide](Complete-Patterns-Guide.md) - All coding patterns with implementations
 - FAANG 75 Problem List with tracking system
 - Two Pointers, Sliding Window, DP, Graphs, Trees, and more
 - Time/Space complexity analysis and optimization techniques
 
 ### [02 - System Design](./02-System-Design/)  
 **✅ COMPLETE - Design scalable systems with detailed architecture patterns**
-- [Scalability Guide](./02-System-Design/Core-Concepts/Scalability-Guide.md) - Load balancing, auto-scaling, CDN strategies
-- [Database Guide](./02-System-Design/Core-Concepts/Database-Guide.md) - SQL vs NoSQL, sharding, replication
-- [Caching Guide](./02-System-Design/Core-Concepts/Caching-Guide.md) - Multi-level caching, invalidation strategies
-- [Complete HLD Guide](./02-System-Design/Complete-HLD-Guide.md) - End-to-end system design examples
+- [Scalability Guide](Scalability-Guide.md) - Load balancing, auto-scaling, CDN strategies
+- [Database Guide](Database-Guide.md) - SQL vs NoSQL, sharding, replication
+- [Caching Guide](Caching-Guide.md) - Multi-level caching, invalidation strategies
+- [Complete HLD Guide](Complete-HLD-Guide.md) - End-to-end system design examples
 
 ### [03 - Java Concurrency](./03-Java-Concurrency/)
 **✅ COMPLETE - Master concurrent programming with production examples**  
-- [Complete Java Concurrency Guide](./03-Java-Concurrency/Complete-Java-Concurrency-Guide.md) - Thread fundamentals to advanced patterns
+- [Complete Java Concurrency Guide](Complete-Java-Concurrency-Guide.md) - Thread fundamentals to advanced patterns
 - ReentrantLock, ConcurrentHashMap, Atomic classes deep dives
 - Multi-threaded WebCrawler implementations
 - Producer-Consumer patterns with various strategies
 
 ### [04 - Critical SDE2 Topics](./04-Critical-SDE2-Topics/)
 **✅ COMPLETE - Essential topics for senior engineer roles**
-- [Testing Guide](./04-Critical-SDE2-Topics/Testing-Guide.md) - Unit, Integration, E2E testing with frameworks
-- [Security Guide](./04-Critical-SDE2-Topics/Security-Guide.md) - OWASP Top 10, Auth/Auth, Cryptography
-- [DevOps Guide](./04-Critical-SDE2-Topics/DevOps-Guide.md) - CI/CD, Docker, Kubernetes, IaC
-- [API Design Guide](./04-Critical-SDE2-Topics/API-Design-Guide.md) - REST, GraphQL, gRPC with security
+- [Testing Guide](Testing-Guide.md) - Unit, Integration, E2E testing with frameworks
+- [Security Guide](Security-Guide.md) - OWASP Top 10, Auth/Auth, Cryptography
+- [DevOps Guide](DevOps-Guide.md) - CI/CD, Docker, Kubernetes, IaC
+- [API Design Guide](API-Design-Guide.md) - REST, GraphQL, gRPC with security
 
 ### [05 - Low Level Design](./05-Low-Level-Design/)
 **✅ COMPLETE - Design patterns and system implementations**
-- [Complete Design Patterns Guide](./05-Low-Level-Design/Complete-Design-Patterns-Guide.md) - All 15 patterns with examples
-- [Complete System Design Examples](./05-Low-Level-Design/Complete-System-Design-Examples.md) - Tic-tac-toe, Movie booking, Vending machine
+- [Complete Design Patterns Guide](Complete-Design-Patterns-Guide.md) - All 15 patterns with examples
+- [Complete System Design Examples](Complete-System-Design-Examples.md) - Tic-tac-toe, Movie booking, Vending machine
 - Creational, Structural, and Behavioral patterns
 - State machines, Strategy patterns, and real-world applications
 
 ### [06 - Behavioral Interviews](./06-Behavioral-Interviews/)
 **✅ COMPLETE - Master STAR method with company-specific preparation**
-- [Complete Behavioral Guide](./06-Behavioral-Interviews/Complete-Behavioral-Guide.md) - STAR+L framework with examples
+- [Complete Behavioral Guide](Complete-Behavioral-Guide.md) - STAR+L framework with examples
 - Amazon's 16 Leadership Principles with detailed examples
 - Google, Meta, Microsoft culture alignment
 - Technical leadership, people management, and problem-solving scenarios

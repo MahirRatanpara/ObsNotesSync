@@ -1685,5 +1685,5 @@ public class ApiMigrationService {
 - [[Security-Guide|API Security Best Practices]]
 - [[Testing-Guide|API Testing Strategies]]
 - [[DevOps-Guide|API Gateway and Service Mesh]]
-- [[02-System-Design/Complete-HLD-Guide|API Architecture Patterns]]
-- [[03-Java-Concurrency/Complete-Java-Concurrency-Guide|Concurrent API Processing]]
+- [[Complete-HLD-Guide|API Architecture Patterns]]
+- [[Complete-Java-Concurrency-Guide|Concurrent API Processing]]
