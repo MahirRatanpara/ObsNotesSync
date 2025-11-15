@@ -18,8 +18,21 @@
               "icon": "lucide-file-text",
               "title": "Caching"
             }
+          },
+          {
+            "id": "6836810f01051ef4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "8e2e2a936024f3ab",
+  "active": "6836810f01051ef4",
   "lastOpenFiles": [
     "MahirNotes/HLD/Idempodency/Idempotency Key Gen.md",
     "MahirNotes/HLD/HLD-Revision-Checklist.md",
