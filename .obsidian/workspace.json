@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir' Notes/HLD/High Availablity/Distributed Systems.md",
+                "file": "Mahir' Notes/HLD/Microservice Architecture/API Gateway.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distributed Systems"
+              "title": "API Gateway"
             }
           }
         ]
@@ -143,6 +143,7 @@
   },
   "active": "e060e8a0ef3bf805",
   "lastOpenFiles": [
+    "Mahir' Notes/HLD/High Availablity/Distributed Systems.md",
     "Mahir' Notes/HLD/High Availablity/Design Highly Available Architecture.pdf",
     "Mahir' Notes/HLD/Idempodency/Idempotency Key Gen.md",
     "Mahir' Notes/HLD/Idempodency/Idempodency Handler.pdf",
@@ -177,7 +178,6 @@
     "Mahir' Notes/LLD/Patterns/State/Untitled",
     "Mahir' Notes/LLD/Patterns/Interpreter",
     "Mahir' Notes/LLD/Patterns/Memento",
-    "Mahir' Notes/LLD/Patterns/Visitor",
-    "Mahir' Notes/LLD/Patterns/TemplateMethod"
+    "Mahir' Notes/LLD/Patterns/Visitor"
   ]
 }
