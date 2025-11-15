@@ -139,8 +139,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "aa5bb82e61fe6202",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Databases/8.2 Consistent Hashing - Replication Strategy.md",
     "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "MahirNotes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
@@ -174,7 +175,6 @@
     "MahirNotes/Company-Wise/Amazon/LP/Learn and Be Curious.md",
     "MahirNotes/Company-Wise/AirBnB.md",
     "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/Company-Wise/Self Intro.md",
     "MahirNotes/Company-Wise/Amazon/LP",
     "Mahir' Notes/LLD/Patterns/State/Untitled"
   ]
