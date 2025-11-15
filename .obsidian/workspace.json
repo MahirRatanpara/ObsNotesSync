@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d21e6f6fa68cc107",
+        "id": "8ec5919ea075aaee",
         "type": "tabs",
         "children": [
           {
-            "id": "aa5bb82e61fe6202",
+            "id": "d8dbb8bd4455318e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf"
+                "file": "MahirNotes/HLD/Caching/Caching.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "9. Design Key-Value Database"
+              "icon": "lucide-file",
+              "title": "Caching"
             }
           }
         ]
@@ -139,9 +141,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "d8dbb8bd4455318e",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Databases/3. Database Replication.md",
     "MahirNotes/HLD/Databases/8.2 Consistent Hashing - Replication Strategy.md",
+    "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "MahirNotes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
@@ -174,8 +178,6 @@
     "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
     "MahirNotes/Company-Wise/Amazon/LP/Learn and Be Curious.md",
     "MahirNotes/Company-Wise/AirBnB.md",
-    "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/Company-Wise/Amazon/LP",
-    "Mahir' Notes/LLD/Patterns/State/Untitled"
+    "MahirNotes/Company-Wise/Amazon/LP"
   ]
 }
