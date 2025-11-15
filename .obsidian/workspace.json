@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b9ea56e47bbe3858",
+        "id": "d21e6f6fa68cc107",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2e2a936024f3ab",
+            "id": "aa5bb82e61fe6202",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "MahirNotes/HLD/Caching/Caching.pdf"
+                "file": "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Caching"
-            }
-          },
-          {
-            "id": "6836810f01051ef4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "9. Design Key-Value Database"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,8 +139,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "6836810f01051ef4",
+  "active": "aa5bb82e61fe6202",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
+    "MahirNotes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
+    "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
+    "MahirNotes/HLD/Caching/Caching.md",
+    "MahirNotes/HLD/Caching/Caching.pdf",
     "MahirNotes/HLD/Idempodency/Idempotency Key Gen.md",
     "MahirNotes/HLD/HLD-Revision-Checklist.md",
     "MahirNotes/HLD/Datamodeling.md",
@@ -164,7 +156,6 @@
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Scalability-Guide.md",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
-    "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
     "MahirNotes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
     "MahirNotes/HLD/High Availablity/Scale From 0 To 1B.pdf",
@@ -173,7 +164,6 @@
     "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
     "MahirNotes/HLD/Idempodency/Idempodency Handler.pdf",
     "MahirNotes/DSA/Topics/Elegant Maximum Points formula.md",
-    "MahirNotes/HLD/Caching/Caching.md",
     "MahirNotes/HLD/Caching/Redis.md",
     "MahirNotes/HLD/Caching/Caching Interview Perspective.md",
     "MahirNotes/HLD/Transaction Control/Distributed Transaction.pdf",
@@ -186,9 +176,6 @@
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/Company-Wise/Self Intro.md",
     "MahirNotes/Company-Wise/Amazon/LP",
-    "MahirNotes/HLD/Hot Links.md",
-    "MahirNotes/Java/CONCURRENCY_PROBLEM_SOLVER.md",
-    "Mahir' Notes/LLD/Patterns/State/Untitled",
-    "MahirNotes/LLD/Patterns/Interpreter"
+    "Mahir' Notes/LLD/Patterns/State/Untitled"
   ]
 }
