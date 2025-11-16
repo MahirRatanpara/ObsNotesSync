@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Caching/Caching.md",
+                "file": "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caching"
+              "title": "Real-time Updates Pattern"
             }
           }
         ]
@@ -143,17 +143,20 @@
   },
   "active": "d8dbb8bd4455318e",
   "lastOpenFiles": [
+    "MahirNotes/HLD/HLD-Revision-Checklist.md",
+    "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
+    "MahirNotes/HLD/Patterns",
+    "MahirNotes/HLD/Hot Links.md",
+    "MahirNotes/HLD/Datamodeling.md",
+    "MahirNotes/HLD/Caching/Caching.md",
     "MahirNotes/HLD/Databases/3. Database Replication.md",
     "MahirNotes/HLD/Databases/8.2 Consistent Hashing - Replication Strategy.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "MahirNotes/HLD/Databases/8.1 Rebalancing in Consistent Hashing.md",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
-    "MahirNotes/HLD/Caching/Caching.md",
     "MahirNotes/HLD/Caching/Caching.pdf",
     "MahirNotes/HLD/Idempodency/Idempotency Key Gen.md",
-    "MahirNotes/HLD/HLD-Revision-Checklist.md",
-    "MahirNotes/HLD/Datamodeling.md",
     "MahirNotes/Enriched/03-Java-Scala-Concepts/Inheritance-and-Polymorphism.md",
     "MahirNotes/Enriched/04-Critical-SDE2-Topics/DevOps-Guide.md",
     "MahirNotes/Enriched/04-Critical-SDE2-Topics/API-Design-Guide.md",
@@ -175,9 +178,6 @@
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "MahirNotes/HLD/Design Questions/Design Chat System.pdf",
     "MahirNotes/Company-Wise/Amazon/LP/Deep Dive.md",
-    "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
-    "MahirNotes/Company-Wise/Amazon/LP/Learn and Be Curious.md",
-    "MahirNotes/Company-Wise/AirBnB.md",
-    "MahirNotes/Company-Wise/Amazon/LP"
+    "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md"
   ]
 }
