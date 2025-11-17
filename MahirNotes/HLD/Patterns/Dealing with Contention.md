@@ -93,6 +93,13 @@ COMMIT;  -- Releases lock
 - Short transaction duration
 - Read-modify-write pattern
 
+**How It Reduces Contention**:
+- **Serializes access**: Only one transaction can modify the resource at a time
+- **Prevents wasted work**: No retries needed, first transaction wins
+- **Eliminates race conditions**: Lock ensures exclusive access to data
+- **Database-managed queuing**: DB handles waiting transactions efficiently
+- **Short critical section**: Fast operations minimize lock hold time
+
 **Pros**:
 - Prevents all conflicts
 - Simpler logic (no retry needed)
@@ -147,6 +154,13 @@ WHERE product_id = 123 AND version = 10;
 - Can tolerate retries
 - Long-running transactions
 - Better concurrency than pessimistic
+
+**How It Reduces Contention**:
+- **Allows concurrent reads**: Multiple transactions can read simultaneously
+- **No blocking**: Transactions don't wait for each other during read phase
+- **Fail-fast detection**: Version check immediately identifies conflicts
+- **Optimistic assumption**: Assumes conflicts are rare, maximizes throughput
+- **Database doesn't hold locks**: Reduces pressure on lock manager
 
 **Pros**:
 - Higher concurrency
@@ -205,6 +219,13 @@ WHERE product_id = 123 AND stock > 0;
 - Single column update
 - No complex business logic needed
 
+**How It Reduces Contention**:
+- **Single operation**: No read-modify-write gap where conflicts occur
+- **Database-level atomicity**: DB engine handles concurrency internally using latches
+- **No transaction overhead**: No BEGIN/COMMIT needed, faster execution
+- **Row-level execution**: Modern DBs use row versioning, minimal blocking
+- **Shortest critical section**: Single UPDATE is fastest possible operation
+
 **Pros**:
 - Simplest approach
 - Best performance
@@ -231,18 +252,22 @@ WHERE product_id = 123 AND stock > 0;
 **Read Uncommitted**:
 - Can read uncommitted changes (dirty reads)
 - Almost never used
+- **Contention impact**: Minimal locks, maximum contention/conflicts
 
 **Read Committed** (default in most DBs):
 - Only see committed changes
 - Non-repeatable reads possible
+- **Contention impact**: Short read locks, moderate contention
 
 **Repeatable Read**:
 - Same read query returns same results within transaction
 - Phantom reads possible
+- **Contention impact**: Read locks held longer, more contention on reads
 
 **Serializable** (strongest):
 - Full isolation, as if transactions run serially
 - Highest consistency, lowest concurrency
+- **Contention impact**: Maximum locking, highest contention but zero conflicts
 
 **Include in Design**:
 - "Use Serializable isolation for critical transfers"
@@ -280,6 +305,12 @@ COMMIT;
 - Single server deployment
 - Not distributed system
 - Low traffic
+
+**How It Reduces Contention**:
+- **In-memory speed**: Nanosecond-level lock acquisition vs millisecond DB locks
+- **No network overhead**: Lock is local to process, no network calls
+- **OS-level primitives**: Uses CPU instructions (CAS) for lock management
+- **Shared memory**: All threads see the same lock state instantly
 
 **Pros**:
 - Very fast (in-memory)
@@ -321,6 +352,13 @@ if GET resource_name == my_unique_id:
 - Distributed system (multiple servers)
 - Need coordination across servers
 - Can't use database-level locks
+
+**How It Reduces Contention**:
+- **Cross-server coordination**: Prevents multiple servers from accessing same resource
+- **Centralized arbitration**: Single Redis instance decides who gets the lock
+- **Fast lock checks**: In-memory Redis operations are very fast (~1ms)
+- **Auto-expiry**: Stuck locks don't block forever, system self-heals
+- **Reduces DB pressure**: Moves lock management away from database
 
 **Pros**:
 - Works across multiple servers
@@ -372,6 +410,13 @@ Else:
 - All-or-nothing requirement
 - Can tolerate blocking
 
+**How It Reduces Contention**:
+- **Coordination across systems**: Prevents partial updates across multiple databases
+- **Locks on all participants**: Each DB locks its own resources during prepare phase
+- **Atomic commitment**: All succeed or all fail, no inconsistent states
+- **NOTE**: Doesn't actually reduce contention, it extends it across systems
+- **Trade-off**: Sacrifices performance for consistency
+
 **Pros**:
 - Strong consistency across systems
 - All-or-nothing guarantee
@@ -409,6 +454,13 @@ User C → Request → ↓
 - High contention on specific resource
 - Order of operations matters
 - Can tolerate async processing
+
+**How It Reduces Contention**:
+- **Eliminates contention entirely**: Only one worker accesses resource, no conflicts possible
+- **Sequential processing**: Inherently serialized, no race conditions
+- **Moves contention upstream**: Contention happens in queue (writes), not on resource
+- **Backpressure handling**: Queue depth signals system load
+- **Predictable performance**: No lock waits, retries, or deadlocks
 
 **Pros**:
 - No locking needed
@@ -451,6 +503,13 @@ success = CAS(stock, expected, new_value)
 - Lock-free algorithms
 - High-performance requirements
 
+**How It Reduces Contention**:
+- **Lock-free**: No blocking, all threads can attempt updates concurrently
+- **Hardware-level atomicity**: CPU instruction ensures atomic swap
+- **Immediate conflict detection**: Know instantly if update succeeded
+- **No lock overhead**: No lock acquisition/release, just compare-and-swap
+- **Optimistic concurrency**: Assumes success, retries on failure
+
 **Pros**:
 - Lock-free
 - High performance
@@ -486,6 +545,13 @@ If step 2 fails:
 - Distributed systems
 - Can't use 2PC
 - Eventually consistent acceptable
+
+**How It Reduces Contention**:
+- **Non-blocking**: Each step commits independently, no long-held locks
+- **Distributed load**: Each service handles its own part, no single bottleneck
+- **Eventual consistency**: Allows concurrent processing without coordination
+- **Asynchronous**: Steps don't block each other, higher throughput
+- **NOTE**: Doesn't prevent contention on individual steps, but avoids cross-service locking
 
 **Pros**:
 - Non-blocking
