@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
+                "file": "MahirNotes/HLD/Patterns/Dealing with Contention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handling Large Blobs"
+              "title": "Dealing with Contention"
             }
           }
         ]
@@ -143,6 +143,7 @@
   },
   "active": "d8dbb8bd4455318e",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Dealing with Contention.md",
     "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/Patterns/Pushing-Realtime-Updates.md",
@@ -151,7 +152,6 @@
     "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
     "MahirNotes/HLD/Patterns/Multi-Step Processes.md",
     "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
-    "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/01-Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/Patterns/Scaling Reads.md",
     "MahirNotes/HLD/HLD-Revision-Checklist.md",
