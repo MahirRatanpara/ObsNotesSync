@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ee867e9ae6ffd327",
+        "id": "b2fe4e5f094f7f54",
         "type": "tabs",
         "children": [
           {
-            "id": "3dd742dfe8bb76d0",
+            "id": "e679b37e3ff72080",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
+                "file": "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handling Large Blobs"
+              "title": "Managing Long-Running Tasks"
             }
           }
         ]
@@ -141,11 +141,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "3dd742dfe8bb76d0",
+  "active": "e679b37e3ff72080",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/Patterns/Pushing-Realtime-Updates.md",
-    "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Dealing with Contention.md",
     "MahirNotes/HLD/Concurrency Control/2 Phase Locking.md",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
