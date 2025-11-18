@@ -141,6 +141,8 @@
   },
   "active": "548445e4e0f318e9",
   "lastOpenFiles": [
+    "MahirNotes/HLD/MQ/Retrial in MQ.md",
+    "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
     "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
@@ -171,11 +173,9 @@
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
     "MahirNotes/HLD/Caching/Caching.pdf",
     "MahirNotes/HLD/Idempodency/Idempotency Key Gen.md",
-    "MahirNotes/Enriched/03-Java-Scala-Concepts/Inheritance-and-Polymorphism.md",
     "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
     "MahirNotes/HLD/High Availablity/Scale From 0 To 1B.pdf",
     "MahirNotes/HLD/High Availablity/Design Highly Available Architecture.pdf",
-    "MahirNotes/HLD/Idempodency/Idempodency Handler.pdf",
-    "MahirNotes/HLD/Transaction Control/Distributed Transaction.pdf"
+    "MahirNotes/HLD/Idempodency/Idempodency Handler.pdf"
   ]
 }
