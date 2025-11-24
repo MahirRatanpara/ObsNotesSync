@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3442320d9317797a",
+        "id": "d5b02ce3d6a28d59",
         "type": "tabs",
         "children": [
           {
-            "id": "e2355139166e3c4e",
+            "id": "a869df68dd1e5e00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dealing with Contention [Adv - Concurrency]"
+              "title": "New tab"
             }
           }
         ]
@@ -141,11 +137,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2355139166e3c4e",
+  "active": "a869df68dd1e5e00",
   "lastOpenFiles": [
+    "MahirNotes/Company-Wise/Hybrid research.md",
+    "MahirNotes/Company-Wise/AirBnB.md",
+    "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
+    "MahirNotes/HLD/HLD-Revision-Checklist.md",
+    "MahirNotes/HLD/Hot Links.md",
+    "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
     "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Multi-Step Processes [Adv - SAGA and Tx].md",
-    "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
     "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
     "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/Patterns/Scaling Reads.md",
@@ -153,7 +154,6 @@
     "MahirNotes/HLD/Design Questions/Answering/Answering Eventual Consistency.md",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
-    "MahirNotes/HLD/HLD-Revision-Checklist.md",
     "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
     "MahirNotes/HLD/Patterns/Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
@@ -168,10 +168,7 @@
     "MahirNotes/HLD/Patterns/Pushing Realtime Updates.md",
     "MahirNotes/HLD/Patterns/01-Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/Patterns",
-    "MahirNotes/HLD/Hot Links.md",
     "MahirNotes/HLD/Datamodeling.md",
-    "MahirNotes/HLD/Caching/Caching.md",
-    "MahirNotes/HLD/Databases/3. Database Replication.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
     "MahirNotes/HLD/Caching/Caching.pdf",
