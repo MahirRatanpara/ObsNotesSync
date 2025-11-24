@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
+                "file": "MahirNotes/HLD/Patterns/Scaling Reads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real-time Updates Pattern"
+              "title": "Scaling Reads"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 470
+    "width": 470,
+    "collapsed": true
   },
   "right": {
     "id": "30a8156c470c1591",
@@ -143,12 +144,13 @@
   },
   "active": "1c9763230022ca43",
   "lastOpenFiles": [
-    "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
     "MahirNotes/HLD/Patterns/Multi-Step Processes [Adv - SAGA and Tx].md",
+    "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
+    "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
+    "MahirNotes/HLD/Patterns/Scaling Writes.md",
     "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
     "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
-    "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/Patterns/Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
@@ -159,7 +161,6 @@
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
     "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
-    "MahirNotes/HLD/Patterns/Scaling Writes.md",
     "MahirNotes/HLD/Patterns/Pushing Realtime Updates.md",
     "MahirNotes/HLD/Patterns/01-Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/Patterns/Scaling Reads.md",
