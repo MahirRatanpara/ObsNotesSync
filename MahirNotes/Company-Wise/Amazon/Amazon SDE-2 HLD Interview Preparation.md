@@ -119,10 +119,10 @@ These 7 problems are selected based on:
 
 ### Problem 2: Design a Rate Limiter (Medium)
 
-- [ ] **Problem Solved**
-- [ ] **Reviewed Trade-offs**
-- [ ] **Mock Interview Practice**
-- [ ] **Whiteboard Sketched**
+- [x] **Problem Solved**
+- [x] **Reviewed Trade-offs**
+- [x] **Mock Interview Practice**
+- [x] **Whiteboard Sketched**
 
 **Source**: Hello Interview (Medium)
 
@@ -134,13 +134,13 @@ These 7 problems are selected based on:
 
 #### Key Concepts to Cover
 
-- [ ] Token bucket algorithm
-- [ ] Leaky bucket algorithm
-- [ ] Fixed window counter
-- [ ] Sliding window log
-- [ ] Sliding window counter
-- [ ] Distributed rate limiting
-- [ ] Redis integration
+- [x] Token bucket algorithm
+- [x] Leaky bucket algorithm
+- [x] Fixed window counter
+- [x] Sliding window log
+- [x] Sliding window counter
+- [x] Distributed rate limiting
+- [x] Redis integration
 
 #### Critical Trade-offs
 
