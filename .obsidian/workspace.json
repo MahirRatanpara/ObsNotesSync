@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d5b02ce3d6a28d59",
+        "id": "80fbfac2bc97381c",
         "type": "tabs",
         "children": [
           {
-            "id": "a869df68dd1e5e00",
+            "id": "6837324347e0c8ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
+                "file": "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Using Kafka - System Design Interview Guide"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
+                "file": "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Using Kafka - System Design Interview Guide"
             }
           },
           {
@@ -141,10 +141,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a869df68dd1e5e00",
+  "active": "6837324347e0c8ac",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Design Questions/Design Rate Limiter.md",
+    "MahirNotes/HLD/Design Questions/Design Chat System.pdf",
+    "MahirNotes/HLD/Design Questions/Design URL Shortner.pdf",
+    "MahirNotes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
+    "MahirNotes/HLD/Design Questions/Answering/Answering Eventual Consistency.md",
+    "MahirNotes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
     "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
-    "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/Company-Wise/AirBnB.md",
     "MahirNotes/HLD/HLD-Revision-Checklist.md",
@@ -156,7 +161,6 @@
     "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/Patterns/Scaling Reads.md",
     "MahirNotes/HLD/Patterns/Scaling Writes.md",
-    "MahirNotes/HLD/Design Questions/Answering/Answering Eventual Consistency.md",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Ad Aggregator Streaming Architecture with Apache Flink and Amazon Kinesis.md",
     "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
@@ -169,15 +173,10 @@
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Database-Guide.md",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
-    "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
-    "MahirNotes/HLD/Patterns/Pushing Realtime Updates.md",
-    "MahirNotes/HLD/Patterns/01-Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/Patterns",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
     "MahirNotes/HLD/Caching/Caching.pdf",
-    "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
-    "MahirNotes/HLD/High Availablity/Scale From 0 To 1B.pdf",
-    "MahirNotes/HLD/High Availablity/Design Highly Available Architecture.pdf"
+    "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf"
   ]
 }
