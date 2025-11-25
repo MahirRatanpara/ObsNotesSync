@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
+                "file": "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon SDE-2 HLD Interview Preparation"
+              "title": "Untitled"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
+                "file": "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon SDE-2 HLD Interview Preparation"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -143,9 +143,10 @@
   },
   "active": "a869df68dd1e5e00",
   "lastOpenFiles": [
+    "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
+    "MahirNotes/HLD/Design Questions/Design Deepdives/Untitled.md",
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/Company-Wise/AirBnB.md",
-    "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
     "MahirNotes/HLD/HLD-Revision-Checklist.md",
     "MahirNotes/HLD/Hot Links.md",
     "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
@@ -172,7 +173,6 @@
     "MahirNotes/HLD/Patterns/Pushing Realtime Updates.md",
     "MahirNotes/HLD/Patterns/01-Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/Patterns",
-    "MahirNotes/HLD/Datamodeling.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
     "MahirNotes/HLD/Caching/Caching.pdf",
