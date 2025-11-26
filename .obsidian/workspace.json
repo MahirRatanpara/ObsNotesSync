@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Company-Wise/Amazon/LP/Deliver Results.md",
+                "file": "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deliver Results"
+              "title": "Earn Trust"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MahirNotes/Company-Wise/Amazon/LP/Deliver Results.md",
+                "file": "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deliver Results"
+              "title": "Backlinks for Earn Trust"
             }
           },
           {
@@ -143,10 +143,11 @@
   },
   "active": "6837324347e0c8ac",
   "lastOpenFiles": [
+    "MahirNotes/Company-Wise/Amazon/LP/Deliver Results.md",
+    "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
     "MahirNotes/Company-Wise/Amazon/LP/Learn and Be Curious.md",
     "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
     "MahirNotes/Company-Wise/Amazon/LP/Deep Dive.md",
-    "MahirNotes/Company-Wise/Amazon/LP/Deliver Results.md",
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/HLD/Design Questions/Design Rate Limiter.md",
@@ -172,7 +173,6 @@
     "MahirNotes/HLD/Patterns/Proximity-Based Services.md",
     "MahirNotes/HLD/Patterns/Pushing-Realtime-Updates.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
-    "MahirNotes/HLD/MQ/Retrial in MQ.md",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Patterns",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",

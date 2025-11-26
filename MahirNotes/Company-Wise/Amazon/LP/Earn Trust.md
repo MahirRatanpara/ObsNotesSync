@@ -1,0 +1,33 @@
+**Question:** Tell me about a time when you earned the trust of a colleague or a team.
+
+**Answer:**  
+**Situation:** In one of my recent projects using Spark to process large data pipelines (ingesting data from multiple sources, transforming it, and writing outputs to downstream services), our downstream consumers were unstable, causing intermittent failures when data was incomplete or malformed. Many developers and downstream teams were hesitant to rely on the outputs because of inconsistent behavior.  
+**Task:** I volunteered to build a robust pre-processor layer on top of Spark jobs that would validate input data, enforce schema checks, handle edge cases (nulls, missing fields), and produce sanitised, consistent output — so consumers could rely on it.  
+**Action:** I designed and implemented this validation/enrichment layer as part of the Spark pipeline, added extensive logging and metrics (bad-record counts, data-quality reports), and communicated clearly with the team about what the layer guarantees versus what it doesn’t (e.g. certain assumptions, data completeness constraints). I also documented these guarantees and shared them with downstream teams. Over successive runs, I monitored output stability and shared dashboards with stakeholders to build confidence.  
+**Result:** Data quality improved significantly; failures or consumer complaints dropped sharply. Downstream teams started trusting outputs from the pipeline, used them without extra checks, and built new features over them. This improved collaboration and reduced redundant validations across teams — showing that I earned their trust via reliability, transparency, and accountability.
+
+
+**Question:** Tell me about a time you received difficult feedback. What did you do and what did you learn?
+
+**Answer:**  
+**Situation:** In a Spark-based data pipeline I built, I used in-memory buffering for intermediate data — because at that time volume seemed moderate and we wanted low latency. During a code review, a senior engineer flagged that this approach was fragile: on heavy load or worker failures, we risked silent data loss or inconsistent output.  
+**Task:** I had to address this design flaw to ensure data integrity before the pipeline went into production, and regain trust in my architecture.  
+**Action:** I accepted the feedback immediately. I re-architected the pipeline: removed in-memory buffering and introduced persistence for intermediate results (checkpointing / durable writes). I added tests simulating failures or restarts to verify no data loss, and communicated the trade-offs — slight performance overhead vs long-term reliability — to the team.  
+**Result:** After changes, even in failure or restart scenarios, data remained intact and consistent. Downstream services began relying on the pipeline outputs without extra validation. The team acknowledged and appreciated the improved robustness — and my credibility as someone who takes feedback seriously and builds reliable systems grew.
+
+
+**Question:** Have you ever failed to meet a commitment to a team or stakeholder? What happened, how did you respond, and what did you learn?
+
+**Answer:**  
+**Situation:** During a tight-deadline Big Data project, I committed to deliver a full data-processing pipeline (using Spark) that would ingest, transform, and output data within a fixed timeframe. However, during the project I encountered unexpected data issues — some data sources changed schema mid-way, which caused repeated job failures and forced rework, threatening the delivery timeline.  
+**Task:** My responsibility was to inform stakeholders (project lead, downstream teams) about the delay — manage expectations realistically, propose a recovery plan, and still aim to deliver as much as possible without compromising on quality.  
+**Action:** As soon as I recognized the schema instability and repeated failures, I communicated transparently with stakeholders: explained what went wrong (schema changes, missing backward compatibility), provided a revised but realistic timeline, and proposed mitigation (adding schema versioning, data-validation steps, incremental processing). I also volunteered to put in extra time (weekends/off hours) to catch up, and documented root causes and preventive measures for future.  
+**Result:** Though we missed the original deadline, stakeholders appreciated the early heads-up, honesty, and the proactive mitigation plan. We delivered the pipeline eventually with proper schema handling and validation. The transparent communication and accountability restored their trust — and I learned the importance of building buffers when dealing with unpredictable data and external dependencies.
+
+**Question:** Describe a situation where a colleague (or another team) was skeptical or distrustful of your proposal — how did you build or rebuild trust with them?
+
+**Answer:**  
+**Situation:** I proposed to replace an ad-hoc Spark script (that processed small datasets manually) with a fully automated Spark-based ETL pipeline for production data processing. Some colleagues and stakeholders were skeptical about this change: they worried about latency, complexity, failure scenarios, and the overhead of maintaining a full-scale data pipeline.  
+**Task:** My job was to convince them of the benefits, address their concerns, get consensus on migrating to the new design — while ensuring minimal disruption, fallback plan, and clear monitoring in case things broke.  
+**Action:** I built a small proof-of-concept (PoC) pipeline using sample data, ran benchmarks comparing old manual script vs new automated pipeline under expected loads, and measured latency, throughput, and failure behavior. I shared results transparently with the team, highlighted trade-offs, and proposed a phased rollout: first run pipeline in parallel with existing script for one batch, monitor outputs, then switch. I also created documentation, logging & alerting, and fallback procedure if things failed. I took feedback from skeptical stakeholders and incorporated changes (e.g. adjustable batch sizes, configurable parallelism).  
+**Result:** The team agreed to adopt the new Spark-based pipeline. After migration, data processing became automated, consistent, and scalable. Maintenance overhead went down (no manual scripts), and failures were easier to debug because of structured logs and metrics. Over time, colleagues appreciated the reliability and transparency — which increased overall trust in new designs and demonstrated that I back proposals with proof, responsibility, and accountability.
