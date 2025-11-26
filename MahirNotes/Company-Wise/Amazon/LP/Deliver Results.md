@@ -84,7 +84,7 @@ To save time, I deprioritized UI work and full-fledged dashboards and instead bu
 This prioritization approach let us deliver the scheduler **ahead of the deadline**, with **99%+ successful migration rates** and an **80% reduction** in manual operational overhead.
 
 
-
+# Win-Win Negotiation (Operational Cost vs Performance)
 
 **S (Situation):**
 
