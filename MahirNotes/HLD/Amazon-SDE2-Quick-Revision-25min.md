@@ -472,16 +472,16 @@
 
 ## FINAL CHECKLIST (Before Interview)
 
-- [ ] Understand CAP theorem deeply (CP vs AP choice)
-- [ ] Know sharding strategies and when each fits
-- [ ] Explain idempotency clearly (critical for Amazon)
-- [ ] Be comfortable with read/write scaling separately
-- [ ] Know Redis architecture (single-threaded, cluster mode)
-- [ ] Understand WebSockets vs polling trade-offs
-- [ ] Circuit breaker state transitions (open-half-open-closed)
-- [ ] Can justify every technology choice
-- [ ] Practice back-of-envelope calculations
-- [ ] Discuss monitoring/alerting/operational concerns
+- [x] Understand CAP theorem deeply (CP vs AP choice)
+- [x] Know sharding strategies and when each fits
+- [x] Explain idempotency clearly (critical for Amazon)
+- [x] Be comfortable with read/write scaling separately
+- [x] Know Redis architecture (single-threaded, cluster mode)
+- [x] Understand WebSockets vs polling trade-offs
+- [x] Circuit breaker state transitions (open-half-open-closed)
+- [x] Can justify every technology choice
+- [x] Practice back-of-envelope calculations
+- [x] Discuss monitoring/alerting/operational concerns
 
 **Remember**: Amazon values engineers who think about operational excellence, scalability, and reliability. Always discuss not just WHAT to build, but HOW to monitor it, WHAT can go wrong, and HOW to recover.
 
