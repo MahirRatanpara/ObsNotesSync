@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8641977fcff0d107",
+        "id": "f7d0dee249802d1a",
         "type": "tabs",
         "children": [
           {
-            "id": "5114604168357159",
+            "id": "287de28f68bdd53c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,8 +136,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "5114604168357159",
+  "active": "287de28f68bdd53c",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Amazon Revision Checklist.md",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "MahirNotes/HLD/Amazon-SDE2-Quick-Revision-25min.md",
     "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
