@@ -137,9 +137,9 @@
 - [x] Biggest Island (easy)  
 - [x] Flood Fill (easy) [Leetcode](https://leetcode.com/problems/flood-fill/)  
 - [x] Number of Closed Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-closed-islands/)  
-- [ ] Problem Challenge 1 (easy)  
-- [ ] Problem Challenge 2 (medium)  
-- [ ] Problem Challenge 3 (medium)  
+- [x] Problem Challenge 1 (easy)  
+- [x] Problem Challenge 2 (medium)  
+- [x] Problem Challenge 3 (medium)  
 
 ### 14. Pattern: Two Heaps
 - [x] Introduction  
