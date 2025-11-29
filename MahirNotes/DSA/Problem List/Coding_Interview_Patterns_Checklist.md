@@ -68,8 +68,8 @@
 - [x] Reverse a LinkedList (easy) [Leetcode](https://leetcode.com/problems/reverse-linked-list/)  
 - [x] Reverse a Sub-list (medium) [Leetcode](https://leetcode.com/problems/reverse-linked-list-ii/)  
 - [x] Reverse every K-element Sub-list (medium) [Leetcode](https://leetcode.com/problems/reverse-nodes-in-k-group/)  
-- [ ] Problem Challenge 1: Reverse alternating K-element Sub-list (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/)  
-- [ ] Problem Challenge 2: Rotate a LinkedList (medium) [Leetcode](https://leetcode.com/problems/rotate-list/)  
+- [x] Problem Challenge 1: Reverse alternating K-element Sub-list (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/)  
+- [x] Problem Challenge 2: Rotate a LinkedList (medium) [Leetcode](https://leetcode.com/problems/rotate-list/)  
 
 ### 7. Pattern: Stack
 
