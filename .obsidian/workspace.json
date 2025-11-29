@@ -35,7 +35,8 @@
               "title": "Coding_Interview_Patterns_Checklist"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,10 +156,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "287de28f68bdd53c",
+  "active": "8aff52f1ea88803e",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
+    "MahirNotes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Pattern Recognition.md",
     "MahirNotes/DSA/Amazon Revision Checklist.md",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
