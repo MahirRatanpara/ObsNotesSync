@@ -61,7 +61,7 @@
 - [x] Find all Duplicate Numbers (easy) [Leetcode](https://leetcode.com/problems/find-all-duplicates-in-an-array/)  
 - [x] Problem Challenge 1: Find the Corrupt Pair (easy) [TheCodingSimplified](https://thecodingsimplified.com/find-currupt-pair/)
 - [x] Problem Challenge 2: Find the Smallest Missing Positive Number (medium) [Leetcode](https://leetcode.com/problems/first-missing-positive/)  
-- [ ] Problem Challenge 3: Find the First K Missing Positive Numbers (hard) [TheCodingSimplified](https://thecodingsimplified.com/find-the-first-k-missing-positive-number/)  
+- [x] Problem Challenge 3: Find the First K Missing Positive Numbers (hard) [TheCodingSimplified](https://thecodingsimplified.com/find-the-first-k-missing-positive-number/)  
 ### 6. Pattern: In-place Reversal of a LinkedList
 
 - [x] Introduction [emre.me](https://emre.me/coding-patterns/in-place-reversal-of-a-linked-list/)  
