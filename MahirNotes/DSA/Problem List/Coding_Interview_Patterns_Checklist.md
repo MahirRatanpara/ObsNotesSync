@@ -49,7 +49,7 @@
 - [x] Conflicting Appointments (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/)  
 - [x] Problem Challenge 1: Minimum Meeting Rooms (hard) [Lintcode](https://www.lintcode.com/problem/meeting-rooms-ii/)  
 - [x] Problem Challenge 2: Maximum CPU Load (hard) [Geeksforgeeks](https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/)  
-- [ ] Problem Challenge 3: Employee Free Time (hard) [CoderTrain](https://www.codertrain.co/employee-free-time)  
+- [x] Problem Challenge 3: Employee Free Time (hard) [CoderTrain](https://www.codertrain.co/employee-free-time)  
 
 ### 5. Pattern: Cyclic Sort
 
@@ -60,7 +60,7 @@
 - [x] Find the Duplicate Number (easy) [Leetcode](https://leetcode.com/problems/find-the-duplicate-number/)  
 - [x] Find all Duplicate Numbers (easy) [Leetcode](https://leetcode.com/problems/find-all-duplicates-in-an-array/)  
 - [ ] Problem Challenge 1: Find the Corrupt Pair (easy) [TheCodingSimplified](https://thecodingsimplified.com/find-currupt-pair/)
-- [ ] Problem Challenge 2: Find the Smallest Missing Positive Number (medium) [Leetcode](https://leetcode.com/problems/first-missing-positive/)  
+- [x] Problem Challenge 2: Find the Smallest Missing Positive Number (medium) [Leetcode](https://leetcode.com/problems/first-missing-positive/)  
 - [ ] Problem Challenge 3: Find the First K Missing Positive Numbers (hard) [TheCodingSimplified](https://thecodingsimplified.com/find-the-first-k-missing-positive-number/)  
 ### 6. Pattern: In-place Reversal of a LinkedList
 
