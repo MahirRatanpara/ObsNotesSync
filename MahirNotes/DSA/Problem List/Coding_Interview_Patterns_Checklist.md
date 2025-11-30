@@ -154,7 +154,7 @@
 - [x] Subsets With Duplicates (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr)  
 - [x] Permutations (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/B8R83jyN3KY)  
 - [x] String Permutations by changing case (medium)  
-- [ ] Balanced Parentheses (hard)  
+- [x] Balanced Parentheses (hard)  
 - [x] Unique Generalized Abbreviations (hard) [Leetcode](https://leetcode.com/problems/generalized-abbreviation/)  
 
 ### 16. Pattern: Modified Binary Search
