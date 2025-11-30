@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/DSA/Topics/Quick Select for Kth.md",
+                "file": "MahirNotes/DSA/Topics/QuickSelect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Select for Kth"
+              "title": "QuickSelect"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "Coding_Interview_Patterns_Checklist"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -154,8 +155,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "287de28f68bdd53c",
+  "active": "8aff52f1ea88803e",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Topics/QuickSelect.md",
+    "MahirNotes/DSA/Topics/Quick Select for Kth.md",
     "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
     "MahirNotes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Pattern Recognition.md",
@@ -183,8 +186,6 @@
     "MahirNotes/HLD/Patterns/Dealing with Contention [Adv - Concurrency].md",
     "MahirNotes/HLD/Patterns/Handling Large Blobs.md",
     "MahirNotes/HLD/Patterns/Multi-Step Processes [Adv - SAGA and Tx].md",
-    "MahirNotes/HLD/Patterns/Managing Long-Running Tasks.md",
-    "MahirNotes/HLD/Patterns/Real-time Updates Pattern.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Patterns",
