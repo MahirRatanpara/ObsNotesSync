@@ -203,7 +203,7 @@
 ### 19. Pattern: K-way merge
 - [ ] Introduction  
 - [x] Merge K Sorted Lists (medium) [Leetcode](https://leetcode.com/problems/merge-k-sorted-lists/)  
-- [ ] Kth Smallest Number in M Sorted Lists (Medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/)  
+- [x] Kth Smallest Number in M Sorted Lists (Medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/)  
 - [ ] Kth Smallest Number in a Sorted Matrix (Hard) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/x1NJVYKNvqz)  
 - [ ] Smallest Number Range (Hard) [Leetcode](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)  
 - [ ] Problem Challenge 1: K Pairs with Largest Sums (hard)  
