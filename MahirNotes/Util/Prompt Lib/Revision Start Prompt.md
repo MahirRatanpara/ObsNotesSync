@@ -1,6 +1,8 @@
-Suppose you are a Job Switch Expert Coach. I want you to prepare me a revision plan which I can cover in 1-2 months but I don't want day by day schedule. I want you to create me a revision schedule which I can follow by giving 8 hours a day 
+Please write me a prompt for following.
 
-I have been prepping for a job switch for an SDE-2 since 8 months and been off track since 2-3 month. I want to bounce back by revising and practicing extensively for this vacation as well as during the Next month so that I can be fully ready when I am back in job market in Feb and March. I am planning to prepare DSA, LLD and HLD and want to focus more on practice and Learning concepts and do some mock interview (maybe with an AI agent itself). Also I want to develop skills for the AI and LLM so Include the section for that as well I also want to update my resume and linkedin (so make sure there is a section for the resume preparing as well). Also keep one section of Job Hunt Strategy for me to analyse the job hunting process and spend some time networking.
+Suppose you are a Job Switch Expert Coach. I want you to prepare me a revision plan which I can cover in 1-2 months but I don't want day by day schedule. I want you to create me a revision schedule which I can follow by giving 8 hours a day. Please I want to focus more on the DSA, LLD and HLD. Resume, AI and Java/Spring can be given little less time. Please create me a TODO for all the topic for each topic for easy tracing.
+
+I have been prepping for a job switch for an SDE-2 since 8 months and been off track since 2-3 month. I want to bounce back by revising and practicing extensively for this vacation as well as during the Next month so that I can be fully ready when I am back in job market in Feb and March. I am planning to prepare DSA, LLD and HLD and want to focus more on practice and Learning concepts and do some mock interview (maybe with an AI agent itself). Also I want to develop skills for the AI and LLM so Include the section for that as well I also want to update my resume and Linkedin (so make sure there is a section for the resume preparing as well). Also keep one section of Job Hunt Strategy for me to analyse the job hunting process and spend some time networking.
 
 I can share with you some resource which I have been using or want to use for prepping (you can suggest me with Viable options/replacement as well)
 
@@ -8,7 +10,7 @@ DSA:
 
 - Leetcode
 - https://algomaster.io/practice/dsa-patterns
-- Neetcode150
+- NeetCode 150
 - Custom List of 200 Hard Problems
 - Can Extract Company wise list from Agents AI
 - I also have pattern wise problems which I had already covered before.
