@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Util/Prompt Lib/Revision Start Prompt.md",
+                "file": "MahirNotes/Final/Revision Strategy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Revision Start Prompt"
+              "title": "Revision Strategy"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MahirNotes/Final/Revision Strategy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Revision Strategy"
             }
           },
           {
@@ -140,11 +141,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "aaf0e3c4f0bbfab2",
   "lastOpenFiles": [
+    "MahirNotes/Final/Revision Start - gpt.md",
+    "MahirNotes/Final/Revision Strategy.md",
+    "MahirNotes/Util/Prompt Lib/Prompt - Revision Strat Formation.md",
+    "MahirNotes/Final",
+    "MahirNotes/Util/Prompt Lib/Revision Start Prompt.md",
     "MahirNotes/Util/Prompt Lib",
     "MahirNotes/Company-Wise/Amazon/LP/Customer Obsession.md",
-    "MahirNotes/Util/Prompt Lib/Revision Start Prompt.md",
     "MahirNotes/DSA/Topics/QuickSelect.md",
     "MahirNotes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Topics/Quick Select for Kth.md",
@@ -169,14 +174,10 @@
     "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/Company-Wise/AirBnB.md",
-    "MahirNotes/HLD/HLD-Revision-Checklist.md",
-    "MahirNotes/HLD/Hot Links.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Patterns",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
-    "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf",
-    "MahirNotes/HLD/Caching/Caching.pdf",
-    "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf"
+    "MahirNotes/HLD/Databases/8. Consistent Hashing.pdf"
   ]
 }
