@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Final/Revision Strategy.md",
+                "file": "MahirNotes/DSA/Problem List/Misc DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Revision Strategy"
+              "title": "Misc DSA"
             }
           }
         ]
@@ -143,7 +143,18 @@
   },
   "active": "aaf0e3c4f0bbfab2",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Problem List/Others/Claude Research List.md",
+    "MahirNotes/DSA/Problem List/Others/Gemini Research List.md",
+    "MahirNotes/DSA/Problem List/Others/GPT Research List.md",
+    "MahirNotes/DSA/Problem List/Others/Perplexity Research List.md",
+    "MahirNotes/DSA/Problem List/Others/Prefix Sum List.md",
+    "MahirNotes/DSA/Amazon Revision Checklist.md",
+    "MahirNotes/DSA/Pattern Recognition.md",
+    "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
     "MahirNotes/Final/Revision Start - gpt.md",
+    "MahirNotes/Final/LLD REVISION.md",
+    "MahirNotes/Final/HLD REVISION.md",
+    "MahirNotes/Final/DSA REVISION.md",
     "MahirNotes/Final/Revision Strategy.md",
     "MahirNotes/Util/Prompt Lib/Prompt - Revision Strat Formation.md",
     "MahirNotes/Final",
@@ -153,9 +164,6 @@
     "MahirNotes/DSA/Topics/QuickSelect.md",
     "MahirNotes/DSA/Problem List/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Topics/Quick Select for Kth.md",
-    "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
-    "MahirNotes/DSA/Pattern Recognition.md",
-    "MahirNotes/DSA/Amazon Revision Checklist.md",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "MahirNotes/HLD/Amazon-SDE2-Quick-Revision-25min.md",
     "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
@@ -164,16 +172,8 @@
     "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
     "MahirNotes/Company-Wise/Amazon/LP/Deep Dive.md",
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
-    "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
-    "MahirNotes/HLD/Design Questions/Design Rate Limiter.md",
     "MahirNotes/HLD/Design Questions/Design Chat System.pdf",
     "MahirNotes/HLD/Design Questions/Design URL Shortner.pdf",
-    "MahirNotes/HLD/Design Questions/Design Deepdives/Rate Limiting.md",
-    "MahirNotes/HLD/Design Questions/Answering/Answering Eventual Consistency.md",
-    "MahirNotes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
-    "MahirNotes/Company-Wise/Amazon/Amazon SDE-2 HLD Interview Preparation.md",
-    "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/Company-Wise/AirBnB.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Patterns",
