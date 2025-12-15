@@ -9,7 +9,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 1-10
 
 - [ ] **1.** [Search Insert Position](https://leetcode.com/problems/search-insert-position) 🟢 Easy
-- [ ] **2.** [Design Browser History](https://leetcode.com/problems/design-browser-history) 🟡 Medium
+- [x] **2.** [Design Browser History](https://leetcode.com/problems/design-browser-history) 🟡 Medium
 - [ ] **3.** [Coin Change](https://leetcode.com/problems/coin-change) 🟡 Medium
 - [ ] **4.** [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) 🟡 Medium
 - [ ] **5.** [Merge Intervals](https://leetcode.com/problems/merge-intervals) 🟡 Medium
