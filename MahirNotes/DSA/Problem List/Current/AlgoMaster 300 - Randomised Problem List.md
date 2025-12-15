@@ -16,7 +16,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **6.** [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) 🟡 Medium
 - [ ] **7.** [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras) 🔴 Hard
 - [ ] **8.** [Permutations](https://leetcode.com/problems/permutations) 🟡 Medium
-- [ ] **9.** [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) 🟢 Easy
+- [x] **9.** [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) 🟢 Easy
 - [ ] **10.** [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) 🟡 Medium
 
 ### Problems 11-20
@@ -224,7 +224,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **166.** [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) 🟡 Medium
 - [ ] **167.** [Cherry Pickup](https://leetcode.com/problems/cherry-pickup) 🔴 Hard
 - [ ] **168.** [Bus Routes](https://leetcode.com/problems/bus-routes) 🔴 Hard
-- [ ] **169.** [Reorganize String](https://leetcode.com/problems/reorganize-string) 🟡 Medium
+- [x] **169.** [Reorganize String](https://leetcode.com/problems/reorganize-string) 🟡 Medium
 - [ ] **170.** [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) 🟡 Medium
 
 ### Problems 171-180
