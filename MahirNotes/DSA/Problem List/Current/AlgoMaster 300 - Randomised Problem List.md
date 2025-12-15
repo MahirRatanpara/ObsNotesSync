@@ -12,7 +12,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **2.** [Design Browser History](https://leetcode.com/problems/design-browser-history) 🟡 Medium
 - [x] **3.** [Coin Change](https://leetcode.com/problems/coin-change) 🟡 Medium
 - [ ] **4.** [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) 🟡 Medium
-- [ ] **5.** [Merge Intervals](https://leetcode.com/problems/merge-intervals) 🟡 Medium
+- [x] **5.** [Merge Intervals](https://leetcode.com/problems/merge-intervals) 🟡 Medium
 - [ ] **6.** [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) 🟡 Medium
 - [ ] **7.** [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras) 🔴 Hard
 - [ ] **8.** [Permutations](https://leetcode.com/problems/permutations) 🟡 Medium
