@@ -21,8 +21,8 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 11-20
 
-- [ ] **11.** [Sort List](https://leetcode.com/problems/sort-list) 🟡 Medium
-- [ ] **12.** [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) 🟡 Medium
+- [x] **11.** [Sort List](https://leetcode.com/problems/sort-list) 🟡 Medium
+- [x] **12.** [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) 🟡 Medium
 - [ ] **13.** [Pow(x, n)](https://leetcode.com/problems/powx-n) 🟡 Medium
 - [ ] **14.** [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) 🔴 Hard
 - [ ] **15.** [Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii) 🟡 Medium
