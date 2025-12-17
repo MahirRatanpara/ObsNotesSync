@@ -28,7 +28,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **15.** [Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii) 🟡 Medium
 - [ ] **16.** [Container With Most Water](https://leetcode.com/problems/container-with-most-water) 🟡 Medium
 - [x] **17.** [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) 🟢 Easy
-- [ ] **18.** [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) 🟡 Medium
+- [x] **18.** [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) 🟡 Medium
 - [x] **19.** [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) 🟢 Easy
 - [x] **20.** [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree) 🟡 Medium
 
@@ -39,7 +39,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **23.** [Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) 🔴 Hard
 - [ ] **24.** [01 Matrix](https://leetcode.com/problems/01-matrix) 🟡 Medium
 - [ ] **25.** [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) 🟡 Medium
-- [ ] **26.** [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) 🟢 Easy
+- [x] **26.** [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) 🟢 Easy
 - [ ] **27.** [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) 🟡 Medium
 - [ ] **28.** [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) 🟡 Medium
 - [ ] **29.** [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) 🟡 Medium
@@ -412,12 +412,12 @@ Track your progress by checking off problems as you solve them!
 
 ## Statistics by Difficulty
 
-|Difficulty|Total|Solved|Percentage|
-|---|---|---|---|
-|🟢 Easy|48|0|0%|
-|🟡 Medium|196|0|0%|
-|🔴 Hard|56|0|0%|
-|**Total**|**300**|**0**|**0%**|
+| Difficulty | Total   | Solved | Percentage |
+| ---------- | ------- | ------ | ---------- |
+| 🟢 Easy    | 48      | 0      | 0%         |
+| 🟡 Medium  | 196     | 0      | 0%         |
+| 🔴 Hard    | 56      | 0      | 0%         |
+| **Total**  | **300** | **0**  | **0%**     |
 
 ---
 
