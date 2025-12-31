@@ -13,7 +13,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **3.** [Coin Change](https://leetcode.com/problems/coin-change) 🟡 Medium
 - [x] **4.** [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) 🟡 Medium
 - [x] **5.** [Merge Intervals](https://leetcode.com/problems/merge-intervals) 🟡 Medium
-- [ ] **6.** [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) 🟡 Medium
+- [x] **6.** [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) 🟡 Medium
 - [ ] **7.** [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras) 🔴 Hard
 - [x] **8.** [Permutations](https://leetcode.com/problems/permutations) 🟡 Medium
 - [x] **9.** [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) 🟢 Easy
