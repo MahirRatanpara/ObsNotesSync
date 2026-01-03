@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c2778511381eec4",
+        "id": "9f8c07d6e79040d2",
         "type": "tabs",
         "children": [
           {
-            "id": "d0348c413d871072",
+            "id": "e486977f1f50d4f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Projects/Job Cold Email Automation (ECold).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Job Cold Email Automation (ECold)"
+              "title": "New tab"
             }
           }
         ]
@@ -141,7 +137,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0348c413d871072",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
