@@ -34,8 +34,8 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 21-30
 
-- [ ] **21.** [Single Number](https://leetcode.com/problems/single-number) 🟢 Easy
-- [ ] **22.** [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 🔴 Hard
+- [x] **21.** [Single Number](https://leetcode.com/problems/single-number) 🟢 Easy
+- [x] **22.** [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 🔴 Hard
 - [ ] **23.** [Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) 🔴 Hard
 - [ ] **24.** [01 Matrix](https://leetcode.com/problems/01-matrix) 🟡 Medium
 - [ ] **25.** [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) 🟡 Medium
