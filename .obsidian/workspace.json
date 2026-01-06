@@ -11,10 +11,14 @@
             "id": "46f5fd2d166736f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MahirNotes/Job Search/Resume Optimization.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resume Optimization"
             }
           }
         ]
@@ -139,8 +143,9 @@
   },
   "active": "46f5fd2d166736f7",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Topics/Giga Algo/Rolling Hash - Rabin Karp.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
+    "MahirNotes/Job Search/Resume Optimization.md",
+    "MahirNotes/DSA/Topics/Giga Algo/Rolling Hash - Rabin Karp.md",
     "MahirNotes/Job Search/Referral Ask.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/SDE2_Job_Hunt_Detailed_Checklist.md",
@@ -169,7 +174,6 @@
     "MahirNotes/DSA/Problem List/Done/AlgoMaster75.md",
     "MahirNotes/Util/Prompt Lib/PDF Page to HTML.md",
     "MahirNotes/Util/Prompt Lib/Prompt to HTML.md",
-    "MahirNotes/Util/Prompt Lib/pdf-image-to-html-claude-prompt.md",
     "MahirNotes/Final",
     "MahirNotes/Util/Prompt Lib",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
