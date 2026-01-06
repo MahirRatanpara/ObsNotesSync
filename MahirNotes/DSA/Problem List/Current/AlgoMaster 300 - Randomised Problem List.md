@@ -37,7 +37,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **21.** [Single Number](https://leetcode.com/problems/single-number) 🟢 Easy
 - [x] **22.** [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 🔴 Hard
 - [x] **23.** [Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) 🔴 Hard
-- [ ] **24.** [01 Matrix](https://leetcode.com/problems/01-matrix) 🟡 Medium
+- [x] **24.** [01 Matrix](https://leetcode.com/problems/01-matrix) 🟡 Medium
 - [ ] **25.** [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) 🟡 Medium
 - [x] **26.** [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) 🟢 Easy
 - [ ] **27.** [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) 🟡 Medium
@@ -268,7 +268,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 201-210
 
-- [ ] **201.** [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) 🟡 Medium
+- [x] **201.** [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) 🟡 Medium
 - [ ] **202.** [Snapshot Array](https://leetcode.com/problems/snapshot-array) 🟡 Medium
 - [ ] **203.** [First Missing Positive](https://leetcode.com/problems/first-missing-positive) 🔴 Hard
 - [ ] **204.** [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) 🟡 Medium
