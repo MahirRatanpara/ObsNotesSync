@@ -1,8 +1,8 @@
-# 🧠 SDE-2 Job Hunt System – Full Execution Plan (Obsidian Checklist + Guide)
+# 🧠 SDE-2 Job Hunt System – Full Execution Plan 
 
 This note is a comprehensive job search strategy for Software Development Engineer 2 (SDE-2) roles, especially in India with Java, Scala, and GCP backend experience.
 
-It is organized into **two main phases**, each with detailed checklists, explanations, and free tools to help you succeed.
+It is organised into **two main phases**, each with detailed checklists, explanations, and free tools to help you succeed.
 
 ---
 
@@ -12,7 +12,6 @@ It is organized into **two main phases**, each with detailed checklists, explana
 Increase your **visibility in recruiter searches** so that inbound calls and messages happen automatically.
 
 ---
-
 ### 🔹 STEP 1: Resume Optimization (ATS + Human-Readable)
 
 Most resumes are rejected by software (Applicant Tracking Systems - ATS) **before** a human sees them.
