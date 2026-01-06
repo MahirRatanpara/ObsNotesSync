@@ -141,10 +141,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "1439917e200363ad",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Topics/Giga Algo/Multisource BFS.md",
+    "MahirNotes/Job Search/SDE2_Job_Hunt_Detailed_Checklist.md",
+    "MahirNotes/SDE2_Job_Hunt_Detailed_Checklist.md",
+    "MahirNotes/Job Search/SDE-2 Job Hunt System – Full Execution Plan (Obsidian Checklist + Guide).md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Untitled",
+    "MahirNotes/DSA/Topics/Giga Algo/Multisource BFS.md",
     "MahirNotes/DSA/Topics/Giga Algo",
     "Personal Projects/Job Cold Email Automation (ECold).md",
     "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
@@ -170,14 +174,10 @@
     "MahirNotes/Util/Prompt Lib/pdf-image-to-html-claude-prompt.md",
     "MahirNotes/Company-Wise/Amazon/Amazon Revision Checklist.md",
     "MahirNotes/Final/Revision Start - gpt.md",
-    "MahirNotes/Final/LLD REVISION.md",
-    "MahirNotes/Final/HLD REVISION.md",
-    "MahirNotes/Final/DSA REVISION.md",
     "MahirNotes/Final",
     "MahirNotes/Util/Prompt Lib",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
     "MahirNotes/HLD/Design Questions/Design Chat System.pdf",
-    "MahirNotes/HLD/Design Questions/Design URL Shortner.pdf",
-    "MahirNotes/HLD/MQ/Messaging Queue.pdf"
+    "MahirNotes/HLD/Design Questions/Design URL Shortner.pdf"
   ]
 }
