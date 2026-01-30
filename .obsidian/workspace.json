@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4f53414ae0dd12b0",
+        "id": "65011da47ccc0aa2",
         "type": "tabs",
         "children": [
           {
-            "id": "46f5fd2d166736f7",
+            "id": "f626b45f1015ce6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/Job Search/Resume Optimization.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Resume Optimization"
+              "title": "New tab"
             }
           }
         ]
@@ -141,12 +137,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "46f5fd2d166736f7",
+  "active": "f626b45f1015ce6b",
   "lastOpenFiles": [
+    "MahirNotes/Job Search/Automation/4. Perplexity Rate Limits.md",
+    "MahirNotes/Job Search/Automation/3. Output Spec.md",
+    "MahirNotes/Job Search/Automation/2. Company Scan Spec.md",
+    "MahirNotes/Job Search/Automation/1. Resume Spec.md",
+    "MahirNotes/Job Search/Automation/0. Prompt.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
+    "MahirNotes/Job Search/LinkedIn.md",
+    "MahirNotes/Job Search/Referral Ask.md",
     "MahirNotes/Job Search/Resume Optimization.md",
     "MahirNotes/DSA/Topics/Giga Algo/Rolling Hash - Rabin Karp.md",
-    "MahirNotes/Job Search/Referral Ask.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/SDE2_Job_Hunt_Detailed_Checklist.md",
     "MahirNotes/Job Search/SDE-2 Job Hunt System – Full Execution Plan (Obsidian Checklist + Guide).md",
@@ -166,14 +168,8 @@
     "MahirNotes/DSA/Problem List/Others/Claude Research List.md",
     "MahirNotes/DSA/Problem List/Others/Gemini Research List.md",
     "MahirNotes/DSA/Problem List/Others/GPT Research List.md",
-    "MahirNotes/DSA/Problem List/Others/Perplexity Research List.md",
-    "MahirNotes/DSA/Problem List/Done/Prefix Sum List.md",
     "MahirNotes/DSA/Problem List/Current",
-    "MahirNotes/DSA/Problem List/Done/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/DSA/Problem List/Done",
-    "MahirNotes/DSA/Problem List/Done/AlgoMaster75.md",
-    "MahirNotes/Util/Prompt Lib/PDF Page to HTML.md",
-    "MahirNotes/Util/Prompt Lib/Prompt to HTML.md",
     "MahirNotes/Final",
     "MahirNotes/Util/Prompt Lib",
     "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
