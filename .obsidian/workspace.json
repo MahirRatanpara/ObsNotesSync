@@ -137,8 +137,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "f626b45f1015ce6b",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Topics/DSA Design/Design Choice - Eager vs Lazy.md",
+    "MahirNotes/DSA/Topics/DSA Design",
+    "MahirNotes/DSA/Topics/untitled folder",
+    "MahirNotes/DSA/Topics/Design Choice - Eager vs Lazy.md",
+    "MahirNotes/DSA/Topics/Eager_vs_Lazy_Deletion.md",
     "MahirNotes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "MahirNotes/Job Search/Automation/3. Output Spec.md",
     "MahirNotes/Job Search/Automation/2. Company Scan Spec.md",
@@ -165,15 +170,10 @@
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/DSA/Pattern Recognition.md",
     "MahirNotes/HLD/Databases/7. Choosing Right Database.md",
-    "MahirNotes/DSA/Problem List/Others/Claude Research List.md",
-    "MahirNotes/DSA/Problem List/Others/Gemini Research List.md",
-    "MahirNotes/DSA/Problem List/Others/GPT Research List.md",
     "MahirNotes/DSA/Problem List/Current",
     "MahirNotes/DSA/Problem List/Done",
     "MahirNotes/Final",
     "MahirNotes/Util/Prompt Lib",
-    "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf",
-    "MahirNotes/HLD/Design Questions/Design Chat System.pdf",
-    "MahirNotes/HLD/Design Questions/Design URL Shortner.pdf"
+    "MahirNotes/HLD/Design Questions/Design Deepdives/Back Of Envelope.pdf"
   ]
 }
