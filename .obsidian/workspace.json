@@ -11,10 +11,14 @@
             "id": "f626b45f1015ce6b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MahirNotes/DSA/Problem List/Done/Coding_Interview_Patterns_Checklist.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Coding_Interview_Patterns_Checklist"
             }
           }
         ]
@@ -137,8 +141,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c4964d7da6fec32",
+  "active": "f626b45f1015ce6b",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Topics/Cyclic Sort.md",
     "MahirNotes/DSA/Topics/DSA Design/Design Choice - Eager vs Lazy.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
@@ -169,7 +174,6 @@
     "MahirNotes/Util/DSA Helper",
     "MahirNotes/Company-Wise/Hybrid research.md",
     "MahirNotes/DSA/Pattern Recognition.md",
-    "MahirNotes/HLD/Databases/7. Choosing Right Database.md",
     "MahirNotes/DSA/Problem List/Current",
     "MahirNotes/DSA/Problem List/Done",
     "MahirNotes/Final",
