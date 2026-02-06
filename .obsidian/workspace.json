@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Monotonic Stack"
             }
+          },
+          {
+            "id": "cbdd83a504c43cc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AlgoMaster 300 - Randomised Problem List"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,8 +156,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "11bf007c9166aaf8",
+  "active": "cbdd83a504c43cc5",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Algorithms & DS/Monotonic Stack.md",
     "MahirNotes/DSA/Algorithms & DS/Cyclic Sort.md",
     "MahirNotes/DSA/Algorithms & DS/Editorial - Partition Sum.md",
     "MahirNotes/DSA/Algorithms & DS/Cyclic Decomposition.md",
@@ -172,7 +188,6 @@
     "MahirNotes/DSA/Quick_Pattern_Revision_Guide.md",
     "README.md",
     "MahirNotes/DSA/Problem List/Current/75 - Gen AI - Super DSA List.md",
-    "MahirNotes/Util/DSA Helper/DSA Solution Logic prompt.md",
     "MahirNotes/Util/DSA Helper",
     "MahirNotes/DSA/Problem List/Current",
     "MahirNotes/DSA/Problem List/Done",

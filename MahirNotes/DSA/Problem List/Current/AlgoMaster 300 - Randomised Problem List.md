@@ -42,7 +42,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **26.** [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) 🟢 Easy
 - [ ] **27.** [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) 🟡 Medium
 - [ ] **28.** [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) 🟡 Medium
-- [ ] **29.** [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) 🟡 Medium
+- [x] **29.** [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) 🟡 Medium
 - [ ] **30.** [Is Subsequence](https://leetcode.com/problems/is-subsequence) 🟢 Easy
 
 ### Problems 31-40
