@@ -49,7 +49,8 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **31.** [Number of Provinces](https://leetcode.com/problems/number-of-provinces) 🟡 Medium
 - [ ] **32.** [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) 🔴 Hard
-- [ ] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
+- [x] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
+	- [ ] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
 - [ ] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
 - [ ] **35.** [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation) 🟡 Medium
 - [ ] **36.** [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) 🟡 Medium
