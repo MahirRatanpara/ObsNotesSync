@@ -38,7 +38,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **22.** [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 🔴 Hard
 - [x] **23.** [Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) 🔴 Hard
 - [x] **24.** [01 Matrix](https://leetcode.com/problems/01-matrix) 🟡 Medium
-- [ ] **25.** [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) 🟡 Medium
+- [x] **25.** [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) 🟡 Medium
 - [x] **26.** [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) 🟢 Easy
 - [ ] **27.** [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) 🟡 Medium
 - [x] **28.** [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) 🟡 Medium

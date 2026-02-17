@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "AlgoMaster 300 - Randomised Problem List"
             }
-          },
-          {
-            "id": "60d0533fab9a6c2e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +141,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "60d0533fab9a6c2e",
+  "active": "11bf007c9166aaf8",
   "lastOpenFiles": [
     "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
     "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
