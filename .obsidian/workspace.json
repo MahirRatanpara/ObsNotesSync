@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c74ae32a17567e2",
+        "id": "8f35b1d67888a78c",
         "type": "tabs",
         "children": [
           {
-            "id": "3cc7ad2d41919ee4",
+            "id": "d828f2b9371bc2f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -141,18 +141,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "3cc7ad2d41919ee4",
+  "active": "d828f2b9371bc2f5",
   "lastOpenFiles": [
-    "MahirNotes/HLD/Microservice Architecture/Service Mesh Config.md",
-    "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
-    "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
-    "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
-    "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
+    "MahirNotes/HLD/Microservice Architecture/Service Mesh.md",
     "MahirNotes/HLD/Microservice Architecture/Service Discovery.md",
     "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
     "MahirNotes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
+    "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
+    "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
+    "MahirNotes/HLD/Microservice Architecture/Service Mesh Config.md",
+    "MahirNotes/Company-Wise/Hybrid research.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
+    "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
     "Other's Notes/HLD/API Gateway.md",
     "MahirNotes/DSA/Algorithms & DS/Monotonic Stack.md",
     "MahirNotes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
@@ -171,7 +172,6 @@
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
     "MahirNotes/DSA/Topics/Eager_vs_Lazy_Deletion.md",
-    "MahirNotes/Job Search/Automation/4. Perplexity Rate Limits.md",
     "MahirNotes/Untitled",
     "MahirNotes/DSA/Topics/Giga Algo",
     "MahirNotes/Util/DSA Helper",
