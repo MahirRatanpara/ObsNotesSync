@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cfb59d07e1741f94",
+        "id": "e58b83a1a4846fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "120a346cbb7d193f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Monotonic Queue"
-            }
-          },
-          {
-            "id": "2256f12ca91a243f",
+            "id": "971dad61c6fc1714",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Design Choice - Eager vs Lazy"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,10 +137,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "2256f12ca91a243f",
+  "active": "971dad61c6fc1714",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
     "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
+    "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "Sliding Window Maximum/Minimum.md",
     "Sliding Window Maximum",
     "Other's Notes/CPP/RESOURCES/Monoqueue.md",
@@ -186,8 +167,6 @@
     "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Algorithms & DS/Elegant Maximum Points formula.md",
     "MahirNotes/DSA/Algorithms & DS/Editorial - Partition Sum.md",
-    "MahirNotes/DSA/Algorithms & DS/Dynamic Programming.md",
-    "MahirNotes/DSA/Algorithms & DS/DSA Patterns.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled",
