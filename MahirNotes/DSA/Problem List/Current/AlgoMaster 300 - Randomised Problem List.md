@@ -51,7 +51,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **32.** [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) 🔴 Hard
 - [x] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
 	- [ ] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
-- [ ] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
+- [x] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
 - [ ] **35.** [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation) 🟡 Medium
 - [x] **36.** [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) 🟡 Medium
 - [ ] **37.** [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) 🟡 Medium
@@ -178,7 +178,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 131-140
 
-- [ ] **131.** [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) 🔴 Hard
+- [x] **131.** [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) 🔴 Hard
 - [ ] **132.** [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 🔴 Hard
 - [ ] **133.** [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) 🟢 Easy
 - [ ] **134.** [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) 🟡 Medium
