@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/HLD/Databases/1. Database 0 to 1B.md",
+                "file": "MahirNotes/Job Search/Job Hunt Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Database 0 to 1B"
+              "title": "Job Hunt Checklist"
             }
           }
         ]
@@ -143,6 +143,7 @@
   },
   "active": "d828f2b9371bc2f5",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Databases/1. Database 0 to 1B.md",
     "MahirNotes/HLD/Microservice Architecture/Service Mesh Config.md",
     "MahirNotes/HLD/Microservice Architecture/Service Mesh.md",
     "MahirNotes/HLD/Microservice Architecture/Service Discovery.md",

@@ -17,9 +17,9 @@ Increase your **visibility in recruiter searches** so that inbound calls and mes
 Most resumes are rejected by software (Applicant Tracking Systems - ATS) **before** a human sees them.
 
 #### What to do:
-- [ ] Keep it to **1 page only**.
-- [ ] Focus on **impact + scale + ownership**.
-- [ ] Each bullet must follow: **Action + System + Scale + Result**
+- [x] Keep it to **1 page only**.
+- [x] Focus on **impact + scale + ownership**.
+- [x] Each bullet must follow: **Action + System + Scale + Result**
   - ✅ Good: `Designed Kafka pipeline handling 5M+ events/day, reducing processing latency by 38%`
   - ❌ Bad: `Worked on Kafka pipelines`
 
@@ -35,9 +35,9 @@ Most resumes are rejected by software (Applicant Tracking Systems - ATS) **befor
 Recruiters use LinkedIn Recruiter Lite with keyword filters. You want to **appear in their search results**.
 
 #### What to do:
-- [ ] Update **Headline** with keywords:
+- [x] Update **Headline** with keywords:
   `SDE-2 | Backend / Distributed Systems | Java, Scala, GCP`
-- [ ] Rewrite **About** section with dense keyword bullets:
+- [x] Rewrite **About** section with dense keyword bullets:
   ```
   SDE-2 backend engineer with 5+ years experience.
   Tech:
@@ -47,7 +47,7 @@ Recruiters use LinkedIn Recruiter Lite with keyword filters. You want to **appea
   - System Design
   Open to SDE-2 backend roles in India or remote.
   ```
-- [ ] Update **Skills section** (top 8 keywords):
+- [x] Update **Skills section** (top 8 keywords):
   - [ ] Java
   - [ ] Scala
   - [ ] GCP
@@ -58,7 +58,7 @@ Recruiters use LinkedIn Recruiter Lite with keyword filters. You want to **appea
   - [ ] System Design
 
 #### LinkedIn Settings:
-- [ ] Set “Open to Work” → **Recruiters only**
+- [x] Set “Open to Work” → **Recruiters only**
 - [ ] Preferred Roles: Software Engineer, Backend Engineer
 - [ ] Add locations: Bangalore, Pune, Hyderabad, Remote
 
