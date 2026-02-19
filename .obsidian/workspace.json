@@ -10,11 +10,17 @@
           {
             "id": "971dad61c6fc1714",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AlgoMaster 300 - Randomised Problem List"
             }
           }
         ]
@@ -137,7 +143,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
     "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
     "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",

@@ -52,10 +52,10 @@ Track your progress by checking off problems as you solve them!
 - [x] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
 	- [ ] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
 - [x] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
-- [ ] **35.** [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation) 🟡 Medium
+- [x] **35.** [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation) 🟡 Medium
 - [x] **36.** [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) 🟡 Medium
 - [ ] **37.** [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) 🟡 Medium
-- [ ] **38.** [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) 🟡 Medium
+- [x] **38.** [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) 🟡 Medium
 - [ ] **39.** [Insert Interval](https://leetcode.com/problems/insert-interval) 🟡 Medium
 - [ ] **40.** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) 🟡 Medium
 
