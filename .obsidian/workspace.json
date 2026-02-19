@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+                "file": "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AlgoMaster 300 - Randomised Problem List"
+              "title": "Design Choice - Eager vs Lazy"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.00390243530273
+    "width": 357.0026054382324
   },
   "right": {
     "id": "30a8156c470c1591",
@@ -160,11 +160,11 @@
   },
   "active": "2256f12ca91a243f",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
     "Sliding Window Maximum/Minimum.md",
     "Sliding Window Maximum",
     "Other's Notes/CPP/RESOURCES/Monoqueue.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/HLD/Databases/1. Database 0 to 1B.md",
     "MahirNotes/HLD/Microservice Architecture/Service Mesh Config.md",
