@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "beb6723d6867995e",
+        "id": "cfb59d07e1741f94",
         "type": "tabs",
         "children": [
           {
-            "id": "f29909cf4fb63a44",
+            "id": "120a346cbb7d193f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+                "file": "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AlgoMaster 300 - Randomised Problem List"
+              "title": "Monotonic Queue"
             }
           }
         ]
@@ -141,8 +141,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "f29909cf4fb63a44",
+  "active": "120a346cbb7d193f",
   "lastOpenFiles": [
+    "Sliding Window Maximum/Minimum.md",
+    "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
+    "Sliding Window Maximum",
+    "Other's Notes/CPP/RESOURCES/Monoqueue.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/HLD/Databases/1. Database 0 to 1B.md",
     "MahirNotes/HLD/Microservice Architecture/Service Mesh Config.md",
@@ -153,7 +158,6 @@
     "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
     "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
     "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
     "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
     "Other's Notes/HLD/API Gateway.md",
@@ -167,9 +171,6 @@
     "MahirNotes/DSA/Algorithms & DS/Editorial - Partition Sum.md",
     "MahirNotes/DSA/Algorithms & DS/Dynamic Programming.md",
     "MahirNotes/DSA/Algorithms & DS/DSA Patterns.md",
-    "MahirNotes/DSA/Algorithms & DS/Cyclic Sort.md",
-    "MahirNotes/DSA/Algorithms & DS/Cyclic Decomposition.md",
-    "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled",
@@ -177,7 +178,6 @@
     "MahirNotes/Util/DSA Helper",
     "MahirNotes/DSA/Problem List/Current",
     "MahirNotes/DSA/Problem List/Done",
-    "MahirNotes/Final",
-    "MahirNotes/Util/Prompt Lib"
+    "MahirNotes/Final"
   ]
 }
