@@ -89,8 +89,8 @@ Create and upload resume to platforms where recruiters come to **you**.
 
 #### What to do:
 - [ ] Sign up and apply on:
-  - [ ] [Instahyre](https://www.instahyre.com)
-  - [ ] [CutShort](https://cutshort.io)
+  - [x] [Instahyre](https://www.instahyre.com)
+  - [x] [CutShort](https://cutshort.io)
   - [ ] [Hirist](https://hirist.com)
   - [ ] [Indeed India](https://in.indeed.com)
 - [ ] Upload keyword-rich resume
