@@ -23,14 +23,14 @@ Most resumes are rejected by software (Applicant Tracking Systems - ATS) **befor
   - ✅ Good: `Designed Kafka pipeline handling 5M+ events/day, reducing processing latency by 38%`
   - ❌ Bad: `Worked on Kafka pipelines`
 
-#### Free Tools to Help:
+#### Free Tools to Help: **[TODO]**
 - [Jobscan Resume Optimizer](https://www.jobscan.co/)
 - [Resume Worded](https://resumeworded.com/)
 - [Teal Resume Builder](https://www.tealhq.com/)
 
 ---
 
-### 🔹 STEP 2: LinkedIn Optimization for Recruiter Search
+### 🔹 STEP 2: LinkedIn Optimisation for Recruiter Search
 
 Recruiters use LinkedIn Recruiter Lite with keyword filters. You want to **appear in their search results**.
 
@@ -48,19 +48,19 @@ Recruiters use LinkedIn Recruiter Lite with keyword filters. You want to **appea
   Open to SDE-2 backend roles in India or remote.
   ```
 - [x] Update **Skills section** (top 8 keywords):
-  - [ ] Java
-  - [ ] Scala
-  - [ ] GCP
-  - [ ] Kafka
-  - [ ] Distributed Systems
-  - [ ] Microservices
-  - [ ] REST APIs
-  - [ ] System Design
+  - [x] Java
+  - [x] Scala
+  - [x] GCP
+  - [x] Kafka
+  - [x] Distributed Systems
+  - [x] Microservices
+  - [x] REST APIs
+  - [x] System Design
 
 #### LinkedIn Settings:
 - [x] Set “Open to Work” → **Recruiters only**
-- [ ] Preferred Roles: Software Engineer, Backend Engineer
-- [ ] Add locations: Bangalore, Pune, Hyderabad, Remote
+- [x] Preferred Roles: Software Engineer, Backend Engineer
+- [x] Add locations: Bangalore, Pune, Hyderabad, Remote
 
 ---
 
