@@ -56,8 +56,9 @@ Track your progress by checking off problems as you solve them!
 - [x] **36.** [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) 🟡 Medium
 - [x] **37.** [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) 🟡 Medium
 - [x] **38.** [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) 🟡 Medium
-- [ ] **39.** [Insert Interval](https://leetcode.com/problems/insert-interval) 🟡 Medium
-- [ ] **40.** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) 🟡 Medium
+- [x] **39.** [Insert Interval](https://leetcode.com/problems/insert-interval) 🟡 Medium
+	- [ ] Good IMPL
+- [x] **40.** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) 🟡 Medium
 
 ### Problems 41-50
 
