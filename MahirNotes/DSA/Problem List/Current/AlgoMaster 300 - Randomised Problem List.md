@@ -69,7 +69,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **45.** [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) 🟡 Medium
 - [x] **46.** [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue) 🔴 Hard
 - [ ] **47.** [Combination Sum](https://leetcode.com/problems/combination-sum) 🟡 Medium
-- [ ] **48.** [Employee Importance](https://leetcode.com/problems/employee-importance) 🟡 Medium
+- [x] **48.** [Employee Importance](https://leetcode.com/problems/employee-importance) 🟡 Medium
 - [ ] **49.** [Making A Large Island](https://leetcode.com/problems/making-a-large-island) 🔴 Hard
 - [ ] **50.** [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) 🔴 Hard
 
