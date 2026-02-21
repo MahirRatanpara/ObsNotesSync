@@ -62,8 +62,8 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 41-50
 
-- [ ] **41.** [Rotate Image](https://leetcode.com/problems/rotate-image) 🟡 Medium
-- [ ] **42.** [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) 🔴 Hard
+- [x] **41.** [Rotate Image](https://leetcode.com/problems/rotate-image) 🟡 Medium
+- [x] **42.** [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) 🔴 Hard
 - [ ] **43.** [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) 🟡 Medium
 - [x] **44.** [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability) 🟡 Medium
 - [ ] **45.** [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) 🟡 Medium
