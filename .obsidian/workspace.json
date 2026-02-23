@@ -24,7 +24,7 @@
             }
           },
           {
-            "id": "5775f12ea0660ff3",
+            "id": "cb70fd3fe60b0453",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,9 +158,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "5775f12ea0660ff3",
+  "active": "cb70fd3fe60b0453",
   "lastOpenFiles": [
+    "MahirNotes/HLD/MQ/Retrial in MQ.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/HLD/MQ/Messaging Queue.pdf",
+    "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
@@ -187,14 +190,11 @@
     "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
     "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
     "Other's Notes/HLD/API Gateway.md",
-    "MahirNotes/DSA/Algorithms & DS/Monotonic Stack.md",
-    "MahirNotes/HLD/Design Questions/Answering/Answering Around Two Generals Problem.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled",
     "MahirNotes/DSA/Topics/Giga Algo",
     "MahirNotes/Util/DSA Helper",
-    "MahirNotes/DSA/Problem List/Current",
-    "MahirNotes/DSA/Problem List/Done"
+    "MahirNotes/DSA/Problem List/Current"
   ]
 }
