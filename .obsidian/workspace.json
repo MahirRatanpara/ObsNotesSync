@@ -37,8 +37,7 @@
               "title": "Using Kafka - System Design Interview Guide"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,13 +157,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "cb70fd3fe60b0453",
+  "active": "971dad61c6fc1714",
   "lastOpenFiles": [
+    "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/HLD/MQ/Retrial in MQ.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
-    "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/HLD/AAA_TODO/Videos to watch.md",

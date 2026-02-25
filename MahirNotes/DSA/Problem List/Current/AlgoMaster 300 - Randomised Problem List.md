@@ -68,7 +68,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **44.** [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability) 🟡 Medium
 - [x] **45.** [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) 🟡 Medium
 - [x] **46.** [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue) 🔴 Hard
-- [ ] **47.** [Combination Sum](https://leetcode.com/problems/combination-sum) 🟡 Medium
+- [x] **47.** [Combination Sum](https://leetcode.com/problems/combination-sum) 🟡 Medium
 - [x] **48.** [Employee Importance](https://leetcode.com/problems/employee-importance) 🟡 Medium
 - [ ] **49.** [Making A Large Island](https://leetcode.com/problems/making-a-large-island) 🔴 Hard
 - [ ] **50.** [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) 🔴 Hard
@@ -344,7 +344,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **257.** [Majority Element](https://leetcode.com/problems/majority-element) 🟢 Easy
 - [ ] **258.** [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) 🔴 Hard
 - [ ] **259.** [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) 🟢 Easy
-- [ ] **260.** [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) 🟡 Medium
+- [x] **260.** [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) 🟡 Medium
 
 ### Problems 261-270
 
