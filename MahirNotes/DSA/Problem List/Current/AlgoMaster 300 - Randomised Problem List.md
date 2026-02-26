@@ -75,7 +75,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 51-60
 
-- [ ] **51.** [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) 🟡 Medium
+- [x] **51.** [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) 🟡 Medium
 - [ ] **52.** [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) 🟡 Medium
 - [ ] **53.** [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) 🟡 Medium
 - [ ] **54.** [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) 🟢 Easy
