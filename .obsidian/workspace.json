@@ -37,8 +37,7 @@
               "title": "Job Hunt Checklist"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +157,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "cb70fd3fe60b0453",
+  "active": "971dad61c6fc1714",
   "lastOpenFiles": [
+    "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
@@ -171,7 +171,6 @@
     "MahirNotes/HLD/AAA_TODO",
     "MahirNotes/HLD/Databases/8.2 Consistent Hashing - Replication Strategy.md",
     "MahirNotes/HLD/Databases/11_Indexing/Database Indexing.md",
-    "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
     "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
     "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
