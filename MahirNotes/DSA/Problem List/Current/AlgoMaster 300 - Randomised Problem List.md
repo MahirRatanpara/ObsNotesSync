@@ -81,10 +81,10 @@ Track your progress by checking off problems as you solve them!
 - [x] **54.** [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) 🟢 Easy
 - [ ] **55.** [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) 🔴 Hard
 - [x] **56.** [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) 🟡 Medium
-- [ ] **57.** [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) 🟡 Medium
+- [x] **57.** [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) 🟡 Medium
 - [ ] **58.** [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) 🔴 Hard
-- [ ] **59.** [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) 🟡 Medium
-- [ ] **60.** [Number of Islands](https://leetcode.com/problems/number-of-islands) 🟡 Medium
+- [x] **59.** [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) 🟡 Medium
+- [x] **60.** [Number of Islands](https://leetcode.com/problems/number-of-islands) 🟡 Medium
 
 ### Problems 61-70
 
