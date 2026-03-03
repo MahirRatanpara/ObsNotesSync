@@ -22,8 +22,21 @@
               "icon": "lucide-file",
               "title": "AlgoMaster 300 - Randomised Problem List"
             }
+          },
+          {
+            "id": "f02a4fe0612dac84",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Distributed Concurrency Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,10 +156,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "f02a4fe0612dac84",
   "lastOpenFiles": [
-    "MahirNotes/HLD/Patterns/Scaling Writes.md",
+    "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
+    "MahirNotes/HLD/Concurrency Control/2 Phase Locking.md",
+    "MahirNotes/HLD/AAA_TODO/Videos to watch.md",
+    "MahirNotes/DSA/Algorithms & DS/Rolling Hash - Rabin Karp.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/HLD/Patterns/Scaling Writes.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
@@ -155,7 +172,6 @@
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/MQ/Kafka vs SQS vs RabbitMQ.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
-    "MahirNotes/HLD/AAA_TODO/Videos to watch.md",
     "MahirNotes/HLD/AAA_TODO",
     "MahirNotes/HLD/Databases/8.2 Consistent Hashing - Replication Strategy.md",
     "MahirNotes/HLD/Databases/11_Indexing/Database Indexing.md",
@@ -172,9 +188,6 @@
     "MahirNotes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
     "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
-    "MahirNotes/Company-Wise/Hybrid research.md",
-    "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
-    "MahirNotes/DSA/Problem List/Others/85 - Misc DSA - Crazy Hard Problems Random.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled",
