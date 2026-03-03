@@ -22,21 +22,8 @@
               "icon": "lucide-file",
               "title": "AlgoMaster 300 - Randomised Problem List"
             }
-          },
-          {
-            "id": "f02a4fe0612dac84",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Distributed Concurrency Control"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,8 +143,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "f02a4fe0612dac84",
+  "active": "971dad61c6fc1714",
   "lastOpenFiles": [
+    "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
     "MahirNotes/HLD/Concurrency Control/2 Phase Locking.md",
     "MahirNotes/HLD/AAA_TODO/Videos to watch.md",
@@ -187,7 +175,6 @@
     "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
     "MahirNotes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
     "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
-    "MahirNotes/HLD/Microservice Architecture/API Gateway.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled",
