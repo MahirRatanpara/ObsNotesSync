@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MahirNotes/Final/Revision Strategy.md",
+                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Revision Strategy"
+              "title": "Backlinks for AlgoMaster 300 - Randomised Problem List"
             }
           },
           {
@@ -145,12 +145,15 @@
   },
   "active": "971dad61c6fc1714",
   "lastOpenFiles": [
+    "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
+    "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Problem List/Current/Untitled.base",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
     "MahirNotes/HLD/Concurrency Control/2 Phase Locking.md",
     "MahirNotes/HLD/AAA_TODO/Videos to watch.md",
     "MahirNotes/DSA/Algorithms & DS/Rolling Hash - Rabin Karp.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/HLD/Patterns/Scaling Writes.md",
     "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
@@ -177,9 +180,6 @@
     "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
-    "MahirNotes/Untitled",
-    "MahirNotes/DSA/Topics/Giga Algo",
-    "MahirNotes/Util/DSA Helper",
-    "MahirNotes/DSA/Problem List/Current"
+    "MahirNotes/Untitled"
   ]
 }
