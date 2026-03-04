@@ -94,7 +94,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **64.** [My Calendar II](https://leetcode.com/problems/my-calendar-ii) 🟡 Medium
 - [ ] **65.** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) 🟡 Medium
 - [ ] **66.** [Triangle](https://leetcode.com/problems/triangle) 🟡 Medium
-- [ ] **67.** [Design Linked List](https://leetcode.com/problems/design-linked-list) 🟡 Medium
+- [x] **67.** [Design Linked List](https://leetcode.com/problems/design-linked-list) 🟡 Medium
 - [ ] **68.** [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) 🟡 Medium
 - [ ] **69.** [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) 🟢 Easy
 - [ ] **70.** [Ransom Note](https://leetcode.com/problems/ransom-note) 🟢 Easy
