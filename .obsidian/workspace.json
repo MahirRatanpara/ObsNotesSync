@@ -22,8 +22,21 @@
               "icon": "lucide-file",
               "title": "AlgoMaster 300 - Randomised Problem List"
             }
+          },
+          {
+            "id": "4b34f6bccfc10369",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +156,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "4b34f6bccfc10369",
   "lastOpenFiles": [
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
