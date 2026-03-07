@@ -91,18 +91,18 @@ Track your progress by checking off problems as you solve them!
 - [x] **61.** [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones) 🟡 Medium
 - [x] **62.** [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) 🟡 Medium
 - [ ] **63.** [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) 🟡 Medium
-- [ ] **64.** [My Calendar II](https://leetcode.com/problems/my-calendar-ii) 🟡 Medium
-- [ ] **65.** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) 🟡 Medium
-- [ ] **66.** [Triangle](https://leetcode.com/problems/triangle) 🟡 Medium
+- [x] **64.** [My Calendar II](https://leetcode.com/problems/my-calendar-ii) 🟡 Medium
+- [x] **65.** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) 🟡 Medium
+- [x] **66.** [Triangle](https://leetcode.com/problems/triangle) 🟡 Medium
 - [x] **67.** [Design Linked List](https://leetcode.com/problems/design-linked-list) 🟡 Medium
 - [ ] **68.** [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) 🟡 Medium
-- [ ] **69.** [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) 🟢 Easy
-- [ ] **70.** [Ransom Note](https://leetcode.com/problems/ransom-note) 🟢 Easy
+- [x] **69.** [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) 🟢 Easy
+- [x] **70.** [Ransom Note](https://leetcode.com/problems/ransom-note) 🟢 Easy
 
 ### Problems 71-80
 
 - [ ] **71.** [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) 🟢 Easy
-- [ ] **72.** [House Robber](https://leetcode.com/problems/house-robber) 🟡 Medium
+- [x] **72.** [House Robber](https://leetcode.com/problems/house-robber) 🟡 Medium
 - [ ] **73.** [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) 🟡 Medium
 - [x] **74.** [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) 🟡 Medium
 - [ ] **75.** [Jump Game II](https://leetcode.com/problems/jump-game-ii) 🟡 Medium
