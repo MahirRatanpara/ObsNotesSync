@@ -95,7 +95,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **65.** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) 🟡 Medium
 - [x] **66.** [Triangle](https://leetcode.com/problems/triangle) 🟡 Medium
 - [x] **67.** [Design Linked List](https://leetcode.com/problems/design-linked-list) 🟡 Medium
-- [ ] **68.** [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) 🟡 Medium
+- [x] **68.** [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) 🟡 Medium
 - [x] **69.** [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) 🟢 Easy
 - [x] **70.** [Ransom Note](https://leetcode.com/problems/ransom-note) 🟢 Easy
 
@@ -351,7 +351,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **261.** [Gas Station](https://leetcode.com/problems/gas-station) 🟡 Medium
 - [ ] **262.** [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) 🟡 Medium
 - [ ] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
-- [ ] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
+- [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
 - [ ] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
 - [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
 - [ ] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
