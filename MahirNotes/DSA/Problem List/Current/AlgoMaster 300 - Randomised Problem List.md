@@ -101,7 +101,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 71-80
 
-- [ ] **71.** [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) 🟢 Easy
+- [x] **71.** [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) 🟢 Easy
 - [x] **72.** [House Robber](https://leetcode.com/problems/house-robber) 🟡 Medium
 - [ ] **73.** [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) 🟡 Medium
 - [x] **74.** [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) 🟡 Medium
