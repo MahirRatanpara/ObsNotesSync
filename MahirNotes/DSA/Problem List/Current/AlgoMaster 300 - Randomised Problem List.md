@@ -105,9 +105,10 @@ Track your progress by checking off problems as you solve them!
 - [x] **72.** [House Robber](https://leetcode.com/problems/house-robber) 🟡 Medium
 - [x] **73.** [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) 🟡 Medium
 - [x] **74.** [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) 🟡 Medium
-- [ ] **75.** [Jump Game II](https://leetcode.com/problems/jump-game-ii) 🟡 Medium
-- [ ] **76.** [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) 🟡 Medium
-- [ ] **77.** [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) 🟢 Easy
+- [x] **75.** [Jump Game II](https://leetcode.com/problems/jump-game-ii) 🟡 Medium 
+	- [ ] SLIDING WINDOW APPROACH & GREEDY PENDING, quite imp
+- [x] **76.** [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) 🟡 Medium
+- [x] **77.** [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) 🟢 Easy
 - [ ] **78.** [Design Twitter](https://leetcode.com/problems/design-twitter) 🟡 Medium
 - [ ] **79.** [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) 🟢 Easy
 - [ ] **80.** [132 Pattern](https://leetcode.com/problems/132-pattern) 🟡 Medium
