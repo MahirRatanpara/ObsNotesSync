@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
+                "file": "MahirNotes/HLD/MQ/Queue Visiblity Timeouts and Lease.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monotonic Queue"
+              "title": "Queue Visiblity Timeouts and Lease"
             }
           }
         ],
@@ -160,10 +160,11 @@
   },
   "active": "7093c48dccab50d8",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
+    "MahirNotes/HLD/MQ/Queue Visiblity Timeouts and Lease.md",
     "MahirNotes/DSA/Algorithms & DS/Design Choice - Eager vs Lazy.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "Untitled.md",
-    "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
@@ -193,7 +194,6 @@
     "MahirNotes/HLD/Microservice Architecture/Service Discovery.md",
     "MahirNotes/HLD/Microservice Architecture/Load Balancer.pdf",
     "MahirNotes/HLD/Microservice Architecture/Design Multi-Region Microservice Application.md",
-    "MahirNotes/HLD/Microservice Architecture/Circuit Breaking.md",
     "MahirNotes/DSA/Topics/DSA Design",
     "MahirNotes/DSA/Topics/untitled folder",
     "MahirNotes/Untitled"
