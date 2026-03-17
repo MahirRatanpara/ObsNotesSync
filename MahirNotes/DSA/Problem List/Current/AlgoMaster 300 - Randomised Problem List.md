@@ -109,9 +109,9 @@ Track your progress by checking off problems as you solve them!
 	- [ ] SLIDING WINDOW APPROACH & GREEDY PENDING, quite imp
 - [x] **76.** [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) 🟡 Medium
 - [x] **77.** [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) 🟢 Easy
-- [ ] **78.** [Design Twitter](https://leetcode.com/problems/design-twitter) 🟡 Medium
+- [x] **78.** [Design Twitter](https://leetcode.com/problems/design-twitter) 🟡 Medium
 - [ ] **79.** [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) 🟢 Easy
-- [ ] **80.** [132 Pattern](https://leetcode.com/problems/132-pattern) 🟡 Medium
+- [x] **80.** [132 Pattern](https://leetcode.com/problems/132-pattern) 🟡 Medium
 
 ### Problems 81-90
 
