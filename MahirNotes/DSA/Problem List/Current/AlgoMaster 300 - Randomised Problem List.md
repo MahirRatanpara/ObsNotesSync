@@ -122,7 +122,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **85.** [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) 🟡 Medium
 - [x] **86.** [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) 🟡 Medium
 - [ ] **87.** [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 🔴 Hard
-- [ ] **88.** [Same Tree](https://leetcode.com/problems/same-tree) 🟢 Easy
+- [x] **88.** [Same Tree](https://leetcode.com/problems/same-tree) 🟢 Easy
 - [ ] **89.** [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) 🟡 Medium
 - [ ] **90.** [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii) 🟡 Medium
 
