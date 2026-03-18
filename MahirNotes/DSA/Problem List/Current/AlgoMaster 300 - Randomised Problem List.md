@@ -115,12 +115,12 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 81-90
 
-- [ ] **81.** [Interleaving String](https://leetcode.com/problems/interleaving-string) 🟡 Medium
-- [ ] **82.** [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) 🟡 Medium
+- [x] **81.** [Interleaving String](https://leetcode.com/problems/interleaving-string) 🟡 Medium
+- [x] **82.** [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) 🟡 Medium
 - [ ] **83.** [House Robber III](https://leetcode.com/problems/house-robber-iii) 🟡 Medium
 - [ ] **84.** [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) 🟡 Medium
 - [ ] **85.** [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) 🟡 Medium
-- [ ] **86.** [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) 🟡 Medium
+- [x] **86.** [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) 🟡 Medium
 - [ ] **87.** [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 🔴 Hard
 - [ ] **88.** [Same Tree](https://leetcode.com/problems/same-tree) 🟢 Easy
 - [ ] **89.** [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) 🟡 Medium
