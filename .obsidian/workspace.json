@@ -143,10 +143,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "MahirNotes/LLD/LLD Interview Delivery Guide.md",
+    "MahirNotes/HLD/MQ/Idempotent Consumer - in MQ.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/HLD/MQ/Untitled.md",
+    "MahirNotes/LLD/LLD Interview Delivery Guide.md",
     "MahirNotes/LLD/Pattern Practice.md",
     "MahirNotes/Job Search/Referral Ask.md",
     "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
@@ -174,8 +176,6 @@
     "MahirNotes/Job Search/Job Hunt Checklist.md",
     "MahirNotes/DSA/Algorithms & DS/Ordered Set Pattern.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
-    "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
-    "MahirNotes/HLD/MQ/Retrial in MQ.md",
     "MahirNotes/HLD/MQ/Messaging Queue.pdf",
     "MahirNotes/HLD/AAA_TODO",
     "Sliding Window Maximum",
