@@ -129,7 +129,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 91-100
 
 - [ ] **91.** [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system) 🟡 Medium
-- [ ] **92.** [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) 🔴 Hard
+- [x] **92.** [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) 🔴 Hard
 - [ ] **93.** [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) 🟡 Medium
 - [ ] **94.** [Permutation in String](https://leetcode.com/problems/permutation-in-string) 🟡 Medium
 - [ ] **95.** [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) 🟡 Medium

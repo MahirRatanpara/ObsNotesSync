@@ -81,7 +81,7 @@ Producer → Leader Broker
   → Leader advances HW once ISR replicas catch up
 ```
 
-**Cross-Q: "Is replication synchronous or asynchronous?"** → Technically async (followers pull), but `acks=all` makes the producer **wait** until all ISR replicas acknowledge. So from the producer's perspective it behaves synchronously — from replication internals, it's async pull.
+**Cross-Q: "Is replication synchronous or asynchronous?"** → Technically async (followers pull), but `acks=all` makes the producer **wait** until all ISR replicas acknowledge (Here the wait means that the producer has not got an 200 or an acknowledge response. Even though the producer can send the new message in the newer version of Kafka, they can multi-line the different messages in the pipeline until the HW progresses. Here the wait only means that the producer has not received the ACK response until the replicas acknowledge. If the producer is producing the messages from the different thread, then they might be able to send two different messages, may be in different or same partition; we don't know. They should be able to send two different messages and should be waiting for the acknowledgement). So from the producer's perspective it behaves synchronously — from replication internals, it's async pull.
 
 ---
 
