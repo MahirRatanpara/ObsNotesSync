@@ -50,14 +50,14 @@ Track your progress by checking off problems as you solve them!
 - [x] **31.** [Number of Provinces](https://leetcode.com/problems/number-of-provinces) 🟡 Medium
 - [ ] **32.** [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) 🔴 Hard
 - [x] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
-	- [ ] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
+	- [x] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
 - [x] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
 - [x] **35.** [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation) 🟡 Medium
 - [x] **36.** [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) 🟡 Medium
 - [x] **37.** [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) 🟡 Medium
 - [x] **38.** [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) 🟡 Medium
 - [x] **39.** [Insert Interval](https://leetcode.com/problems/insert-interval) 🟡 Medium
-	- [ ] Good IMPL
+	- [x] Good IMPL
 - [x] **40.** [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) 🟡 Medium
 
 ### Problems 41-50
@@ -133,7 +133,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **93.** [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) 🟡 Medium
 - [x] **94.** [Permutation in String](https://leetcode.com/problems/permutation-in-string) 🟡 Medium
 - [x] **95.** [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) 🟡 Medium
-- [ ] **96.** [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees) 🟡 Medium
+- [x] **96.** [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees) 🟡 Medium
 - [ ] **97.** [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination) 🔴 Hard
 - [x] **98.** [Valid Square](https://leetcode.com/problems/valid-square) 🟡 Medium
 - [ ] **99.** [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) 🔴 Hard
