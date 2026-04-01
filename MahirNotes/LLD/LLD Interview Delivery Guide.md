@@ -128,11 +128,12 @@ For each noun, ask this single question:
 
 Once you have your entities, answer these three questions to draw your arrows:
 
-|#|Question|What It Determines|
-|---|---|---|
-|**1**|Who is the orchestrator?|Which entity drives the main workflow and holds references to others. This is your "god object" (not a bad thing in LLD).|
-|**2**|Who owns durable state?|Which entities track data that must survive across operations (board contents, player info, inventory levels).|
-|**3**|Who depends on whom?|Draw has-a / uses / contains arrows. Always point from owner to owned (Game → Board, not Board → Game).|
+| #     | Question                 | What It Determines                                                                                                        |
+| ----- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **1** | Who is the orchestrator? | Which entity drives the main workflow and holds references to others. This is your "god object" (not a bad thing in LLD). |
+| **2** | Who owns durable state?  | Which entities track data that must survive across operations (board contents, player info, inventory levels).            |
+| **3** | Who depends on whom?     | Draw has-a / uses / contains arrows. Always point from owner to owned (Game → Board, not Board → Game).                   |
+|       |                          |                                                                                                                           |
 
 ### Worked Example: Coffee Machine Entities
 
@@ -203,12 +204,12 @@ For each entity, top-down starting from the orchestrator:
 
 ## Anti-Patterns to Avoid
 
-|✗ DON'T|✓ DO|
-|---|---|
-|Jump straight into code|Spend 5 min on requirements first|
-|Model every noun as a class|Apply the entity filter ruthlessly|
-|Draw formal UML diagrams|Use simple boxes + arrows|
-|Force design patterns everywhere|Use patterns only when they add real value|
-|Implement every single method|Focus on the 1–2 most interesting methods|
-|Skip verification|Always trace through a concrete scenario|
-|Gold-plate edge cases early|Happy path first, then add edge cases|
+| ✗ DON'T                          | ✓ DO                                       |
+| -------------------------------- | ------------------------------------------ |
+| Jump straight into code          | Spend 5 min on requirements first          |
+| Model every noun as a class      | Apply the entity filter ruthlessly         |
+| Draw formal UML diagrams         | Use simple boxes + arrows                  |
+| Force design patterns everywhere | Use patterns only when they add real value |
+| Implement every single method    | Focus on the 1–2 most interesting methods  |
+| Skip verification                | Always trace through a concrete scenario   |
+| Gold-plate edge cases early      | Happy path first, then add edge cases      |
