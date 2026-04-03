@@ -144,7 +144,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **101.** [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query) 🔴 Hard
 - [ ] **102.** [Word Ladder](https://leetcode.com/problems/word-ladder) 🔴 Hard
 - [x] **103.** [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) 🟡 Medium
-- [ ] **104.** [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks) 🟡 Medium
+- [x] **104.** [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks) 🟡 Medium
 - [ ] **105.** [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation) 🔴 Hard
 - [ ] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
 - [ ] **107.** [Edit Distance](https://leetcode.com/problems/edit-distance) 🟡 Medium
