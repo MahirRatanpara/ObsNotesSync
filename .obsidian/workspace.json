@@ -37,8 +37,7 @@
               "title": "Logging - Singleton"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +157,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "c83f99e9e869df8f",
+  "active": "971dad61c6fc1714",
   "lastOpenFiles": [
+    "MahirNotes/LLD/Solutions/Logging - Singleton.md",
     "MahirNotes/Java/Concurrency/Exec Service.md",
     "MahirNotes/Java/Concurrency/Executors.md",
     "MahirNotes/Java/Concurrency/CopyOnWriteArrayList.md",
@@ -186,7 +186,6 @@
     "MahirNotes/HLD/Caching/Threads in Redis.md",
     "MahirNotes/HLD/Caching/Distributed Consensus.md",
     "MahirNotes/HLD/MQ/Queue Visiblity Timeouts and Lease.md",
-    "MahirNotes/DSA/Algorithms & DS/Monotonic Queue.md",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",

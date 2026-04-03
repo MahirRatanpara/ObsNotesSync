@@ -149,7 +149,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
 - [ ] **107.** [Edit Distance](https://leetcode.com/problems/edit-distance) 🟡 Medium
 - [ ] **108.** [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) 🟢 Easy
-- [ ] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hard
+- [ ] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hardonotio
 - [ ] **110.** [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) 🟡 Medium
 
 ### Problems 111-120
