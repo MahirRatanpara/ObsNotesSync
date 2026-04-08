@@ -72,7 +72,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **47.** [Combination Sum](https://leetcode.com/problems/combination-sum) 🟡 Medium
 - [x] **48.** [Employee Importance](https://leetcode.com/problems/employee-importance) 🟡 Medium
 - [ ] **49.** [Making A Large Island](https://leetcode.com/problems/making-a-large-island) 🔴 Hard
-- [ ] **50.** [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) 🔴 Hard
+- [x] **50.** [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) 🔴 Hard
 
 ### Problems 51-60
 
