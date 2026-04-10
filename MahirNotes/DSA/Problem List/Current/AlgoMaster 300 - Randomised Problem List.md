@@ -147,10 +147,10 @@ Track your progress by checking off problems as you solve them!
 - [x] **103.** [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) 🟡 Medium
 - [x] **104.** [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks) 🟡 Medium
 - [ ] **105.** [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation) 🔴 Hard
-- [ ] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
+- [x] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
 - [ ] **107.** [Edit Distance](https://leetcode.com/problems/edit-distance) 🟡 Medium
 - [ ] **108.** [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) 🟢 Easy
-- [ ] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hardonotio
+- [ ] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hard
 - [ ] **110.** [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) 🟡 Medium
 
 ### Problems 111-120
