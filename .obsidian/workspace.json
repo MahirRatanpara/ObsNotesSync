@@ -37,7 +37,8 @@
               "title": "Buy Sell Stocks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,10 +158,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Problem List/Current/=IF(L22=\"\",\"\",SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(H22<>\"\",H22,Config!B2),\"{{NAME}}\",L22&\" \"&M22),\"{{JOB_URL}}\",E22),\"{{RESUME_URL}}\",IF(G22<>\"\",G22,Config!B4)),\"{{COMPANY}}\",C22)).md",
+    "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/LLD/OOP Core Concepts — LLD Interview Notes.md",
     "MahirNotes/LLD/LLD Interview Delivery Guide.md",
     "MahirNotes/HLD/High Availablity/[IMP] *Global Distributed Architecture*.md",
@@ -186,7 +188,6 @@
     "MahirNotes/HLD/MQ/Kafka Deep Dive — System Design Interview Guide.md",
     "MahirNotes/HLD/MQ/Idempotent Consumer - in MQ.md",
     "MahirNotes/Job Search/Referral Ask.md",
-    "MahirNotes/HLD/Databases/10. Dynamo DB Deepdive.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
