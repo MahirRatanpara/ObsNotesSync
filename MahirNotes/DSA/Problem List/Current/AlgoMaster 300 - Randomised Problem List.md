@@ -162,7 +162,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **115.** [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) 🟡 Medium
 - [ ] **116.** [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) 🟢 Easy
 - [ ] **117.** [Design HashMap](https://leetcode.com/problems/design-hashmap) 🟢 Easy
-- [ ] **118.** [Open the Lock](https://leetcode.com/problems/open-the-lock) 🟡 Medium
+- [x] **118.** [Open the Lock](https://leetcode.com/problems/open-the-lock) 🟡 Medium
 - [ ] **119.** [LRU Cache](https://leetcode.com/problems/lru-cache) 🟡 Medium
 - [ ] **120.** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) 🟢 Easy
 
