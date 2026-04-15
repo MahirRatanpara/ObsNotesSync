@@ -156,7 +156,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 111-120
 
 - [ ] **111.** [Reverse Integer](https://leetcode.com/problems/reverse-integer) 🟡 Medium
-- [ ] **112.** [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) 🟡 Medium
+- [x] **112.** [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) 🟡 Medium
 - [ ] **113.** [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) 🔴 Hard
 - [ ] **114.** [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) 🔴 Hard
 - [ ] **115.** [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) 🟡 Medium
