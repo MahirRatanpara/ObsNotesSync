@@ -150,7 +150,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
 - [x] **107.** [Edit Distance](https://leetcode.com/problems/edit-distance) 🟡 Medium
 - [x] **108.** [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) 🟢 Easy
-- [ ] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hard
+- [x] **109.** [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) 🔴 Hard
 - [x] **110.** [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) 🟡 Medium
 
 ### Problems 111-120
@@ -196,7 +196,7 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **141.** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 🟢 Easy
 - [ ] **142.** [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) 🔴 Hard
-- [ ] **143.** [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) 🟡 Medium
+- [x] **143.** [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) 🟡 Medium
 - [ ] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
 - [ ] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
 - [ ] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
