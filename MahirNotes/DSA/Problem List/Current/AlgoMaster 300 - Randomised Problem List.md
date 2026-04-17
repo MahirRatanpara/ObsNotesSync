@@ -91,7 +91,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **61.** [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones) 🟡 Medium
 - [x] **62.** [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) 🟡 Medium
-- [ ] **63.** [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) 🟡 Medium
+- [x] **63.** [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) 🟡 Medium
 - [x] **64.** [My Calendar II](https://leetcode.com/problems/my-calendar-ii) 🟡 Medium
 - [x] **65.** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) 🟡 Medium
 - [x] **66.** [Triangle](https://leetcode.com/problems/triangle) 🟡 Medium
