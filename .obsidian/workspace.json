@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e58b83a1a4846fa8",
+        "id": "b6459740d13f32b3",
         "type": "tabs",
         "children": [
           {
-            "id": "971dad61c6fc1714",
+            "id": "d11779b6990c662d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -143,10 +143,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "971dad61c6fc1714",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
+    "MahirNotes/DSA/Algorithms & DS/Eulerian Path.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Problem List/Current/=IF(L22=\"\",\"\",SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(H22<>\"\",H22,Config!B2),\"{{NAME}}\",L22&\" \"&M22),\"{{JOB_URL}}\",E22),\"{{RESUME_URL}}\",IF(G22<>\"\",G22,Config!B4)),\"{{COMPANY}}\",C22)).md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/LLD/OOP Core Concepts — LLD Interview Notes.md",
@@ -172,7 +173,6 @@
     "MahirNotes/LLD/Patterns/Abstract Factory/PATTERN_NOTES.md",
     "MahirNotes/LLD/Pattern Practice.md",
     "MahirNotes/HLD/MQ/Kafka Deep Dive — System Design Interview Guide.md",
-    "MahirNotes/HLD/MQ/Idempotent Consumer - in MQ.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",

@@ -195,7 +195,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 141-150
 
 - [ ] **141.** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 🟢 Easy
-- [ ] **142.** [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) 🔴 Hard
+- [x] **142.** [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) 🔴 Hard
 - [x] **143.** [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) 🟡 Medium
 - [ ] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
 - [ ] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
