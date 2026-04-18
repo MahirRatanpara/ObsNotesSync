@@ -164,12 +164,12 @@ Track your progress by checking off problems as you solve them!
 - [x] **117.** [Design HashMap](https://leetcode.com/problems/design-hashmap) 🟢 Easy
 - [x] **118.** [Open the Lock](https://leetcode.com/problems/open-the-lock) 🟡 Medium
 - [x] **119.** [LRU Cache](https://leetcode.com/problems/lru-cache) 🟡 Medium
-- [ ] **120.** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) 🟢 Easy
+- [x] **120.** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) 🟢 Easy
 
 ### Problems 121-130
 
 - [ ] **121.** [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) 🔴 Hard
-- [ ] **122.** [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) 🟡 Medium
+- [x] **122.** [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) 🟡 Medium
 - [ ] **123.** [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) 🟡 Medium
 - [ ] **124.** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 🟡 Medium
 - [ ] **125.** [Path Sum III](https://leetcode.com/problems/path-sum-iii) 🟡 Medium
