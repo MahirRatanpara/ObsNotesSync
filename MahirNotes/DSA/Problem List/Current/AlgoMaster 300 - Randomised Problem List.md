@@ -146,7 +146,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **102.** [Word Ladder](https://leetcode.com/problems/word-ladder) 🔴 Hard
 - [x] **103.** [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) 🟡 Medium
 - [x] **104.** [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks) 🟡 Medium
-- [ ] **105.** [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation) 🔴 Hard
+- [x] **105.** [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) 🔴 Hard
 - [x] **106.** [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) 🟡 Medium
 - [x] **107.** [Edit Distance](https://leetcode.com/problems/edit-distance) 🟡 Medium
 - [x] **108.** [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) 🟢 Easy
@@ -157,11 +157,11 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **111.** [Reverse Integer](https://leetcode.com/problems/reverse-integer) 🟡 Medium
 - [x] **112.** [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) 🟡 Medium
-- [ ] **113.** [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) 🔴 Hard
-- [ ] **114.** [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) 🔴 Hard
-- [ ] **115.** [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) 🟡 Medium
-- [ ] **116.** [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) 🟢 Easy
-- [ ] **117.** [Design HashMap](https://leetcode.com/problems/design-hashmap) 🟢 Easy
+- [x] **113.** [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) 🔴 Hard
+- [x] **144.** [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) 🟡 Medium
+- [x] **115.** [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) 🟡 Medium
+- [x] **116.** [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) 🟢 Easy
+- [x] **117.** [Design HashMap](https://leetcode.com/problems/design-hashmap) 🟢 Easy
 - [x] **118.** [Open the Lock](https://leetcode.com/problems/open-the-lock) 🟡 Medium
 - [ ] **119.** [LRU Cache](https://leetcode.com/problems/lru-cache) 🟡 Medium
 - [ ] **120.** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) 🟢 Easy
@@ -181,7 +181,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 131-140
 
-- [x] **131.** [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) 🔴 Hard
+- [ ] **131.** [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation) 🔴 Hard
 - [ ] **132.** [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 🔴 Hard
 - [ ] **133.** [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) 🟢 Easy
 - [ ] **134.** [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) 🟡 Medium
@@ -195,8 +195,8 @@ Track your progress by checking off problems as you solve them!
 ### Problems 141-150
 
 - [ ] **141.** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 🟢 Easy
-- [x] **142.** [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) 🔴 Hard
-- [x] **143.** [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) 🟡 Medium
+- [ ] **142.** [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) 🔴 Hard
+- [ ] **143.** [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) 🔴 Hard
 - [ ] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
 - [ ] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
 - [ ] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
