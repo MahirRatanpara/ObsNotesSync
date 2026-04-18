@@ -163,7 +163,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **116.** [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) 🟢 Easy
 - [x] **117.** [Design HashMap](https://leetcode.com/problems/design-hashmap) 🟢 Easy
 - [x] **118.** [Open the Lock](https://leetcode.com/problems/open-the-lock) 🟡 Medium
-- [ ] **119.** [LRU Cache](https://leetcode.com/problems/lru-cache) 🟡 Medium
+- [x] **119.** [LRU Cache](https://leetcode.com/problems/lru-cache) 🟡 Medium
 - [ ] **120.** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) 🟢 Easy
 
 ### Problems 121-130
