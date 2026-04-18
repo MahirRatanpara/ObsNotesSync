@@ -170,8 +170,8 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **121.** [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) 🔴 Hard
 - [x] **122.** [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) 🟡 Medium
-- [ ] **123.** [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) 🟡 Medium
-- [ ] **124.** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 🟡 Medium
+- [x] **123.** [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) 🟡 Medium
+- [x] **124.** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 🟡 Medium
 - [ ] **125.** [Path Sum III](https://leetcode.com/problems/path-sum-iii) 🟡 Medium
 - [ ] **126.** [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) 🟡 Medium
 - [ ] **127.** [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) 🟢 Easy
