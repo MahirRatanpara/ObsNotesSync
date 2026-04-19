@@ -174,9 +174,9 @@ Track your progress by checking off problems as you solve them!
 - [x] **124.** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 🟡 Medium
 - [x] **125.** [Path Sum III](https://leetcode.com/problems/path-sum-iii) 🟡 Medium
 - [x] **126.** [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) 🟡 Medium
-- [ ] **127.** [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) 🟢 Easy
-- [ ] **128.** [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) 🟡 Medium
-- [ ] **129.** [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) 🟢 Easy
+- [x] **127.** [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) 🟢 Easy
+- [x] **128.** [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) 🟡 Medium
+- [x] **129.** [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) 🟢 Easy
 - [x] **130.** [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays) 🟡 Medium
 
 ### Problems 131-140
