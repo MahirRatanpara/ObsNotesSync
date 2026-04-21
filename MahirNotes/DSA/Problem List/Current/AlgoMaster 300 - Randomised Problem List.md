@@ -216,7 +216,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **157.** [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) 🔴 Hard
 - [ ] **158.** [Reverse Bits](https://leetcode.com/problems/reverse-bits) 🟢 Easy
 - [ ] **159.** [House Robber II](https://leetcode.com/problems/house-robber-ii) 🟡 Medium
-- [ ] **160.** [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) 🟡 Medium
+- [x] **160.** [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) 🟡 Medium
 
 ### Problems 161-170
 
