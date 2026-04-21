@@ -222,7 +222,7 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **161.** [Contiguous Array](https://leetcode.com/problems/contiguous-array) 🟡 Medium
 - [ ] **162.** [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) 🟡 Medium
-- [ ] **163.** [Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu) 🟡 Medium
+- [x] **163.** [Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu) 🟡 Medium
 - [ ] **164.** [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) 🟡 Medium
 - [ ] **165.** [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) 🟢 Easy
 - [ ] **166.** [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) 🟡 Medium
