@@ -190,7 +190,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **137.** [3Sum](https://leetcode.com/problems/3sum) 🟡 Medium
 - [ ] **138.** [Burst Balloons](https://leetcode.com/problems/burst-balloons) 🔴 Hard
 - [x] **139.** [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) 🟡 Medium
-- [ ] **140.** [Accounts Merge](https://leetcode.com/problems/accounts-merge) 🟡 Medium
+- [x] **140.** [Accounts Merge](https://leetcode.com/problems/accounts-merge) 🟡 Medium
 
 ### Problems 141-150
 
