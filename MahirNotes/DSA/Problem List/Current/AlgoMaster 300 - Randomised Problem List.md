@@ -168,7 +168,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 121-130
 
-- [ ] **121.** [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) 🔴 Hard
+- [x] **121.** [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) 🔴 Hard
 - [x] **122.** [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) 🟡 Medium
 - [x] **123.** [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) 🟡 Medium
 - [x] **124.** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 🟡 Medium
