@@ -194,10 +194,10 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 141-150
 
-- [ ] **141.** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 🟢 Easy
+- [x] **141.** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) 🟢 Easy
 - [ ] **142.** [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) 🔴 Hard
 - [ ] **143.** [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) 🔴 Hard
-- [ ] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
+- [x] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
 - [ ] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
 - [ ] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
 - [ ] **147.** [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 🟡 Medium
