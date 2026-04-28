@@ -203,7 +203,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **147.** [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 🟡 Medium
 - [x] **148.** [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) 🟡 Medium
 - [x] **149.** [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) 🟡 Medium
-- [ ] **150.** [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) 🟡 Medium
+- [x] **150.** [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) 🟡 Medium
 
 ### Problems 151-160
 
