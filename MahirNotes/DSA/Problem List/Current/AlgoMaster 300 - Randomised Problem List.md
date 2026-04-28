@@ -201,8 +201,8 @@ Track your progress by checking off problems as you solve them!
 - [x] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
 - [x] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
 - [x] **147.** [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 🟡 Medium
-- [ ] **148.** [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) 🟡 Medium
-- [ ] **149.** [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) 🟡 Medium
+- [x] **148.** [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) 🟡 Medium
+- [x] **149.** [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) 🟡 Medium
 - [ ] **150.** [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) 🟡 Medium
 
 ### Problems 151-160
