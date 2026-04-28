@@ -199,8 +199,8 @@ Track your progress by checking off problems as you solve them!
 - [ ] **143.** [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) 🔴 Hard
 - [x] **144.** [Redundant Connection](https://leetcode.com/problems/redundant-connection) 🟡 Medium
 - [x] **145.** [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) 🟢 Easy
-- [ ] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
-- [ ] **147.** [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 🟡 Medium
+- [x] **146.** [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) 🟡 Medium
+- [x] **147.** [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) 🟡 Medium
 - [ ] **148.** [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) 🟡 Medium
 - [ ] **149.** [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) 🟡 Medium
 - [ ] **150.** [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) 🟡 Medium
