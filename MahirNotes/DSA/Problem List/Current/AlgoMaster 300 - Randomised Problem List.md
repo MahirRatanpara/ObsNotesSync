@@ -208,7 +208,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 151-160
 
 - [ ] **151.** [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) 🔴 Hard
-- [ ] **152.** [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) 🟡 Medium
+- [x] **152.** [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) 🟡 Medium
 - [ ] **153.** [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) 🟡 Medium
 - [ ] **154.** [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 🟡 Medium
 - [ ] **155.** [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) 🔴 Hard
