@@ -209,13 +209,13 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **151.** [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) 🔴 Hard
 - [x] **152.** [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) 🟡 Medium
-- [ ] **153.** [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) 🟡 Medium
-- [ ] **154.** [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 🟡 Medium
+- [x] **153.** [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) 🟡 Medium
+- [x] **154.** [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 🟡 Medium
 - [ ] **155.** [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) 🔴 Hard
 - [ ] **156.** [Game of Life](https://leetcode.com/problems/game-of-life) 🟡 Medium
 - [ ] **157.** [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) 🔴 Hard
 - [ ] **158.** [Reverse Bits](https://leetcode.com/problems/reverse-bits) 🟢 Easy
-- [ ] **159.** [House Robber II](https://leetcode.com/problems/house-robber-ii) 🟡 Medium
+- [x] **159.** [House Robber II](https://leetcode.com/problems/house-robber-ii) 🟡 Medium
 - [x] **160.** [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) 🟡 Medium
 
 ### Problems 161-170
