@@ -237,7 +237,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **172.** [Candy](https://leetcode.com/problems/candy) 🔴 Hard
 - [ ] **173.** [Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread) 🔴 Hard
 - [x] **174.** [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) 🟡 Medium
-- [ ] **175.** [Perfect Squares](https://leetcode.com/problems/perfect-squares) 🟡 Medium
+- [x] **175.** [Perfect Squares](https://leetcode.com/problems/perfect-squares) 🟡 Medium
 - [ ] **176.** [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) 🟢 Easy
 - [ ] **177.** [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) 🟡 Medium
 - [ ] **178.** [Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost) 🟡 Medium
