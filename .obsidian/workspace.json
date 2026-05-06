@@ -145,8 +145,9 @@
   },
   "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/HLD/Patterns/Pagination - Cursor based.md",
+    "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/HLD/Patterns/Pagination - Cursor based.md",
     "MahirNotes/DSA/Algorithms & DS/DS/LRU Cache — LinkedHashMap Deep Dive.md",
     "MahirNotes/DSA/Algorithms & DS/DS",
     "MahirNotes/LLD/Practice Problem/Ticket booking System.md",
@@ -156,7 +157,6 @@
     "MahirNotes/DSA/Algorithms & DS/Eulerian Path.md",
     "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Problem List/Current/=IF(L22=\"\",\"\",SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(H22<>\"\",H22,Config!B2),\"{{NAME}}\",L22&\" \"&M22),\"{{JOB_URL}}\",E22),\"{{RESUME_URL}}\",IF(G22<>\"\",G22,Config!B4)),\"{{COMPANY}}\",C22)).md",
-    "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/LLD/OOP Core Concepts — LLD Interview Notes.md",
     "MahirNotes/LLD/LLD Interview Delivery Guide.md",
     "MahirNotes/HLD/High Availablity/[IMP] *Global Distributed Architecture*.md",
