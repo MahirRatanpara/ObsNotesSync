@@ -125,7 +125,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **87.** [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 🔴 Hard
 - [x] **88.** [Same Tree](https://leetcode.com/problems/same-tree) 🟢 Easy
 - [x] **89.** [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) 🟡 Medium
-- [ ] **90.** [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii) 🟡 Medium
+- [x] **90.** [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii) 🟡 Medium
 
 ### Problems 91-100
 
@@ -241,7 +241,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **176.** [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) 🟢 Easy
 - [x] **177.** [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) 🟡 Medium
 - [ ] **178.** [Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost) 🟡 Medium
-- [ ] **179.** [Target Sum](https://leetcode.com/problems/target-sum) 🟡 Medium
+- [x] **179.** [Target Sum](https://leetcode.com/problems/target-sum) 🟡 Medium
 - [ ] **180.** [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers) 🟡 Medium
 
 ### Problems 181-190
@@ -277,7 +277,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **204.** [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) 🟡 Medium
 - [ ] **205.** [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) 🟡 Medium
 - [ ] **206.** [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) 🔴 Hard
-- [ ] **207.** [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) 🟡 Medium
+- [x] **207.** [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) 🟡 Medium
 - [ ] **208.** [Counting Bits](https://leetcode.com/problems/counting-bits) 🟢 Easy
 - [ ] **209.** [Min Stack](https://leetcode.com/problems/min-stack) 🟡 Medium
 - [ ] **210.** [Subsets](https://leetcode.com/problems/subsets) 🟡 Medium
