@@ -263,7 +263,6 @@ Track your progress by checking off problems as you solve them!
 - [ ] **192.** [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) 🟡 Medium
 - [ ] **193.** [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) 🔴 Hard
 - [ ] **194.** [Single Number III](https://leetcode.com/problems/single-number-iii) 🟡 Medium
-- [ ] **195.** [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) 🔴 Hard
 - [ ] **196.** [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) 🟡 Medium
 - [ ] **197.** [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) 🔴 Hard
 - [ ] **198.** [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) 🟢 Easy

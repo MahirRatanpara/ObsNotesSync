@@ -24,7 +24,7 @@
             }
           },
           {
-            "id": "fd567501cf06e0d3",
+            "id": "7e8d021a1d95d82f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,9 +158,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "fd567501cf06e0d3",
+  "active": "7e8d021a1d95d82f",
   "lastOpenFiles": [
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Algorithms & DS/NP-Complete Problems.md",
+    "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/HLD/Patterns/Pagination - Cursor based.md",
     "MahirNotes/DSA/Algorithms & DS/DS/LRU Cache — LinkedHashMap Deep Dive.md",
@@ -170,7 +172,6 @@
     "MahirNotes/DSA/Problem List/Done/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/LLD/Practice Problem/Tic Tac Toe.md",
     "MahirNotes/DSA/Algorithms & DS/Eulerian Path.md",
-    "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Problem List/Current/=IF(L22=\"\",\"\",SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(H22<>\"\",H22,Config!B2),\"{{NAME}}\",L22&\" \"&M22),\"{{JOB_URL}}\",E22),\"{{RESUME_URL}}\",IF(G22<>\"\",G22,Config!B4)),\"{{COMPANY}}\",C22)).md",
     "MahirNotes/LLD/OOP Core Concepts — LLD Interview Notes.md",
     "MahirNotes/LLD/LLD Interview Delivery Guide.md",
@@ -188,7 +189,6 @@
     "MahirNotes/Java/Concurrency/Concurrent HashMaps.md",
     "MahirNotes/Java/Concurrency/Sync DS.md",
     "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
-    "MahirNotes/LLD/SOLID/SOLID.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
