@@ -242,7 +242,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **177.** [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) 🟡 Medium
 - [ ] **178.** [Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost) 🟡 Medium
 - [x] **179.** [Target Sum](https://leetcode.com/problems/target-sum) 🟡 Medium
-- [ ] **180.** [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers) 🟡 Medium
+- [x] **180.** [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers) 🟡 Medium
 
 ### Problems 181-190
 
