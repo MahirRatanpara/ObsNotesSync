@@ -248,7 +248,7 @@ Track your progress by checking off problems as you solve them!
 
 - [ ] **181.** [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) 🟡 Medium
 - [ ] **182.** [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) 🔴 Hard
-- [ ] **183.** [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) 🟡 Medium
+- [x] **183.** [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) 🟡 Medium
 - [ ] **184.** [Partition List](https://leetcode.com/problems/partition-list) 🟡 Medium
 - [ ] **185.** [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) 🟡 Medium
 - [ ] **186.** [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) 🟡 Medium
@@ -355,7 +355,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
 - [ ] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
 - [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
-- [ ] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
+- [x] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
 - [ ] **268.** [Online Stock Span](https://leetcode.com/problems/online-stock-span) 🟡 Medium
 - [ ] **269.** [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) 🟡 Medium
 - [ ] **270.** [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) 🔴 Hard
