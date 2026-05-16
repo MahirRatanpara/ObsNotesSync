@@ -1,4 +1,3 @@
-**Total Problems:** 300 (Easy: 48, Medium: 196, Hard: 56)
 
 Track your progress by checking off problems as you solve them!
 
@@ -250,8 +249,8 @@ Track your progress by checking off problems as you solve them!
 - [ ] **182.** [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) 🔴 Hard
 - [x] **183.** [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) 🟡 Medium
 - [x] **184.** [Partition List](https://leetcode.com/problems/partition-list) 🟡 Medium
-- [ ] **185.** [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) 🟡 Medium
-- [ ] **186.** [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) 🟡 Medium
+- [x] **185.** [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) 🟡 Medium
+- [x] **186.** [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) 🟡 Medium
 - [ ] **187.** [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system) 🟡 Medium
 - [ ] **188.** [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) 🟢 Easy
 - [ ] **189.** [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) 🟡 Medium
