@@ -37,8 +37,7 @@
               "title": "Merge Intervals Pattern"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +157,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "a8f93c42ee130f89",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
+    "MahirNotes/DSA/Algorithms & DS/Merge Intervals Pattern.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Algorithms & DS/NP-Complete Problems.md",
@@ -188,7 +188,6 @@
     "MahirNotes/Java/Concurrency/CopyOnWriteArrayList.md",
     "MahirNotes/Java/Concurrency/Concurrent HashMaps.md",
     "MahirNotes/Java/Concurrency/Sync DS.md",
-    "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
