@@ -253,7 +253,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **186.** [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) 🟡 Medium
 - [x] **187.** [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system) 🟡 Medium
 - [x] **188.** [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) 🟢 Easy
-- [ ] **189.** [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) 🟡 Medium
+- [x] **189.** [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) 🟡 Medium
 - [ ] **190.** [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended) 🟡 Medium
 
 ### Problems 191-200
