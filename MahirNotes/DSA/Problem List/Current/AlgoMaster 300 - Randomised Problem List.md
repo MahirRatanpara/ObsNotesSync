@@ -258,7 +258,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 191-200
 
-- [ ] **191.** [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) 🟢 Easy
+- [x] **191.** [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) 🟢 Easy
 - [ ] **192.** [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) 🟡 Medium
 - [ ] **193.** [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) 🔴 Hard
 - [ ] **194.** [Single Number III](https://leetcode.com/problems/single-number-iii) 🟡 Medium
