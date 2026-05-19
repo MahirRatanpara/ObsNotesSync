@@ -259,10 +259,10 @@ Track your progress by checking off problems as you solve them!
 ### Problems 191-200
 
 - [x] **191.** [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) 🟢 Easy
-- [ ] **192.** [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) 🟡 Medium
+- [x] **192.** [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) 🟡 Medium
 - [ ] **193.** [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) 🔴 Hard
 - [ ] **194.** [Single Number III](https://leetcode.com/problems/single-number-iii) 🟡 Medium
-- [ ] **196.** [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) 🟡 Medium
+- [ ] **196.** [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) 🟡 Medium  
 - [ ] **197.** [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) 🔴 Hard
 - [ ] **198.** [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) 🟢 Easy
 - [ ] **199.** [N-Queens](https://leetcode.com/problems/n-queens) 🔴 Hard
