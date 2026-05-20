@@ -271,8 +271,8 @@ Track your progress by checking off problems as you solve them!
 ### Problems 201-210
 
 - [x] **201.** [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) 🟡 Medium
-- [ ] **202.** [Snapshot Array](https://leetcode.com/problems/snapshot-array) 🟡 Medium
-- [ ] **203.** [First Missing Positive](https://leetcode.com/problems/first-missing-positive) 🔴 Hard
+- [x] **202.** [Snapshot Array](https://leetcode.com/problems/snapshot-array) 🟡 Medium
+- [x] **203.** [First Missing Positive](https://leetcode.com/problems/first-missing-positive) 🔴 Hard
 - [ ] **204.** [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) 🟡 Medium
 - [ ] **205.** [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) 🟡 Medium
 - [ ] **206.** [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) 🔴 Hard
