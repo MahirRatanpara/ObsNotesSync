@@ -287,10 +287,10 @@ Track your progress by checking off problems as you solve them!
 - [x] **212.** [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) 🟡 Medium
 - [ ] **213.** [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe) 🔴 Hard
 - [x] **214.** [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 🟡 Medium
-- [ ] **215.** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) 🟢 Easy
-- [ ] **216.** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) 🟢 Easy
-- [ ] **217.** [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) 🟢 Easy
-- [ ] **218.** [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) 🟢 Easy
+- [x] **215.** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) 🟢 Easy
+- [x] **216.** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) 🟢 Easy
+- [x] **217.** [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) 🟢 Easy
+- [x] **218.** [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) 🟢 Easy
 - [ ] **219.** [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) 🟢 Easy
 - [ ] **220.** [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) 🟡 Medium
 
