@@ -296,7 +296,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 221-230
 
-- [ ] **221.** [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences) 🟡 Medium
+- [x] **221.** [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences) 🟡 Medium
 - [ ] **222.** [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree) 🔴 Hard
 - [ ] **223.** [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) 🔴 Hard
 - [ ] **224.** [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) 🟡 Medium
