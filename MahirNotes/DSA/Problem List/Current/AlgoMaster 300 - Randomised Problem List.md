@@ -279,7 +279,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **207.** [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) 🟡 Medium
 - [x] **208.** [Counting Bits](https://leetcode.com/problems/counting-bits) 🟢 Easy
 - [x] **209.** [Min Stack](https://leetcode.com/problems/min-stack) 🟡 Medium
-- [ ] **210.** [Subsets](https://leetcode.com/problems/subsets) 🟡 Medium
+- [x] **210.** [Subsets](https://leetcode.com/problems/subsets) 🟡 Medium
 
 ### Problems 211-220
 
