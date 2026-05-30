@@ -286,7 +286,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **211.** [Word Search II](https://leetcode.com/problems/word-search-ii) 🔴 Hard
 - [x] **212.** [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) 🟡 Medium
 - [ ] **213.** [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe) 🔴 Hard
-- [ ] **214.** [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 🟡 Medium
+- [x] **214.** [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 🟡 Medium
 - [ ] **215.** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) 🟢 Easy
 - [ ] **216.** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) 🟢 Easy
 - [ ] **217.** [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) 🟢 Easy
