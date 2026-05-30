@@ -278,7 +278,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **206.** [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) 🔴 Hard
 - [x] **207.** [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) 🟡 Medium
 - [x] **208.** [Counting Bits](https://leetcode.com/problems/counting-bits) 🟢 Easy
-- [ ] **209.** [Min Stack](https://leetcode.com/problems/min-stack) 🟡 Medium
+- [x] **209.** [Min Stack](https://leetcode.com/problems/min-stack) 🟡 Medium
 - [ ] **210.** [Subsets](https://leetcode.com/problems/subsets) 🟡 Medium
 
 ### Problems 211-220
