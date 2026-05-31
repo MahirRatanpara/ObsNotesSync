@@ -302,7 +302,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **224.** [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) 🟡 Medium
 - [x] **225.** [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) 🟡 Medium
 - [x] **226.** [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) 🟡 Medium
-- [ ] **227.** [Decode Ways](https://leetcode.com/problems/decode-ways) 🟡 Medium
+- [x] **227.** [Decode Ways](https://leetcode.com/problems/decode-ways) 🟡 Medium
 - [ ] **228.** [Repeated String Match](https://leetcode.com/problems/repeated-string-match) 🟡 Medium
 - [ ] **229.** [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) 🟡 Medium
 - [ ] **230.** [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence) 🟡 Medium
