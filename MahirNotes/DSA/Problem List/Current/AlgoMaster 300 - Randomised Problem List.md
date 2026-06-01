@@ -309,7 +309,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 231-240
 
-- [ ] **231.** [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons) 🟢 Easy
+- [x] **231.** [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons) 🟢 Easy
 - [ ] **232.** [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable) 🟡 Medium
 - [ ] **233.** [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) 🟡 Medium
 - [ ] **234.** [Find Peak Element](https://leetcode.com/problems/find-peak-element) 🟡 Medium
