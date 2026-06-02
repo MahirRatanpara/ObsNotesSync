@@ -327,11 +327,11 @@ Track your progress by checking off problems as you solve them!
 - [ ] **243.** [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 🔴 Hard
 - [x] **244.** [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree) 🟡 Medium
 - [x] **245.** [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 🟡 Medium
-- [ ] **246.** [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies) 🟡 Medium
-- [ ] **247.** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) 🟢 Easy
-- [ ] **248.** [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) 🟢 Easy
-- [ ] **249.** [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) 🟡 Medium
-- [ ] **250.** [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) 🟡 Medium
+- [x] **246.** [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies) 🟡 Medium - [2D DP Version Remaining :)]
+- [x] **247.** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) 🟢 Easy
+- [x] **248.** [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) 🟢 Easy
+- [x] **249.** [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) 🟡 Medium
+- [x] **250.** [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) 🟡 Medium
 
 ### Problems 251-260
 
