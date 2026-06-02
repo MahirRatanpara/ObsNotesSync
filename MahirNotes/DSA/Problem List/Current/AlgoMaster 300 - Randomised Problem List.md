@@ -317,7 +317,7 @@ Track your progress by checking off problems as you solve them!
 - [ ] **236.** [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) 🔴 Hard
 - [ ] **237.** [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) 🟡 Medium
 - [x] **238.** [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) 🟡 Medium
-- [ ] **239.** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) 🟢 Easy
+- [x] **239.** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) 🟢 Easy
 - [ ] **240.** [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl) 🟡 Medium
 
 ### Problems 241-250
