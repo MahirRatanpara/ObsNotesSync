@@ -316,7 +316,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **235.** [Clone Graph](https://leetcode.com/problems/clone-graph) 🟡 Medium
 - [ ] **236.** [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) 🔴 Hard
 - [ ] **237.** [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) 🟡 Medium
-- [ ] **238.** [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) 🟡 Medium
+- [x] **238.** [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) 🟡 Medium
 - [ ] **239.** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) 🟢 Easy
 - [ ] **240.** [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl) 🟡 Medium
 
