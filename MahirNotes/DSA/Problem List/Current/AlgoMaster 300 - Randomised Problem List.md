@@ -326,7 +326,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **242.** [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) 🟡 Medium
 - [ ] **243.** [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 🔴 Hard
 - [x] **244.** [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree) 🟡 Medium
-- [ ] **245.** [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 🟡 Medium
+- [x] **245.** [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 🟡 Medium
 - [ ] **246.** [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies) 🟡 Medium
 - [ ] **247.** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) 🟢 Easy
 - [ ] **248.** [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) 🟢 Easy
