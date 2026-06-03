@@ -339,10 +339,10 @@ Track your progress by checking off problems as you solve them!
 - [ ] **252.** [New 21 Game](https://leetcode.com/problems/new-21-game) 🟡 Medium
 - [ ] **253.** [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) 🔴 Hard
 - [ ] **254.** [Guess the Word](https://leetcode.com/problems/guess-the-word) 🔴 Hard
-- [ ] **255.** [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) 🟡 Medium
+- [x] **255.** [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) 🟡 Medium
 - [ ] **256.** [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) 🔴 Hard
 - [ ] **257.** [Majority Element](https://leetcode.com/problems/majority-element) 🟢 Easy
-- [ ] **258.** [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) 🔴 Hard
+- [x] **258.** [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) 🔴 Hard
 - [ ] **259.** [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) 🟢 Easy
 - [x] **260.** [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) 🟡 Medium
 
