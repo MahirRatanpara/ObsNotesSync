@@ -335,7 +335,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 251-260
 
-- [ ] **251.** [Happy Number](https://leetcode.com/problems/happy-number) 🟢 Easy
+- [x] **251.** [Happy Number](https://leetcode.com/problems/happy-number) 🟢 Easy
 - [ ] **252.** [New 21 Game](https://leetcode.com/problems/new-21-game) 🟡 Medium
 - [ ] **253.** [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) 🔴 Hard
 - [ ] **254.** [Guess the Word](https://leetcode.com/problems/guess-the-word) 🔴 Hard
