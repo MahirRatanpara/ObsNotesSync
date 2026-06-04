@@ -341,16 +341,16 @@ Track your progress by checking off problems as you solve them!
 - [ ] **254.** [Guess the Word](https://leetcode.com/problems/guess-the-word) 🔴 Hard
 - [x] **255.** [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) 🟡 Medium
 - [ ] **256.** [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) 🔴 Hard
-- [ ] **257.** [Majority Element](https://leetcode.com/problems/majority-element) 🟢 Easy
+- [x] **257.** [Majority Element](https://leetcode.com/problems/majority-element) 🟢 Easy
 - [x] **258.** [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) 🔴 Hard
-- [ ] **259.** [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) 🟢 Easy
+- [x] **259.** [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) 🟢 Easy
 - [x] **260.** [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) 🟡 Medium
 
 ### Problems 261-270
 
 - [ ] **261.** [Gas Station](https://leetcode.com/problems/gas-station) 🟡 Medium
-- [ ] **262.** [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) 🟡 Medium
-- [ ] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
+- [x] **262.** [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) 🟡 Medium
+- [x] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
 - [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
 - [ ] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
 - [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
