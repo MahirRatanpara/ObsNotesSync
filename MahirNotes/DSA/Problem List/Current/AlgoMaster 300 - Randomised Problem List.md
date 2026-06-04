@@ -352,7 +352,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **262.** [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) 🟡 Medium
 - [x] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
 - [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
-- [ ] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
+- [x] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
 - [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
 - [x] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
 - [ ] **268.** [Online Stock Span](https://leetcode.com/problems/online-stock-span) 🟡 Medium
