@@ -368,7 +368,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **275.** [Decode String](https://leetcode.com/problems/decode-string) 🟡 Medium
 - [x] **276.** [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) 🟡 Medium
 - [x] **277.** [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) 🟡 Medium
-- [ ] **278.** [Word Break](https://leetcode.com/problems/word-break) 🟡 Medium
+- [x] **278.** [Word Break](https://leetcode.com/problems/word-break) 🟡 Medium
 - [ ] **279.** [IPO](https://leetcode.com/problems/ipo) 🔴 Hard
 - [ ] **280.** [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor) 🟡 Medium
 
