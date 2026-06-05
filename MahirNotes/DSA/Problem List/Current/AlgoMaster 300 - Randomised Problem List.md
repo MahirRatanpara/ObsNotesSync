@@ -363,7 +363,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **271.** [Rotate List](https://leetcode.com/problems/rotate-list) 🟡 Medium
 - [x] **272.** [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) 🟡 Medium
-- [ ] **273.** [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach) 🟡 Medium
+- [x] **273.** [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach) 🟡 Medium
 - [ ] **274.** [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) 🟡 Medium
 - [x] **275.** [Decode String](https://leetcode.com/problems/decode-string) 🟡 Medium
 - [ ] **276.** [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) 🟡 Medium
