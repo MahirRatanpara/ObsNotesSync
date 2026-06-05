@@ -355,7 +355,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
 - [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
 - [x] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
-- [ ] **268.** [Online Stock Span](https://leetcode.com/problems/online-stock-span) 🟡 Medium
+- [x] **268.** [Online Stock Span](https://leetcode.com/problems/online-stock-span) 🟡 Medium
 - [ ] **269.** [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) 🟡 Medium
 - [ ] **270.** [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) 🔴 Hard
 
