@@ -32,7 +32,7 @@ Prioritised for a Cloud backend role:
 ### Topics, prioritized for backend/distributed roles:
 
 - graphs (BFS/DFS, topological sort, shortest path), heaps/priority queues, hashing, intervals/sweep line, tries, binary search, plus design-heavy problems: LRU/LFU cache, rate limiter (token bucket / sliding window), thread-safe data structures, producer-consumer/bounded buffer, and class-design problems (implement a class with several methods). Concurrency problems are plausible given your async/actor background.
-
+- - **Design Patterns & Architecture:** Microservices, service mesh, event-driven architecture (pub/sub, event sourcing), circuit breakers, bulkheads, retry/backoff policies. Domain-Driven Design (DDD) for API boundaries. Use cases: e.g. caching pattern (Cache-Aside), CQRS, database transaction log (like Kafka). Architectural patterns like multi-tier web, lambda architecture (for analytics), and Polyglot persistence.
 - Java is fully supported and is your strongest — use it. Know its concurrency primitives (ConcurrentHashMap, BlockingQueue, locks, atomics) cold in case a concurrency problem appears.
 
 **Given a short runway (next few days), allocate roughly:**
