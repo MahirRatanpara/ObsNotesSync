@@ -24,8 +24,9 @@
             }
           },
           {
-            "id": "bf4b888b40078ad9",
+            "id": "f4b2fc3374f517aa",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,11 +34,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Domain Related"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,10 +160,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "d11779b6990c662d",
+  "active": "f4b2fc3374f517aa",
   "lastOpenFiles": [
-    "MahirNotes/Company-Wise/Google/Domain Related.md",
+    "MahirNotes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/Company-Wise/Google",
     "MahirNotes/Util/DSA Helper/DSA Solution Logic prompt.md",
     "MahirNotes/DSA/Pattern Recognition.md",
@@ -188,7 +192,6 @@
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
     "MahirNotes/LLD/Solutions/Logging - Singleton.md",
-    "MahirNotes/Java/Concurrency/Exec Service.md",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
