@@ -379,11 +379,11 @@ Track your progress by checking off problems as you solve them!
 - [x] **283.** [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) 🟡 Medium
 - [x] **284.** [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) 🟡 Medium
 - [ ] **285.** [Maximum Gap](https://leetcode.com/problems/maximum-gap) 🟡 Medium
-- [ ] **286.** [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) 🟡 Medium
-- [ ] **287.** [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) 🟢 Easy
-- [ ] **288.** [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) 🟢 Easy
-- [ ] **289.** [Group Anagrams](https://leetcode.com/problems/group-anagrams) 🟡 Medium
-- [ ] **290.** [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) 🟡 Medium
+- [x] **286.** [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) 🟡 Medium
+- [x] **287.** [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) 🟢 Easy
+- [x] **288.** [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) 🟢 Easy
+- [x] **289.** [Group Anagrams](https://leetcode.com/problems/group-anagrams) 🟡 Medium
+- [x] **290.** [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) 🟡 Medium
 
 ### Problems 291-300
 
