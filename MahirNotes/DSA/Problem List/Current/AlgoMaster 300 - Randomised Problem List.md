@@ -392,9 +392,9 @@ Track your progress by checking off problems as you solve them!
 - [ ] **293.** [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) 🔴 Hard
 - [x] **294.** [Sort Colors](https://leetcode.com/problems/sort-colors) 🟡 Medium
 - [ ] **295.** [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) 🔴 Hard
-- [ ] **296.** [Palindrome Number](https://leetcode.com/problems/palindrome-number) 🟢 Easy
+- [x] **296.** [Palindrome Number](https://leetcode.com/problems/palindrome-number) 🟢 Easy
 - [ ] **297.** [Network Delay Time](https://leetcode.com/problems/network-delay-time) 🟡 Medium
-- [ ] **298.** [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) 🟢 Easy
+- [x] **298.** [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) 🟢 Easy
 - [ ] **299.** [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) 🟡 Medium
 - [ ] **300.** [Task Scheduler](https://leetcode.com/problems/task-scheduler) 🟡 Medium
 
