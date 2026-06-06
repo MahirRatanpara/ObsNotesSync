@@ -37,8 +37,7 @@
               "title": "Domain Related"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,10 +157,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "bf4b888b40078ad9",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Company-Wise/Google",
     "MahirNotes/Util/DSA Helper/DSA Solution Logic prompt.md",
     "MahirNotes/DSA/Pattern Recognition.md",
