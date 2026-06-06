@@ -499,14 +499,13 @@ Drill this: _notifyAll() → all threads → BLOCKED → one wins lock → RUNNA
 
 ---
 
-**2. shutdownNow() returns List<Runnable>
+**2. shutdownNow() returns List\<Runnable\>**
 
 - `shutdownNow()` → `List<Runnable>` (tasks that never started)
 - `awaitTermination(timeout, unit)` → `boolean` (did everything finish in time?)
 - `shutdown()` → `void` (graceful drain, no return)
 
 Also remember: `shutdown()` **does not abandon the queue**. It drains it. Only `shutdownNow()` abandons queued tasks.
-
 
 **3. sleep() holds locks. wait() releases locks. Always.**
 

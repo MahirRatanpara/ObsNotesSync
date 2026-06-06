@@ -387,10 +387,10 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 291-300
 
-- [ ] **291.** [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 🟡 Medium
-- [ ] **292.** [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) 🟡 Medium
+- [x] **291.** [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 🟡 Medium
+- [x] **292.** [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) 🟡 Medium
 - [ ] **293.** [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) 🔴 Hard
-- [ ] **294.** [Sort Colors](https://leetcode.com/problems/sort-colors) 🟡 Medium
+- [x] **294.** [Sort Colors](https://leetcode.com/problems/sort-colors) 🟡 Medium
 - [ ] **295.** [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) 🔴 Hard
 - [ ] **296.** [Palindrome Number](https://leetcode.com/problems/palindrome-number) 🟢 Easy
 - [ ] **297.** [Network Delay Time](https://leetcode.com/problems/network-delay-time) 🟡 Medium

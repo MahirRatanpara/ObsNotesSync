@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -53,8 +53,7 @@
               "title": "Thread Lifecycle & Thread Pools"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,11 +173,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "1fc2a6bddc8c3e38",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
     "MahirNotes/Company-Wise/Google/Domain Related.md",
-    "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Threads.md",
     "MahirNotes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
     "MahirNotes/Java/Concurrency Prac",
