@@ -374,9 +374,9 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 281-290
 
-- [ ] **281.** [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) 🟡 Medium
-- [ ] **282.** [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) 🟡 Medium
-- [ ] **283.** [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) 🟡 Medium
+- [x] **281.** [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) 🟡 Medium
+- [x] **282.** [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) 🟡 Medium
+- [x] **283.** [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) 🟡 Medium
 - [ ] **284.** [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) 🟡 Medium
 - [ ] **285.** [Maximum Gap](https://leetcode.com/problems/maximum-gap) 🟡 Medium
 - [ ] **286.** [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) 🟡 Medium
