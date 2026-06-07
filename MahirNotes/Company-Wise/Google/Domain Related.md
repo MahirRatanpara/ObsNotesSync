@@ -9,7 +9,8 @@
 - intuitively understand the trade-offs described in the CAP theorem, who have practical experience with consensus algorithms like Paxos or Raft, and who have built systems that can survive network partitions, machine failures, and datacenter-level outages.
 - So expect resume depth to be probed in more than one round.
 - ~~Bellman Ford.~~chat
-- 
+- Practice Concurrency and Deadlockls
+- Write concurrency code in java
 
 ### Possible breakdown:
 

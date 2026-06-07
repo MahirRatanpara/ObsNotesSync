@@ -45,16 +45,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
+                "file": "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread Communication"
+              "title": "Thread Lifecycle & Thread Pools"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,16 +174,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "f66d066c11be3732",
+  "active": "f4b2fc3374f517aa",
   "lastOpenFiles": [
-    "MahirNotes/Company-Wise/Google/Domain Related.md",
+    "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
+    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/LLD/Solutions/Logging - Singleton.md",
     "MahirNotes/Java/Concurrency/Multi Threaded WebCrawler.md",
     "Other's Notes/PLACEMENT PREP/THEORY/OS/Synchronization/Producer Consumer.md",
     "MahirNotes/Java/Concurrency Prac/Thread Sync.md",
     "MahirNotes/Java/Concurrency Prac/Thread Executors.md",
-    "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Threads.md",
     "MahirNotes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
