@@ -45,15 +45,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
+                "file": "MahirNotes/Java/Concurrency Prac/Thread Executors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread Lifecycle & Thread Pools"
+              "title": "Thread Executors"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,11 +174,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "d11779b6990c662d",
+  "active": "1fc2a6bddc8c3e38",
   "lastOpenFiles": [
-    "MahirNotes/Company-Wise/Google/Domain Related.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
+    "MahirNotes/Java/Concurrency Prac/Thread Executors.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/Java/Concurrency Prac/Threads.md",
     "MahirNotes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
     "MahirNotes/Java/Concurrency Prac",
@@ -203,7 +205,6 @@
     "MahirNotes/HLD/High Availablity/[IMP] *Global Distributed Architecture*.md",
     "MahirNotes/HLD/MQ/Using Kafka - System Design Interview Guide.md",
     "MahirNotes/DSA/Problem List/Done/AlgoMaster75.md",
-    "MahirNotes/DSA/Problem List/Done/Prefix Sum List.md",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",
