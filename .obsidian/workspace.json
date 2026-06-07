@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -40,21 +40,20 @@
             }
           },
           {
-            "id": "ac8e7b675da8f01f",
+            "id": "8f92709a18e97a58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Java/Concurrency Prac/Locks.md",
+                "file": "MahirNotes/Java/Concurrency Prac/Semaphores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Locks"
+              "title": "Semaphores"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,11 +173,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "ac8e7b675da8f01f",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
+    "MahirNotes/Java/Concurrency Prac/Semaphores.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Locks.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
     "MahirNotes/LLD/Solutions/Logging - Singleton.md",
@@ -204,7 +204,6 @@
     "MahirNotes/LLD/Practice Problem/Vending Machine.md",
     "MahirNotes/DSA/Problem List/Done/Coding_Interview_Patterns_Checklist.md",
     "MahirNotes/LLD/Practice Problem/Tic Tac Toe.md",
-    "MahirNotes/DSA/Algorithms & DS/Eulerian Path.md",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
     "MahirNotes/HLD/Databases/9. Design Key-Value Database.pdf",

@@ -50,7 +50,7 @@
 - [[Peterson's Solution]] (Software Approach)
 - Test and Set
 - [[Mutex]] Locks
-- [[Semaphores]]
+- [[Other's Notes/PLACEMENT PREP/THEORY/OS/Synchronization/Semaphores]]
 - [[Producer Consumer]]
 
 ---
