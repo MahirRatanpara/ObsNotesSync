@@ -53,7 +53,8 @@
               "title": "Locks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,10 +174,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "d11779b6990c662d",
+  "active": "ac8e7b675da8f01f",
   "lastOpenFiles": [
-    "MahirNotes/Java/Concurrency Prac/Locks.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Java/Concurrency Prac/Locks.md",
     "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
     "MahirNotes/LLD/Solutions/Logging - Singleton.md",
@@ -184,7 +186,6 @@
     "Other's Notes/PLACEMENT PREP/THEORY/OS/Synchronization/Producer Consumer.md",
     "MahirNotes/Java/Concurrency Prac/Thread Sync.md",
     "MahirNotes/Java/Concurrency Prac/Thread Executors.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Threads.md",
     "MahirNotes/Java/JAVA_CONCURRENCY_COMPLETE_REVISION.md",
     "MahirNotes/Java/Concurrency Prac",
