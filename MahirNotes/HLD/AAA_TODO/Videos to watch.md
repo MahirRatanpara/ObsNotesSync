@@ -1,3 +1,0 @@
-- [ ] https://www.instagram.com/reels/DU28psBk_yA/
-	- [ ] http://youtube.com/watch?v=ZxvulmKXIto
-	- [ ] http://youtube.com/watch?v=QQVNVOneZNg
