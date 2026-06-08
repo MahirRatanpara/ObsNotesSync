@@ -42,6 +42,7 @@
           {
             "id": "3146d0a47242ffc0",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -49,6 +50,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "TODO"
             }
@@ -175,13 +177,14 @@
   },
   "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/Company-Wise/Google/TODO.md",
+    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/DSA/Algorithms & DS/Segment Tree.md",
+    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/HLD/Caching/Caching.md",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",
     "MahirNotes/Java/Concurrency Prac/Future and CompletableFuture.md",
     "MahirNotes/Java/Concurrency Prac/Semaphores.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Java/Concurrency Prac/Locks.md",
     "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
@@ -202,7 +205,6 @@
     "MahirNotes/DSA/Algorithms & DS/NP-Complete Problems.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
     "MahirNotes/HLD/Patterns/Pagination - Cursor based.md",
-    "MahirNotes/DSA/Algorithms & DS/DS/LRU Cache — LinkedHashMap Deep Dive.md",
     "MahirNotes/DSA/Algorithms & DS/DS",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
