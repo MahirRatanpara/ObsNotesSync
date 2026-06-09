@@ -55,8 +55,7 @@
               "title": "TODO"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,11 +175,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "3146d0a47242ffc0",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
+    "MahirNotes/Company-Wise/Google/TODO.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
-    "MahirNotes/Company-Wise/Google/TODO.md",
     "MahirNotes/DSA/Algorithms & DS/Segment Tree.md",
     "MahirNotes/HLD/Caching/Caching.md",
     "MahirNotes/Enriched/02-System-Design/Core-Concepts/Caching-Guide.md",

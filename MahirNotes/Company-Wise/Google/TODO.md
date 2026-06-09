@@ -29,10 +29,11 @@ You're not starting cold — you've been drilling Java concurrency and LeetCode 
 - [ ] **(P1 · ~1.5h midday)** Orchestration deep-dive — write tight answers to the follow-ups (below), then rehearse the full walkthrough _out loud_. Aim for a 3–4 min architecture story you can pause and branch from. **(Resume Deep Dive)**
 - [ ] **(P1 · ~1.5h eve)** STAR — fully draft 4 stories in S-T-A-R with metrics. Use the recruiter's frame: _Achieved [X], quantified by [Y], by doing [Z]_.
 - [ ]  **(P1 · 30m)** Brain-dump raw STAR material — list real situations (orchestration re-arch, 3-day→4-hr win, ShivAgri solo build, MTTR/observability work, any conflict/mentoring). Just capture; don't polish.
+- [ ] **(P0 · ~3h PM)** DSA continue 
 
 ### Wednesday (Jun 10) — full day
 
-- [ ] **(P0 · ~2h AM)** Coding mock under pressure — one Medium + push a Hard follow-up (a quick DP review since you've covered it; sliding window / binary search). Target your weakest pattern from Mon–Tue.
+- [ ] **(P0 · ~2h AM)** **(P0 · ~3h PM)** DSA continue 
 - [ ] **(P1 · ~1h midday)** Distributed-systems one-liners — drill the list (below) aloud. Specifically prep "now make it scale / make it concurrent / what breaks under a partition" as extensions of your coding problems.
 - [ ] **(P1 · ~1.5h PM)** STAR — finish the remaining 4 stories; rehearse all 8 aloud and tighten each to ~2 min.
 - [ ] **(P2 · 30m PM)** AI-acumen story — one concrete case where AI sped you up _and_ something it got wrong that you caught.
