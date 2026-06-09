@@ -82,7 +82,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **55.** [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) 🔴 Hard
 - [x] **56.** [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) 🟡 Medium
 - [x] **57.** [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) 🟡 Medium
-- [ ] **58.** [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) 🔴 Hard
+- [x] **58.** [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) 🔴 Hard
 - [x] **59.** [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) 🟡 Medium
 - [x] **60.** [Number of Islands](https://leetcode.com/problems/number-of-islands) 🟡 Medium
 
@@ -118,7 +118,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **81.** [Interleaving String](https://leetcode.com/problems/interleaving-string) 🟡 Medium
 - [x] **82.** [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) 🟡 Medium
 - [x] **83.** [House Robber III](https://leetcode.com/problems/house-robber-iii) 🟡 Medium
-- [ ] **84.** [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) 🟡 Medium
+- [x] **84.** [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) 🟡 Medium
 - [x] **85.** [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) 🟡 Medium
 - [x] **86.** [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) 🟡 Medium
 - [x] **87.** [Sliding Window Median](https://leetcode.com/problems/sliding-window-median) 🔴 Hard
