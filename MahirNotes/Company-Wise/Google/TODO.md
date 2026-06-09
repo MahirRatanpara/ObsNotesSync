@@ -20,14 +20,15 @@ You're not starting cold — you've been drilling Java concurrency and LeetCode 
 
 - [x] **(P0 · 30m)** Setup check — confirm the VIP link works, test Google Meet + headset + screen-share, pick a quiet room. Skim Google's "Example Coding/Engineering Interview" video for pacing.
 - [x] **(P0 · 90m)** Coding on a _plain doc_ (no IDE), talking aloud, 35-min timer each. Start with **graphs**: topological sort + BFS/DFS (Course Schedule I/II, Number of Islands, Clone Graph).
-- [ ] **(P1 · 30m)** Brain-dump raw STAR material — list real situations (orchestration re-arch, 3-day→4-hr win, ShivAgri solo build, MTTR/observability work, any conflict/mentoring). Just capture; don't polish.
 
 ### Tuesday (Jun 9) — full day
 
 - [x] **(P0 · ~2.5h AM)** Coding: **heaps** (Top-K, Merge K Sorted Lists, Task Scheduler) + **intervals** (Merge Intervals, Meeting Rooms II) + one more graph. ~4–5 problems, timed, on a doc.
-- [ ] **(P1 · ~1.5h midday)** Orchestration deep-dive — write tight answers to the follow-ups (below), then rehearse the full walkthrough _out loud_. Aim for a 3–4 min architecture story you can pause and branch from.
-- [ ] **(P0 · ~1.5h PM)** Coding: **design + hashing** (LRU Cache, then a token-bucket rate limiter) + 1 concurrency problem to stay warm (producer-consumer / thread-safe counter).
+- [ ] **(P0 · ~3h PM)** practice concurrency syntax on docs using Claude and practice problems 
+- [ ] **(P0 · ~3h PM)** remaining LLD problems from 
+- [ ] **(P1 · ~1.5h midday)** Orchestration deep-dive — write tight answers to the follow-ups (below), then rehearse the full walkthrough _out loud_. Aim for a 3–4 min architecture story you can pause and branch from. **(Resume Deep Dive)**
 - [ ] **(P1 · ~1.5h eve)** STAR — fully draft 4 stories in S-T-A-R with metrics. Use the recruiter's frame: _Achieved [X], quantified by [Y], by doing [Z]_.
+- [ ]  **(P1 · 30m)** Brain-dump raw STAR material — list real situations (orchestration re-arch, 3-day→4-hr win, ShivAgri solo build, MTTR/observability work, any conflict/mentoring). Just capture; don't polish.
 
 ### Wednesday (Jun 10) — full day
 
