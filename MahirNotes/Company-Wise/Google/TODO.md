@@ -29,7 +29,6 @@ You're not starting cold — you've been drilling Java concurrency and LeetCode 
 - [ ] **(P1 · ~1.5h midday)** Orchestration deep-dive — write tight answers to the follow-ups (below), then rehearse the full walkthrough _out loud_. Aim for a 3–4 min architecture story you can pause and branch from. **(Resume Deep Dive)**
 - [ ] **(P1 · ~1.5h eve)** STAR — fully draft 4 stories in S-T-A-R with metrics. Use the recruiter's frame: _Achieved [X], quantified by [Y], by doing [Z]_.
 - [ ]  **(P1 · 30m)** Brain-dump raw STAR material — list real situations (orchestration re-arch, 3-day→4-hr win, ShivAgri solo build, MTTR/observability work, any conflict/mentoring). Just capture; don't polish.
-- [ ] **(P0 · ~3h PM)** DSA continue 
 
 ### Wednesday (Jun 10) — full day
 
