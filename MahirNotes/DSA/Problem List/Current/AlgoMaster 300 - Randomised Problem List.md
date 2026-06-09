@@ -77,9 +77,9 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **51.** [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) 🟡 Medium
 - [x] **52.** [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) 🟡 Medium
-- [ ] **53.** [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) 🟡 Medium
+- [x] **53.** [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) 🟡 Medium
 - [x] **54.** [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) 🟢 Easy
-- [ ] **55.** [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) 🔴 Hard
+- [x] **55.** [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) 🔴 Hard
 - [x] **56.** [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) 🟡 Medium
 - [x] **57.** [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) 🟡 Medium
 - [ ] **58.** [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) 🔴 Hard
