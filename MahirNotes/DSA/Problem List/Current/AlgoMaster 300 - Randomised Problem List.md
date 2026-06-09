@@ -48,7 +48,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 31-40
 
 - [x] **31.** [Number of Provinces](https://leetcode.com/problems/number-of-provinces) 🟡 Medium
-- [ ] **32.** [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) 🔴 Hard
+- [x] **32.** [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) 🔴 Hard
 - [x] **33.** [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order) 🟡 Medium
 	- [x] VGOOD, Mathematical Stimulation, Offset Calc is still Pending for Intuition!
 - [x] **34.** [Jump Game VI](https://leetcode.com/problems/jump-game-vi) 🟡 Medium
