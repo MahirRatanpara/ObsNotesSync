@@ -68,9 +68,23 @@
               "icon": "lucide-file",
               "title": "Logging - Singleton"
             }
+          },
+          {
+            "id": "4a75cddf2a717808",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MahirNotes/Java/Concurrency/Executors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Executors"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,11 +204,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "3146d0a47242ffc0",
+  "active": "4a75cddf2a717808",
   "lastOpenFiles": [
+    "MahirNotes/Java/Concurrency/Exec Service.md",
+    "MahirNotes/Company-Wise/Google/TODO.md",
     "MahirNotes/LLD/Solutions/Logging - Singleton.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
-    "MahirNotes/Company-Wise/Google/TODO.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/DSA/Algorithms & DS/Segment Tree.md",
     "MahirNotes/HLD/Caching/Caching.md",
@@ -219,7 +234,6 @@
     "MahirNotes/DSA/Algorithms & DS/Knapsack.md",
     "MahirNotes/DSA/Algorithms & DS/NP-Complete Problems.md",
     "MahirNotes/DSA/Algorithms & DS/Buy Sell Stocks.md",
-    "MahirNotes/HLD/Patterns/Pagination - Cursor based.md",
     "MahirNotes/DSA/Algorithms & DS/DS",
     "MahirNotes/DSA/Problem List/Current/Untitled 1.base",
     "MahirNotes/DSA/Problem List/Current/Untitled.base",
