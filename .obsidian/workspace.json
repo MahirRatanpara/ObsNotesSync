@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,8 +190,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "d5eb944111617fc9",
+  "active": "3146d0a47242ffc0",
   "lastOpenFiles": [
+    "MahirNotes/LLD/Solutions/Logging - Singleton.md",
     "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/Company-Wise/Google/TODO.md",
     "MahirNotes/Company-Wise/Google/Domain Related.md",
@@ -203,7 +204,6 @@
     "MahirNotes/Java/Concurrency Prac/Locks.md",
     "MahirNotes/Java/Concurrency Prac/Thread Lifecycle & Thread Pools.md",
     "MahirNotes/Java/Concurrency Prac/Thread Communication.md",
-    "MahirNotes/LLD/Solutions/Logging - Singleton.md",
     "MahirNotes/Java/Concurrency/Multi Threaded WebCrawler.md",
     "Other's Notes/PLACEMENT PREP/THEORY/OS/Synchronization/Producer Consumer.md",
     "MahirNotes/Java/Concurrency Prac/Thread Sync.md",
