@@ -206,13 +206,13 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 151-160
 
-- [ ] **151.** [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) 🔴 Hard
+- [x] **151.** [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) 🔴 Hard
 - [x] **152.** [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) 🟡 Medium
 - [x] **153.** [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) 🟡 Medium
 - [x] **154.** [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 🟡 Medium
 - [ ] **155.** [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes) 🔴 Hard
 - [x] **156.** [Game of Life](https://leetcode.com/problems/game-of-life) 🟡 Medium
-- [ ] **157.** [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) 🔴 Hard
+- [x] **157.** [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) 🔴 Hard
 - [x] **158.** [Reverse Bits](https://leetcode.com/problems/reverse-bits) 🟢 Easy
 - [x] **159.** [House Robber II](https://leetcode.com/problems/house-robber-ii) 🟡 Medium
 - [x] **160.** [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) 🟡 Medium
@@ -348,7 +348,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 261-270
 
-- [ ] **261.** [Gas Station](https://leetcode.com/problems/gas-station) 🟡 Medium
+- [x] **261.** [Gas Station](https://leetcode.com/problems/gas-station) 🟡 Medium
 - [x] **262.** [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) 🟡 Medium
 - [x] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
 - [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
