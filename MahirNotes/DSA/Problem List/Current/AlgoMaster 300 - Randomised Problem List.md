@@ -134,7 +134,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **94.** [Permutation in String](https://leetcode.com/problems/permutation-in-string) 🟡 Medium
 - [x] **95.** [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) 🟡 Medium
 - [x] **96.** [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees) 🟡 Medium
-- [ ] **97.** [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination) 🔴 Hard
+- [x] **97.** [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination) 🔴 Hard
 - [x] **98.** [Valid Square](https://leetcode.com/problems/valid-square) 🟡 Medium
 - [x] **99.** [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) 🔴 Hard
 - [ ] **100.** [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) 🔴 Hard
