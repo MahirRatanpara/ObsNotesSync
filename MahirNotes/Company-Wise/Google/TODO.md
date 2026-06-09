@@ -24,7 +24,7 @@ You're not starting cold — you've been drilling Java concurrency and LeetCode 
 ### Tuesday (Jun 9) — full day
 
 - [x] **(P0 · ~2.5h AM)** Coding: **heaps** (Top-K, Merge K Sorted Lists, Task Scheduler) + **intervals** (Merge Intervals, Meeting Rooms II) + one more graph. ~4–5 problems, timed, on a doc.
-- [ ] **(P0 · ~3h PM)** practice concurrency syntax on docs using Claude and practice problems 
+- [x] **(P0 · ~3h PM)** practice concurrency syntax on docs using Claude and practice problems 
 - [ ] **(P0 · ~3h PM)** remaining LLD problems from Hello Interview
 - [ ] **(P1 · ~1.5h midday)** Orchestration deep-dive — write tight answers to the follow-ups (below), then rehearse the full walkthrough _out loud_. Aim for a 3–4 min architecture story you can pause and branch from. **(Resume Deep Dive)**
 - [ ] **(P1 · ~1.5h eve)** STAR — fully draft 4 stories in S-T-A-R with metrics. Use the recruiter's frame: _Achieved [X], quantified by [Y], by doing [Z]_.
