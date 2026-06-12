@@ -22,41 +22,8 @@
               "icon": "lucide-file",
               "title": "AlgoMaster 300 - Randomised Problem List"
             }
-          },
-          {
-            "id": "f4b2fc3374f517aa",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/Company-Wise/Google/Domain Related.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Domain Related"
-            }
-          },
-          {
-            "id": "3146d0a47242ffc0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MahirNotes/Company-Wise/Google/TODO.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "TODO"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,10 +143,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "3146d0a47242ffc0",
+  "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
+    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/Company-Wise/Google/TODO.md",
+    "MahirNotes/Company-Wise/Amazon/LP/Insist on Highest Standards.md",
     "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
     "MahirNotes/Company-Wise/Amazon/LP/Learn and Be Curious.md",
     "MahirNotes/Company-Wise/Amazon/LP/Deliver Results.md",
@@ -187,7 +155,6 @@
     "MahirNotes/Company-Wise/Amazon/LP/Customer Obsession.md",
     "MahirNotes/Java/Concurrency Prac/Revision Cheatsheet.md",
     "MahirNotes/Company-Wise/Resume/Run Adjustment Summary.md",
-    "MahirNotes/Company-Wise/Google/Domain Related.md",
     "MahirNotes/Company-Wise/Google/Googlyness/Comfort Under Ambiguity.md",
     "MahirNotes/Company-Wise/Google/Googlyness",
     "MahirNotes/Company-Wise/Amazon/Amazon interview.md",
