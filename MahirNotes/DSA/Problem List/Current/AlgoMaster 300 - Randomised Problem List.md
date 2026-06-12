@@ -137,7 +137,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **97.** [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination) 🔴 Hard
 - [x] **98.** [Valid Square](https://leetcode.com/problems/valid-square) 🟡 Medium
 - [x] **99.** [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) 🔴 Hard
-- [ ] **100.** [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) 🔴 Hard
+- [x] **100.** [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) 🔴 Hard
 
 ### Problems 101-110
 
