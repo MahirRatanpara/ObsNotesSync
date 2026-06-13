@@ -233,7 +233,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 171-180
 
 - [x] **171.** [My Calendar I](https://leetcode.com/problems/my-calendar-i) 🟡 Medium
-- [ ] **172.** [Candy](https://leetcode.com/problems/candy) 🔴 Hard
+- [x] **172.** [Candy](https://leetcode.com/problems/candy) 🔴 Hard
 - [ ] **173.** [Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread) 🔴 Hard
 - [x] **174.** [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) 🟡 Medium
 - [x] **175.** [Perfect Squares](https://leetcode.com/problems/perfect-squares) 🟡 Medium
