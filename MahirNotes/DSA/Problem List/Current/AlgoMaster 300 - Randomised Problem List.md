@@ -181,7 +181,7 @@ Track your progress by checking off problems as you solve them!
 ### Problems 131-140
 
 - [ ] **131.** [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation) 🔴 Hard
-- [ ] **132.** [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 🔴 Hard
+- [x] **132.** [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 🔴 Hard
 - [x] **133.** [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) 🟢 Easy
 - [x] **134.** [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) 🟡 Medium
 - [x] **135.** [Rotate Array](https://leetcode.com/problems/rotate-array) 🟡 Medium
