@@ -275,7 +275,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **203.** [First Missing Positive](https://leetcode.com/problems/first-missing-positive) 🔴 Hard
 - [x] **204.** [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) 🟡 Medium
 - [x] **205.** [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) 🟡 Medium
-- [ ] **206.** [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) 🔴 Hard
+- [x] **206.** [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) 🔴 Hard
 - [x] **207.** [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum) 🟡 Medium
 - [x] **208.** [Counting Bits](https://leetcode.com/problems/counting-bits) 🟢 Easy
 - [x] **209.** [Min Stack](https://leetcode.com/problems/min-stack) 🟡 Medium
