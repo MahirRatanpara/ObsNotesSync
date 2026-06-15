@@ -312,7 +312,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **231.** [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons) 🟢 Easy
 - [x] **232.** [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable) 🟡 Medium
 - [x] **233.** [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) 🟡 Medium
-- [ ] **234.** [Find Peak Element](https://leetcode.com/problems/find-peak-element) 🟡 Medium
+- [x] **234.** [Find Peak Element](https://leetcode.com/problems/find-peak-element) 🟡 Medium
 - [x] **235.** [Clone Graph](https://leetcode.com/problems/clone-graph) 🟡 Medium
 - [ ] **236.** [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) 🔴 Hard
 - [x] **237.** [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) 🟡 Medium
