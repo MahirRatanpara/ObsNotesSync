@@ -187,7 +187,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **135.** [Rotate Array](https://leetcode.com/problems/rotate-array) 🟡 Medium
 - [x] **136.** [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) 🟢 Easy
 - [x] **137.** [3Sum](https://leetcode.com/problems/3sum) 🟡 Medium
-- [ ] **138.** [Burst Balloons](https://leetcode.com/problems/burst-balloons) 🔴 Hard
+- [x] **138.** [Burst Balloons](https://leetcode.com/problems/burst-balloons) 🔴 Hard
 - [x] **139.** [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) 🟡 Medium
 - [x] **140.** [Accounts Merge](https://leetcode.com/problems/accounts-merge) 🟡 Medium
 
