@@ -324,7 +324,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **241.** [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) 🟡 Medium
 - [x] **242.** [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) 🟡 Medium
-- [ ] **243.** [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 🔴 Hard
+- [x] **243.** [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) 🔴 Hard
 - [x] **244.** [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree) 🟡 Medium
 - [x] **245.** [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 🟡 Medium
 - [x] **246.** [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies) 🟡 Medium - [2D DP Version Remaining :)]
