@@ -337,7 +337,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **251.** [Happy Number](https://leetcode.com/problems/happy-number) 🟢 Easy
 - [x] **252.** [New 21 Game](https://leetcode.com/problems/new-21-game) 🟡 Medium
-- [ ] **253.** [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) 🔴 Hard
+- [x] **253.** [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) 🔴 Hard
 - [ ] **254.** [Guess the Word](https://leetcode.com/problems/guess-the-word) 🔴 Hard
 - [x] **255.** [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) 🟡 Medium
 - [ ] **256.** [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) 🔴 Hard
