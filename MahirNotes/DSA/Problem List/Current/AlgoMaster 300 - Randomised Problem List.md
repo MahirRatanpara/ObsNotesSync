@@ -340,7 +340,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **253.** [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) 🔴 Hard
 - [x] **254.** [Guess the Word](https://leetcode.com/problems/guess-the-word) 🔴 Hard
 - [x] **255.** [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) 🟡 Medium
-- [ ] **256.** [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) 🔴 Hard
+- [x] **256.** [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) 🔴 Hard
 - [x] **257.** [Majority Element](https://leetcode.com/problems/majority-element) 🟢 Easy
 - [x] **258.** [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) 🔴 Hard
 - [x] **259.** [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) 🟢 Easy
