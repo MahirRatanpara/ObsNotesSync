@@ -265,7 +265,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **196.** [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) 🟡 Medium  
 - [x] **197.** [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) 🔴 Hard
 - [x] **198.** [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) 🟢 Easy
-- [ ] **199.** [N-Queens](https://leetcode.com/problems/n-queens) 🔴 Hard
+- [x] **199.** [N-Queens](https://leetcode.com/problems/n-queens) 🔴 Hard
 - [x] **200.** [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) 🟡 Medium
 
 ### Problems 201-210
