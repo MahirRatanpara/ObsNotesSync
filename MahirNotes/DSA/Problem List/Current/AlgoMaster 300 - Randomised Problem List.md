@@ -283,7 +283,7 @@ Track your progress by checking off problems as you solve them!
 
 ### Problems 211-220
 
-- [ ] **211.** [Word Search II](https://leetcode.com/problems/word-search-ii) 🔴 Hard
+- [x] **211.** [Word Search II](https://leetcode.com/problems/word-search-ii) 🔴 Hard
 - [x] **212.** [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) 🟡 Medium
 - [ ] **213.** [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe) 🔴 Hard
 - [x] **214.** [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 🟡 Medium
