@@ -285,7 +285,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **211.** [Word Search II](https://leetcode.com/problems/word-search-ii) 🔴 Hard
 - [x] **212.** [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) 🟡 Medium
-- [ ] **213.** [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe) 🔴 Hard
+- [x] **213.** [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe) 🔴 Hard
 - [x] **214.** [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) 🟡 Medium
 - [x] **215.** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) 🟢 Easy
 - [x] **216.** [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) 🟢 Easy
@@ -298,7 +298,7 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **221.** [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences) 🟡 Medium
 - [x] **222.** [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree) 🔴 Hard
-- [ ] **223.** [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) 🔴 Hard
+- [x] **223.** [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) 🔴 Hard
 - [x] **224.** [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) 🟡 Medium
 - [x] **225.** [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) 🟡 Medium
 - [x] **226.** [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) 🟡 Medium
@@ -353,7 +353,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **263.** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) 🟡 Medium
 - [x] **264.** [Soup Servings](https://leetcode.com/problems/soup-servings) 🟡 Medium
 - [x] **265.** [Move Zeroes](https://leetcode.com/problems/move-zeroes) 🟢 Easy
-- [ ] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
+- [x] **266.** [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) 🔴 Hard
 - [x] **267.** [Coin Change II](https://leetcode.com/problems/coin-change-ii) 🟡 Medium
 - [x] **268.** [Online Stock Span](https://leetcode.com/problems/online-stock-span) 🟡 Medium
 - [x] **269.** [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) 🟡 Medium - Monotonic Stack Approach
@@ -389,9 +389,9 @@ Track your progress by checking off problems as you solve them!
 
 - [x] **291.** [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 🟡 Medium
 - [x] **292.** [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) 🟡 Medium
-- [ ] **293.** [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) 🔴 Hard
+- [x] **293.** [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) 🔴 Hard
 - [x] **294.** [Sort Colors](https://leetcode.com/problems/sort-colors) 🟡 Medium
-- [ ] **295.** [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) 🔴 Hard
+- [x] **295.** [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) 🔴 Hard
 - [x] **296.** [Palindrome Number](https://leetcode.com/problems/palindrome-number) 🟢 Easy
 - [x] **297.** [Network Delay Time](https://leetcode.com/problems/network-delay-time) 🟡 Medium
 - [x] **298.** [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) 🟢 Easy
