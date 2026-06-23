@@ -225,7 +225,7 @@ Track your progress by checking off problems as you solve them!
 - [x] **164.** [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) 🟡 Medium
 - [x] **165.** [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) 🟢 Easy
 - [x] **166.** [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) 🟡 Medium
-- [ ] **167.** [Cherry Pickup](https://leetcode.com/problems/cherry-pickup) 🔴 Hard
+- [x] **167.** [Cherry Pickup](https://leetcode.com/problems/cherry-pickup) 🔴 Hard
 - [x] **168.** [Bus Routes](https://leetcode.com/problems/bus-routes) 🔴 Hard
 - [x] **169.** [Reorganize String](https://leetcode.com/problems/reorganize-string) 🟡 Medium
 - [x] **170.** [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) 🟡 Medium
