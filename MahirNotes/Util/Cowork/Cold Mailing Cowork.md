@@ -9,10 +9,10 @@ never send anything. Sending is always my manual action.
 SOURCE FILES
 
 1. Job tracker sheet
-   - File name: "[TRACKER FILE NAME]"
-   - Location: Google Drive, [folder path if it helps you find it]
+   - File name: "https://docs.google.com/spreadsheets/d/1DSZ4JZuiYYdzgbxSpd9Omm9jjyEGqx1uiosETxUSvJo/edit?usp=drive_link"
+   - Location: Google Drive, https://drive.google.com/drive/u/0/folders/1hb3GfbnlhzNnjJQzih9WHoFAKhdO5i7h
    - Format: Google Sheet / Excel
-   - Tab to use: "[TAB NAME, e.g. Sheet1]"
+   - Tab to use: "Result"
    - Columns (in this order):
      Job Title | Company | JD Link | Recruiter Name | Recruiter Email | 
      Status | Date Added | Draft Email | Draft Resume Bullets | Notes | 
@@ -22,13 +22,13 @@ SOURCE FILES
      until you fill them.
 
 2. Resume bullet bank
-   - File name: "[BULLET BANK FILE NAME]"
-   - Location: Google Drive, [folder path]
+   - File name: "https://drive.google.com/file/d/17cQcSxfx_aJ6Npg1ceHlG-qxOQ_ANnIr/view?usp=drive_link"
+   - Location: Google Drive, https://drive.google.com/drive/u/0/folders/1XReSwD50cS-abYyEDfzFcMKFFmekNUu9
    - Contains 60+ resume bullets, each tagged by theme (orchestration, 
      distributed systems, performance, reliability, etc.).
 
 3. Base resume (for context on tone and framing)
-   - File name: "[BASE RESUME FILE NAME]"
+   - File name: "https://drive.google.com/file/d/1AHiuTCPnSzlTfV1uH2Srzja3prY0L00U/view?usp=sharing"
    - Use only to understand my standard framing. Do not copy it verbatim.
 
 ---
@@ -53,8 +53,8 @@ WHO I AM (framing rules — apply to every draft)
 
 TASK — run for each row where Status = "New"
 
-Process a MAXIMUM of [15] such rows per run, top to bottom by Date Added 
-(oldest first). Leave the rest untouched for the next run.
+Process all the unprocessed row such rows per run, bottom to top by Date Added 
+(new first). Leave the rest untouched for the next run.
 
 For each qualifying row:
 
@@ -67,13 +67,11 @@ STEP 1 — Read and assess the JD
   hard filters (years of experience, location, work authorization).
 
 STEP 2 — Fit check (before drafting anything)
-- Decide: is this a genuine fit for an SDE-2/3 backend/platform profile?
+- Decide: is this a genuine fit for an SDE-2/3 backend/platform/full-stack profile?
 - SKIP the row (Status = "Skipped", one-line reason in Notes) if:
   - Seniority is wrong (e.g. asks for 10+ yrs, or is an intern/junior role).
   - Stack is entirely unrelated to my background (e.g. pure frontend, 
     pure ML research, embedded C).
-  - It's a hard-filter fail (e.g. requires US work authorization, 
-    on-site in a city I've ruled out — [list ruled-out cities if any]).
 - Only proceed to drafting for real fits. Do not draft for marginal 
   rows just to fill the pipeline.
 
@@ -87,31 +85,25 @@ STEP 3 — Select resume bullets
   "weak bullet match — review" to Notes.
 
 STEP 4 — Draft the cold email
+	
+- Look for contact and template in following location
+	- Drive Folder Location: https://drive.google.com/drive/u/0/folders/1hb3GfbnlhzNnjJQzih9WHoFAKhdO5i7h
+	- Drive file: https://docs.google.com/spreadsheets/d/1NkiDm46ftPj1cYYR1tP0FQjo8BXoniWTH-m1bYLr0mY/edit?usp=drive_link
+	- Contacts SheetName: Contacts
+	- Template SheetName: Templates
 - Only if Recruiter Email is present. If blank: skip drafting the email, 
   set Status to "Needs Contact", write "no recruiter email" in Notes, 
   and move on.
 - Email rules:
-  - Under 150 words. Recruiters skim.
-  - No generic flattery ("I was impressed by your company..."). 
-    Cut anything that could be sent to any company.
-  - Line 1: one specific, concrete match between my background and 
-    THIS JD's top requirement.
-  - Include exactly one metric-backed line using my real numbers 
-    (e.g. the 3-days-to-4-hours or 40% throughput result).
-  - Formatting: bold ONLY the metric. Nothing else bolded.
-  - Address the recruiter by name if Recruiter Name is present; 
-    otherwise open with "Hi there".
-  - Close with a single low-friction ask (e.g. "Open to a quick chat 
-    this week?"). No multi-part asks.
-  - Sign off as [YOUR NAME], [one-line signature].
-  - Subject line: specific, mentions the role + one differentiator. 
-    Not "Job Application".
+	- I have multiple templates in the Template sheet (location as mentioned above)
+	- Please refer to the template numbered: T006 (Recruiter Mail)
+	- Replace the place holder as per your sheet row. and mail is ready.
 - Write the full email (subject + body) into the "Draft Email" column.
 
 STEP 5 — Stage for approval
 - Set Status to "Pending Approval".
 - Write today's date/time into "Last Processed".
-- [OPTIONAL — see decision note below] Also create a Gmail DRAFT 
+- Also create a Gmail DRAFT 
   (never send) addressed to the recruiter, subject and body as drafted, 
   so I can review and send it from Gmail directly. Do NOT send. 
   Do NOT mark the row "Sent".
