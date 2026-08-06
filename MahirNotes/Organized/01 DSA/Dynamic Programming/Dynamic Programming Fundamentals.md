@@ -104,7 +104,7 @@ flowchart TD
 ## Related Topics
 
 - [Knapsack Patterns](Knapsack%20Patterns.md)
-- [DP on Strings](DP%20on%20Strings.md)
+- DP on Strings *(not yet written)*
 - [Pattern Confusion Matrix](../Foundations/Pattern%20Confusion%20Matrix.md)
 
 ## Revision Summary

@@ -95,7 +95,7 @@ flowchart LR
 
 - [Pattern Recognition Framework](Pattern%20Recognition%20Framework.md)
 - [Complexity Analysis](Complexity%20Analysis.md)
-- [DSA Interview Checklist](../../Interview%20Checklists/DSA%20Interview%20Checklist.md)
+- DSA Interview Checklist *(not yet written)*
 
 ## Revision Summary
 

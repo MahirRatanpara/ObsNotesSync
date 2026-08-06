@@ -107,8 +107,8 @@ Used in "Corporate Flight Bookings", "Range Addition", and interval-overlap coun
 ## Related Topics
 
 - [Sliding Window](../Two%20Pointers%20and%20Sliding%20Window/Sliding%20Window.md)
-- [Fenwick Tree](../Range%20Queries/Fenwick%20Tree.md)
-- [Segment Tree](../Range%20Queries/Segment%20Tree.md)
+- Fenwick Tree *(not yet written)*
+- Segment Tree *(not yet written)*
 
 ## Revision Summary
 
