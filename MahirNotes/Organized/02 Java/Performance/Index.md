@@ -2,6 +2,9 @@
 
 [← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> Reserved in the structure; see [Build Status](../../_Meta/Build%20Status.md).
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Performance Tuning and Profiling](Performance%20Tuning%20and%20Profiling.md) | "The service is slow" is a real interview question. The answer is a diagnostic method, not a list of flags. |
+

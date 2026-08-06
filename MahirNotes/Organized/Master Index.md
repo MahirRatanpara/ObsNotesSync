@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**151 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**161 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
 
 ## Sections
 
@@ -10,19 +10,19 @@
 |---|---|---|
 | [00 Revision Roadmaps](00%20Revision%20Roadmaps/Index.md) | 2 | Written |
 | [01 DSA](01%20DSA/Index.md) | 33 | Written |
-| [02 Java](02%20Java/Index.md) | 16 | Written |
+| [02 Java](02%20Java/Index.md) | 20 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
 | [04 High Level Design](04%20High%20Level%20Design/Index.md) | 31 | Written |
 | [05 Databases](05%20Databases/Index.md) | 5 | Written |
 | [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 3 | Written |
 | [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 3 | Written |
-| [08 Microservices](08%20Microservices/Index.md) | 3 | Written |
+| [08 Microservices](08%20Microservices/Index.md) | 7 | Written |
 | [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 4 | Written |
 | [10 Operating Systems](10%20Operating%20Systems/Index.md) | 3 | Written |
 | [11 Networking](11%20Networking/Index.md) | 2 | Written |
 | [12 Cloud](12%20Cloud/Index.md) | 0 | **Planned** |
 | [13 Kubernetes](13%20Kubernetes/Index.md) | 1 | Written |
-| [14 Spring Boot](14%20Spring%20Boot/Index.md) | 2 | Written |
+| [14 Spring Boot](14%20Spring%20Boot/Index.md) | 4 | Written |
 | [15 Company Prep](15%20Company%20Prep/Index.md) | 3 | Written |
 | [16 Miscellaneous](16%20Miscellaneous/Index.md) | 0 | **Planned** |
 | [Cheat Sheets](Cheat%20Sheets/Index.md) | 5 | Written |
@@ -39,7 +39,7 @@
 | 15 min before a coding round | [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md) |
 | 15 min before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
 | 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
-| 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) |
+| 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) · [Java Question Bank](02%20Java/Interview%20Questions/Java%20Interview%20Question%20Bank.md) |
 | Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) · [Amazon LPs](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md) |
 | Practising designs | [Design Deep Dives](04%20High%20Level%20Design/Design%20Deep%20Dives/Index.md) |
 | Self-testing | [Top 100 Questions](Top%20100%20Interview%20Questions/Top%20100%20Interview%20Questions.md) · [Flash Cards](Flash%20Cards/Index.md) |
@@ -94,17 +94,21 @@
 - *Collections* — [HashMap Internals](02%20Java/Collections/HashMap%20Internals.md)
 - *Concurrency* — [Atomics and CAS](02%20Java/Concurrency/Atomics%20and%20CAS.md)
 - *Concurrency* — [CompletableFuture](02%20Java/Concurrency/CompletableFuture.md)
+- *Concurrency* — [Concurrency Problem Patterns](02%20Java/Concurrency/Concurrency%20Problem%20Patterns.md)
 - *Concurrency* — [Concurrent Collections](02%20Java/Concurrency/Concurrent%20Collections.md)
 - *Concurrency* — [Executors and Thread Pools](02%20Java/Concurrency/Executors%20and%20Thread%20Pools.md)
 - *Concurrency* — [Synchronisation and Locks](02%20Java/Concurrency/Synchronisation%20and%20Locks.md)
 - *Concurrency* — [Threads and Lifecycle](02%20Java/Concurrency/Threads%20and%20Lifecycle.md)
 - *Garbage Collection* — [Garbage Collection](02%20Java/Garbage%20Collection/Garbage%20Collection.md)
+- *Interview Questions* — [Java Interview Question Bank](02%20Java/Interview%20Questions/Java%20Interview%20Question%20Bank.md)
 - *JVM and Memory* — [Class Loading](02%20Java/JVM%20and%20Memory/Class%20Loading.md)
 - *JVM and Memory* — [JIT and Escape Analysis](02%20Java/JVM%20and%20Memory/JIT%20and%20Escape%20Analysis.md)
 - *JVM and Memory* — [JVM Architecture and Memory Areas](02%20Java/JVM%20and%20Memory/JVM%20Architecture%20and%20Memory%20Areas.md)
 - *JVM and Memory* — [Java Memory Model (JMM)](02%20Java/JVM%20and%20Memory/Java%20Memory%20Model.md)
 - *Language Core* — [equals and hashCode](02%20Java/Language%20Core/Equals%20and%20HashCode.md)
 - *Language Core* — [Exceptions and Generics](02%20Java/Language%20Core/Exceptions%20and%20Generics.md)
+- *Language Core* — [Modern Java Features (8 → 21)](02%20Java/Language%20Core/Modern%20Java%20Features.md)
+- *Performance* — [Performance Tuning and Profiling](02%20Java/Performance/Performance%20Tuning%20and%20Profiling.md)
 - *Streams and Functional* — [Streams](02%20Java/Streams%20and%20Functional/Streams.md)
 
 ### 03 Low Level Design
@@ -196,6 +200,10 @@
 
 - [API Gateway](08%20Microservices/API%20Gateway.md)
 - [Circuit Breaker](08%20Microservices/Circuit%20Breaker.md)
+- [Deployment Patterns](08%20Microservices/Deployment%20Patterns.md)
+- [Microservices Fundamentals](08%20Microservices/Microservices%20Fundamentals.md)
+- [Observability](08%20Microservices/Observability.md)
+- [Service Discovery](08%20Microservices/Service%20Discovery.md)
 - [Service Mesh](08%20Microservices/Service%20Mesh.md)
 
 ### 09 Distributed Systems
@@ -222,8 +230,10 @@
 
 ### 14 Spring Boot
 
+- [JPA and Hibernate](14%20Spring%20Boot/JPA%20and%20Hibernate.md)
 - [Spring Core and Dependency Injection](14%20Spring%20Boot/Spring%20Core%20and%20Dependency%20Injection.md)
 - [Spring Transactions and AOP](14%20Spring%20Boot/Spring%20Transactions%20and%20AOP.md)
+- [Spring Web and Boot Internals](14%20Spring%20Boot/Spring%20Web%20and%20Boot%20Internals.md)
 
 ### 15 Company Prep
 
