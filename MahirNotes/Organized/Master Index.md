@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**147 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**151 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
 
 ## Sections
 
@@ -12,7 +12,7 @@
 | [01 DSA](01%20DSA/Index.md) | 33 | Written |
 | [02 Java](02%20Java/Index.md) | 16 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
-| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 27 | Written |
+| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 31 | Written |
 | [05 Databases](05%20Databases/Index.md) | 5 | Written |
 | [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 3 | Written |
 | [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 3 | Written |
@@ -41,6 +41,7 @@
 | 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
 | 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) |
 | Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) · [Amazon LPs](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md) |
+| Practising designs | [Design Deep Dives](04%20High%20Level%20Design/Design%20Deep%20Dives/Index.md) |
 | Self-testing | [Top 100 Questions](Top%20100%20Interview%20Questions/Top%20100%20Interview%20Questions.md) · [Flash Cards](Flash%20Cards/Index.md) |
 | In the interview | [Interview Checklists](Interview%20Checklists/Index.md) |
 
@@ -147,9 +148,13 @@
 - *Core Concepts* — [CAP and PACELC](04%20High%20Level%20Design/Core%20Concepts/CAP%20and%20PACELC.md)
 - *Core Concepts* — [Caching](04%20High%20Level%20Design/Core%20Concepts/Caching.md)
 - *Core Concepts* — [Consistent Hashing](04%20High%20Level%20Design/Core%20Concepts/Consistent%20Hashing.md)
+- *Design Deep Dives* — [Design Ticket Booking (BookMyShow / Ticketmaster)](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20Ticket%20Booking.md)
 - *Design Deep Dives* — [Design a Chat System](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20Chat%20System.md)
+- *Design Deep Dives* — [Design a Distributed Rate Limiter](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20Distributed%20Rate%20Limiter.md)
 - *Design Deep Dives* — [Design a News Feed](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20News%20Feed.md)
 - *Design Deep Dives* — [Design a URL Shortener](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20URL%20Shortener.md)
+- *Design Deep Dives* — [Design a Web Crawler](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20Web%20Crawler.md)
+- *Design Deep Dives* — [Design an Ad Click Aggregator](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20an%20Ad%20Click%20Aggregator.md)
 - *Interview Framework* — [Back of the Envelope Estimation](04%20High%20Level%20Design/Interview%20Framework/Back%20of%20the%20Envelope%20Estimation.md)
 - *Interview Framework* — [System Design Delivery Framework](04%20High%20Level%20Design/Interview%20Framework/System%20Design%20Delivery%20Framework.md)
 - *Key Technologies* — [Cassandra](04%20High%20Level%20Design/Key%20Technologies/Cassandra.md)
