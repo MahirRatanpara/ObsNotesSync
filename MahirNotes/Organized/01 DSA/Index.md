@@ -1,6 +1,6 @@
 # 01 DSA — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../Master%20Index.md)
 
 ## Sections
 
@@ -14,9 +14,6 @@
 - [Greedy and Intervals](Greedy%20and%20Intervals/Index.md) — 2 notes
 - [Heaps](Heaps/Index.md) — 1 note
 - [Linked List](Linked%20List/Index.md) — 2 notes
-- [Math and Misc](Math%20and%20Misc/Index.md) — 0 notes
-- [Problem Lists](Problem%20Lists/Index.md) — 0 notes
-- [Range Queries](Range%20Queries/Index.md) — 0 notes
 - [Sorting and Selection](Sorting%20and%20Selection/Index.md) — 2 notes
 - [Stacks and Queues](Stacks%20and%20Queues/Index.md) — 2 notes
 - [Trees](Trees/Index.md) — 2 notes

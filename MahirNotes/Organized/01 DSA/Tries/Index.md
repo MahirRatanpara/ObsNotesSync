@@ -1,6 +1,6 @@
 # Tries — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
 ## Notes
 

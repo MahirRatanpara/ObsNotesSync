@@ -6,4 +6,5 @@
 
 | Note | What it covers |
 |---|---|
-| [Kubernetes Core Concepts](Kubernetes%20Core%20Concepts.md) | Control loop, workload objects, Services, probes, resources, debugging |
+| [Kubernetes Core Concepts](Kubernetes%20Core%20Concepts.md) | Assumed knowledge for backend roles at most companies. Interviewers test the mental model, not `kubectl` flags… |
+

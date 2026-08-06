@@ -1,12 +1,12 @@
 # Design Patterns — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
 ## Sections
 
-- [Behavioural](Behavioural/Index.md) — 0 notes
-- [Creational](Creational/Index.md) — 0 notes
-- [Structural](Structural/Index.md) — 0 notes
+- [Behavioural](Behavioural/Index.md) — 11 notes
+- [Creational](Creational/Index.md) — 5 notes
+- [Structural](Structural/Index.md) — 7 notes
 
 ## Notes
 

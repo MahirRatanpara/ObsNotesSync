@@ -1,8 +1,8 @@
 # Master Index
 
-> Central map of the revision knowledge base. Every section links to its own index.
+> Central map of the revision knowledge base.
 
-**72 notes written.** Folders marked *planned* are reserved in the structure but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**95 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
 
 ## Sections
 
@@ -11,7 +11,7 @@
 | [00 Revision Roadmaps](00%20Revision%20Roadmaps/Index.md) | 2 | Written |
 | [01 DSA](01%20DSA/Index.md) | 29 | Written |
 | [02 Java](02%20Java/Index.md) | 13 | Written |
-| [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 5 | Written |
+| [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
 | [04 High Level Design](04%20High%20Level%20Design/Index.md) | 7 | Written |
 | [05 Databases](05%20Databases/Index.md) | 3 | Written |
 | [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 0 | **Planned** |
@@ -36,10 +36,10 @@
 |---|---|
 | 1 day | [1 Day Emergency Revision](00%20Revision%20Roadmaps/1%20Day%20Emergency%20Revision.md) |
 | 1 week | [7 Day Revision Plan](00%20Revision%20Roadmaps/7%20Day%20Revision%20Plan.md) |
-| 15 minutes before a coding round | [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md) |
-| 15 minutes before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
-| 15 minutes before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
-| 15 minutes before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) |
+| 15 min before a coding round | [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md) |
+| 15 min before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
+| 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
+| 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) |
 
 ## All Notes
 
@@ -99,7 +99,30 @@
 ### 03 Low Level Design
 
 - *Concurrency in LLD* — [Concurrency in LLD](03%20Low%20Level%20Design/Concurrency%20in%20LLD/Concurrency%20in%20LLD.md)
+- *Design Patterns/Behavioural* — [Chain of Responsibility](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Chain%20of%20Responsibility.md)
+- *Design Patterns/Behavioural* — [Command](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Command.md)
+- *Design Patterns/Behavioural* — [Interpreter](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Interpreter.md)
+- *Design Patterns/Behavioural* — [Iterator](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Iterator.md)
+- *Design Patterns/Behavioural* — [Mediator](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Mediator.md)
+- *Design Patterns/Behavioural* — [Memento](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Memento.md)
+- *Design Patterns/Behavioural* — [Observer](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Observer.md)
+- *Design Patterns/Behavioural* — [State](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/State.md)
+- *Design Patterns/Behavioural* — [Strategy](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Strategy.md)
+- *Design Patterns/Behavioural* — [Template Method](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Template%20Method.md)
+- *Design Patterns/Behavioural* — [Visitor](03%20Low%20Level%20Design/Design%20Patterns/Behavioural/Visitor.md)
+- *Design Patterns/Creational* — [Abstract Factory](03%20Low%20Level%20Design/Design%20Patterns/Creational/Abstract%20Factory.md)
+- *Design Patterns/Creational* — [Builder](03%20Low%20Level%20Design/Design%20Patterns/Creational/Builder.md)
+- *Design Patterns/Creational* — [Factory Method](03%20Low%20Level%20Design/Design%20Patterns/Creational/Factory%20Method.md)
+- *Design Patterns/Creational* — [Prototype](03%20Low%20Level%20Design/Design%20Patterns/Creational/Prototype.md)
+- *Design Patterns/Creational* — [Singleton](03%20Low%20Level%20Design/Design%20Patterns/Creational/Singleton.md)
 - *Design Patterns* — [Design Pattern Selection](03%20Low%20Level%20Design/Design%20Patterns/Design%20Pattern%20Selection.md)
+- *Design Patterns/Structural* — [Adapter](03%20Low%20Level%20Design/Design%20Patterns/Structural/Adapter.md)
+- *Design Patterns/Structural* — [Bridge](03%20Low%20Level%20Design/Design%20Patterns/Structural/Bridge.md)
+- *Design Patterns/Structural* — [Composite](03%20Low%20Level%20Design/Design%20Patterns/Structural/Composite.md)
+- *Design Patterns/Structural* — [Decorator](03%20Low%20Level%20Design/Design%20Patterns/Structural/Decorator.md)
+- *Design Patterns/Structural* — [Facade](03%20Low%20Level%20Design/Design%20Patterns/Structural/Facade.md)
+- *Design Patterns/Structural* — [Flyweight](03%20Low%20Level%20Design/Design%20Patterns/Structural/Flyweight.md)
+- *Design Patterns/Structural* — [Proxy](03%20Low%20Level%20Design/Design%20Patterns/Structural/Proxy.md)
 - *In A Hurry* — [LLD Delivery Framework](03%20Low%20Level%20Design/In%20A%20Hurry/LLD%20Delivery%20Framework.md)
 - *OOP Foundations* — [OOP Core Concepts](03%20Low%20Level%20Design/OOP%20Foundations/OOP%20Core%20Concepts.md)
 - *SOLID* — [SOLID Principles](03%20Low%20Level%20Design/SOLID/SOLID%20Principles.md)
