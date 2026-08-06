@@ -1,9 +1,10 @@
 # Top 100 Interview Questions — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Top 100 Interview Questions](Top%20100%20Interview%20Questions.md) | The questions that actually recur, with the one-line answer and a link to depth. |
+

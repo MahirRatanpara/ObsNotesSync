@@ -1,9 +1,10 @@
 # Redis — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Redis Data Structures](Redis%20Data%20Structures.md) | Companion to [Redis](../../04%20High%20Level%20Design/Key%20Technologies/Redis.md), focused on choosing the ri… |
+

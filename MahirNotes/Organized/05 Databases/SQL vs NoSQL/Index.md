@@ -1,9 +1,10 @@
 # SQL vs NoSQL — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [SQL vs NoSQL](SQL%20vs%20NoSQL.md) | Asked in every system design interview. The weak answer recites "structured vs unstructured". The strong answe… |
+

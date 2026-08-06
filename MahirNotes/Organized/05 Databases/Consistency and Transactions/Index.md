@@ -1,9 +1,10 @@
 # Consistency and Transactions — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Transactions and Isolation Levels](Transactions%20and%20Isolation%20Levels.md) | Isolation levels are where correctness bugs hide. Interviewers ask because most engineers use the default with… |
+

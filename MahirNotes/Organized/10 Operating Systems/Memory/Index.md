@@ -1,9 +1,10 @@
 # Memory — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Memory Management](Memory%20Management.md) | Explains page faults, why memory-mapped files are fast, what "the database is I/O bound" really means, and why… |
+

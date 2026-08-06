@@ -2,33 +2,33 @@
 
 > Central map of the revision knowledge base.
 
-**95 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**147 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
 
 ## Sections
 
 | Section | Notes | Status |
 |---|---|---|
 | [00 Revision Roadmaps](00%20Revision%20Roadmaps/Index.md) | 2 | Written |
-| [01 DSA](01%20DSA/Index.md) | 29 | Written |
-| [02 Java](02%20Java/Index.md) | 13 | Written |
+| [01 DSA](01%20DSA/Index.md) | 33 | Written |
+| [02 Java](02%20Java/Index.md) | 16 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
-| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 7 | Written |
-| [05 Databases](05%20Databases/Index.md) | 3 | Written |
-| [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 0 | **Planned** |
-| [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 2 | Written |
+| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 27 | Written |
+| [05 Databases](05%20Databases/Index.md) | 5 | Written |
+| [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 3 | Written |
+| [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 3 | Written |
 | [08 Microservices](08%20Microservices/Index.md) | 3 | Written |
-| [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 3 | Written |
-| [10 Operating Systems](10%20Operating%20Systems/Index.md) | 0 | **Planned** |
-| [11 Networking](11%20Networking/Index.md) | 0 | **Planned** |
+| [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 4 | Written |
+| [10 Operating Systems](10%20Operating%20Systems/Index.md) | 3 | Written |
+| [11 Networking](11%20Networking/Index.md) | 2 | Written |
 | [12 Cloud](12%20Cloud/Index.md) | 0 | **Planned** |
 | [13 Kubernetes](13%20Kubernetes/Index.md) | 1 | Written |
-| [14 Spring Boot](14%20Spring%20Boot/Index.md) | 0 | **Planned** |
-| [15 Company Prep](15%20Company%20Prep/Index.md) | 0 | **Planned** |
+| [14 Spring Boot](14%20Spring%20Boot/Index.md) | 2 | Written |
+| [15 Company Prep](15%20Company%20Prep/Index.md) | 3 | Written |
 | [16 Miscellaneous](16%20Miscellaneous/Index.md) | 0 | **Planned** |
-| [Cheat Sheets](Cheat%20Sheets/Index.md) | 4 | Written |
-| [Flash Cards](Flash%20Cards/Index.md) | 0 | **Planned** |
-| [Interview Checklists](Interview%20Checklists/Index.md) | 0 | **Planned** |
-| [Top 100 Interview Questions](Top%20100%20Interview%20Questions/Index.md) | 0 | **Planned** |
+| [Cheat Sheets](Cheat%20Sheets/Index.md) | 5 | Written |
+| [Flash Cards](Flash%20Cards/Index.md) | 3 | Written |
+| [Interview Checklists](Interview%20Checklists/Index.md) | 3 | Written |
+| [Top 100 Interview Questions](Top%20100%20Interview%20Questions/Index.md) | 1 | Written |
 
 ## Start Here
 
@@ -40,6 +40,9 @@
 | 15 min before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
 | 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
 | 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) |
+| Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) · [Amazon LPs](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md) |
+| Self-testing | [Top 100 Questions](Top%20100%20Interview%20Questions/Top%20100%20Interview%20Questions.md) · [Flash Cards](Flash%20Cards/Index.md) |
+| In the interview | [Interview Checklists](Interview%20Checklists/Index.md) |
 
 ## All Notes
 
@@ -50,11 +53,13 @@
 
 ### 01 DSA
 
+- *Arrays and Strings* — [LRU Cache](01%20DSA/Arrays%20and%20Strings/LRU%20Cache.md)
 - *Arrays and Strings* — [Prefix Sum](01%20DSA/Arrays%20and%20Strings/Prefix%20Sum.md)
 - *Backtracking* — [Backtracking](01%20DSA/Backtracking/Backtracking.md)
 - *Binary Search* — [Binary Search Templates](01%20DSA/Binary%20Search/Binary%20Search%20Templates.md)
 - *Binary Search* — [Binary Search on Answer](01%20DSA/Binary%20Search/Binary%20Search%20on%20Answer.md)
 - *Bit Manipulation* — [Bit Manipulation](01%20DSA/Bit%20Manipulation/Bit%20Manipulation.md)
+- *Dynamic Programming* — [DP on Strings](01%20DSA/Dynamic%20Programming/DP%20on%20Strings.md)
 - *Dynamic Programming* — [Dynamic Programming Fundamentals](01%20DSA/Dynamic%20Programming/Dynamic%20Programming%20Fundamentals.md)
 - *Dynamic Programming* — [Knapsack Patterns](01%20DSA/Dynamic%20Programming/Knapsack%20Patterns.md)
 - *Foundations* — [Complexity Analysis](01%20DSA/Foundations/Complexity%20Analysis.md)
@@ -69,6 +74,8 @@
 - *Heaps* — [Heaps and Priority Queues](01%20DSA/Heaps/Heaps%20and%20Priority%20Queues.md)
 - *Linked List* — [Fast and Slow Pointers](01%20DSA/Linked%20List/Fast%20and%20Slow%20Pointers.md)
 - *Linked List* — [Linked List Reversal](01%20DSA/Linked%20List/Linked%20List%20Reversal.md)
+- *Range Queries* — [Fenwick Tree (Binary Indexed Tree)](01%20DSA/Range%20Queries/Fenwick%20Tree.md)
+- *Range Queries* — [Segment Tree](01%20DSA/Range%20Queries/Segment%20Tree.md)
 - *Sorting and Selection* — [Quickselect](01%20DSA/Sorting%20and%20Selection/Quickselect.md)
 - *Sorting and Selection* — [Sorting Algorithms](01%20DSA/Sorting%20and%20Selection/Sorting%20Algorithms.md)
 - *Stacks and Queues* — [Monotonic Queue](01%20DSA/Stacks%20and%20Queues/Monotonic%20Queue.md)
@@ -95,6 +102,9 @@
 - *JVM and Memory* — [JIT and Escape Analysis](02%20Java/JVM%20and%20Memory/JIT%20and%20Escape%20Analysis.md)
 - *JVM and Memory* — [JVM Architecture and Memory Areas](02%20Java/JVM%20and%20Memory/JVM%20Architecture%20and%20Memory%20Areas.md)
 - *JVM and Memory* — [Java Memory Model (JMM)](02%20Java/JVM%20and%20Memory/Java%20Memory%20Model.md)
+- *Language Core* — [equals and hashCode](02%20Java/Language%20Core/Equals%20and%20HashCode.md)
+- *Language Core* — [Exceptions and Generics](02%20Java/Language%20Core/Exceptions%20and%20Generics.md)
+- *Streams and Functional* — [Streams](02%20Java/Streams%20and%20Functional/Streams.md)
 
 ### 03 Low Level Design
 
@@ -129,22 +139,51 @@
 
 ### 04 High Level Design
 
+- *Advanced Topics* — [Data Structures for Big Data](04%20High%20Level%20Design/Advanced%20Topics/Data%20Structures%20for%20Big%20Data.md)
+- *Advanced Topics* — [Event-Driven Architecture](04%20High%20Level%20Design/Advanced%20Topics/Event%20Driven%20Architecture.md)
+- *Advanced Topics* — [Proximity and Geospatial Search](04%20High%20Level%20Design/Advanced%20Topics/Proximity%20and%20Geospatial%20Search.md)
+- *Advanced Topics* — [Time Series and Analytics Databases](04%20High%20Level%20Design/Advanced%20Topics/Time%20Series%20and%20Analytics%20Databases.md)
+- *Core Concepts* — [API Design](04%20High%20Level%20Design/Core%20Concepts/API%20Design.md)
 - *Core Concepts* — [CAP and PACELC](04%20High%20Level%20Design/Core%20Concepts/CAP%20and%20PACELC.md)
 - *Core Concepts* — [Caching](04%20High%20Level%20Design/Core%20Concepts/Caching.md)
+- *Core Concepts* — [Consistent Hashing](04%20High%20Level%20Design/Core%20Concepts/Consistent%20Hashing.md)
+- *Design Deep Dives* — [Design a Chat System](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20Chat%20System.md)
+- *Design Deep Dives* — [Design a News Feed](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20News%20Feed.md)
+- *Design Deep Dives* — [Design a URL Shortener](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20URL%20Shortener.md)
+- *Interview Framework* — [Back of the Envelope Estimation](04%20High%20Level%20Design/Interview%20Framework/Back%20of%20the%20Envelope%20Estimation.md)
 - *Interview Framework* — [System Design Delivery Framework](04%20High%20Level%20Design/Interview%20Framework/System%20Design%20Delivery%20Framework.md)
+- *Key Technologies* — [Cassandra](04%20High%20Level%20Design/Key%20Technologies/Cassandra.md)
+- *Key Technologies* — [DynamoDB](04%20High%20Level%20Design/Key%20Technologies/DynamoDB.md)
+- *Key Technologies* — [Elasticsearch](04%20High%20Level%20Design/Key%20Technologies/Elasticsearch.md)
+- *Key Technologies* — [PostgreSQL](04%20High%20Level%20Design/Key%20Technologies/PostgreSQL.md)
 - *Key Technologies* — [Redis](04%20High%20Level%20Design/Key%20Technologies/Redis.md)
+- *Key Technologies* — [Stream Processing and Flink](04%20High%20Level%20Design/Key%20Technologies/Stream%20Processing%20and%20Flink.md)
+- *Key Technologies* — [ZooKeeper and Coordination](04%20High%20Level%20Design/Key%20Technologies/ZooKeeper%20and%20Coordination.md)
+- *Patterns* — [Handling Large Blobs](04%20High%20Level%20Design/Patterns/Handling%20Large%20Blobs.md)
+- *Patterns* — [Managing Long-Running Tasks](04%20High%20Level%20Design/Patterns/Managing%20Long%20Running%20Tasks.md)
+- *Patterns* — [Multi-Step Processes and Saga](04%20High%20Level%20Design/Patterns/Multi%20Step%20Processes%20and%20Saga.md)
 - *Patterns* — [Rate Limiting](04%20High%20Level%20Design/Patterns/Rate%20Limiting.md)
+- *Patterns* — [Real-Time Updates](04%20High%20Level%20Design/Patterns/Real%20Time%20Updates.md)
 - *Patterns* — [Scaling Reads](04%20High%20Level%20Design/Patterns/Scaling%20Reads.md)
 - *Patterns* — [Scaling Writes](04%20High%20Level%20Design/Patterns/Scaling%20Writes.md)
 
 ### 05 Databases
 
+- *Consistency and Transactions* — [Transactions and Isolation Levels](05%20Databases/Consistency%20and%20Transactions/Transactions%20and%20Isolation%20Levels.md)
 - *Indexing* — [Database Indexing](05%20Databases/Indexing/Database%20Indexing.md)
 - *Partitioning and Sharding* — [Partitioning and Sharding](05%20Databases/Partitioning%20and%20Sharding/Partitioning%20and%20Sharding.md)
 - *Replication and Failover* — [Database Replication](05%20Databases/Replication%20and%20Failover/Database%20Replication.md)
+- *SQL vs NoSQL* — [SQL vs NoSQL](05%20Databases/SQL%20vs%20NoSQL/SQL%20vs%20NoSQL.md)
+
+### 06 Caching and Redis
+
+- *CDN* — [CDN](06%20Caching%20and%20Redis/CDN/CDN.md)
+- *Caching* — [Caching Strategies](06%20Caching%20and%20Redis/Caching/Caching%20Strategies.md)
+- *Redis* — [Redis Data Structures](06%20Caching%20and%20Redis/Redis/Redis%20Data%20Structures.md)
 
 ### 07 Messaging and Kafka
 
+- *Fundamentals* — [Messaging Fundamentals](07%20Messaging%20and%20Kafka/Fundamentals/Messaging%20Fundamentals.md)
 - *Kafka* — [Kafka Deep Dive](07%20Messaging%20and%20Kafka/Kafka/Kafka%20Deep%20Dive.md)
 - *Reliability Patterns* — [Idempotent Consumers](07%20Messaging%20and%20Kafka/Reliability%20Patterns/Idempotent%20Consumers.md)
 
@@ -159,15 +198,55 @@
 - *Consensus* — [Consensus Algorithms](09%20Distributed%20Systems/Consensus/Consensus%20Algorithms.md)
 - *Consistency* — [Consistency Models](09%20Distributed%20Systems/Consistency/Consistency%20Models.md)
 - *Theory* — [Two Generals Problem](09%20Distributed%20Systems/Theory/Two%20Generals%20Problem.md)
+- *Time and Ordering* — [Clocks and Ordering](09%20Distributed%20Systems/Time%20and%20Ordering/Clocks%20and%20Ordering.md)
+
+### 10 Operating Systems
+
+- *Memory* — [Memory Management](10%20Operating%20Systems/Memory/Memory%20Management.md)
+- *Processes and Threads* — [Processes and Threads](10%20Operating%20Systems/Processes%20and%20Threads/Processes%20and%20Threads.md)
+- *Scheduling* — [Scheduling and Deadlocks](10%20Operating%20Systems/Scheduling/Scheduling%20and%20Deadlocks.md)
+
+### 11 Networking
+
+- *Fundamentals* — [Networking Essentials](11%20Networking/Fundamentals/Networking%20Essentials.md)
+- *Protocols* — [HTTP and TLS](11%20Networking/Protocols/HTTP%20and%20TLS.md)
 
 ### 13 Kubernetes
 
 - [Kubernetes Core Concepts](13%20Kubernetes/Kubernetes%20Core%20Concepts.md)
 
+### 14 Spring Boot
+
+- [Spring Core and Dependency Injection](14%20Spring%20Boot/Spring%20Core%20and%20Dependency%20Injection.md)
+- [Spring Transactions and AOP](14%20Spring%20Boot/Spring%20Transactions%20and%20AOP.md)
+
+### 15 Company Prep
+
+- *Amazon* — [Amazon Leadership Principles](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md)
+- *Behavioural* — [Behavioural Question Bank](15%20Company%20Prep/Behavioural/Behavioural%20Question%20Bank.md)
+- *Behavioural* — [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md)
+
 ### Cheat Sheets
 
 - [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md)
+- [Design Patterns Cheat Sheet](Cheat%20Sheets/Design%20Patterns%20Cheat%20Sheet.md)
 - [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md)
 - [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md)
 - [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md)
+
+### Flash Cards
+
+- [DSA Flash Cards](Flash%20Cards/DSA%20Flash%20Cards.md)
+- [Java Flash Cards](Flash%20Cards/Java%20Flash%20Cards.md)
+- [System Design Flash Cards](Flash%20Cards/System%20Design%20Flash%20Cards.md)
+
+### Interview Checklists
+
+- [DSA Interview Checklist](Interview%20Checklists/DSA%20Interview%20Checklist.md)
+- [LLD Interview Checklist](Interview%20Checklists/LLD%20Interview%20Checklist.md)
+- [System Design Interview Checklist](Interview%20Checklists/System%20Design%20Interview%20Checklist.md)
+
+### Top 100 Interview Questions
+
+- [Top 100 Interview Questions](Top%20100%20Interview%20Questions/Top%20100%20Interview%20Questions.md)
 

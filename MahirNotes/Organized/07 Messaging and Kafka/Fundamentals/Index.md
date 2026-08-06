@@ -1,9 +1,10 @@
 # Fundamentals — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Messaging Fundamentals](Messaging%20Fundamentals.md) | Choosing between a queue, a log, and a synchronous call is a design decision with long consequences. Interview… |
+

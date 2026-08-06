@@ -1,9 +1,10 @@
 # Processes and Threads — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Processes and Threads](Processes%20and%20Threads.md) | Explains why thread pools are sized the way they are, why context switching costs, and what virtual threads an… |
+

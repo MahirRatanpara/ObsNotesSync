@@ -1,9 +1,10 @@
 # 10 Operating Systems — Index
 
-← Master Index *(not yet written)*
+[← Master Index](../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> This folder is reserved in the structure but contains no notes yet. See
-> Build Status *(not yet written)* for what remains
-> and the source files in the original folders that feed it.
+## Sections
+
+- [Memory](Memory/Index.md) — 1 note
+- [Processes and Threads](Processes%20and%20Threads/Index.md) — 1 note
+- [Scheduling](Scheduling/Index.md) — 1 note
+

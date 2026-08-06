@@ -4,8 +4,10 @@
 
 ## Sections
 
-- [Core Concepts](Core%20Concepts/Index.md) — 2 notes
-- [Interview Framework](Interview%20Framework/Index.md) — 1 note
-- [Key Technologies](Key%20Technologies/Index.md) — 1 note
-- [Patterns](Patterns/Index.md) — 3 notes
+- [Advanced Topics](Advanced%20Topics/Index.md) — 4 notes
+- [Core Concepts](Core%20Concepts/Index.md) — 4 notes
+- [Design Deep Dives](Design%20Deep%20Dives/Index.md) — 3 notes
+- [Interview Framework](Interview%20Framework/Index.md) — 2 notes
+- [Key Technologies](Key%20Technologies/Index.md) — 7 notes
+- [Patterns](Patterns/Index.md) — 7 notes
 
