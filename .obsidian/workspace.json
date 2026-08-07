@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c0501c26010852ce",
+        "id": "4c1bac651adc674a",
         "type": "tabs",
         "children": [
           {
-            "id": "b0f80d49244082e7",
+            "id": "25ef3e7077934095",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -153,8 +153,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "b0f80d49244082e7",
+  "active": "25ef3e7077934095",
   "lastOpenFiles": [
+    "Mahir's Notes/09 Distributed Systems/Theory/Two Generals Problem.md",
+    "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+    "Mahir's Notes/07 Messaging and Kafka/Reliability Patterns/Idempotent Consumers.md",
+    "Mahir's Notes/04 High Level Design/Patterns/Rate Limiting.md",
     "Mahir's Notes/04 High Level Design/Interview Framework/System Design Delivery Framework.md",
     "Mahir's Notes/04 High Level Design/Interview Framework/Back of the Envelope Estimation.md",
     "Mahir's Notes/04 High Level Design/Key Technologies/ZooKeeper and Coordination.md",
@@ -165,7 +169,6 @@
     "Mahir's Notes/04 High Level Design/Key Technologies/Elasticsearch.md",
     "Mahir's Notes/04 High Level Design/Key Technologies/DynamoDB.md",
     "Mahir's Notes/04 High Level Design/Key Technologies/Cassandra.md",
-    "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
     "Mahir's Notes/04 High Level Design/Index.md",
     "Mahir's Notes/Master Index.md",
@@ -178,10 +181,7 @@
     "Mahir's Notes/02 Java/Collections/Collections Overview.md",
     "Mahir's Notes/02 Java/Collections/Index.md",
     "Mahir's Notes/02 Java/Index.md",
-    "Mahir's Notes/_Meta/Build Status.md",
     "Mahir's Notes/_Meta",
-    "Mahir's Notes/Top 100 Interview Questions/Top 100 Interview Questions.md",
-    "Mahir's Notes/Top 100 Interview Questions/Index.md",
     "Mahir's Notes/Top 100 Interview Questions",
     "Mahir's Notes/Interview Checklists",
     "Mahir's Notes/Flash Cards",

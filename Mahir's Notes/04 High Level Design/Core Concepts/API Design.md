@@ -42,7 +42,11 @@ POST   /v1/orders/{id}/cancel     action that isn't CRUD
 
 ## Pagination
 
-**Cursor, always.**
+There are two types:
+1. Page/Offset
+2. Cursor
+
+**Cursor, always.** Because when there is a frequently changing data, Offset fails to adjust the rows which can lead to the missing of the rows or duplicating of the same rows.
 
 ```
 GET /v1/orders?limit=20&cursor=eyJpZCI6MTIzfQ
