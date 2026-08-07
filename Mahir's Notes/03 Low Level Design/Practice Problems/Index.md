@@ -1,7 +1,7 @@
 # Practice Problems — Index
 
-[← Master Index](Master%20Index.md)
+[← Master Index](../../Master%20Index.md)
 
 > **Status: planned, not yet written.**
 >
-> Reserved in the structure; see [Build Status](Build%20Status.md).
+> Reserved in the structure; see [Build Status](../../_Meta/Build%20Status.md).

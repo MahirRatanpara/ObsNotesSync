@@ -1,6 +1,6 @@
 # Interview Checklists — Index
 
-[← Master Index](Master%20Index.md)
+[← Master Index](../Master%20Index.md)
 
 ## Notes
 

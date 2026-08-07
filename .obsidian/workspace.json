@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/04 High Level Design/Core Concepts/CAP and PACELC.md",
+                "file": "Mahir's Notes/02 Java/Streams and Functional/Streams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAP and PACELC"
+              "title": "Streams"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/04 High Level Design/Core Concepts/CAP and PACELC.md",
+                "file": "Mahir's Notes/02 Java/Streams and Functional/Streams.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,6 +155,11 @@
   },
   "active": "25ef3e7077934095",
   "lastOpenFiles": [
+    "Mahir's Notes/02 Java/Language Core/Modern Java Features.md",
+    "Mahir's Notes/02 Java/Language Core/Exceptions and Generics.md",
+    "Mahir's Notes/02 Java/Language Core/Equals and HashCode.md",
+    "Mahir's Notes/02 Java/Interview Questions/Java Interview Question Bank.md",
+    "Mahir's Notes/04 High Level Design/Core Concepts/CAP and PACELC.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
     "Mahir's Notes/11 Networking/Protocols/HTTP and TLS.md",
@@ -176,11 +181,6 @@
     "Mahir's Notes/04 High Level Design/Advanced Topics/Time Series and Analytics Databases.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Proximity and Geospatial Search.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Index.md",
-    "Mahir's Notes/04 High Level Design/Advanced Topics/Event Driven Architecture.md",
-    "Mahir's Notes/04 High Level Design/Advanced Topics/Data Structures for Big Data.md",
-    "Mahir's Notes/02 Java/Collections/HashMap Internals.md",
-    "Mahir's Notes/02 Java/Collections/Collections Overview.md",
-    "Mahir's Notes/02 Java/Collections/Index.md",
     "Mahir's Notes/_Meta",
     "Mahir's Notes/Top 100 Interview Questions",
     "Mahir's Notes/Interview Checklists",

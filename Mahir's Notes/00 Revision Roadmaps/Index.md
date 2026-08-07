@@ -1,6 +1,6 @@
 # 00 Revision Roadmaps — Index
 
-[← Master Index](Master%20Index.md)
+[← Master Index](../Master%20Index.md)
 
 ## Notes
 
