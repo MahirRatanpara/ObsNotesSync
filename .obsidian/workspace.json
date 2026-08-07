@@ -10,17 +10,15 @@
           {
             "id": "d11779b6990c662d",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+                "file": "MahirNotes/Organized/_Meta/Build Status.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "AlgoMaster 300 - Randomised Problem List"
+              "title": "Build Status"
             }
           }
         ]
@@ -145,9 +143,26 @@
   },
   "active": "d11779b6990c662d",
   "lastOpenFiles": [
-    "MahirNotes/Organized/07 Messaging and Kafka/Fundamentals/Messaging Fundamentals.md",
+    "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
+    "MahirNotes/Organized/05 Databases/Fundamentals/Connection Management and Pooling.md",
+    "MahirNotes/Organized/05 Databases/Consistency and Transactions/Locking and Concurrency Control.md",
+    "MahirNotes/Organized/05 Databases/Fundamentals/Schema Migrations and Evolution.md",
+    "MahirNotes/Organized/05 Databases/Indexing/Query Optimisation.md",
+    "MahirNotes/Organized/05 Databases/Fundamentals/Data Modelling and Schema Design.md",
+    "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
+    "MahirNotes/DSA/Problem List/Done/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
+    "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
     "MahirNotes/Organized/_Meta/Build Status.md",
-    "MahirNotes/DSA/Problem List/Current/AlgoMaster 300 - Randomised Problem List.md",
+    "MahirNotes/Organized/05 Databases/Specific Databases/Database Comparison Reference.md",
+    "MahirNotes/Organized/05 Databases/Fundamentals/Storage Engines.md",
+    "MahirNotes/Organized/05 Databases/Fundamentals/Choosing the Right Database.md",
+    "MahirNotes/Organized/04 High Level Design/Key Technologies/Elasticsearch.md",
+    "MahirNotes/Organized/09 Distributed Systems/Consistency/CRDTs and Conflict Resolution.md",
+    "MahirNotes/Organized/09 Distributed Systems/Failure Handling/Distributed Transactions.md",
+    "MahirNotes/Organized/09 Distributed Systems/Failure Handling/Failure Detection and Recovery.md",
+    "MahirNotes/Organized/09 Distributed Systems/Theory/Fallacies and Failure Modes.md",
+    "MahirNotes/Organized/07 Messaging and Kafka/Fundamentals/Messaging Fundamentals.md",
     "MahirNotes/Organized/00 Revision Roadmaps/1 Day Emergency Revision.md",
     "MahirNotes/Organized/07 Messaging and Kafka/Reliability Patterns/Transactional Outbox.md",
     "MahirNotes/Organized/07 Messaging and Kafka/Reliability Patterns/Retries and Dead Letter Queues.md",
@@ -155,22 +170,6 @@
     "MahirNotes/Organized/06 Caching and Redis/Redis/Redis Persistence and High Availability.md",
     "MahirNotes/Organized/06 Caching and Redis/Caching/Distributed Caching.md",
     "MahirNotes/Organized/06 Caching and Redis/Caching/Cache Invalidation.md",
-    "MahirNotes/Organized/06 Caching and Redis/Caching/Cache Eviction Policies.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Kafka/Index.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Fundamentals/Index.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Comparisons/Index.md",
-    "MahirNotes/Organized/02 Java/Interview Questions/Java Interview Question Bank.md",
-    "MahirNotes/Organized/02 Java/Concurrency/Concurrency Problem Patterns.md",
-    "MahirNotes/Organized/08 Microservices/Deployment Patterns.md",
-    "MahirNotes/Organized/08 Microservices/Observability.md",
-    "MahirNotes/Organized/08 Microservices/Service Discovery.md",
-    "MahirNotes/Organized/08 Microservices/Microservices Fundamentals.md",
-    "MahirNotes/Organized/02 Java/Performance/Performance Tuning and Profiling.md",
-    "MahirNotes/Organized/02 Java/Language Core/Modern Java Features.md",
-    "MahirNotes/Organized/14 Spring Boot/Spring Web and Boot Internals.md",
-    "MahirNotes/Organized/14 Spring Boot/JPA and Hibernate.md",
-    "MahirNotes/Organized/04 High Level Design/Design Deep Dives/Design a Web Crawler.md",
-    "MahirNotes/Organized/04 High Level Design/Design Deep Dives/Design an Ad Click Aggregator.md",
     "MahirNotes/Organized/15 Company Prep/Behavioural",
     "MahirNotes/Organized/15 Company Prep/Amazon",
     "MahirNotes/Organized/03 Low Level Design/Design Patterns/Structural",
@@ -180,7 +179,6 @@
     "MahirNotes/Organized/11 Networking/Protocols",
     "MahirNotes/Organized/11 Networking/Fundamentals",
     "MahirNotes/Organized/10 Operating Systems/Scheduling",
-    "MahirNotes/Organized/10 Operating Systems/Processes and Threads",
     "Untitled.canvas",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg"
   ]

@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**161 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**180 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
 
 ## Sections
 
@@ -13,11 +13,11 @@
 | [02 Java](02%20Java/Index.md) | 20 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
 | [04 High Level Design](04%20High%20Level%20Design/Index.md) | 31 | Written |
-| [05 Databases](05%20Databases/Index.md) | 5 | Written |
-| [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 3 | Written |
-| [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 3 | Written |
+| [05 Databases](05%20Databases/Index.md) | 13 | Written |
+| [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 7 | Written |
+| [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 6 | Written |
 | [08 Microservices](08%20Microservices/Index.md) | 7 | Written |
-| [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 4 | Written |
+| [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 8 | Written |
 | [10 Operating Systems](10%20Operating%20Systems/Index.md) | 3 | Written |
 | [11 Networking](11%20Networking/Index.md) | 2 | Written |
 | [12 Cloud](12%20Cloud/Index.md) | 0 | **Planned** |
@@ -38,6 +38,7 @@
 | 1 week | [7 Day Revision Plan](00%20Revision%20Roadmaps/7%20Day%20Revision%20Plan.md) |
 | 15 min before a coding round | [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md) |
 | 15 min before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
+| **Choosing a database in a design** | **[Choosing the Right Database](05%20Databases/Fundamentals/Choosing%20the%20Right%20Database.md)** |
 | 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
 | 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) · [Java Question Bank](02%20Java/Interview%20Questions/Java%20Interview%20Question%20Bank.md) |
 | Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) · [Amazon LPs](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md) |
@@ -178,23 +179,38 @@
 
 ### 05 Databases
 
+- *Consistency and Transactions* — [Locking and Concurrency Control](05%20Databases/Consistency%20and%20Transactions/Locking%20and%20Concurrency%20Control.md)
 - *Consistency and Transactions* — [Transactions and Isolation Levels](05%20Databases/Consistency%20and%20Transactions/Transactions%20and%20Isolation%20Levels.md)
+- *Fundamentals* — [Choosing the Right Database](05%20Databases/Fundamentals/Choosing%20the%20Right%20Database.md)
+- *Fundamentals* — [Connection Management and Pooling](05%20Databases/Fundamentals/Connection%20Management%20and%20Pooling.md)
+- *Fundamentals* — [Data Modelling and Schema Design](05%20Databases/Fundamentals/Data%20Modelling%20and%20Schema%20Design.md)
+- *Fundamentals* — [Schema Migrations and Evolution](05%20Databases/Fundamentals/Schema%20Migrations%20and%20Evolution.md)
+- *Fundamentals* — [Storage Engines](05%20Databases/Fundamentals/Storage%20Engines.md)
 - *Indexing* — [Database Indexing](05%20Databases/Indexing/Database%20Indexing.md)
+- *Indexing* — [Query Optimisation](05%20Databases/Indexing/Query%20Optimisation.md)
 - *Partitioning and Sharding* — [Partitioning and Sharding](05%20Databases/Partitioning%20and%20Sharding/Partitioning%20and%20Sharding.md)
 - *Replication and Failover* — [Database Replication](05%20Databases/Replication%20and%20Failover/Database%20Replication.md)
 - *SQL vs NoSQL* — [SQL vs NoSQL](05%20Databases/SQL%20vs%20NoSQL/SQL%20vs%20NoSQL.md)
+- *Specific Databases* — [Database Comparison Reference](05%20Databases/Specific%20Databases/Database%20Comparison%20Reference.md)
 
 ### 06 Caching and Redis
 
 - *CDN* — [CDN](06%20Caching%20and%20Redis/CDN/CDN.md)
+- *Caching* — [Cache Eviction Policies](06%20Caching%20and%20Redis/Caching/Cache%20Eviction%20Policies.md)
+- *Caching* — [Cache Invalidation](06%20Caching%20and%20Redis/Caching/Cache%20Invalidation.md)
 - *Caching* — [Caching Strategies](06%20Caching%20and%20Redis/Caching/Caching%20Strategies.md)
+- *Caching* — [Distributed Caching](06%20Caching%20and%20Redis/Caching/Distributed%20Caching.md)
 - *Redis* — [Redis Data Structures](06%20Caching%20and%20Redis/Redis/Redis%20Data%20Structures.md)
+- *Redis* — [Redis Persistence and High Availability](06%20Caching%20and%20Redis/Redis/Redis%20Persistence%20and%20High%20Availability.md)
 
 ### 07 Messaging and Kafka
 
+- *Comparisons* — [Kafka vs SQS vs RabbitMQ](07%20Messaging%20and%20Kafka/Comparisons/Kafka%20vs%20SQS%20vs%20RabbitMQ.md)
 - *Fundamentals* — [Messaging Fundamentals](07%20Messaging%20and%20Kafka/Fundamentals/Messaging%20Fundamentals.md)
 - *Kafka* — [Kafka Deep Dive](07%20Messaging%20and%20Kafka/Kafka/Kafka%20Deep%20Dive.md)
 - *Reliability Patterns* — [Idempotent Consumers](07%20Messaging%20and%20Kafka/Reliability%20Patterns/Idempotent%20Consumers.md)
+- *Reliability Patterns* — [Retries and Dead Letter Queues](07%20Messaging%20and%20Kafka/Reliability%20Patterns/Retries%20and%20Dead%20Letter%20Queues.md)
+- *Reliability Patterns* — [Transactional Outbox](07%20Messaging%20and%20Kafka/Reliability%20Patterns/Transactional%20Outbox.md)
 
 ### 08 Microservices
 
@@ -209,7 +225,11 @@
 ### 09 Distributed Systems
 
 - *Consensus* — [Consensus Algorithms](09%20Distributed%20Systems/Consensus/Consensus%20Algorithms.md)
+- *Consistency* — [CRDTs and Conflict Resolution](09%20Distributed%20Systems/Consistency/CRDTs%20and%20Conflict%20Resolution.md)
 - *Consistency* — [Consistency Models](09%20Distributed%20Systems/Consistency/Consistency%20Models.md)
+- *Failure Handling* — [Distributed Transactions](09%20Distributed%20Systems/Failure%20Handling/Distributed%20Transactions.md)
+- *Failure Handling* — [Failure Detection and Recovery](09%20Distributed%20Systems/Failure%20Handling/Failure%20Detection%20and%20Recovery.md)
+- *Theory* — [Fallacies and Failure Modes](09%20Distributed%20Systems/Theory/Fallacies%20and%20Failure%20Modes.md)
 - *Theory* — [Two Generals Problem](09%20Distributed%20Systems/Theory/Two%20Generals%20Problem.md)
 - *Time and Ordering* — [Clocks and Ordering](09%20Distributed%20Systems/Time%20and%20Ordering/Clocks%20and%20Ordering.md)
 

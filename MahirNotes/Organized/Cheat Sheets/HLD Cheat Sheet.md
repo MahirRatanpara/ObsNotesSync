@@ -66,6 +66,18 @@ Peak = 2–3× average.
 - Hot key → local cache or key splitting
 - Always set a TTL; never make the cache a hard dependency
 
+## Database Selection — The Procedure
+
+1. **Enumerate access patterns** — say this out loud before naming any database
+2. **Read:write ratio?** — always ask
+3. **Query shape?** — point lookup / range / join / aggregate / search / traversal
+4. **Consistency per pattern** — not system-wide
+5. **Does it fit on ONE node?** — usually yes; say so
+6. Match shape → engine (B-tree = reads, LSM = writes)
+7. **Name what you gave up**
+
+Full procedure: [Choosing the Right Database](../05%20Databases/Fundamentals/Choosing%20the%20Right%20Database.md)
+
 ## Database Selection
 
 | Need | Choice |

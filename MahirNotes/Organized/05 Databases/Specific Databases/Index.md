@@ -2,6 +2,9 @@
 
 [← Master Index](../../Master%20Index.md)
 
-> **Status: planned, not yet written.**
->
-> Reserved in the structure; see [Build Status](../../_Meta/Build%20Status.md).
+## Notes
+
+| Note | What it covers |
+|---|---|
+| [Database Comparison Reference](Database%20Comparison%20Reference.md) | Lookup table. Use alongside [Choosing the Right Database](../Fundamentals/Choosing%20the%20Right%20Database.md… |
+
