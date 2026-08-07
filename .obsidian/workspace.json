@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88ae084c8505cc7f",
+        "id": "411339e4e35f2a4a",
         "type": "tabs",
         "children": [
           {
-            "id": "886f9d0d9b57b355",
+            "id": "b7e0a4cd2d8b3978",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,8 +148,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "6645fe632dc3ecea",
+  "active": "b7e0a4cd2d8b3978",
   "lastOpenFiles": [
+    "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+    "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
+    "Mahir's Notes/04 High Level Design/Index.md",
+    "Mahir's Notes/04 High Level Design/Advanced Topics/Time Series and Analytics Databases.md",
+    "Mahir's Notes/04 High Level Design/Advanced Topics/Proximity and Geospatial Search.md",
+    "Mahir's Notes/04 High Level Design/Advanced Topics/Index.md",
+    "Mahir's Notes/04 High Level Design/Advanced Topics/Event Driven Architecture.md",
+    "Mahir's Notes/04 High Level Design/Advanced Topics/Data Structures for Big Data.md",
+    "Mahir's Notes/02 Java/Collections/HashMap Internals.md",
+    "Mahir's Notes/02 Java/Collections/Collections Overview.md",
+    "Mahir's Notes/02 Java/Collections/Index.md",
+    "Mahir's Notes/02 Java/Index.md",
     "Mahir's Notes/_Meta/Build Status.md",
     "Mahir's Notes/_Meta",
     "Mahir's Notes/Top 100 Interview Questions/Top 100 Interview Questions.md",
@@ -168,21 +180,9 @@
     "Mahir's Notes/Flash Cards/DSA Flash Cards.md",
     "Mahir's Notes/Flash Cards",
     "Mahir's Notes/Cheat Sheets/LLD Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/Java Concurrency Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/Index.md",
-    "Mahir's Notes/Cheat Sheets/HLD Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/Design Patterns Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/DSA Cheat Sheet.md",
     "Mahir's Notes/Cheat Sheets",
-    "Mahir's Notes/16 Miscellaneous/Index.md",
     "Mahir's Notes/16 Miscellaneous",
-    "Mahir's Notes/15 Company Prep/Behavioural/Behavioural Question Bank.md",
-    "Mahir's Notes/15 Company Prep/Behavioural/STAR Method.md",
-    "Mahir's Notes/15 Company Prep/Behavioural/Index.md",
-    "Mahir's Notes/15 Company Prep/Amazon/Index.md",
-    "Mahir's Notes/15 Company Prep/Amazon/Amazon Leadership Principles.md",
     "Mahir's Notes/15 Company Prep/Behavioural",
-    "Mahir's Notes/15 Company Prep/Index.md",
     "Mahir's Notes/15 Company Prep/Amazon",
     "Mahir's Notes/15 Company Prep",
     "Mahir's Notes/14 Spring Boot",
