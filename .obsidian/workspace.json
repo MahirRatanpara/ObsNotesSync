@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6459740d13f32b3",
+        "id": "ead2d4e2bab0c33f",
         "type": "tabs",
         "children": [
           {
-            "id": "d11779b6990c662d",
+            "id": "93407987a79a318f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MahirNotes/Organized/_Meta/Build Status.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Build Status"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,9 +96,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
-                "collapseAll": true,
-                "extraContext": false,
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Curated-Problems"
+              "title": "Backlinks"
             }
           },
           {
@@ -121,13 +123,23 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "6645fe632dc3ecea",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,45 +153,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "d11779b6990c662d",
+  "active": "8c4964d7da6fec32",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "README.md",
+    "Sliding Window Maximum/Minimum.md",
+    "Mahir's Notes/02 Java/JVM and Memory/Java Memory Model.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Design Pattern Selection.md",
+    "Mahir's Notes/00 Revision Roadmaps/1 Day Emergency Revision.md",
+    "Mahir's Notes/README.md",
+    "Mahir's Notes/_Meta/Build Status.md",
     "MahirNotes/DSA/Problem List/Current/Curated-Problems.md",
-    "MahirNotes/Organized/05 Databases/Fundamentals/Connection Management and Pooling.md",
-    "MahirNotes/Organized/05 Databases/Consistency and Transactions/Locking and Concurrency Control.md",
-    "MahirNotes/Organized/05 Databases/Fundamentals/Schema Migrations and Evolution.md",
-    "MahirNotes/Organized/05 Databases/Indexing/Query Optimisation.md",
-    "MahirNotes/Organized/05 Databases/Fundamentals/Data Modelling and Schema Design.md",
+    "Mahir's Notes/05 Databases/Fundamentals/Connection Management and Pooling.md",
+    "Mahir's Notes/05 Databases/Consistency and Transactions/Locking and Concurrency Control.md",
+    "Mahir's Notes/05 Databases/Fundamentals/Schema Migrations and Evolution.md",
+    "Mahir's Notes/05 Databases/Indexing/Query Optimisation.md",
+    "Mahir's Notes/05 Databases/Fundamentals/Data Modelling and Schema Design.md",
     "MahirNotes/DSA/Problem List/Current/Job Hunt Prompt.md",
     "MahirNotes/DSA/Problem List/Done/AlgoMaster 300 - Randomised Problem List.md",
     "MahirNotes/HLD/Concurrency Control/Distributed Concurrency Control.pdf",
     "MahirNotes/HLD/Concurrency Control/Concurrency Control.md",
-    "MahirNotes/Organized/_Meta/Build Status.md",
-    "MahirNotes/Organized/05 Databases/Specific Databases/Database Comparison Reference.md",
-    "MahirNotes/Organized/05 Databases/Fundamentals/Storage Engines.md",
-    "MahirNotes/Organized/05 Databases/Fundamentals/Choosing the Right Database.md",
-    "MahirNotes/Organized/04 High Level Design/Key Technologies/Elasticsearch.md",
-    "MahirNotes/Organized/09 Distributed Systems/Consistency/CRDTs and Conflict Resolution.md",
-    "MahirNotes/Organized/09 Distributed Systems/Failure Handling/Distributed Transactions.md",
-    "MahirNotes/Organized/09 Distributed Systems/Failure Handling/Failure Detection and Recovery.md",
-    "MahirNotes/Organized/09 Distributed Systems/Theory/Fallacies and Failure Modes.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Fundamentals/Messaging Fundamentals.md",
-    "MahirNotes/Organized/00 Revision Roadmaps/1 Day Emergency Revision.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Reliability Patterns/Transactional Outbox.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Reliability Patterns/Retries and Dead Letter Queues.md",
-    "MahirNotes/Organized/07 Messaging and Kafka/Comparisons/Kafka vs SQS vs RabbitMQ.md",
-    "MahirNotes/Organized/06 Caching and Redis/Redis/Redis Persistence and High Availability.md",
-    "MahirNotes/Organized/06 Caching and Redis/Caching/Distributed Caching.md",
-    "MahirNotes/Organized/06 Caching and Redis/Caching/Cache Invalidation.md",
-    "MahirNotes/Organized/15 Company Prep/Behavioural",
-    "MahirNotes/Organized/15 Company Prep/Amazon",
-    "MahirNotes/Organized/03 Low Level Design/Design Patterns/Structural",
-    "MahirNotes/Organized/03 Low Level Design/Design Patterns/Creational",
-    "MahirNotes/Organized/03 Low Level Design/Design Patterns/Behavioural",
-    "MahirNotes/Organized/11 Networking/Security",
-    "MahirNotes/Organized/11 Networking/Protocols",
-    "MahirNotes/Organized/11 Networking/Fundamentals",
-    "MahirNotes/Organized/10 Operating Systems/Scheduling",
-    "Untitled.canvas",
+    "Mahir's Notes/05 Databases/Specific Databases/Database Comparison Reference.md",
+    "Mahir's Notes/05 Databases/Fundamentals/Storage Engines.md",
+    "Mahir's Notes/05 Databases/Fundamentals/Choosing the Right Database.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Elasticsearch.md",
+    "Mahir's Notes/09 Distributed Systems/Consistency/CRDTs and Conflict Resolution.md",
+    "Mahir's Notes/09 Distributed Systems/Failure Handling/Distributed Transactions.md",
+    "Mahir's Notes/09 Distributed Systems/Failure Handling/Failure Detection and Recovery.md",
+    "Mahir's Notes/09 Distributed Systems/Theory/Fallacies and Failure Modes.md",
+    "Mahir's Notes/07 Messaging and Kafka/Fundamentals/Messaging Fundamentals.md",
+    "Mahir's Notes/15 Company Prep/Behavioural",
+    "Mahir's Notes/15 Company Prep/Amazon",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural",
+    "Mahir's Notes/11 Networking/Security",
+    "Mahir's Notes/11 Networking/Protocols",
+    "Mahir's Notes/11 Networking/Fundamentals",
+    "Mahir's Notes/10 Operating Systems/Scheduling",
     "Other's Notes/System-Design-Primer/images/5KeocQs.jpg"
   ]
 }
