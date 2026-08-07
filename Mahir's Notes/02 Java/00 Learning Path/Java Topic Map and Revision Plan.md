@@ -178,6 +178,7 @@ Tick only what you can explain **aloud, without notes**. Unticked items are your
 | **9–12** | JVM, memory, GC, leaks |
 | **13–16** | OOP, generics, exceptions |
 | **17–20** | Lambdas, streams, collectors, Optional, parallelism |
+
 | **21–22** | Modern Java, IO, serialization |
 | **23–24** | **Retrieval practice only** — question bank and flash cards |
 

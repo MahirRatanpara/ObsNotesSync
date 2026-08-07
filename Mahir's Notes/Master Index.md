@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**180 notes.** Folders marked *planned* are reserved but not yet populated — see [Build Status](_Meta/Build%20Status.md).
+**211 notes.**
 
 ## Sections
 
@@ -10,7 +10,7 @@
 |---|---|---|
 | [00 Revision Roadmaps](00%20Revision%20Roadmaps/Index.md) | 2 | Written |
 | [01 DSA](01%20DSA/Index.md) | 33 | Written |
-| [02 Java](02%20Java/Index.md) | 20 | Written |
+| [02 Java](02%20Java/Index.md) | 51 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
 | [04 High Level Design](04%20High%20Level%20Design/Index.md) | 31 | Written |
 | [05 Databases](05%20Databases/Index.md) | 13 | Written |
@@ -36,16 +36,15 @@
 |---|---|
 | 1 day | [1 Day Emergency Revision](00%20Revision%20Roadmaps/1%20Day%20Emergency%20Revision.md) |
 | 1 week | [7 Day Revision Plan](00%20Revision%20Roadmaps/7%20Day%20Revision%20Plan.md) |
+| **Java from zero, or 24h revision** | **[Java Topic Map and Revision Plan](02%20Java/00%20Learning%20Path/Java%20Topic%20Map%20and%20Revision%20Plan.md)** |
 | 15 min before a coding round | [DSA Cheat Sheet](Cheat%20Sheets/DSA%20Cheat%20Sheet.md) |
 | 15 min before a design round | [HLD Cheat Sheet](Cheat%20Sheets/HLD%20Cheat%20Sheet.md) |
-| **Choosing a database in a design** | **[Choosing the Right Database](05%20Databases/Fundamentals/Choosing%20the%20Right%20Database.md)** |
+| **Choosing a database** | **[Choosing the Right Database](05%20Databases/Fundamentals/Choosing%20the%20Right%20Database.md)** |
 | 15 min before an LLD round | [LLD Cheat Sheet](Cheat%20Sheets/LLD%20Cheat%20Sheet.md) |
-| **Learning or revising Java** | **[Java Topic Map and Revision Plan](02%20Java/00%20Learning%20Path/Java%20Topic%20Map%20and%20Revision%20Plan.md)** |
 | 15 min before a Java round | [Java Concurrency Cheat Sheet](Cheat%20Sheets/Java%20Concurrency%20Cheat%20Sheet.md) · [Java Question Bank](02%20Java/Interview%20Questions/Java%20Interview%20Question%20Bank.md) |
-| Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) · [Amazon LPs](15%20Company%20Prep/Amazon/Amazon%20Leadership%20Principles.md) |
+| Before a behavioural round | [STAR Method](15%20Company%20Prep/Behavioural/STAR%20Method.md) |
 | Practising designs | [Design Deep Dives](04%20High%20Level%20Design/Design%20Deep%20Dives/Index.md) |
 | Self-testing | [Top 100 Questions](Top%20100%20Interview%20Questions/Top%20100%20Interview%20Questions.md) · [Flash Cards](Flash%20Cards/Index.md) |
-| In the interview | [Interview Checklists](Interview%20Checklists/Index.md) |
 
 ## All Notes
 
@@ -92,25 +91,56 @@
 
 ### 02 Java
 
+- *00 Learning Path* — [Java Topic Map and Revision Plan](02%20Java/00%20Learning%20Path/Java%20Topic%20Map%20and%20Revision%20Plan.md)
+- *Collections* — [ArrayList and List Internals](02%20Java/Collections/ArrayList%20and%20List%20Internals.md)
 - *Collections* — [Collections Overview](02%20Java/Collections/Collections%20Overview.md)
+- *Collections* — [Comparable and Comparator](02%20Java/Collections/Comparable%20and%20Comparator.md)
 - *Collections* — [HashMap Internals](02%20Java/Collections/HashMap%20Internals.md)
+- *Collections* — [Specialised Collections](02%20Java/Collections/Specialised%20Collections.md)
+- *Collections* — [TreeMap and Sorted Collections](02%20Java/Collections/TreeMap%20and%20Sorted%20Collections.md)
 - *Concurrency* — [Atomics and CAS](02%20Java/Concurrency/Atomics%20and%20CAS.md)
 - *Concurrency* — [CompletableFuture](02%20Java/Concurrency/CompletableFuture.md)
 - *Concurrency* — [Concurrency Problem Patterns](02%20Java/Concurrency/Concurrency%20Problem%20Patterns.md)
 - *Concurrency* — [Concurrent Collections](02%20Java/Concurrency/Concurrent%20Collections.md)
 - *Concurrency* — [Executors and Thread Pools](02%20Java/Concurrency/Executors%20and%20Thread%20Pools.md)
+- *Concurrency* — [Fork/Join and Parallel Execution](02%20Java/Concurrency/Fork%20Join%20and%20Parallel%20Execution.md)
 - *Concurrency* — [Synchronisation and Locks](02%20Java/Concurrency/Synchronisation%20and%20Locks.md)
+- *Concurrency* — [Synchronizers](02%20Java/Concurrency/Synchronizers.md)
 - *Concurrency* — [Threads and Lifecycle](02%20Java/Concurrency/Threads%20and%20Lifecycle.md)
+- *Concurrency* — [Virtual Threads and Structured Concurrency](02%20Java/Concurrency/Virtual%20Threads%20and%20Structured%20Concurrency.md)
+- *Exceptions* — [Exceptions Deep Dive](02%20Java/Exceptions/Exceptions%20Deep%20Dive.md)
 - *Garbage Collection* — [Garbage Collection](02%20Java/Garbage%20Collection/Garbage%20Collection.md)
+- *Generics* — [Generics Deep Dive](02%20Java/Generics/Generics%20Deep%20Dive.md)
+- *IO and Serialization* — [Java IO and NIO](02%20Java/IO%20and%20Serialization/Java%20IO%20and%20NIO.md)
+- *IO and Serialization* — [Serialization](02%20Java/IO%20and%20Serialization/Serialization.md)
 - *Interview Questions* — [Java Interview Question Bank](02%20Java/Interview%20Questions/Java%20Interview%20Question%20Bank.md)
+- *JVM and Memory* — [Bytecode, Reflection and Method Handles](02%20Java/JVM%20and%20Memory/Bytecode%20Reflection%20and%20Method%20Handles.md)
 - *JVM and Memory* — [Class Loading](02%20Java/JVM%20and%20Memory/Class%20Loading.md)
 - *JVM and Memory* — [JIT and Escape Analysis](02%20Java/JVM%20and%20Memory/JIT%20and%20Escape%20Analysis.md)
 - *JVM and Memory* — [JVM Architecture and Memory Areas](02%20Java/JVM%20and%20Memory/JVM%20Architecture%20and%20Memory%20Areas.md)
+- *JVM and Memory* — [Java Memory Leaks](02%20Java/JVM%20and%20Memory/Java%20Memory%20Leaks.md)
 - *JVM and Memory* — [Java Memory Model (JMM)](02%20Java/JVM%20and%20Memory/Java%20Memory%20Model.md)
+- *JVM and Memory* — [Reference Types and Cleaners](02%20Java/JVM%20and%20Memory/Reference%20Types%20and%20Cleaners.md)
+- *Language Core* — [Date and Time API](02%20Java/Language%20Core/Date%20and%20Time%20API.md)
 - *Language Core* — [equals and hashCode](02%20Java/Language%20Core/Equals%20and%20HashCode.md)
 - *Language Core* — [Exceptions and Generics](02%20Java/Language%20Core/Exceptions%20and%20Generics.md)
 - *Language Core* — [Modern Java Features (8 → 21)](02%20Java/Language%20Core/Modern%20Java%20Features.md)
+- *Language Core* — [Pattern Matching and Control Flow](02%20Java/Language%20Core/Pattern%20Matching%20and%20Control%20Flow.md)
+- *Language Core* — [Strings and Text](02%20Java/Language%20Core/Strings%20and%20Text.md)
+- *Language Core* — [Types, Primitives and Autoboxing](02%20Java/Language%20Core/Types%2C%20Primitives%20and%20Autoboxing.md)
+- *Modern Java* — [Java Modules (JPMS)](02%20Java/Modern%20Java/Java%20Modules%20JPMS.md)
+- *Modern Java* — [Java Version Guide: 8 to 25](02%20Java/Modern%20Java/Java%20Version%20Guide%208%20to%2025.md)
+- *OOP* — [Abstract Classes and Interfaces](02%20Java/OOP/Abstract%20Classes%20and%20Interfaces.md)
+- *OOP* — [Immutability and Defensive Copying](02%20Java/OOP/Immutability%20and%20Defensive%20Copying.md)
+- *OOP* — [Inheritance and Polymorphism](02%20Java/OOP/Inheritance%20and%20Polymorphism.md)
+- *OOP* — [Nested and Inner Classes](02%20Java/OOP/Nested%20and%20Inner%20Classes.md)
+- *OOP* — [Object Class Contract](02%20Java/OOP/Object%20Class%20Contract.md)
+- *OOP* — [Records, Enums and Sealed Types](02%20Java/OOP/Records%20Enums%20and%20Sealed%20Types.md)
 - *Performance* — [Performance Tuning and Profiling](02%20Java/Performance/Performance%20Tuning%20and%20Profiling.md)
+- *Streams and Functional* — [Collectors and Advanced Streams](02%20Java/Streams%20and%20Functional/Collectors%20and%20Advanced%20Streams.md)
+- *Streams and Functional* — [Lambdas and Functional Interfaces](02%20Java/Streams%20and%20Functional/Lambdas%20and%20Functional%20Interfaces.md)
+- *Streams and Functional* — [Optional](02%20Java/Streams%20and%20Functional/Optional.md)
+- *Streams and Functional* — [Parallel Streams and Spliterators](02%20Java/Streams%20and%20Functional/Parallel%20Streams%20and%20Spliterators.md)
 - *Streams and Functional* — [Streams](02%20Java/Streams%20and%20Functional/Streams.md)
 
 ### 03 Low Level Design
