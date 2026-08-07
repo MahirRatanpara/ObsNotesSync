@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+                "file": "Mahir's Notes/04 High Level Design/Core Concepts/CAP and PACELC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API Design"
+              "title": "CAP and PACELC"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+                "file": "Mahir's Notes/04 High Level Design/Core Concepts/CAP and PACELC.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,8 +155,10 @@
   },
   "active": "25ef3e7077934095",
   "lastOpenFiles": [
-    "Mahir's Notes/09 Distributed Systems/Theory/Two Generals Problem.md",
+    "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+    "Mahir's Notes/11 Networking/Protocols/HTTP and TLS.md",
+    "Mahir's Notes/09 Distributed Systems/Theory/Two Generals Problem.md",
     "Mahir's Notes/07 Messaging and Kafka/Reliability Patterns/Idempotent Consumers.md",
     "Mahir's Notes/04 High Level Design/Patterns/Rate Limiting.md",
     "Mahir's Notes/04 High Level Design/Interview Framework/System Design Delivery Framework.md",
@@ -169,7 +171,6 @@
     "Mahir's Notes/04 High Level Design/Key Technologies/Elasticsearch.md",
     "Mahir's Notes/04 High Level Design/Key Technologies/DynamoDB.md",
     "Mahir's Notes/04 High Level Design/Key Technologies/Cassandra.md",
-    "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
     "Mahir's Notes/04 High Level Design/Index.md",
     "Mahir's Notes/Master Index.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Time Series and Analytics Databases.md",
@@ -180,7 +181,6 @@
     "Mahir's Notes/02 Java/Collections/HashMap Internals.md",
     "Mahir's Notes/02 Java/Collections/Collections Overview.md",
     "Mahir's Notes/02 Java/Collections/Index.md",
-    "Mahir's Notes/02 Java/Index.md",
     "Mahir's Notes/_Meta",
     "Mahir's Notes/Top 100 Interview Questions",
     "Mahir's Notes/Interview Checklists",

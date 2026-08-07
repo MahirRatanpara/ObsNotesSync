@@ -46,6 +46,12 @@ There are two types:
 1. Page/Offset
 2. Cursor
 
+- **Offset:** Supports random page jumps; performance degrades with large offsets (`O(offset)`).
+- **Cursor:** Fast sequential pagination using index seek (`O(log N + limit)`); no direct page jumps.
+- **Rule:** Offset for admin dashboards & page numbers; Cursor for feeds, chats & large datasets.
+- **Trade-off:** Offset = flexibility, Cursor = scalability & consistency.
+- **Key point:** Offset skips rows; Cursor seeks directly to the last seen record.
+
 **Cursor, always.** Because when there is a frequently changing data, Offset fails to adjust the rows which can lead to the missing of the rows or duplicating of the same rows.
 
 ```
@@ -65,6 +71,8 @@ Offset pagination on an insert-heavy collection is a correctness bug, not just a
 
 ## Idempotency
 
+Idempotency keys are used to prevent the same request from being processed multiple times due to retries or duplicate submissions. 
+
 ```http
 POST /v1/payments
 Idempotency-Key: 9f2c1e7a-...
@@ -76,13 +84,16 @@ The server records the key with the response, and returns the **original result*
 
 **The dedup record must be written in the same transaction as the side effect** — otherwise a crash between the two breaks the guarantee.
 
+For high-performance systems, they are commonly stored in **Redis** because lookups are extremely fast and keys can expire automatically using a TTL. For critical operations like payments or order creation, they are stored in a **database** to ensure durability and strong consistency. Many large-scale systems use a **hybrid approach**, where the database is the source of truth and Redis acts as a cache for faster reads. 
+
+To avoid race conditions, atomic operations such as Redis `SET NX` or a database unique constraint are used to ensure only one request can claim an idempotency key.
 ## Versioning
 
-| Approach | Trade-off |
-|---|---|
-| **URL path** (`/v1/`) | **Clearest, most common**; visible in logs and easy to route |
-| Header (`Accept: application/vnd.api.v2+json`) | Cleaner URLs, harder to test and cache |
-| Query param (`?version=2`) | Easy but pollutes the query space |
+| Approach                                       | Trade-off                                                    |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| **URL path** (`/v1/`)                          | **Clearest, most common**; visible in logs and easy to route |
+| Header (`Accept: application/vnd.api.v2+json`) | Cleaner URLs, harder to test and cache                       |
+| Query param (`?version=2`)                     | Easy but pollutes the query space                            |
 
 **Use the URL path.** Purists prefer headers; operationally, path versioning is easier to route, cache, log, and debug.
 
@@ -132,16 +143,16 @@ Retry-After: 30
 
 ## Other Contract Decisions
 
-| Concern | Practice |
-|---|---|
-| **Long-running operations** | Return `202 Accepted` with a status URL to poll, or a webhook |
-| **Bulk operations** | Accept an array; return **per-item** results, since some may fail |
-| **Filtering / sorting** | `?status=active&sort=-created_at` |
-| **Partial responses** | `?fields=id,name` to reduce payload |
-| **Field naming** | Pick `snake_case` or `camelCase` and never mix |
-| **Timestamps** | **Always ISO 8601 with timezone** |
-| **Money** | **Integer minor units** (cents) — never floats |
-| Enums | Strings, not integers — readable in logs and stable |
+| Concern                     | Practice                                                                                           |
+| --------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Long-running operations** | Return `202 Accepted` with a status URL to poll, or a webhook (which is pre configured client URL) |
+| **Bulk operations**         | Accept an array; return **per-item** results, since some may fail                                  |
+| **Filtering / sorting**     | `?status=active&sort=-created_at`                                                                  |
+| **Partial responses**       | `?fields=id,name` to reduce payload                                                                |
+| **Field naming**            | Pick `snake_case` or `camelCase` and never mix                                                     |
+| **Timestamps**              | **Always ISO 8601 with timezone**                                                                  |
+| **Money**                   | **Integer minor units** (cents) — never floats                                                     |
+| Enums                       | Strings, not integers — readable in logs and stable                                                |
 
 **Money as floats is a real correctness bug**, and stating it unprompted signals production experience.
 
