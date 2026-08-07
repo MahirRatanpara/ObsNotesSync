@@ -49,11 +49,11 @@ GET /v1/orders?limit=20&cursor=eyJpZCI6MTIzfQ
 → { "data": [...], "next_cursor": "eyJpZCI6MTQzfQ" }
 ```
 
-| | Offset | **Cursor** |
-|---|---|---|
-| Stability under inserts | **Breaks** — items shift, pages repeat or skip | **Stable** |
-| Performance at depth | **O(offset)** — scan and discard | **O(limit)** |
-| Jump to page N | Possible | No |
+|                         | Offset                                         | **Cursor**   |
+| ----------------------- | ---------------------------------------------- | ------------ |
+| Stability under inserts | **Breaks** — items shift, pages repeat or skip | **Stable**   |
+| Performance at depth    | **O(offset)** — scan and discard               | **O(limit)** |
+| Jump to page N          | Possible                                       | No           |
 
 Offset pagination on an insert-heavy collection is a correctness bug, not just a performance one. The only reason to use it is a UI requiring numbered pages.
 

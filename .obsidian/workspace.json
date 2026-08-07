@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "411339e4e35f2a4a",
+        "id": "c0501c26010852ce",
         "type": "tabs",
         "children": [
           {
-            "id": "b7e0a4cd2d8b3978",
+            "id": "b0f80d49244082e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "API Design"
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -148,11 +153,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "b7e0a4cd2d8b3978",
+  "active": "b0f80d49244082e7",
   "lastOpenFiles": [
+    "Mahir's Notes/04 High Level Design/Interview Framework/System Design Delivery Framework.md",
+    "Mahir's Notes/04 High Level Design/Interview Framework/Back of the Envelope Estimation.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/ZooKeeper and Coordination.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Stream Processing and Flink.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Redis.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/PostgreSQL.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Index.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Elasticsearch.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/DynamoDB.md",
+    "Mahir's Notes/04 High Level Design/Key Technologies/Cassandra.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/API Design.md",
     "Mahir's Notes/04 High Level Design/Core Concepts/Index.md",
     "Mahir's Notes/04 High Level Design/Index.md",
+    "Mahir's Notes/Master Index.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Time Series and Analytics Databases.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Proximity and Geospatial Search.md",
     "Mahir's Notes/04 High Level Design/Advanced Topics/Index.md",
@@ -167,19 +183,8 @@
     "Mahir's Notes/Top 100 Interview Questions/Top 100 Interview Questions.md",
     "Mahir's Notes/Top 100 Interview Questions/Index.md",
     "Mahir's Notes/Top 100 Interview Questions",
-    "Mahir's Notes/README.md",
-    "Mahir's Notes/Master Index.md",
-    "Mahir's Notes/Interview Checklists/System Design Interview Checklist.md",
-    "Mahir's Notes/Interview Checklists/LLD Interview Checklist.md",
-    "Mahir's Notes/Interview Checklists/Index.md",
-    "Mahir's Notes/Interview Checklists/DSA Interview Checklist.md",
     "Mahir's Notes/Interview Checklists",
-    "Mahir's Notes/Flash Cards/System Design Flash Cards.md",
-    "Mahir's Notes/Flash Cards/Java Flash Cards.md",
-    "Mahir's Notes/Flash Cards/Index.md",
-    "Mahir's Notes/Flash Cards/DSA Flash Cards.md",
     "Mahir's Notes/Flash Cards",
-    "Mahir's Notes/Cheat Sheets/LLD Cheat Sheet.md",
     "Mahir's Notes/Cheat Sheets",
     "Mahir's Notes/16 Miscellaneous",
     "Mahir's Notes/15 Company Prep/Behavioural",
