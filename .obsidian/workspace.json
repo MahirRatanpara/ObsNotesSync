@@ -8,6 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7efa0d51927a9b63",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Doubts"
+            }
+          },
+          {
             "id": "3514d8831048dfc6",
             "type": "leaf",
             "pinned": true,
@@ -37,7 +53,8 @@
               "title": "Types, Primitives and Autoboxing"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273
+    "width": 343.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "30a8156c470c1591",
@@ -112,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
+                "file": "Mahir's Notes/02 Java/Language Core/Types, Primitives and Autoboxing.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,13 +187,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "3514d8831048dfc6",
+  "active": "d97e2d1f58476efc",
   "lastOpenFiles": [
+    "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
     "Mahir's Notes/02 Java/Language Core/Types, Primitives and Autoboxing.md",
+    "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
+    "Mahir's Notes/02 Java/000 Doubts",
+    "Mahir's Notes/02 Java/Untitled.md",
     "Mahir's Notes/02 Java/Language Core/Index.md",
     "Mahir's Notes/02 Java/Language Core/Types Primitives and Autoboxing.md",
     "Mahir's Notes/02 Java/Language Core/Types%2C Primitives and Autoboxing.md",
-    "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
     "Mahir's Notes/02 Java/00 Learning Path/Index.md",
     "Mahir's Notes/11 Networking/Fundamentals/Networking Essentials.md",
     "Mahir's Notes/02 Java/Interview Questions/Java Interview Question Bank.md",
@@ -196,8 +217,6 @@
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Language Core/Pattern Matching and Control Flow.md",
     "Mahir's Notes/02 Java/Collections/Specialised Collections.md",
-    "Mahir's Notes/02 Java/Concurrency/Synchronizers.md",
-    "Mahir's Notes/02 Java/Concurrency/Fork Join and Parallel Execution.md",
     "Mahir's Notes/02 Java/Exceptions",
     "Mahir's Notes/02 Java/Generics",
     "Mahir's Notes/02 Java/Modern Java",
@@ -206,7 +225,6 @@
     "Mahir's Notes/_Meta",
     "Mahir's Notes/Top 100 Interview Questions",
     "Mahir's Notes/Interview Checklists",
-    "Mahir's Notes/Flash Cards",
     "Untitled.canvas",
     "Other's Notes/System-Design-Primer/solutions/system_design/web_crawler/web_crawler_basic.png",
     "Other's Notes/System-Design-Primer/solutions/system_design/web_crawler/web_crawler.png",
