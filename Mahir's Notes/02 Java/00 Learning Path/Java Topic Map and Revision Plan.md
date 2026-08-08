@@ -36,10 +36,10 @@ Tick only what you can explain **aloud, without notes**. Unticked items are your
 - [x] Numeric promotion; integer overflow; `Math.abs(MIN_VALUE)` is negative
 - [x] **Why `0.1 + 0.2 != 0.3`; `NaN != NaN`; money as integer minor units**
 - [x] `BigDecimal`: String constructor, and `equals` vs `compareTo`
-- [ ] **String immutability, the pool, `intern()`, compact strings**
-- [ ] `String` vs `StringBuilder` vs `StringBuffer`
-- [ ] Text blocks, `formatted`, `strip` vs `trim`
-- [ ] `switch` expressions; exhaustiveness; arrow labels
+- [x] **String immutability, the pool, `intern()`, compact strings**
+- [x] `String` vs `StringBuilder` vs `StringBuffer`
+- [x] Text blocks, `formatted`, `strip` vs `trim`
+- [x] `switch` expressions; exhaustiveness; arrow labels
 - [ ] **Pattern matching for `instanceof`, `switch`, and records**
 - [ ] Arrays: covariance, `ArrayStoreException`, `System.arraycopy`
 - [ ] Varargs, heap pollution, `@SafeVarargs`

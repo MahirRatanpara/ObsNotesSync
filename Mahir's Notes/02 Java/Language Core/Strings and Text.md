@@ -77,11 +77,11 @@ String s = sb.toString();               // O(n)
 
 **The rule: concatenation in a loop is the problem, not concatenation itself.**
 
-| Class | Thread-safe | Use |
-|---|---|---|
-| `String` | Yes (immutable) | Values, keys, everything by default |
-| **`StringBuilder`** | **No** | **Building strings — the default choice** |
-| `StringBuffer` | Yes (synchronized) | Legacy; almost never needed |
+| Class               | Thread-safe        | Use                                       |
+| ------------------- | ------------------ | ----------------------------------------- |
+| `String`            | Yes (immutable)    | Values, keys, everything by default       |
+| **`StringBuilder`** | **No**             | **Building strings — the default choice** |
+| `StringBuffer`      | Yes (synchronized) | Legacy; almost never needed               |
 
 **`StringBuffer` is a legacy class.** Its synchronisation is nearly always useless — a builder is almost always confined to one method. The JIT can also elide the locks via [escape analysis](../JVM%20and%20Memory/JIT%20and%20Escape%20Analysis.md), so the performance gap is smaller than folklore suggests — but `StringBuilder` remains correct.
 
