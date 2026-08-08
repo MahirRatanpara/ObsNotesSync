@@ -31,11 +31,11 @@ Tick only what you can explain **aloud, without notes**. Unticked items are your
 
 ### 1 — Language Core
 
-- [ ] Primitives, sizes, ranges; `char` is the only unsigned type
-- [ ] **Autoboxing, the Integer cache (−128..127), unboxing NPEs**
-- [ ] Numeric promotion; integer overflow; `Math.abs(MIN_VALUE)` is negative
-- [ ] **Why `0.1 + 0.2 != 0.3`; `NaN != NaN`; money as integer minor units**
-- [ ] `BigDecimal`: String constructor, and `equals` vs `compareTo`
+- [x] Primitives, sizes, ranges; `char` is the only unsigned type
+- [x] **Autoboxing, the Integer cache (−128..127), unboxing NPEs**
+- [x] Numeric promotion; integer overflow; `Math.abs(MIN_VALUE)` is negative
+- [x] **Why `0.1 + 0.2 != 0.3`; `NaN != NaN`; money as integer minor units**
+- [x] `BigDecimal`: String constructor, and `equals` vs `compareTo`
 - [ ] **String immutability, the pool, `intern()`, compact strings**
 - [ ] `String` vs `StringBuilder` vs `StringBuffer`
 - [ ] Text blocks, `formatted`, `strip` vs `trim`
