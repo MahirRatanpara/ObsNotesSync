@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "06d217bb513975ae",
+            "id": "7a8c72a9694a49e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,12 +187,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "06d217bb513975ae",
+  "active": "7a8c72a9694a49e3",
   "lastOpenFiles": [
     "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Visitor.md",
-    "Mahir's Notes/02 Java/Language Core/Pattern Matching and Control Flow.md",
+    "Mahir's Notes/02 Java/IO and Serialization/Java IO and NIO.md",
     "Mahir's Notes/02 Java/Language Core/Strings and Text.md",
+    "Mahir's Notes/02 Java/Language Core/Pattern Matching and Control Flow.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Visitor.md",
     "Mahir's Notes/02 Java/JVM and Memory/JIT and Escape Analysis.md",
     "Mahir's Notes/02 Java/Language Core/Types, Primitives and Autoboxing.md",
     "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
@@ -215,7 +216,6 @@
     "Mahir's Notes/02 Java/Modern Java/Java Modules JPMS.md",
     "Mahir's Notes/02 Java/Language Core/Date and Time API.md",
     "Mahir's Notes/02 Java/OOP/Object Class Contract.md",
-    "Mahir's Notes/02 Java/JVM and Memory/Bytecode Reflection and Method Handles.md",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
     "Mahir's Notes/02 Java/Generics",
