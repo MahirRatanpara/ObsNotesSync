@@ -101,12 +101,12 @@ Still O(1), but noticeably more state. **Frequency-only LFU also ossifies** — 
 
 ## Follow-Ups
 
-| Question | Answer |
-|---|---|
-| **Make it thread-safe** | A single lock is simplest but serialises everything. Better: segment the cache (lock striping) as `ConcurrentHashMap` does, or use `Caffeine`, which buffers reads and applies reordering asynchronously to avoid contention. |
-| **Add TTL** | Store an expiry timestamp per node; treat expired entries as misses on read (lazy expiry) and optionally sweep in the background. |
-| **Distributed LRU** | Redis with `maxmemory-policy allkeys-lru`. Note Redis LRU is **approximate** — it samples keys rather than maintaining a global list, trading precision for speed. |
-| **Why not a TreeMap by timestamp?** | O(log n) instead of O(1), and timestamps collide. |
+| Question                            | Answer                                                                                                                                                                                                                        |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Make it thread-safe**             | A single lock is simplest but serialises everything. Better: segment the cache (lock striping) as `ConcurrentHashMap` does, or use `Caffeine`, which buffers reads and applies reordering asynchronously to avoid contention. |
+| **Add TTL**                         | Store an expiry timestamp per node; treat expired entries as misses on read (lazy expiry) and optionally sweep in the background.                                                                                             |
+| **Distributed LRU**                 | Redis with `maxmemory-policy allkeys-lru`. Note Redis LRU is **approximate** — it samples keys rather than maintaining a global list, trading precision for speed.                                                            |
+| **Why not a TreeMap by timestamp?** | O(log n) instead of O(1), and timestamps collide.                                                                                                                                                                             |
 
 **The thread-safety follow-up is where senior candidates separate themselves** — naming lock striping and Caffeine's asynchronous reordering is a strong answer.
 
