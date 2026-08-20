@@ -4,57 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0841faec151a66fa",
+        "id": "0f46a549787e1c60",
         "type": "tabs",
         "children": [
           {
-            "id": "7efa0d51927a9b63",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Doubts"
-            }
-          },
-          {
-            "id": "3514d8831048dfc6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Java Topic Map and Revision Plan"
-            }
-          },
-          {
-            "id": "89aff649aa7de665",
+            "id": "bad15511c41ad9f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search on Answer.md",
+                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search on Answer"
+              "title": "Binary Search Templates"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search on Answer.md",
+                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -187,10 +154,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "89aff649aa7de665",
+  "active": "bad15511c41ad9f4",
   "lastOpenFiles": [
-    "Mahir's Notes/01 DSA/Backtracking/Backtracking.md",
+    "Mahir's Notes/01 DSA/Bit Manipulation/Bit Manipulation.md",
+    "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
     "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
+    "Mahir's Notes/01 DSA/Foundations/Pattern Confusion Matrix.md",
+    "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
+    "Mahir's Notes/01 DSA/Binary Search/Binary Search on Answer.md",
+    "Mahir's Notes/01 DSA/Backtracking/Backtracking.md",
     "Mahir's Notes/01 DSA/Arrays and Strings/LRU Cache.md",
     "Mahir's Notes/01 DSA/Arrays and Strings/Prefix Sum.md",
     "Mahir's Notes/01 DSA/Arrays and Strings/Index.md",
@@ -204,7 +176,6 @@
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Visitor.md",
     "Mahir's Notes/02 Java/JVM and Memory/JIT and Escape Analysis.md",
     "Mahir's Notes/02 Java/Language Core/Types, Primitives and Autoboxing.md",
-    "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/Untitled.md",
     "Mahir's Notes/02 Java/Language Core/Index.md",
@@ -212,10 +183,6 @@
     "Mahir's Notes/02 Java/Language Core/Types%2C Primitives and Autoboxing.md",
     "Mahir's Notes/02 Java/00 Learning Path/Index.md",
     "Mahir's Notes/11 Networking/Fundamentals/Networking Essentials.md",
-    "Mahir's Notes/02 Java/Interview Questions/Java Interview Question Bank.md",
-    "Mahir's Notes/02 Java/Interview Questions/Index.md",
-    "Mahir's Notes/02 Java/Streams and Functional/Streams.md",
-    "Mahir's Notes/02 Java/OOP/Index.md",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
     "Mahir's Notes/02 Java/Generics",

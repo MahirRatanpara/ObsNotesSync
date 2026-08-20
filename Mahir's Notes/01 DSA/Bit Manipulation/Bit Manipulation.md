@@ -6,17 +6,17 @@ Appears in XOR puzzles, subset enumeration, and bitmask DP. Also the basis for s
 
 ## Essential Operations
 
-| Goal | Expression |
-|---|---|
-| Get bit i | `(x >> i) & 1` |
-| Set bit i | `x \| (1 << i)` |
-| Clear bit i | `x & ~(1 << i)` |
-| Toggle bit i | `x ^ (1 << i)` |
-| Lowest set bit | `x & -x` |
-| Clear lowest set bit | `x & (x - 1)` |
-| Is power of two | `x > 0 && (x & (x - 1)) == 0` |
-| Count set bits | `Integer.bitCount(x)` |
-| All bits below i | `(1 << i) - 1` |
+| Goal                 | Expression                    |
+| -------------------- | ----------------------------- |
+| Get bit i            | `(x >> i) & 1`                |
+| Set bit i            | `x \| (1 << i)`               |
+| Clear bit i          | `x & ~(1 << i)`               |
+| Toggle bit i         | `x ^ (1 << i)`                |
+| Lowest set bit       | `x & -x`                      |
+| Clear lowest set bit | `x & (x - 1)`                 |
+| Is power of two      | `x > 0 && (x & (x - 1)) == 0` |
+| Count set bits       | `Integer.bitCount(x)`         |
+| All bits below i     | `(1 << i) - 1`                |
 
 ## XOR — The Four Properties
 
