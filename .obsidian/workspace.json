@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f46a549787e1c60",
+        "id": "e0d19960237abec1",
         "type": "tabs",
         "children": [
           {
-            "id": "bad15511c41ad9f4",
+            "id": "d8db9e8aab773991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
+                "file": "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search Templates"
+              "title": "Fenwick Tree"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
+                "file": "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,13 +154,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "bad15511c41ad9f4",
+  "active": "d8db9e8aab773991",
   "lastOpenFiles": [
+    "Mahir's Notes/01 DSA/Problem Lists/Index.md",
+    "Mahir's Notes/01 DSA/Math and Misc/Index.md",
+    "Mahir's Notes/01 DSA/Linked List/Linked List Reversal.md",
+    "Mahir's Notes/01 DSA/Linked List/Fast and Slow Pointers.md",
+    "Mahir's Notes/01 DSA/Greedy and Intervals/Intervals.md",
+    "Mahir's Notes/01 DSA/Greedy and Intervals/Greedy Algorithms.md",
+    "Mahir's Notes/01 DSA/Graphs/Graph Algorithm Selection.md",
+    "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
     "Mahir's Notes/01 DSA/Bit Manipulation/Bit Manipulation.md",
     "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
     "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
     "Mahir's Notes/01 DSA/Foundations/Pattern Confusion Matrix.md",
-    "Mahir's Notes/01 DSA/Binary Search/Binary Search Templates.md",
     "Mahir's Notes/01 DSA/Binary Search/Binary Search on Answer.md",
     "Mahir's Notes/01 DSA/Backtracking/Backtracking.md",
     "Mahir's Notes/01 DSA/Arrays and Strings/LRU Cache.md",
@@ -175,14 +182,7 @@
     "Mahir's Notes/02 Java/Language Core/Strings and Text.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Visitor.md",
     "Mahir's Notes/02 Java/JVM and Memory/JIT and Escape Analysis.md",
-    "Mahir's Notes/02 Java/Language Core/Types, Primitives and Autoboxing.md",
     "Mahir's Notes/02 Java/000 Doubts",
-    "Mahir's Notes/02 Java/Untitled.md",
-    "Mahir's Notes/02 Java/Language Core/Index.md",
-    "Mahir's Notes/02 Java/Language Core/Types Primitives and Autoboxing.md",
-    "Mahir's Notes/02 Java/Language Core/Types%2C Primitives and Autoboxing.md",
-    "Mahir's Notes/02 Java/00 Learning Path/Index.md",
-    "Mahir's Notes/11 Networking/Fundamentals/Networking Essentials.md",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
     "Mahir's Notes/02 Java/Generics",
