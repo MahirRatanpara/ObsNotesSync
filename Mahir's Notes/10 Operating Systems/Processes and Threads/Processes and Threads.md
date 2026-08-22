@@ -113,6 +113,7 @@ A normal file-to-socket send copies data four times: disk → kernel buffer → 
 - [Executors and Thread Pools](Executors%20and%20Thread%20Pools.md)
 - [Memory Management](Memory%20Management.md)
 - [Kafka Deep Dive](Kafka%20Deep%20Dive.md)
+- [Preemption, Blocking and Thread Migration](../Scheduling/Preemption%2C%20Blocking%20and%20Thread%20Migration.md) — the mechanism behind context switching: timer-interrupt preemption vs I/O blocking, and why threads migrate between cores
 
 ## Revision Summary
 

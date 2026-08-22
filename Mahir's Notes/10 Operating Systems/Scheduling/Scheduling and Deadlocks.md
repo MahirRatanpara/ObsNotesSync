@@ -116,6 +116,7 @@ Databases build a **wait-for graph** and detect cycles, then abort a victim tran
 - [Concurrency in LLD](Concurrency%20in%20LLD.md)
 - [Processes and Threads](Processes%20and%20Threads.md)
 - [Kubernetes Core Concepts](Kubernetes%20Core%20Concepts.md)
+- [Preemption, Blocking and Thread Migration](Preemption%2C%20Blocking%20and%20Thread%20Migration.md) — the mechanism beneath "preemptive vs cooperative": timer interrupts, blocking, and CPU affinity
 
 ## Revision Summary
 

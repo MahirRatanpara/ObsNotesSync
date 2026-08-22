@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**211 notes.**
+**212 notes.**
 
 ## Sections
 
@@ -18,7 +18,7 @@
 | [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 6 | Written |
 | [08 Microservices](08%20Microservices/Index.md) | 7 | Written |
 | [09 Distributed Systems](09%20Distributed%20Systems/Index.md) | 8 | Written |
-| [10 Operating Systems](10%20Operating%20Systems/Index.md) | 3 | Written |
+| [10 Operating Systems](10%20Operating%20Systems/Index.md) | 4 | Written |
 | [11 Networking](11%20Networking/Index.md) | 2 | Written |
 | [12 Cloud](12%20Cloud/Index.md) | 0 | **Planned** |
 | [13 Kubernetes](13%20Kubernetes/Index.md) | 1 | Written |
@@ -269,6 +269,7 @@
 - *Memory* — [Memory Management](10%20Operating%20Systems/Memory/Memory%20Management.md)
 - *Processes and Threads* — [Processes and Threads](10%20Operating%20Systems/Processes%20and%20Threads/Processes%20and%20Threads.md)
 - *Scheduling* — [Scheduling and Deadlocks](10%20Operating%20Systems/Scheduling/Scheduling%20and%20Deadlocks.md)
+- *Scheduling* — [Preemption, Blocking and Thread Migration](10%20Operating%20Systems/Scheduling/Preemption%2C%20Blocking%20and%20Thread%20Migration.md)
 
 ### 11 Networking
 

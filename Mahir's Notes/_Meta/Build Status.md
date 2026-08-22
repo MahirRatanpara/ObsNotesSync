@@ -2,7 +2,7 @@
 
 ## Summary
 
-- **211 notes**
+- **212 notes**
 - **Every link resolves** — 0 links point to a non-existent file
 - Cloud (12) and Miscellaneous (16) skipped by request
 
@@ -22,7 +22,7 @@
 | **07 Messaging and Kafka** | 6 | **Complete** |
 | **08 Microservices** | 7 | **Complete** |
 | **09 Distributed Systems** | 8 | **Complete** |
-| 10 Operating Systems | 3 | Processes, memory, scheduling |
+| 10 Operating Systems | 4 | Processes, memory, scheduling, preemption/migration mechanics |
 | 11 Networking | 2 | Essentials, HTTP/TLS |
 | 12 Cloud | — | **Skipped by request** |
 | 13 Kubernetes | 1 | Core concepts |
