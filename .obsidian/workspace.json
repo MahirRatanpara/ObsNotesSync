@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
+                "file": "Mahir's Notes/10 Operating Systems/Scheduling/Scheduling and Deadlocks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fenwick Tree"
+              "title": "Scheduling and Deadlocks"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
+                "file": "Mahir's Notes/10 Operating Systems/Scheduling/Scheduling and Deadlocks.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,13 @@
   },
   "active": "d8db9e8aab773991",
   "lastOpenFiles": [
+    "Mahir's Notes/10 Operating Systems/Processes and Threads/Index.md",
+    "Mahir's Notes/10 Operating Systems/Index.md",
+    "Mahir's Notes/10 Operating Systems/Processes and Threads/Processes and Threads.md",
+    "Mahir's Notes/07 Messaging and Kafka/Kafka/Kafka Deep Dive.md",
+    "Mahir's Notes/02 Java/Concurrency/Threads and Lifecycle.md",
     "Mahir's Notes/10 Operating Systems/Scheduling/Preemption, Blocking and Thread Migration.md",
+    "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
     "Mahir's Notes/01 DSA/Problem Lists/Index.md",
     "Mahir's Notes/01 DSA/Math and Misc/Index.md",
     "Mahir's Notes/01 DSA/Linked List/Linked List Reversal.md",
@@ -176,12 +182,6 @@
     "Mahir's Notes/01 DSA/Arrays and Strings/Index.md",
     "Mahir's Notes/08 Microservices/API Gateway.md",
     "Mahir's Notes/08 Microservices/Service Mesh.md",
-    "Mahir's Notes/08 Microservices/Index.md",
-    "Mahir's Notes/Master Index.md",
-    "Mahir's Notes/02 Java/Language Core/Pattern Matching and Control Flow.md",
-    "Mahir's Notes/02 Java/IO and Serialization/Java IO and NIO.md",
-    "Mahir's Notes/02 Java/Language Core/Strings and Text.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Visitor.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
