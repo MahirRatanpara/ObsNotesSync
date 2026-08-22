@@ -144,6 +144,7 @@ Before quoting a number, ask whether it's plausible:
 - [Scaling Reads](Scaling%20Reads.md)
 - [Scaling Writes](Scaling%20Writes.md)
 - [Caching](Caching.md)
+- [Load Testing, Concurrency and Little's Law](Load%20Testing%2C%20Concurrency%20and%20Little%27s%20Law.md) — measuring capacity empirically instead of estimating it
 
 ## Revision Summary
 

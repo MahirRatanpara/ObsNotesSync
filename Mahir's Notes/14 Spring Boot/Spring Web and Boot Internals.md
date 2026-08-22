@@ -179,6 +179,7 @@ public record PaymentProps(@NotBlank String apiUrl, @NotNull Duration timeout) {
 - [Spring Transactions and AOP](Spring%20Transactions%20and%20AOP.md)
 - [API Design](API%20Design.md)
 - [Kubernetes Core Concepts](Kubernetes%20Core%20Concepts.md)
+- [Load Testing, Concurrency and Little's Law](../04%20High%20Level%20Design/Interview%20Framework/Load%20Testing%2C%20Concurrency%20and%20Little%27s%20Law.md) — how Tomcat's thread-per-request pool caps concurrent execution, seen from a load-testing client
 
 ## Revision Summary
 

@@ -166,6 +166,7 @@ browser cache → OS cache → resolver → root → TLD (.com) → authoritativ
 - [CDN](CDN.md)
 - [API Gateway](API%20Gateway.md)
 - [Real-Time Updates](Real%20Time%20Updates.md)
+- [Load Testing, Concurrency and Little's Law](../../04%20High%20Level%20Design/Interview%20Framework/Load%20Testing%2C%20Concurrency%20and%20Little%27s%20Law.md) — why a port isn't a single-request queue, and how connection count vs pipelining affects a load test
 
 ## Revision Summary
 

@@ -2,7 +2,7 @@
 
 > Central map of the revision knowledge base.
 
-**212 notes.**
+**213 notes.**
 
 ## Sections
 
@@ -12,7 +12,7 @@
 | [01 DSA](01%20DSA/Index.md) | 33 | Written |
 | [02 Java](02%20Java/Index.md) | 51 | Written |
 | [03 Low Level Design](03%20Low%20Level%20Design/Index.md) | 28 | Written |
-| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 31 | Written |
+| [04 High Level Design](04%20High%20Level%20Design/Index.md) | 32 | Written |
 | [05 Databases](05%20Databases/Index.md) | 13 | Written |
 | [06 Caching and Redis](06%20Caching%20and%20Redis/Index.md) | 7 | Written |
 | [07 Messaging and Kafka](07%20Messaging%20and%20Kafka/Index.md) | 6 | Written |
@@ -192,6 +192,7 @@
 - *Design Deep Dives* — [Design a Web Crawler](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20a%20Web%20Crawler.md)
 - *Design Deep Dives* — [Design an Ad Click Aggregator](04%20High%20Level%20Design/Design%20Deep%20Dives/Design%20an%20Ad%20Click%20Aggregator.md)
 - *Interview Framework* — [Back of the Envelope Estimation](04%20High%20Level%20Design/Interview%20Framework/Back%20of%20the%20Envelope%20Estimation.md)
+- *Interview Framework* — [Load Testing, Concurrency and Little's Law](04%20High%20Level%20Design/Interview%20Framework/Load%20Testing%2C%20Concurrency%20and%20Little%27s%20Law.md)
 - *Interview Framework* — [System Design Delivery Framework](04%20High%20Level%20Design/Interview%20Framework/System%20Design%20Delivery%20Framework.md)
 - *Key Technologies* — [Cassandra](04%20High%20Level%20Design/Key%20Technologies/Cassandra.md)
 - *Key Technologies* — [DynamoDB](04%20High%20Level%20Design/Key%20Technologies/DynamoDB.md)

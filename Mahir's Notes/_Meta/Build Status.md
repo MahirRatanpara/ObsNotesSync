@@ -2,7 +2,7 @@
 
 ## Summary
 
-- **212 notes**
+- **213 notes**
 - **Every link resolves** — 0 links point to a non-existent file
 - Cloud (12) and Miscellaneous (16) skipped by request
 
@@ -16,7 +16,7 @@
 | **01 DSA** | 33 | **Complete** |
 | **02 Java** | **51** | **Complete — zero to mastery** |
 | **03 Low Level Design** | 28 | **Complete** — all 23 GoF patterns |
-| **04 High Level Design** | 31 | **Complete** — 7 worked designs |
+| **04 High Level Design** | 32 | **Complete** — 7 worked designs |
 | **05 Databases** | 13 | **Complete** — full selection procedure |
 | **06 Caching and Redis** | 7 | **Complete** |
 | **07 Messaging and Kafka** | 6 | **Complete** |
