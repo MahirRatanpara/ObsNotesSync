@@ -344,12 +344,12 @@ If your 4 days end before Sept 3, do **not** add new material in the gap. Do thi
 
 # Progress tracker
 
-|Day|LLD|HLD|DSA|Java/Conc|Fundamentals|Project/Behavioral|
-|---|---|---|---|---|---|---|
-|1|4 problems|—|6 timed|—|—|—|
-|2|—|5 problems|—|—|—|—|
-|3|2 problems|—|10 problems|Full pass|Full pass|—|
-|4|1 mock|1 mock|1 mock round|—|—|Full pass|
+| Day | LLD        | HLD        | DSA          | Java/Conc | Fundamentals | Project/Behavioral |
+| --- | ---------- | ---------- | ------------ | --------- | ------------ | ------------------ |
+| 1   | 4 problems | —          | 6 timed      | —         | —            | —                  |
+| 2   | —          | 5 problems | —            | —         | —            | —                  |
+| 3   | 2 problems | —          | 10 problems  | Full pass | Full pass    | —                  |
+| 4   | 1 mock     | 1 mock     | 1 mock round | —         | —            | Full pass          |
 
 **First-attempt-correct rate (DSA):**
 
