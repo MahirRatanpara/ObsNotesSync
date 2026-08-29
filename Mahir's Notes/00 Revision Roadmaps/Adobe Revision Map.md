@@ -56,7 +56,8 @@ Shift the whole window if you're not a morning person, but keep the block length
 Do not read pattern articles. Open a blank Java file and implement each one, then write two lines on when you'd _reject_ it.
 
 - [x] SOLID — write one concrete violation and its fix for each of the five (from real code you've written, not textbook examples)
-- [ ] Composition vs inheritance — write the same feature both ways, argue for one
+- [x] Composition vs inheritance — write the same feature both ways, argue for one
+	- [ ] Need One more Practice and revision, Tricky topic
 - [ ] Interface vs abstract class — when each, with an example
 - [ ] **Strategy** — implement, then answer: why this instead of subclassing?
 - [ ] **Factory + Abstract Factory** — implement, note the difference in one sentence
