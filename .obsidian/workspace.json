@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+                "file": "Mahir's Notes/01 DSA/Bit Manipulation/Subset XOR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adobe Revision Map"
+              "title": "Subset XOR"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+                "file": "Mahir's Notes/01 DSA/Bit Manipulation/Subset XOR.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,8 +156,10 @@
   },
   "active": "d8db9e8aab773991",
   "lastOpenFiles": [
-    "Mahir's Notes/10 Operating Systems/Scheduling/Scheduling and Deadlocks.md",
+    "Mahir's Notes/01 DSA/Bit Manipulation/Index.md",
+    "Mahir's Notes/01 DSA/Bit Manipulation/Subset XOR.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+    "Mahir's Notes/10 Operating Systems/Scheduling/Scheduling and Deadlocks.md",
     "Mahir's Notes/04 High Level Design/Interview Framework/Load Testing, Concurrency and Little's Law.md",
     "Mahir's Notes/10 Operating Systems/Processes and Threads/Index.md",
     "Mahir's Notes/10 Operating Systems/Index.md",
@@ -180,8 +182,6 @@
     "Mahir's Notes/01 DSA/Foundations/Pattern Confusion Matrix.md",
     "Mahir's Notes/01 DSA/Binary Search/Binary Search on Answer.md",
     "Mahir's Notes/01 DSA/Backtracking/Backtracking.md",
-    "Mahir's Notes/01 DSA/Arrays and Strings/LRU Cache.md",
-    "Mahir's Notes/01 DSA/Arrays and Strings/Prefix Sum.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
