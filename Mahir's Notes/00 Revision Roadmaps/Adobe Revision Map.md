@@ -20,12 +20,12 @@
 
 ## Rules of engagement (apply to every block)
 
-- [ ] **Every block produces an artifact.** Code that compiles, a diagram you drew, or a written one-pager. Reading without output does not count as done.
-- [ ] **Talk out loud.** Every problem, every design. If you can't narrate it, you can't interview it.
-- [ ] **No autocomplete, no AI, no IDE hints** during timed work. Adobe's posting bars AI tools in live interviews — train the way you'll perform.
-- [ ] **Timer on every problem.** Overrunning is data. Note it.
-- [ ] **After every wrong/slow attempt, write one line:** what specifically went wrong. Review that list on Day 4.
-- [ ] **Never stop at the first working solution.** Ask "can this be better?" before the interviewer does. This is the single most reported Adobe rejection reason.
+- [x] **Every block produces an artifact.** Code that compiles, a diagram you drew, or a written one-pager. Reading without output does not count as done.
+- [x] **Talk out loud.** Every problem, every design. If you can't narrate it, you can't interview it.
+- [x] **No autocomplete, no AI, no IDE hints** during timed work. Adobe's posting bars AI tools in live interviews — train the way you'll perform.
+- [x] **Timer on every problem.** Overrunning is data. Note it.
+- [x] **After every wrong/slow attempt, write one line:** what specifically went wrong. Review that list on Day 4.
+- [x] **Never stop at the first working solution.** Ask "can this be better?" before the interviewer does. This is the single most reported Adobe rejection reason.
 
 ---
 
