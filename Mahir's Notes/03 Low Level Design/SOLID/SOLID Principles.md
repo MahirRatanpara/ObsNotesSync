@@ -120,13 +120,13 @@ SOLID principles pull against each other, and the honest answer matters in senio
 
 ## Quick Diagnosis
 
-| Smell | Violated | Fix |
-|---|---|---|
-| Class name contains "And" or "Manager" | SRP | Split |
-| `if/else` on type, growing | OCP | Polymorphism / Strategy |
-| Override throws UnsupportedOperation | LSP | Rework the hierarchy |
-| Implementers stub out methods | ISP | Split the interface |
-| `new` on a concrete class inside business logic | DIP | Inject |
+| Smell                                           | Violated | Fix                     |
+| ----------------------------------------------- | -------- | ----------------------- |
+| Class name contains "And" or "Manager"          | SRP      | Split                   |
+| `if/else` on type, growing                      | OCP      | Polymorphism / Strategy |
+| Override throws UnsupportedOperation            | LSP      | Rework the hierarchy    |
+| Implementers stub out methods                   | ISP      | Split the interface     |
+| `new` on a concrete class inside business logic | DIP      | Inject                  |
 
 ## Related Topics
 
