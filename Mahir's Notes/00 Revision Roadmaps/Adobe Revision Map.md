@@ -55,7 +55,7 @@ Shift the whole window if you're not a morning person, but keep the block length
 
 Do not read pattern articles. Open a blank Java file and implement each one, then write two lines on when you'd _reject_ it.
 
-- [ ] SOLID — write one concrete violation and its fix for each of the five (from real code you've written, not textbook examples)
+- [x] SOLID — write one concrete violation and its fix for each of the five (from real code you've written, not textbook examples)
 - [ ] Composition vs inheritance — write the same feature both ways, argue for one
 - [ ] Interface vs abstract class — when each, with an example
 - [ ] **Strategy** — implement, then answer: why this instead of subclassing?
@@ -103,10 +103,10 @@ Method for every LLD problem, timed:
 
 Use **LeetCode Premium → Company tag: Adobe → sort by frequency → last 6 months → Medium.**
 
-- [ ] 6 problems, **25-minute hard cap each**
-- [ ] Rule: state brute force + complexity out loud BEFORE writing any code
-- [ ] Rule: after the optimal solution works, spend 3 minutes on "can space be reduced?"
-- [ ] Log for each: time taken, whether it ran correctly first attempt, what broke
+- [x] 6 problems, **25-minute hard cap each**
+- [x] Rule: state brute force + complexity out loud BEFORE writing any code
+- [x] Rule: after the optimal solution works, spend 3 minutes on "can space be reduced?"
+- [x] Log for each: time taken, whether it ran correctly first attempt, what broke
 
 **Adobe-specific:** interviewers reportedly expect code that works on the first run. Track your first-attempt-correct rate today. If it's below 4/6, that's your real weakness and you drill it again Day 3 Block E.
 

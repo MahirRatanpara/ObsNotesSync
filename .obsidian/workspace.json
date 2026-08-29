@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba8016a6ffc808a",
+        "id": "7dbe0fa0c5550d4d",
         "type": "tabs",
         "children": [
           {
-            "id": "81e2bc8ba7d172df",
+            "id": "5d83480bf8271f6f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/03 Low Level Design/SOLID/SOLID Principles.md",
+                "file": "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "SOLID Principles"
+              "title": "Adobe Revision Map"
             }
           }
         ]
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mahir's Notes/03 Low Level Design/SOLID/SOLID Principles.md",
+                "file": "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,11 +156,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "81e2bc8ba7d172df",
+  "active": "5d83480bf8271f6f",
   "lastOpenFiles": [
-    "Mahir's Notes/03 Low Level Design/In A Hurry/LLD Delivery Framework.md",
-    "Mahir's Notes/03 Low Level Design/SOLID/SOLID Principles.md",
+    "Mahir's Notes/03 Low Level Design/Concurrency in LLD/Concurrency in LLD.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+    "Mahir's Notes/03 Low Level Design/SOLID/SOLID Principles.md",
+    "Mahir's Notes/03 Low Level Design/In A Hurry/LLD Delivery Framework.md",
     "Mahir's Notes/01 DSA/Bit Manipulation/Subset XOR.md",
     "Mahir's Notes/01 DSA/Bit Manipulation/Index.md",
     "Mahir's Notes/10 Operating Systems/Scheduling/Scheduling and Deadlocks.md",
@@ -181,7 +184,6 @@
     "Mahir's Notes/01 DSA/Bit Manipulation/Bit Manipulation.md",
     "Mahir's Notes/02 Java/000 Doubts/Doubts.md",
     "Mahir's Notes/02 Java/00 Learning Path/Java Topic Map and Revision Plan.md",
-    "Mahir's Notes/01 DSA/Foundations/Pattern Confusion Matrix.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
