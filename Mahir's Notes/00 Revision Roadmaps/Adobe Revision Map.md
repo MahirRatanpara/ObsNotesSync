@@ -59,7 +59,7 @@ Do not read pattern articles. Open a blank Java file and implement each one, the
 - [x] Composition vs inheritance — write the same feature both ways, argue for one
 	- [ ] Need One more Practice and revision, Tricky topic
 - [x] Interface vs abstract class — when each, with an example
-- [ ] **Strategy** — implement, then answer: why this instead of subclassing?
+- [x] **Strategy** — implement, then answer: why this instead of subclassing?
 - [ ] **Factory + Abstract Factory** — implement, note the difference in one sentence
 - [ ] **Observer** — implement, note the failure mode (listener leak, ordering)
 - [ ] **Builder** — implement with validation in `build()`

@@ -51,6 +51,7 @@ abstract class Dialog {
         b.render();
     }
 }
+
 class WindowsDialog extends Dialog { Button createButton() { return new WindowsButton(); } }
 ```
 The base class defines *when* creation happens; subclasses define *what* is created. Notice this is Factory Method combined with Template Method — a common pairing.
@@ -78,11 +79,11 @@ Type-safe, exhaustive, and no registry to keep in sync. Worth suggesting.
 
 ## Factory Method vs Abstract Factory
 
-| | Factory Method | Abstract Factory |
-|---|---|---|
-| Produces | **One** product | A **family** of related products |
-| Mechanism | Inheritance (subclass overrides) | Composition (inject a factory) |
-| Example | `createButton()` | `createButton()` + `createCheckbox()` + `createMenu()`, all Windows or all Mac |
+|           | Factory Method                   | Abstract Factory                                                               |
+| --------- | -------------------------------- | ------------------------------------------------------------------------------ |
+| Produces  | **One** product                  | A **family** of related products                                               |
+| Mechanism | Inheritance (subclass overrides) | Composition (inject a factory)                                                 |
+| Example   | `createButton()`                 | `createButton()` + `createCheckbox()` + `createMenu()`, all Windows or all Mac |
 
 ## In The JDK
 
