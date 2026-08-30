@@ -49,12 +49,12 @@ The multi-cloud example is the strongest one to reach for in an interview — pr
 
 ## Factory Method vs Abstract Factory
 
-| | Factory Method | Abstract Factory |
-|---|---|---|
-| Scope | One product | **A family** |
-| Mechanism | Inheritance — subclass overrides | **Composition — inject the factory** |
-| Adding a product **type** | Easy | **Hard — every factory must implement it** |
-| Adding a product **family** | Easy | Easy — one new factory class |
+|                             | Factory Method                   | Abstract Factory                           |
+| --------------------------- | -------------------------------- | ------------------------------------------ |
+| Scope                       | One product                      | **A family**                               |
+| Mechanism                   | Inheritance — subclass overrides | **Composition — inject the factory**       |
+| Adding a product **type**   | Easy                             | **Hard — every factory must implement it** |
+| Adding a product **family** | Easy                             | Easy — one new factory class               |
 
 **The asymmetry is the key trade-off and the classic follow-up question.** Abstract Factory makes new *families* trivial and new *product types* expensive, because every existing factory must be updated. If your product types churn more than your families, it's the wrong pattern.
 
