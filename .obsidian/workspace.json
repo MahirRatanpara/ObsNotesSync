@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
+                "file": "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command"
+              "title": "Observer"
             }
           },
           {
@@ -187,10 +187,10 @@
   },
   "active": "e852d76bb34062a4",
   "lastOpenFiles": [
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Decorator.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Memento.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
     "Mahir's Notes/08 Microservices/Circuit Breaker.md",
