@@ -61,12 +61,12 @@ Joshua Bloch's recommendation. The JVM guarantees a single instance even under s
 
 ## The Attacks
 
-| Attack | Defence |
-|---|---|
+| Attack                                                            | Defence                                                                   |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Reflection** — `setAccessible(true)` on the private constructor | Throw from the constructor if the instance already exists; or use an enum |
-| **Serialisation** — deserialising creates a new instance | Implement `readResolve()` returning the singleton; or use an enum |
-| **Cloning** | Override `clone()` to throw |
-| **Multiple classloaders** | Each loader gets its own instance — unavoidable |
+| **Serialisation** — deserialising creates a new instance          | Implement `readResolve()` returning the singleton; or use an enum         |
+| **Cloning**                                                       | Override `clone()` to throw                                               |
+| **Multiple classloaders**                                         | Each loader gets its own instance — unavoidable                           |
 
 ## Why It Is Criticised
 

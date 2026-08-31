@@ -62,7 +62,7 @@ Do not read pattern articles. Open a blank Java file and implement each one, the
 - [x] **Strategy** — implement, then answer: why this instead of subclassing?
 - [x] **Factory + Abstract Factory** — implement, note the difference in one sentence
 - [x] **Observer** — implement, note the failure mode (listener leak, ordering)
-- [ ] **Builder** — implement with validation in `build()`
+- [x] **Builder** — implement with validation in `build()`
 - [ ] **Singleton, thread-safe** — implement three ways (eager, double-checked with `volatile`, enum). Be able to explain why DCL needs `volatile`.
 - [ ] **Decorator** — implement
 - [ ] **State** — implement (this shows up in vending machine / elevator / order flows)
