@@ -63,10 +63,10 @@ Do not read pattern articles. Open a blank Java file and implement each one, the
 - [x] **Factory + Abstract Factory** — implement, note the difference in one sentence
 - [x] **Observer** — implement, note the failure mode (listener leak, ordering)
 - [x] **Builder** — implement with validation in `build()`
-- [ ] **Singleton, thread-safe** — implement three ways (eager, double-checked with `volatile`, enum). Be able to explain why DCL needs `volatile`.
-- [ ] **Decorator** — implement
-- [ ] **State** — implement (this shows up in vending machine / elevator / order flows)
-- [ ] **Command** — implement (shows up in undo, job scheduling)
+- [x] **Singleton, thread-safe** — implement three ways (eager, double-checked with `volatile`, enum). Be able to explain why DCL needs `volatile`.
+- [x] **Decorator** — implement
+- [x] **State** — implement (this shows up in vending machine / elevator / order flows)
+- [x] **Command** — implement (shows up in undo, job scheduling)
 
 **Checkpoint:** close everything, write the class skeleton for Strategy and Observer from memory.
 

@@ -24,35 +24,20 @@
             }
           },
           {
-            "id": "4a511f8890df1891",
+            "id": "e852d76bb34062a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
+                "file": "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Builder"
-            }
-          },
-          {
-            "id": "a7ddcf99f17136c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Singleton.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Singleton"
+              "title": "Command"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +170,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7ddcf99f17136c6",
+  "active": "5d83480bf8271f6f",
   "lastOpenFiles": [
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Memento.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Decorator.md",
+    "Mahir's Notes/08 Microservices/Circuit Breaker.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Index.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Flyweight.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Bridge.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Composite.md",
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Singleton.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Factory Method.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
     "Mahir's Notes/07 Messaging and Kafka/Kafka/Kafka Deep Dive.md",
@@ -203,16 +198,6 @@
     "Mahir's Notes/04 High Level Design/Interview Framework/Load Testing, Concurrency and Little's Law.md",
     "Mahir's Notes/10 Operating Systems/Processes and Threads/Index.md",
     "Mahir's Notes/10 Operating Systems/Index.md",
-    "Mahir's Notes/10 Operating Systems/Processes and Threads/Processes and Threads.md",
-    "Mahir's Notes/02 Java/Concurrency/Threads and Lifecycle.md",
-    "Mahir's Notes/10 Operating Systems/Scheduling/Preemption, Blocking and Thread Migration.md",
-    "Mahir's Notes/01 DSA/Range Queries/Fenwick Tree.md",
-    "Mahir's Notes/01 DSA/Problem Lists/Index.md",
-    "Mahir's Notes/01 DSA/Math and Misc/Index.md",
-    "Mahir's Notes/01 DSA/Linked List/Linked List Reversal.md",
-    "Mahir's Notes/01 DSA/Linked List/Fast and Slow Pointers.md",
-    "Mahir's Notes/01 DSA/Greedy and Intervals/Intervals.md",
-    "Mahir's Notes/01 DSA/Greedy and Intervals/Greedy Algorithms.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
