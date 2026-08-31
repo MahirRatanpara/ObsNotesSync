@@ -50,9 +50,21 @@
               "icon": "lucide-file",
               "title": "Observer"
             }
+          },
+          {
+            "id": "372ee95e83bb63b7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,7 +197,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "7ae8bd1298430d53",
+  "active": "372ee95e83bb63b7",
   "lastOpenFiles": [
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Factory Method.md",
