@@ -79,8 +79,7 @@
               "title": "Singleton"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,8 +212,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "6354e59d056667fe",
+  "active": "5d83480bf8271f6f",
   "lastOpenFiles": [
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Singleton.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
@@ -227,7 +227,6 @@
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Flyweight.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Bridge.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Composite.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Singleton.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Factory Method.md",
     "Mahir's Notes/07 Messaging and Kafka/Kafka/Kafka Deep Dive.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Abstract Factory.md",
