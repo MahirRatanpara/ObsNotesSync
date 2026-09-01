@@ -128,8 +128,8 @@ Use **LeetCode Premium → Company tag: Adobe → sort by frequency → last 6 m
 
 Use **HelloInterview → Core Concepts** and their delivery framework.
 
-- [ ] Internalize the framework: Requirements (functional + non-functional) → Core Entities → API → High-Level Design → Deep Dives
-- [ ] Write it on paper 3 times until it's automatic under stress
+- [x] Internalize the framework: Requirements (functional + non-functional) → Core Entities → API → High-Level Design → Deep Dives
+- [x] Write it on paper 3 times until it's automatic under stress
 - [ ] Core concepts pass: scaling, CAP/consistency models, partitioning, replication, caching strategies, networking basics, load balancing
 - [ ] For each concept write the **one question an interviewer would use to expose shallow knowledge**, and answer it
 
