@@ -65,8 +65,7 @@
               "title": "State"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,15 +198,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "e465c3439b5d574e",
+  "active": "5d83480bf8271f6f",
   "lastOpenFiles": [
+    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Decorator.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Memento.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
     "Mahir's Notes/08 Microservices/Circuit Breaker.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Index.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Flyweight.md",
