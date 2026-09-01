@@ -130,8 +130,8 @@ Use **HelloInterview → Core Concepts** and their delivery framework.
 
 - [x] Internalize the framework: Requirements (functional + non-functional) → Core Entities → API → High-Level Design → Deep Dives
 - [x] Write it on paper 3 times until it's automatic under stress
-- [ ] Core concepts pass: scaling, CAP/consistency models, partitioning, replication, caching strategies, networking basics, load balancing
-- [ ] For each concept write the **one question an interviewer would use to expose shallow knowledge**, and answer it
+- [x] Core concepts pass: scaling, CAP/consistency models, partitioning, replication, caching strategies, networking basics, load balancing
+- [x] For each concept write the **one question an interviewer would use to expose shallow knowledge**, and answer it
 
 **The trap to kill today:** "Kafka because it's scalable" and "Redis because it's fast." For every technology, prepare the sentence: _"I'd pick X here because of [specific property], and I'd give up [specific cost]. If [condition changed], I'd use Y instead."_
 
