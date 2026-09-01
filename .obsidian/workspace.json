@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Adobe Revision Map"
             }
+          },
+          {
+            "id": "ed4f5053a3cf59c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HLD Basic Revison"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,8 +171,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d83480bf8271f6f",
+  "active": "ed4f5053a3cf59c8",
   "lastOpenFiles": [
+    "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
+    "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
@@ -166,7 +183,6 @@
     "Mahir's Notes/05 Databases/Fundamentals/Data Modelling and Schema Design.md",
     "Mahir's Notes/05 Databases/Fundamentals/Index.md",
     "Mahir's Notes/05 Databases/Fundamentals/Choosing the Right Database.md",
-    "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Decorator.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Memento.md",
@@ -183,7 +199,6 @@
     "Mahir's Notes/03 Low Level Design/SOLID/SOLID Principles.md",
     "Mahir's Notes/03 Low Level Design/In A Hurry/LLD Delivery Framework.md",
     "Mahir's Notes/01 DSA/Bit Manipulation/Subset XOR.md",
-    "Mahir's Notes/01 DSA/Bit Manipulation/Index.md",
     "Mahir's Notes/02 Java/000 Doubts",
     "Mahir's Notes/02 Java/IO and Serialization",
     "Mahir's Notes/02 Java/Exceptions",
