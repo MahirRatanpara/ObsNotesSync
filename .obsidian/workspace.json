@@ -37,8 +37,7 @@
               "title": "HLD Basic Revison"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,10 +170,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed4f5053a3cf59c8",
+  "active": "5d83480bf8271f6f",
   "lastOpenFiles": [
-    "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
+    "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
     "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
