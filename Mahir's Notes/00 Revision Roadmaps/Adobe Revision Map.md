@@ -95,10 +95,10 @@ Method for every LLD problem, timed:
 - [ ] **Splitwise** (45 min + review)
     - [ ] Expense splitting strategies (equal/exact/percent), balance simplification
     - [ ] Answer: how do you settle debts minimally? (this turns into a small algorithm — be ready)
-- [ ] **Rate Limiter** (45 min + review)
-    - [ ] Implement token bucket AND sliding window log AND sliding window counter in Java
-    - [ ] Make it thread-safe. Explain the lock granularity you chose.
-    - [ ] Answer: how does this change when it's distributed? (bridges into Day 2 HLD)
+- [x] **Rate Limiter** (45 min + review)
+    - [x] Implement token bucket AND sliding window log AND sliding window counter in Java
+    - [x] Make it thread-safe. Explain the lock granularity you chose.
+    - [x] Answer: how does this change when it's distributed? (bridges into Day 2 HLD)
 
 ## Block D (3h) — DSA speed drill
 
@@ -113,10 +113,10 @@ Use **LeetCode Premium → Company tag: Adobe → sort by frequency → last 6 m
 
 ## Block E (2.5h) — Consolidation
 
-- [ ] Redraw the Parking Lot and Rate Limiter class diagrams from memory, no notes
-- [ ] Write a one-page "LLD interview script" — the exact sentences you'll open with, ask with, and close with
-- [ ] Review the day's error log; write the pattern you see
-- [ ] Bed by midnight
+- [x] Redraw the Parking Lot and Rate Limiter class diagrams from memory, no notes
+- [x] Write a one-page "LLD interview script" — the exact sentences you'll open with, ask with, and close with
+- [x] Review the day's error log; write the pattern you see
+- [x] Bed by midnight
 
 ---
 
@@ -139,14 +139,14 @@ Use **HelloInterview → Core Concepts** and their delivery framework.
 
 Timed 45 min each, then 30 min review against the HelloInterview writeup.
 
-- [ ] **URL Shortener / Bitly** — key generation, collision, read-heavy caching, redirect analytics
-    - [ ] Do the actual number estimation. Write QPS, storage/year, cache size.
-- [ ] **Distributed Rate Limiter** — Redis-based, sync across nodes, clock skew, failure mode when Redis is down
-    - [ ] Connect it back to yesterday's LLD version explicitly
+- [x] **URL Shortener / Bitly** — key generation, collision, read-heavy caching, redirect analytics
+    - [x] Do the actual number estimation. Write QPS, storage/year, cache size.
+- [x] **Distributed Rate Limiter** — Redis-based, sync across nodes, clock skew, failure mode when Redis is down
+    - [x] Connect it back to yesterday's LLD version explicitly
 
 ## Block C (3h) — HLD problems 3 and 4 (Adobe-flavored)
 
-- [ ] **File Storage / Dropbox** — chunking, dedup, multipart upload, metadata vs blob split, sync
+- [x] **File Storage / Dropbox** — chunking, dedup, multipart upload, metadata vs blob split, sync
 - [ ] **Document Processing Service** — this appeared in a 2025 CS1 loop
     - [ ] Upload → queue → workers → result store
     - [ ] Versioning, access control, soft vs hard delete
