@@ -24,9 +24,9 @@ AQR's engineering work is described as: ingesting and validating large financial
 
 **CREST is a regulatory stress-testing platform.** That means: large financial datasets, scenario runs, reproducible results, auditability, correctness under regulatory scrutiny, distributed compute. The vocabulary differs; the engineering problem is nearly identical.
 
-- [ ] Rewrite your CREST story in AQR's language: data ingestion → validation → versioned inputs → distributed computation → reproducible outputs → audit trail.
-- [ ] Be ready to say explicitly: _"Stress testing and backtesting are the same shape of problem — run a model over historical or hypothetical scenarios, and be able to prove later exactly what produced a given number."_
-- [ ] This is your answer to "why finance" and "why AQR" at the same time. It is specific and falsifiable, which the culture rewards.
+- [x] Rewrite your CREST story in AQR's language: data ingestion → validation → versioned inputs → distributed computation → reproducible outputs → audit trail.
+- [x] Be ready to say explicitly: _"Stress testing and backtesting are the same shape of problem — run a model over historical or hypothetical scenarios, and be able to prove later exactly what produced a given number."_
+- [x] This is your answer to "why finance" and "why AQR" at the same time. It is specific and falsifiable, which the culture rewards.
 
 ### What carries over from your Adobe fundamentals work (already done)
 
