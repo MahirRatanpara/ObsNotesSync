@@ -21,10 +21,10 @@ If you nail only this section, you can improvise most fundamentals questions.
 
 Walk it top to bottom. Tick when you can narrate the whole chain unprompted:
 
-- [ ] JVM allocates the array in the **heap**, in the **Eden** space of the young generation
-- [ ] A reference to it sits in the **thread's stack frame** (a local variable)
-- [ ] The allocation is a pointer bump in a **TLAB** (thread-local allocation buffer) — fast, no lock
-- [ ] Reading `arr[500]` produces a **virtual address**
+- [x] JVM allocates the array in the **heap**, in the **Eden** space of the young generation
+- [x] A reference to it sits in the **thread's stack frame** (a local variable)
+- [x] The allocation is a pointer bump in a **TLAB** (thread-local allocation buffer) — fast, no lock
+- [x] Reading `arr[500]` produces a **virtual address**
 - [ ] The CPU checks its **caches**: L1 → L2 → L3
 - [ ] On a miss, the **MMU** translates virtual → physical address
 - [ ] It checks the **TLB** (cache of recent translations) first
@@ -37,7 +37,7 @@ Walk it top to bottom. Tick when you can narrate the whole chain unprompted:
 
 ## Trace 2 — "What happens when you type a URL and press enter?"
 
-- [ ] Browser cache → OS cache → **DNS** resolver → root → TLD → authoritative nameserver → IP address
+- [x] Browser cache → OS cache → **DNS** resolver → root → TLD → authoritative nameserver → IP address
 - [ ] **ARP** resolves the next-hop MAC address on the local network
 - [ ] **TCP three-way handshake** (SYN → SYN-ACK → ACK) to port 443
 - [ ] **TLS handshake** — certificate validation, key agreement, then symmetric encryption
