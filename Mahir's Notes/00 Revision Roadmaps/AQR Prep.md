@@ -69,8 +69,8 @@ AQR's engineering work is described as: ingesting and validating large financial
 ### A. Lock your language (Day 1, 30 min)
 
 - [x] **Choose Java.** It's where you write correct code fastest and it matches the likely team. Do not switch to Python for this loop.
-- [ ] Refresh the Java specifics AQR reports touch: `equals`/`hashCode`, `Comparable` vs `Comparator`, collection complexities, `PriorityQueue`, generics, immutability, `synchronized` vs `volatile` vs locks vs atomics, `ConcurrentHashMap`, `ExecutorService`/`Future`, interface vs abstract class.
-- [ ] You already covered JVM/GC internals Saturday — review notes only, don't re-read.
+- [x] Refresh the Java specifics AQR reports touch: `equals`/`hashCode`, `Comparable` vs `Comparator`, collection complexities, `PriorityQueue`, generics, immutability, `synchronized` vs `volatile` vs locks vs atomics, `ConcurrentHashMap`, `ExecutorService`/`Future`, interface vs abstract class.
+- [x] You already covered JVM/GC internals Saturday — review notes only, don't re-read.
 
 ### B. DSA — timed practice (the bulk of the work)
 
