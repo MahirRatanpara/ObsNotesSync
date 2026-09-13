@@ -8,22 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed4f5053a3cf59c8",
+            "id": "4c92c697bc51f033",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
+                "file": "Mahir's Notes/00 Revision Roadmaps/Adobe Director Round Prep.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "HLD Basic Revison"
+              "title": "Adobe Director Round Prep"
             }
           },
           {
-            "id": "4c92c697bc51f033",
+            "id": "ed28c918cd70ae88",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -31,12 +34,12 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "AQR Prep"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,8 +174,8 @@
   },
   "active": "4c92c697bc51f033",
   "lastOpenFiles": [
-    "Mahir's Notes/00 Revision Roadmaps/Adobe Director Round Prep.md",
     "Mahir's Notes/00 Revision Roadmaps/AQR Prep.md",
+    "Mahir's Notes/00 Revision Roadmaps/Adobe Director Round Prep.md",
     "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
     "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
     "Mahir's Notes/00 Revision Roadmaps/7 Day Revision Plan.md",
