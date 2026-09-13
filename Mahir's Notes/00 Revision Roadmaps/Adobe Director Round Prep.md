@@ -38,16 +38,16 @@ Walk it top to bottom. Tick when you can narrate the whole chain unprompted:
 ## Trace 2 — "What happens when you type a URL and press enter?"
 
 - [x] Browser cache → OS cache → **DNS** resolver → root → TLD → authoritative nameserver → IP address
-- [ ] **ARP** resolves the next-hop MAC address on the local network
-- [ ] **TCP three-way handshake** (SYN → SYN-ACK → ACK) to port 443
-- [ ] **TLS handshake** — certificate validation, key agreement, then symmetric encryption
-- [ ] HTTP request written to a **socket** → kernel **socket buffer**
-- [ ] Data becomes **TCP segments** → **IP packets** → **Ethernet frames** → NIC → wire
-- [ ] Through switches (MAC), routers (IP), possibly NAT, a CDN edge, a load balancer
-- [ ] Server accepts from the **backlog queue**, reads the request, application handles it
-- [ ] Response travels back; TCP reassembles in order, retransmits losses
-- [ ] Browser parses HTML, builds the DOM, fetches CSS/JS/images, renders
-- [ ] Connection is reused (**keep-alive**) or closed (FIN/ACK, **TIME_WAIT**)
+- [x] **ARP** resolves the next-hop MAC address on the local network
+- [x] **TCP three-way handshake** (SYN → SYN-ACK → ACK) to port 443
+- [x] **TLS handshake** — certificate validation, key agreement, then symmetric encryption
+- [x] HTTP request written to a **socket** → kernel **socket buffer**
+- [x] Data becomes **TCP segments** → **IP packets** → **Ethernet frames** → NIC → wire
+- [x] Through switches (MAC), routers (IP), possibly NAT, a CDN edge, a load balancer
+- [x] Server accepts from the **backlog queue**, reads the request, application handles it
+- [x] Response travels back; TCP reassembles in order, retransmits losses
+- [x] Browser parses HTML, builds the DOM, fetches CSS/JS/images, renders
+- [x] Connection is reused (**keep-alive**) or closed (FIN/ACK, **TIME_WAIT**)
 
 ## Trace 3 — "What happens when you run `UPDATE accounts SET balance = 100 WHERE id = 42;`?"
 
