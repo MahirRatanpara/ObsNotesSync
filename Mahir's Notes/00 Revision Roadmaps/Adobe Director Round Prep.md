@@ -98,10 +98,10 @@ Write each, rehearse aloud, time it.
 
 ### Business facts (know 5–6 cold)
 
-- [ ] FY2025: record revenue **$23.77B**, up **11% YoY**, non-GAAP EPS **$20.94**.
-- [ ] FY2026 guidance: **$25.9–26.1B** revenue, EPS **$23.30–23.50**.
-- [ ] **AI-influenced ARR crossed $5B** — more than a third of total ARR.
-- [ ] Stock down three years running (−25% 2024, −21% 2025, −18% in 2026) on "will AI disrupt SaaS pricing" fears.
+- [x] FY2025: record revenue **$23.77B**, up **11% YoY**, non-GAAP EPS **$20.94**.
+- [x] FY2026 guidance: **$25.9–26.1B** revenue, EPS **$23.30–23.50**.
+- [x] **AI-influenced ARR crossed $5B** — more than a third of total ARR.
+- [x] Stock down three years running (−25% 2024, −21% 2025, −18% in 2026) on "will AI disrupt SaaS pricing" fears.
 
 ### Product and AI strategy
 
@@ -133,8 +133,8 @@ Write each, rehearse aloud, time it.
 
 ### OS — Tier 1 (the exact topics you fudged)
 
-- [ ] **Memory leak** — definition; Java causes (static collections, unclosed resources, ThreadLocal in pools, unremoved listeners, ClassLoader leaks); C/C++ version; detection (heap dump + Eclipse MAT / VisualVM, profilers).
-- [ ] **How RAM works** — volatile working memory, cache hierarchy L1/L2/L3 → RAM → disk, locality of reference.
+- [x] **Memory leak** — definition; Java causes (static collections, unclosed resources, ThreadLocal in pools, unremoved listeners, ClassLoader leaks); C/C++ version; detection (heap dump + Eclipse MAT / VisualVM, profilers).
+- [x] **How RAM works** — volatile working memory, cache hierarchy L1/L2/L3 → RAM → disk, locality of reference.
 - [ ] **Virtual memory** — pages, page table, TLB, page fault (minor vs major), demand paging, swap space, LRU/clock replacement, thrashing.
 - [ ] **The 16GB-on-8GB answer** — it usually launches; working set vs total allocation; paging to disk; thrashing and frame-time collapse; OOM killer on Linux / out-of-memory on Windows; 32-bit process ~4GB address cap; "more RAM beats a bigger page file."
 - [ ] Say all four aloud, timed, 60–90 seconds each. **Record yourself once and listen back.**

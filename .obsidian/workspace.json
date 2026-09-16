@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7dbe0fa0c5550d4d",
+        "id": "43e905fddf612abd",
         "type": "tabs",
         "children": [
           {
-            "id": "4c92c697bc51f033",
+            "id": "9c5eac577ada18d6",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,43 +17,11 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Adobe Director Round Prep"
             }
-          },
-          {
-            "id": "ed28c918cd70ae88",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir's Notes/00 Revision Roadmaps/AQR Prep.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "AQR Prep"
-            }
-          },
-          {
-            "id": "d1c9d98de44e8fb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mahir's Notes/16 Miscellaneous/Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,44 +153,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "d1c9d98de44e8fb4",
+  "active": "9c5eac577ada18d6",
   "lastOpenFiles": [
+    "MahirNotes/Company-Wise/Amazon/LP/Earn Trust.md",
+    "Mahir's Notes/_Meta/Build Status.md",
+    "Mahir's Notes/_Meta",
+    "Mahir's Notes/Top 100 Interview Questions/Top 100 Interview Questions.md",
+    "Mahir's Notes/Top 100 Interview Questions/Index.md",
+    "Mahir's Notes/Top 100 Interview Questions",
+    "Mahir's Notes/README.md",
+    "Mahir's Notes/Master Index.md",
+    "Mahir's Notes/Interview Checklists/System Design Interview Checklist.md",
+    "Mahir's Notes/Interview Checklists/LLD Interview Checklist.md",
+    "Mahir's Notes/Interview Checklists/Index.md",
+    "Mahir's Notes/Interview Checklists/DSA Interview Checklist.md",
+    "Mahir's Notes/Interview Checklists",
+    "Mahir's Notes/Flash Cards/System Design Flash Cards.md",
+    "Mahir's Notes/Flash Cards/Index.md",
+    "Mahir's Notes/Flash Cards/Java Flash Cards.md",
+    "Mahir's Notes/Flash Cards/DSA Flash Cards.md",
+    "Mahir's Notes/Flash Cards",
+    "Mahir's Notes/Cheat Sheets/LLD Cheat Sheet.md",
+    "Mahir's Notes/Cheat Sheets/Java Concurrency Cheat Sheet.md",
+    "Mahir's Notes/Cheat Sheets/Index.md",
+    "Mahir's Notes/Cheat Sheets/HLD Cheat Sheet.md",
+    "Mahir's Notes/Cheat Sheets/Design Patterns Cheat Sheet.md",
+    "Mahir's Notes/Cheat Sheets/DSA Cheat Sheet.md",
+    "Mahir's Notes/Cheat Sheets",
+    "Mahir's Notes/16 Miscellaneous/Index.md",
+    "Mahir's Notes/16 Miscellaneous",
     "Mahir's Notes/15 Company Prep/Behavioural/STAR Method.md",
     "Mahir's Notes/15 Company Prep/Behavioural/Index.md",
     "Mahir's Notes/15 Company Prep/Behavioural/Behavioural Question Bank.md",
-    "Mahir's Notes/00 Revision Roadmaps/Index.md",
-    "Mahir's Notes/00 Revision Roadmaps/AQR Prep.md",
-    "Mahir's Notes/00 Revision Roadmaps/Adobe Director Round Prep.md",
-    "Mahir's Notes/00 Revision Roadmaps/7 Day Revision Plan.md",
-    "Mahir's Notes/00 Revision Roadmaps/1 Day Emergency Revision.md",
-    "Mahir's Notes/00 Revision Roadmaps/HLD Basic Revison.md",
-    "Mahir's Notes/00 Revision Roadmaps/Adobe Revision Map.md",
-    "Mahir's Notes/Master Index.md",
-    "Mahir's Notes/12 Cloud/Index.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Observer.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Builder.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/State.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Creational/Singleton.md",
-    "Mahir's Notes/05 Databases/Fundamentals/Storage Engines.md",
-    "Mahir's Notes/05 Databases/Fundamentals/Data Modelling and Schema Design.md",
-    "Mahir's Notes/05 Databases/Fundamentals/Index.md",
-    "Mahir's Notes/05 Databases/Fundamentals/Choosing the Right Database.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Command.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Decorator.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Behavioural/Memento.md",
-    "Mahir's Notes/08 Microservices/Circuit Breaker.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Index.md",
-    "Mahir's Notes/03 Low Level Design/Design Patterns/Structural/Flyweight.md",
-    "Mahir's Notes/02 Java/000 Doubts",
-    "Mahir's Notes/02 Java/IO and Serialization",
-    "Mahir's Notes/02 Java/Exceptions",
-    "Mahir's Notes/02 Java/Generics",
-    "Mahir's Notes/02 Java/Modern Java",
-    "Mahir's Notes/02 Java/OOP",
-    "Mahir's Notes/02 Java/00 Learning Path",
-    "Mahir's Notes/_Meta",
-    "Mahir's Notes/Top 100 Interview Questions",
-    "Mahir's Notes/Interview Checklists",
+    "Mahir's Notes/15 Company Prep/Amazon/Index.md",
+    "Mahir's Notes/15 Company Prep/Amazon/Amazon Leadership Principles.md",
+    "Mahir's Notes/15 Company Prep/Behavioural",
+    "Mahir's Notes/15 Company Prep/Amazon",
+    "Mahir's Notes/15 Company Prep",
+    "Mahir's Notes/14 Spring Boot",
     "Untitled.canvas",
     "Other's Notes/System-Design-Primer/solutions/system_design/web_crawler/web_crawler_basic.png",
     "Other's Notes/System-Design-Primer/solutions/system_design/web_crawler/web_crawler.png",
@@ -231,9 +198,9 @@
     "Other's Notes/System-Design-Primer/solutions/system_design/twitter/twitter.png",
     "Other's Notes/System-Design-Primer/solutions/system_design/social_graph/social_graph_basic.png",
     "Other's Notes/System-Design-Primer/solutions/system_design/social_graph/social_graph.png",
-    "Other's Notes/System-Design-Primer/solutions/system_design/query_cache/query_cache_basic.png",
-    "Other's Notes/System-Design-Primer/solutions/system_design/query_cache/query_cache.png",
     "Other's Notes/System-Design-Primer/solutions/system_design/scaling_aws/scaling_aws_7.png",
-    "Other's Notes/System-Design-Primer/solutions/system_design/scaling_aws/scaling_aws_6.png"
+    "Other's Notes/System-Design-Primer/solutions/system_design/scaling_aws/scaling_aws_6.png",
+    "Other's Notes/System-Design-Primer/solutions/system_design/scaling_aws/scaling_aws_5.png",
+    "Other's Notes/System-Design-Primer/solutions/system_design/scaling_aws/scaling_aws_4.png"
   ]
 }
