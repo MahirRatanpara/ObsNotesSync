@@ -1,364 +1,301 @@
-# CS Fundamentals + Java Internals — Deep Checklist
+# Adobe Director Round — Prep Checklist
 
-**Do this Saturday. Fundamentals stop Saturday night. Sunday onwards = director round prep.**
-
----
-
-## Read this first
-
-- **This list is bigger than one day.** Roughly 25–30 hours of real work. Today you will finish **Tier 1** and part of **Tier 2**. That is the correct outcome, not a failure.
-- **Tier 1 = must know cold today.** Tier 2 = do if time remains. Tier 3 = stretch, only if you have extra days.
-- **Learn traces, not lists.** Section A gives you three end-to-end stories. Every topic below hangs off one of them. When an interviewer asks a fundamentals question, you locate it on a trace and walk from there. This is what makes you sound like you _understand_ rather than _memorised_.
-- **Out loud or it doesn't count.** Reading is not learning. Explain each item to an empty room in 60–90 seconds.
+**Round date: Wednesday 16 Sept 2026 · Prep window: Sat 12 → Tue 15**
 
 ---
 
-# SECTION A — The three spine traces (TIER 1 · do these first, 2 hours)
+## How to use this
 
-If you nail only this section, you can improvise most fundamentals questions.
-
-## Trace 1 — "What happens when Java runs `int[] arr = new int[1000];` and then reads `arr[500]`?"
-
-Walk it top to bottom. Tick when you can narrate the whole chain unprompted:
-
-- [x] JVM allocates the array in the **heap**, in the **Eden** space of the young generation
-- [x] A reference to it sits in the **thread's stack frame** (a local variable)
-- [x] The allocation is a pointer bump in a **TLAB** (thread-local allocation buffer) — fast, no lock
-- [x] Reading `arr[500]` produces a **virtual address**
-- [ ] The CPU checks its **caches**: L1 → L2 → L3
-- [ ] On a miss, the **MMU** translates virtual → physical address
-- [ ] It checks the **TLB** (cache of recent translations) first
-- [ ] TLB miss → walk the **multi-level page table**
-- [ ] If the page isn't in RAM → **page fault** → OS loads it from disk/swap
-- [ ] The data comes back in a **cache line** (typically 64 bytes) — so neighbours come free (spatial locality)
-- [ ] Later, when nothing references the array, **GC** reclaims it: found unreachable from **GC roots**, collected in a **minor GC**
-
-**Self-test:** explain this in 3 minutes without notes.
-
-## Trace 2 — "What happens when you type a URL and press enter?"
-
-- [x] Browser cache → OS cache → **DNS** resolver → root → TLD → authoritative nameserver → IP address
-- [x] **ARP** resolves the next-hop MAC address on the local network
-- [x] **TCP three-way handshake** (SYN → SYN-ACK → ACK) to port 443
-- [x] **TLS handshake** — certificate validation, key agreement, then symmetric encryption
-- [x] HTTP request written to a **socket** → kernel **socket buffer**
-- [x] Data becomes **TCP segments** → **IP packets** → **Ethernet frames** → NIC → wire
-- [x] Through switches (MAC), routers (IP), possibly NAT, a CDN edge, a load balancer
-- [x] Server accepts from the **backlog queue**, reads the request, application handles it
-- [x] Response travels back; TCP reassembles in order, retransmits losses
-- [x] Browser parses HTML, builds the DOM, fetches CSS/JS/images, renders
-- [x] Connection is reused (**keep-alive**) or closed (FIN/ACK, **TIME_WAIT**)
-
-## Trace 3 — "What happens when you run `UPDATE accounts SET balance = 100 WHERE id = 42;`?"
-
-- [ ] Connection taken from the **connection pool**
-- [ ] SQL parsed → validated → **query planner** picks a plan using table **statistics**
-- [ ] Index lookup on the primary key → **B+ tree** descent → leaf page
-- [ ] Page fetched into the **buffer pool** (in-memory page cache) if not already there
-- [ ] Row **locked** (or an MVCC version created)
-- [ ] Change written to the **write-ahead log (WAL/redo log)** — this is what makes it durable
-- [ ] `COMMIT` → WAL flushed to disk (`fsync`) → transaction is durable
-- [ ] The dirty data page is written to disk later, at a **checkpoint**
-- [ ] Change streamed to **replicas** (sync, async, or semi-sync) → **replication lag**
-- [ ] Locks released; other transactions see the new value per the **isolation level**
+- Work top to bottom. Phases are ordered by return on investment, not by comfort.
+- **Time budget: ~18 usable hours.** Sat ~6h, Sun ~6h, Mon ~3h (after work), Tue ~3h (after work), Wed ~30 min.
+- **Hard allocation rule: 60% stories and positioning, 20% fundamentals, 20% Adobe knowledge + mock.** If you catch yourself on Sunday night still reading about page replacement algorithms, you are losing.
+- A box is only ticked when you've said it **out loud**, not when you've read it.
 
 ---
 
-# SECTION B — CPU and memory hierarchy (TIER 1 · 1.5 hours)
+## PHASE 0 — Logistics (Saturday, 30 minutes, do this first)
 
-This is the section that directly answers "how is memory managed inside a CPU."
-
-## Tier 1
-
-- [ ] **Instruction cycle** — fetch, decode, execute, write-back
-- [ ] **Registers** — fastest storage, inside the CPU, sub-nanosecond
-- [ ] **Cache hierarchy** — L1 (per core, ~1ns), L2 (per core), L3 (shared across cores), then RAM (~100ns), then SSD (~100µs), then disk. Know the rough ratios: RAM is ~100x slower than L1; SSD is ~1000x slower than RAM.
-- [ ] **Cache line** — memory moves in ~64-byte blocks, not single bytes. Explains why array iteration is fast and linked-list traversal is slow.
-- [ ] **Locality of reference** — temporal (reuse the same data soon) and spatial (use nearby data soon). Caches exist because programs have both.
-- [ ] **Cache hit vs miss**; cold/capacity/conflict misses
-- [ ] **MMU (memory management unit)** — the hardware that translates virtual to physical addresses
-- [ ] **TLB** — small cache of recent virtual→physical translations; a TLB miss costs a page-table walk
-- [ ] **Page table** — usually multi-level (4 levels on x86-64) to avoid one giant flat table
-- [ ] **Virtual vs physical address** — why virtualisation exists: isolation, security, the illusion of more memory, simpler programming model
-- [ ] **Process address space layout** — text (code), data, BSS, **heap** (grows up), **stack** (grows down), memory-mapped regions
-- [ ] **Stack vs heap** — stack: per-thread, automatic, LIFO frames, fast, size-limited (StackOverflowError). Heap: shared, dynamic, managed by allocator/GC.
-
-## Tier 2
-
-- [ ] **Cache coherence** — MESI protocol basics; why multiple cores need to agree on memory
-- [ ] **False sharing** — two threads writing different variables on the same cache line cause contention. Directly relevant to Java performance.
-- [ ] **Memory barriers / fences** and **instruction reordering** — CPUs and compilers reorder for speed; barriers stop that. This is the hardware basis of Java's `volatile`.
-- [ ] **Store buffer**, write combining
-- [ ] **DMA** (direct memory access) — devices write to RAM without the CPU
-- [ ] **Interrupts** — how hardware gets the CPU's attention
-- [ ] **Pipelining and branch prediction** — why unpredictable branches are slow
-
-## Tier 3
-
-- [ ] NUMA (non-uniform memory access) on multi-socket machines
-- [ ] Huge pages / transparent huge pages
-- [ ] Speculative execution and its security implications (Spectre/Meltdown, at a conceptual level)
+- [x] Message the recruiter today. Ask: director's **name**, the **team/org**, the **format** (behavioral vs technical vs mixed), and the **duration**.
+- [x] Look the director up on LinkedIn: their background, how long at Adobe, what they built before, anything they've posted publicly.
+- [x] Identify which Adobe org the team sits in (Creative Cloud / Firefly, Document Cloud, Experience Cloud / AEP, or internal platform). This drives your "why this team" answer.
+- [x] Confirm the calendar invite, time zone, and video link.
+- [x] Tech check: camera angle, lighting on your face, mic quality, headphones, quiet room booked.
+- [x] Backup plan ready: phone hotspot tested, recruiter's phone number saved.
+- [x] Resume open in a tab. Re-read it — you will be asked about anything on it.
+- [x] Decide your **one-page cheat sheet** location (physical page beside you, not a second screen you visibly read from).
 
 ---
 
-# SECTION C — Operating systems (TIER 1 core, 1.5 hours)
+## PHASE 1 — Story bank (Saturday + Sunday morning · HIGHEST RETURN)
 
-## Tier 1 — the ones you fudged, plus their neighbours
+This is the exam. Ten stories, written and rehearsed.
 
-- [ ] **Memory leak** — definition; Java causes (static collections, unclosed resources, ThreadLocal in pooled threads, unremoved listeners, ClassLoader leaks); C/C++ version; detection via heap dump + Eclipse MAT
-- [ ] **Virtual memory** — pages, page tables, TLB, demand paging, swap
-- [ ] **Page fault** — minor (page in RAM, just not mapped — cheap) vs major (must read from disk — slow)
-- [ ] **Thrashing** — working set exceeds RAM; system spends its time paging instead of working
-- [ ] **The 16GB-on-8GB answer** — usually launches; working set vs total allocation; paging; thrashing; OOM killer on Linux; 32-bit ~4GB address cap; more RAM beats a bigger page file
-- [ ] **Process vs thread** — separate address space vs shared; context switch cost (saved registers, TLB/cache pollution)
-- [ ] **User space vs kernel space**; **system calls** and the trap into the kernel
-- [ ] **Deadlock** — four Coffman conditions (mutual exclusion, hold-and-wait, no preemption, circular wait); prevention vs avoidance vs detection
-- [ ] **Race condition**; **mutex vs semaphore** (mutex has ownership, used for locking; semaphore is a counter, used for signalling)
+### Quality gate — every story must pass all five
 
-## Tier 2
+- [x] **Result first.** Opens with the outcome, then back-fills context.
+- [x] **At least one number.** Percentage, time saved, volume, users, latency, cost, defect count. If no metric exists, quantify the _scope_ ("~X runs/day", "N dependent teams").
+- [x] **"I", not "we".** State your specific decision and contribution.
+- [x] **One trade-off named.** What you gave up and why. This is the seniority signal.
+- [x] **Under 2 minutes** when spoken aloud with a timer.
 
-- [ ] **Process lifecycle** — `fork`, `exec`, `wait`, zombie and orphan processes
-- [ ] **Scheduling** — preemptive vs cooperative, time slices, priority, why context switches aren't free
-- [ ] **IPC** — pipes, shared memory, message queues, sockets, signals
-- [ ] **File descriptors**; blocking vs non-blocking I/O
-- [ ] **I/O multiplexing** — `select` / `poll` / `epoll`; why epoll scales (this underpins Netty, Node.js, nginx)
-- [ ] **Page cache** — OS caches file data in RAM; buffered vs direct I/O; `fsync` and why databases need it
-- [ ] **mmap** — mapping a file into the address space
-- [ ] **Copy-on-write** — how `fork()` avoids copying memory until a write happens
-- [ ] **Zero-copy** — `sendfile`, avoiding user-space copies (why Kafka is fast)
-- [ ] **Fragmentation** — internal vs external; why paging eliminates external fragmentation
-- [ ] **Paging vs segmentation**
+### The ten stories
 
-## Tier 2 — container-aware (directly relevant to your work)
+- [ ] **1. CREST innovation / impact** — the flagship. A bottleneck you found, the decision you owned, the measured result.
+- [ ] **2. ShivAgri build-from-scratch** — end-to-end ownership, real users, bilingual/tablet-first product thinking. Your strongest "Create the Future" card.
+- [ ] **3. Failure + what you learned** — a real one. Own it, don't deflect blame.
+- [ ] **4. Influence without authority** — you got another team or a senior to change course without owning them.
+- [ ] **5. Technical risk / bold bet** — something that could have gone wrong, and how you de-risked it.
+- [ ] **6. Hardest production incident or bug** — debugging under pressure, root cause, prevention added.
+- [ ] **7. Raising the bar** — code review standards, testing, mentoring a junior, a process you improved.
+- [ ] **8. Disagreement with a manager or senior** — how you argued, and how you handled being overruled (or winning).
+- [ ] **9. Ambiguity / tight deadline** — regulatory deadline pressure on CREST is ideal here.
+- [ ] **10. Something you shipped nobody asked for** — initiative beyond assigned work.
 
-- [ ] **cgroups and memory limits** — how containers cap memory
-- [ ] **What happens when a JVM in a container exceeds its limit** — the kernel OOM-kills the process (exit code 137), and you get no Java stack trace. A classic production puzzle.
-- [ ] **Why `-XX:MaxRAMPercentage` matters** — older JVMs read host RAM, not container limits, and over-allocate
+### Project deep-dive prep
 
----
+- [ ] **CREST architecture walkthrough, 3-minute version.** Practise drawing it: data sources → processing → storage → outputs. Know the scale numbers, the tech choices, and _why_ each was chosen.
+- [ ] Prepare answers to the follow-ups a director will drill:
+    - [ ] "What was the hardest technical problem in it?"
+    - [ ] "What would you redesign if you started over?"
+    - [ ] "What breaks if traffic/data volume goes 10x?"
+    - [ ] "What happens if the database goes down mid-run?"
+    - [ ] "How do you know it's correct?" (regulatory correctness, idempotency, reconciliation)
+- [ ] **ShivAgri deep-dive**: real usage numbers, what you deliberately did _not_ build and why, how you handle deployment and support solo.
 
-# SECTION D — Java internals (TIER 1 · this is your language, highest leverage, 2.5 hours)
+### Honesty guardrail
 
-## D1. JVM memory model — structure (Tier 1)
-
-- [ ] **Heap** — shared across threads. Young generation (**Eden** + two **Survivor** spaces) and **Old/Tenured** generation.
-- [ ] **Metaspace** — class metadata; native memory since Java 8 (replaced PermGen)
-- [ ] **Thread stacks** — one per thread, holds frames, local variables, references
-- [ ] **Code cache** — JIT-compiled native code
-- [ ] **Off-heap / direct memory** — `ByteBuffer.allocateDirect`, not managed by GC the same way
-- [ ] **Object layout** — object header (mark word + class pointer), fields, padding; **compressed oops** (why heaps under 32GB are more efficient)
-- [ ] **TLAB** — thread-local allocation buffer; allocation is a fast pointer bump
-
-## D2. Garbage collection (Tier 1)
-
-- [ ] **Reachability** — objects are collected when unreachable from **GC roots** (stack locals, static fields, JNI refs, active threads)
-- [ ] **Generational hypothesis** — most objects die young, so collect the young generation frequently and cheaply
-- [ ] **Minor GC** (young gen) vs **major/full GC** (whole heap) — and why full GCs hurt
-- [ ] **Mark-sweep-compact**; copying collection in the young gen
-- [ ] **Stop-the-world** pauses and **safepoints**
-- [ ] **Collectors**: Serial, Parallel (throughput), **G1** (default since Java 9, region-based, pause-target driven), **ZGC / Shenandoah** (low-latency, sub-millisecond pauses). CMS is removed.
-- [ ] **Key flags** — `-Xms`, `-Xmx`, `-XX:MaxMetaspaceSize`, `-XX:MaxRAMPercentage`
-- [ ] **OutOfMemoryError variants** — Java heap space, GC overhead limit exceeded, Metaspace, unable to create native thread, Direct buffer memory. Each has a _different_ cause; being able to distinguish them is a strong signal.
-- [ ] **Diagnostic tools** — `jmap` (heap dump), `jstack` (thread dump), `jstat` (GC stats), `jcmd`, JFR (Flight Recorder), VisualVM, Eclipse MAT, async-profiler
-
-**Interview gold:** "How would you debug a memory leak in production?" → monitor heap growth after full GC → take a heap dump → open in MAT → find the dominator tree / biggest retained set → trace the GC-root reference chain → identify the unintended reference.
-
-## D3. Java concurrency (Tier 1 — Adobe asks this)
-
-- [ ] **Java Memory Model** — the three problems: **atomicity, visibility, ordering**
-- [ ] **happens-before** relationship — the rule that makes writes visible to other threads
-- [ ] **`volatile`** — guarantees visibility and prevents reordering, but NOT atomicity (`count++` is still broken)
-- [ ] **`synchronized`** — mutual exclusion + visibility; intrinsic locks; monitor enter/exit
-- [ ] **`ReentrantLock`** — tryLock, timed lock, fairness, condition variables; when to prefer it over `synchronized`
-- [ ] **`ReadWriteLock` / `StampedLock`** — many readers, one writer
-- [ ] **Atomic classes and CAS** (compare-and-swap) — lock-free updates; the **ABA problem**
-- [ ] **Thread pools** — `ExecutorService`, core vs max pool size, queue choice, rejection policies. Know why an unbounded queue means max pool size is never reached.
-- [ ] **`CompletableFuture`** — composing async work, `thenApply` vs `thenCompose`, exception handling
-- [ ] **`ConcurrentHashMap`** — Java 8+ uses CAS + per-bucket `synchronized`, not segment locks
-- [ ] **`CountDownLatch`, `Semaphore`, `CyclicBarrier`** — what each is for
-- [ ] **`ThreadLocal`** — useful, but a leak source in thread pools if you don't `remove()`
-- [ ] **Deadlock in Java** — how to reproduce, how to detect with a thread dump, how to avoid (consistent lock ordering, timeouts)
-- [ ] **Virtual threads / Project Loom** (Java 21) — lightweight threads managed by the JVM; why they help blocking I/O workloads and why they don't help CPU-bound ones. **High chance of coming up as a "keeping current" question.**
-
-## D4. Java core internals (Tier 2)
-
-- [ ] **HashMap internals** — array of buckets, hash spreading, collision chains, **treeify at 8 entries**, resize at load factor 0.75, why the default capacity is 16, why it's unsafe under concurrency
-- [ ] **`equals` / `hashCode` contract** — and what breaks if you violate it
-- [ ] **ArrayList vs LinkedList** — growth by ~1.5x, why ArrayList wins in practice (cache locality)
-- [ ] **String** — immutability, the string pool, `intern()`, why `StringBuilder` exists
-- [ ] **Immutability and `final`** — thread safety for free
-- [ ] **Checked vs unchecked exceptions**; try-with-resources
-- [ ] **Generics and type erasure** — why you can't do `new T[]`
-- [ ] **Streams** — lazy evaluation, terminal vs intermediate ops, when parallel streams hurt (shared ForkJoinPool)
-- [ ] **ClassLoader hierarchy** — bootstrap → platform → application; delegation model; class loading phases (load, link, initialise)
-- [ ] **JIT compilation** — interpreter → C1 → C2, tiered compilation, **inlining**, **escape analysis** (objects that never escape can be stack-allocated), JVM warm-up. Explains why benchmarks need warm-up runs.
-
-## D5. Modern Java awareness (Tier 3 — cheap credibility)
-
-- [ ] Records, sealed classes, pattern matching for switch, text blocks
-- [ ] What's in Java 17 vs 21 LTS, and which one you use
+- [ ] Sanity-check every number you claim. Do not inflate ShivAgri's scale. "A small but real user base I support end-to-end" beats vague "thousands of users" and survives follow-up questions.
 
 ---
 
-# SECTION E — Networking, deeper (TIER 1 core, 1.5 hours)
+## PHASE 2 — Positioning answers (Sunday · HIGH RETURN)
 
-## Tier 1
+Write each, rehearse aloud, time it.
 
-- [ ] **The packet journey** — application data → socket → TCP segment → IP packet → Ethernet frame → NIC → wire, and the reverse on the way up. Know which layer adds which header.
-- [ ] **TCP vs UDP** — and _when_ you'd pick UDP
-- [ ] **Three-way handshake**; four-way teardown
-- [ ] **Flow control** (receiver window) vs **congestion control** (network) — slow start, AIMD
-- [ ] **The URL trace** (Section A, Trace 2) — narrate it in 2 minutes
-- [ ] **TLS handshake** — asymmetric crypto authenticates the server via a CA-signed certificate and agrees a shared secret; symmetric crypto then encrypts the data. TLS 1.3 does it in one round trip instead of two.
-- [ ] **HTTP/1.1 vs 2 vs 3** — keep-alive and pooling; HTTP/2 multiplexing; **head-of-line blocking** and how HTTP/3 (QUIC over UDP) removes it
-- [ ] **Connection refused vs timeout vs connection reset** — three different failures with three different causes (nothing listening / no response or firewall drop / peer sent RST). **Classic interview question and a real debugging skill.**
-
-## Tier 2
-
-- [ ] **TCP state machine** — LISTEN, SYN_SENT, ESTABLISHED, FIN_WAIT, **TIME_WAIT**. Know why TIME_WAIT exists and why thousands of them can exhaust ports on a busy client.
-- [ ] **Socket buffers** and the **accept backlog queue**
-- [ ] **MAC vs IP**; **ARP**; switches (layer 2) vs routers (layer 3)
-- [ ] **Subnetting / CIDR** basics; private IP ranges; **NAT**
-- [ ] **DNS internals** — record types (A, AAAA, CNAME, MX, TXT), TTL, recursive vs iterative resolution, why a low TTL matters during failover
-- [ ] **L4 vs L7 load balancing**; health checks; sticky sessions
-- [ ] **Reverse proxy vs forward proxy vs API gateway**; CDN edge caching
-- [ ] **WebSockets vs SSE vs long polling**; **gRPC** over HTTP/2 with protobufs
-- [ ] **Idempotent HTTP methods**; status code semantics (when 4xx vs 5xx); REST conventions
-- [ ] **Latency vs bandwidth vs throughput**; retries with **exponential backoff and jitter**; why naive retries cause retry storms
-- [ ] **Rough latency numbers** — L1 ~1ns, RAM ~100ns, SSD read ~100µs, same-datacentre round trip ~0.5ms, cross-continent ~150ms. Being able to reason with these is a strong signal.
-
-## Tier 3
-
-- [ ] Nagle's algorithm and delayed ACK (and why they interact badly)
-- [ ] mTLS, SNI, certificate pinning
-- [ ] MTU, fragmentation, path MTU discovery
+- [ ] **"Tell me about yourself"** — 90 seconds. Present role → what you own → one impact highlight → why Adobe now. Not a resume recital.
+- [ ] **"Why Adobe?"** — tie to Adobe's AI-first transformation and building products used by millions vs. internal bank tooling. Name something specific (Firefly, AEP, Content Credentials) so it can't be copy-pasted to any company.
+- [ ] **"Why are you leaving Deutsche Bank after 4 years?"** — forward-looking, positive. Never criticise DB, your manager, or your team.
+- [ ] **"Why this team?"** — write after the recruiter tells you the org. Keep a placeholder version ready.
+- [ ] **"Where do you see yourself in 3 years?"** — scope growth, technical depth, owning bigger systems. Not "management" unless you mean it.
+- [ ] **"What do you want to learn here?"** — be specific and genuine.
+- [ ] **"What's your biggest weakness?"** — pick a real one with visible corrective action.
+- [ ] **"How do you keep up with new tech?"** — name actual sources you genuinely read. Vague answers die here.
+- [ ] **Compensation deflection**, if it comes up: "I'd rather align with the recruiter on that — I'm focused on whether this is the right fit technically."
+- [ ] **The pre-loaded OS honesty line** (use only if the earlier round is referenced): _"After that conversation I realised I'd gotten rusty on some OS internals, so I went back and refreshed them — happy to walk through memory management now."_
 
 ---
 
-# SECTION F — Databases, deeper (TIER 1 core, 1.5 hours)
+## PHASE 3 — Adobe knowledge (Sunday evening, 90 minutes)
 
-## Tier 1
+### The four current values — memorise exactly
 
-- [ ] **ACID** — and what each letter actually guarantees
-- [ ] **Isolation levels** and the anomaly each prevents — Read Uncommitted (dirty read), Read Committed (stops dirty), Repeatable Read (stops non-repeatable), Serializable (stops phantoms)
-- [ ] **MVCC** — readers see a snapshot, don't block writers
-- [ ] **B+ tree indexes** — why B+ and not a binary tree (high fanout = fewer disk reads; leaves are linked for range scans)
-- [ ] **Clustered vs non-clustered**, **covering index**, **composite index left-prefix rule** (an index on (a,b,c) helps queries on a, a+b, a+b+c — not on b alone)
-- [ ] **When indexes hurt** — write overhead, storage, low-cardinality columns
-- [ ] **EXPLAIN plans**; the **N+1 query problem** and its fix
-- [ ] **CAP and PACELC** — "CAP is about partition time; PACELC adds the latency-vs-consistency trade even when healthy"
-- [ ] **Optimistic vs pessimistic locking**; **idempotency** for safe retries
+- [ ] **Create the Future**
+- [ ] **Own the Outcome**
+- [ ] **Raise the Bar**
+- [ ] **Be Genuine**
+- [ ] Confirm you have **dropped** the old set ("Genuine, Exceptional, Innovative, Involved"). Reciting those signals stale prep.
+- [ ] Map one of your ten stories to each value.
 
-## Tier 2
+### Business facts (know 5–6 cold)
 
-- [ ] **Storage internals** — pages, the **buffer pool**, **write-ahead log (WAL)**, checkpoints, why WAL gives durability without random writes
-- [ ] **LSM tree vs B+ tree** — LSM (Cassandra, RocksDB) optimises writes via memtable + SSTable + compaction; B+ tree optimises reads
-- [ ] **Join algorithms** — nested loop, hash join, merge join, and when the planner picks each
-- [ ] **Query planner** — cost estimation from statistics; why stale statistics cause bad plans
-- [ ] **Lock types** — row, gap, table; lock escalation; DB deadlock detection and victim selection
-- [ ] **Replication** — sync vs async vs semi-sync; leader-follower vs multi-leader; **replication lag** and read-your-own-writes
-- [ ] **Sharding vs partitioning**; shard key choice; **consistent hashing**
-- [ ] **Connection pool sizing** — why a bigger pool is often _slower_
-- [ ] **2PC vs saga**; compensating transactions
-- [ ] **Normalization vs deliberate denormalization**
+- [ ] FY2025: record revenue **$23.77B**, up **11% YoY**, non-GAAP EPS **$20.94**.
+- [ ] FY2026 guidance: **$25.9–26.1B** revenue, EPS **$23.30–23.50**.
+- [ ] **AI-influenced ARR crossed $5B** — more than a third of total ARR.
+- [ ] Stock down three years running (−25% 2024, −21% 2025, −18% in 2026) on "will AI disrupt SaaS pricing" fears.
 
----
+### Product and AI strategy
 
-# SECTION G — Distributed systems (TIER 2 · relevant because CREST is distributed)
+- [ ] **Firefly Image Model 5** (launched at Adobe MAX, Oct 2025) — photorealistic, native 4MP, layered/prompt-based editing.
+- [ ] **Partner models inside Firefly** — OpenAI, Google, ElevenLabs, Luma, Runway, Topaz.
+- [ ] **Firefly AI Assistant** (public beta April 2026), from **Project Moonlight** — conversational/agentic layer across apps.
+- [ ] **Adobe Sensei → renamed "Adobe AI"** (2025).
+- [ ] **Agent Orchestrator** (Summit 2025) — the agentic play for marketing workflows.
+- [ ] **Firefly Foundry** — enterprises training brand-specific models.
+- [ ] **AEP / real-time CDP / AEM** — the Experience Cloud side.
+- [ ] **Content Credentials, C2PA, Content Authenticity Initiative** — Adobe's provenance answer to responsible GenAI. Strong "Be Genuine" talking point.
 
-- [ ] **Consistency models** — strong, eventual, causal, read-your-writes
-- [ ] **Quorum** — N/R/W, why R + W > N gives consistency
-- [ ] **Consensus** — Raft at a conceptual level: leader election, log replication, why a majority is needed
-- [ ] **Exactly-once is a myth** — you get at-least-once delivery plus idempotent processing
-- [ ] **Resilience patterns** — retry with backoff + jitter, circuit breaker, bulkhead, timeout budgets, **backpressure**
-- [ ] **Dead-letter queues** and poison-message handling
-- [ ] **Distributed tracing** — correlation IDs, spans; why you need them
-- [ ] **Clock problems** — why you can't trust wall-clock ordering across machines (logical clocks, vector clocks at a concept level)
+### Leadership and competition
 
----
-
-# SECTION H — Rapid-fire self-test (do this LAST, Saturday night)
-
-Answer each aloud in 60–90 seconds. Tick only if fluent. Anything you stumble on goes on tomorrow's 15-minute review list.
-
-**Memory / CPU**
-
-- [ ] How is memory managed inside a CPU? (walk Trace 1)
-- [ ] What is virtual memory and why does it exist?
-- [ ] What happens on a page fault?
-- [ ] Game needs 16GB, machine has 8GB — what happens?
-- [ ] Why is a cache line 64 bytes and why does that matter?
-- [ ] What is false sharing?
-- [ ] Stack vs heap — what goes where and why?
-
-**OS**
-
-- [ ] Process vs thread. What does a context switch actually cost?
-- [ ] What is a system call?
-- [ ] Four conditions for deadlock, and how to break them.
-- [ ] Mutex vs semaphore.
-- [ ] What's epoll and why does it scale better than select?
-- [ ] A container gets OOM-killed with exit code 137 — what happened and why is there no stack trace?
-
-**Java**
-
-- [ ] Walk me through JVM memory areas.
-- [ ] How does GC decide what to collect?
-- [ ] Minor GC vs full GC. Why do full GCs hurt?
-- [ ] Name three OutOfMemoryError types and their different causes.
-- [ ] How would you debug a memory leak in a production Java service?
-- [ ] What does `volatile` guarantee — and what does it NOT?
-- [ ] Why is `count++` not thread-safe even on a volatile field?
-- [ ] How does `ConcurrentHashMap` achieve thread safety?
-- [ ] How does HashMap work internally? What happens at 8 entries in a bucket?
-- [ ] What are virtual threads and what problem do they solve?
-- [ ] What is escape analysis?
-
-**Networking**
-
-- [ ] What happens when you type a URL and press enter? (walk Trace 2)
-- [ ] TCP vs UDP — when would you actually choose UDP?
-- [ ] Explain the TLS handshake.
-- [ ] Connection refused vs timeout vs connection reset — what's different about each?
-- [ ] What is head-of-line blocking and how does HTTP/3 fix it?
-- [ ] Why does TIME_WAIT exist?
-- [ ] L4 vs L7 load balancing.
-
-**Databases**
-
-- [ ] Explain the isolation levels and which anomaly each prevents.
-- [ ] Why B+ trees instead of binary trees for indexes?
-- [ ] When does an index make things worse?
-- [ ] What is the N+1 problem?
-- [ ] Walk me through what happens on a single UPDATE + COMMIT. (walk Trace 3)
-- [ ] CAP vs PACELC.
-- [ ] Optimistic vs pessimistic locking — when each?
-
-**Distributed**
-
-- [ ] Why is exactly-once delivery not really achievable?
-- [ ] What is backpressure and why does it matter?
-- [ ] A downstream service starts failing — walk me through your defences.
+- [ ] **Anil Chakravarthy** named incoming president & CEO, effective **1 Dec 2026**; Shantanu Narayen becomes executive chair.
+    
+- [ ] **David Wadhwani** (president) exiting; **CFO seat open** (Steven Day interim).
+    
+- [ ] **Canva**: 265M+ monthly active users, $4B ARR (end of 2025). **Figma** dominant in UI/UX after the $20B acquisition was blocked in 2023. Plus Midjourney, OpenAI.
+    
+- [ ] **Tuesday night: 10-minute news scan** for anything Adobe announced in the last week. This landscape is moving fast.
+    
 
 ---
 
-# Saturday time plan
+## PHASE 4 — Fundamentals patch (Monday evening, TIME-BOXED to ~3 hours)
 
-|Block|Time|Content|
-|---|---|---|
-|1|2h|**Section A** — the three traces. Narrate each aloud until smooth.|
-|2|1.5h|**Section B** Tier 1 — CPU and memory hierarchy|
-|3|1.5h|**Section C** Tier 1 + container/OOM items|
-|—|break|—|
-|4|2.5h|**Section D** — JVM memory, GC, concurrency (D1–D3). Your highest-leverage section.|
-|5|1.5h|**Section E** Tier 1 — networking|
-|6|1.5h|**Section F** Tier 1 — databases|
-|7|1h|**Section H** — rapid-fire self-test, aloud, timed|
+**Stop when the timer stops.** Tier 1 is mandatory. Tier 2 only if time remains.
 
-If you run short: **cut Section G entirely, and cut Tier 2 everywhere.** Do not cut Section A or Section D.
+### OS — Tier 1 (the exact topics you fudged)
+
+- [ ] **Memory leak** — definition; Java causes (static collections, unclosed resources, ThreadLocal in pools, unremoved listeners, ClassLoader leaks); C/C++ version; detection (heap dump + Eclipse MAT / VisualVM, profilers).
+- [ ] **How RAM works** — volatile working memory, cache hierarchy L1/L2/L3 → RAM → disk, locality of reference.
+- [ ] **Virtual memory** — pages, page table, TLB, page fault (minor vs major), demand paging, swap space, LRU/clock replacement, thrashing.
+- [ ] **The 16GB-on-8GB answer** — it usually launches; working set vs total allocation; paging to disk; thrashing and frame-time collapse; OOM killer on Linux / out-of-memory on Windows; 32-bit process ~4GB address cap; "more RAM beats a bigger page file."
+- [ ] Say all four aloud, timed, 60–90 seconds each. **Record yourself once and listen back.**
+
+### OS — Tier 2 (if time)
+
+- [ ] Process vs thread; context switch cost.
+- [ ] User vs kernel space; system calls.
+- [ ] Deadlock: four Coffman conditions; prevention vs avoidance vs detection.
+- [ ] Mutex vs semaphore; race conditions.
+- [ ] Internal vs external fragmentation; paging vs segmentation.
+- [ ] mmap, copy-on-write, zero-copy.
+- [ ] JVM GC basics — generational heap, G1, when GC pauses matter.
+
+### Databases — Tier 1 (you work on a data platform; this is likely)
+
+- [ ] ACID.
+- [ ] Isolation levels and the anomaly each prevents — dirty read, non-repeatable read, phantom read.
+- [ ] Indexing — B+ tree vs hash, clustered vs non-clustered, covering index, when indexes _hurt_, cardinality/selectivity.
+- [ ] EXPLAIN plans; the **N+1 query problem** and its fix.
+- [ ] CAP and PACELC — "CAP is partition-time; PACELC adds the latency/consistency trade even when healthy."
+- [ ] Optimistic vs pessimistic locking; **idempotency** (tie this to CREST correctness).
+
+### Databases — Tier 2 (if time)
+
+- [ ] MVCC; sharding vs partitioning; leader-follower replication and replication lag.
+- [ ] 2PC vs saga pattern; connection pooling; normalization vs deliberate denormalization.
+
+### Networking — Tier 1
+
+- [ ] TCP vs UDP.
+- [ ] Three-way handshake.
+- [ ] **"What happens when you type a URL and press enter"** — DNS → TCP → TLS → HTTP → render. Rehearse this one aloud; it's the most-asked networking question.
+- [ ] TLS handshake — asymmetric to authenticate + agree a key, symmetric for the data; CA-signed certificates.
+- [ ] HTTP/1.1 vs 2 vs 3 (QUIC) and head-of-line blocking.
+
+### Networking — Tier 2 (if time)
+
+- [ ] L4 vs L7 load balancing; CDNs; reverse proxies.
+- [ ] WebSockets vs SSE vs long polling; gRPC.
+- [ ] Latency vs bandwidth vs throughput; retries, timeouts, exponential backoff with jitter.
+
+### DELIBERATELY SKIP — do not touch these
+
+- [ ] ~~CPU scheduling algorithm math~~
+- [ ] ~~Page-replacement algorithm proofs, banker's algorithm~~
+- [ ] ~~Memorising all 7 OSI layers verbatim~~ (say "I think in four layers — link, IP, transport, application")
+- [ ] ~~New LeetCode hards~~ (you've cleared DSA; don't shake your confidence)
+- [ ] ~~Formal normal-form definitions~~
+- [ ] ~~Photoshop/Creative Cloud tool knowledge~~ (you're backend — know the strategy, not the shortcuts)
 
 ---
 
-# The one rule
+## PHASE 5 — Technical readiness, in case the director goes deep (Tuesday, 90 minutes)
 
-**Fundamentals stop tonight.** Tomorrow is stories, positioning, and Adobe knowledge — the things that actually decide this round. Carry forward only a 15-minute daily review of whatever you stumbled on in Section H.
+Some Adobe directors run a full technical round. Insurance, not the main event.
+
+- [ ] **One HLD refresh** — pick one (rate limiter, notification service, or a video streaming service). You've already cleared HLD; this is a warm-up, not new learning.
+- [ ] **Concurrency scenario** — "design seat booking with concurrent users." Know: pessimistic lock vs optimistic versioning, holds with TTL, race on the last seat.
+- [ ] **Messaging failure cascade** — a candidate was rejected in an Adobe director round on relentless "and what if _that_ also fails?" follow-ups about queues. Prepare the chain: retries → exponential backoff → dead-letter queue → idempotent consumers → at-least-once vs exactly-once → circuit breaker → backpressure → what you alert on.
+- [ ] **Design patterns** — Singleton (and why it's often an anti-pattern), Observer, Factory, Strategy.
+- [ ] **"What do you look for when reviewing a PR or a design doc?"** — prepare a real, structured answer: correctness, blast radius, testability, readability, operational concerns, whether the design solves the actual problem.
+- [ ] Rule for "what if that fails too?" chains: **never go blank.** Answer one layer, then say "and if that fails, the next line of defence is…" Keep descending calmly.
+
+---
+
+## PHASE 6 — Trends opinions (Tuesday, 45 minutes)
+
+Every opinion must carry a trade-off. Buzzwords without trade-offs read as hollow.
+
+- [ ] **AI coding assistants** — speeds up boilerplate and tests, but shifts the bottleneck to review and verification; on a regulated platform you gate AI-generated code behind the same review bar.
+- [ ] **Agentic AI** — what changes when models take actions, not just produce text; reliability, permissioning, and audit are the hard parts.
+- [ ] **RAG and vector databases** — useful for grounding; the hard parts are chunking, retrieval quality, and evaluation, not the vector store.
+- [ ] **One opinion relevant to Adobe specifically** — e.g. why content provenance (C2PA) matters commercially, not just ethically, for enterprise customers.
+- [ ] Self-test: say each opinion aloud in 45 seconds. If there's no trade-off in it, rewrite it.
+
+---
+
+## PHASE 7 — Questions to ask the director (Tuesday, 20 minutes)
+
+Pick and personalise **four**. Have a fifth in reserve.
+
+- [ ] "Adobe is mid-transformation to AI-first — how is that changing what this specific team builds over the next 12–18 months?"
+- [ ] "What does 'Create the Future' look like concretely here? Can you give an example of a bet an engineer at my level drove?"
+- [ ] "What's the biggest technical debt or scaling challenge the team will hit next year?"
+- [ ] "How does the team balance shipping AI features fast against Adobe's commitments on content authenticity and quality?"
+- [ ] "For someone joining as CS1, what separates a good first year from a great one?"
+- [ ] "How much room does an engineer have to identify and drive their own projects versus executing a set roadmap?"
+
+**Never ask:** what Adobe does, pay/leave/WFH policy (that's the recruiter), how many rounds there are, anything on the careers page.
+
+---
+
+## PHASE 8 — Recovery protocol (memorise Tuesday, 15 minutes)
+
+- [ ] **The formula: Acknowledge → Bridge → Reason.** _"I don't know that cold — let me reason it out,"_ then connect to what you do know and think aloud.
+- [ ] **Never bluff.** You already fudged once and the director has likely seen that feedback. A second caught bluff, against a company value literally called "Be Genuine," is fatal.
+- [ ] **Don't over-apologise.** A long apology makes a small gap look big. One sentence, then move forward.
+- [ ] **If truly stuck:** _"I'd want to verify that rather than guess — here's how I'd reason about it and how I'd confirm it."_ That's a senior close, not a failure.
+- [ ] Don't volunteer "I'm weak at OS." Be ready if it comes up; don't introduce it yourself.
+
+---
+
+## PHASE 9 — Mock and delivery (Tuesday evening, 90 minutes)
+
+- [ ] **Run a full 45-minute mock aloud** — record it. Behavioral half + one technical probe.
+- [ ] Watch it back and check:
+    - [ ] Did any answer run past 2 minutes?
+    - [ ] How many times did you say "we" where you meant "I"?
+    - [ ] Filler words ("basically", "like", "so yeah")?
+    - [ ] Did you lead with the result, or with background?
+    - [ ] Energy level on camera — flat delivery kills good content.
+- [ ] Pick your **three strongest stories** and note them on the cheat sheet.
+- [ ] Practise the pause: it's fine to take 3 seconds before answering. Rushing causes fudging.
+
+---
+
+## PHASE 10 — Day-before and day-of
+
+### Tuesday night
+
+- [ ] 10-minute scan for Adobe news from the past week.
+- [ ] Write the **one-page cheat sheet** (see below).
+- [ ] Lay out clothes, confirm the link, charge everything.
+- [ ] **Stop studying by 10pm.** Sleep beats one more hour of OS theory.
+
+### Wednesday morning (30 minutes)
+
+- [ ] Re-read the one-page sheet once.
+- [ ] Say your top 3 stories aloud.
+- [ ] Recite the four values.
+- [ ] 30-second news check.
+- [ ] Tech check 15 minutes before — join early.
+- [ ] Water beside you. No heavy meal right before.
+
+### The one-page cheat sheet (this is all you should have)
+
+- [ ] 10 story titles (title only — one word triggers, not scripts)
+- [ ] The four values
+- [ ] 5 Adobe facts with numbers
+- [ ] Your 4 questions for the director
+- [ ] The recovery line: _"I don't know that cold — let me reason it out."_
+
+---
+
+## RED LINES — do not cross
+
+- [ ] **Never bluff.** Reason honestly instead.
+- [ ] **Never criticise Deutsche Bank**, your manager, or your team.
+- [ ] **Never inflate ShivAgri's numbers.** Follow-up questions will expose it.
+- [ ] **Never recite the old Adobe values.**
+- [ ] **Never say "we" when you mean "I."**
+- [ ] **Never describe activity instead of outcome.** "I worked on X" is a wasted answer.
+
+---
+
+## Final sanity check (tick Tuesday night)
+
+- [ ] I can tell 10 stories, each under 2 minutes, each with a number and a trade-off.
+- [ ] I can answer "why Adobe" without it sounding generic.
+- [ ] I can explain virtual memory and the 16GB/8GB question without hesitating.
+- [ ] I know Adobe's four values and five business facts.
+- [ ] I have four questions ready for the director.
+- [ ] I have a recovery line memorised and I have decided in advance that I will not bluff.
