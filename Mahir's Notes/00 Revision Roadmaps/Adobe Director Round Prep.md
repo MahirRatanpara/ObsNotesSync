@@ -135,19 +135,19 @@ Write each, rehearse aloud, time it.
 
 - [x] **Memory leak** — definition; Java causes (static collections, unclosed resources, ThreadLocal in pools, unremoved listeners, ClassLoader leaks); C/C++ version; detection (heap dump + Eclipse MAT / VisualVM, profilers).
 - [x] **How RAM works** — volatile working memory, cache hierarchy L1/L2/L3 → RAM → disk, locality of reference.
-- [ ] **Virtual memory** — pages, page table, TLB, page fault (minor vs major), demand paging, swap space, LRU/clock replacement, thrashing.
-- [ ] **The 16GB-on-8GB answer** — it usually launches; working set vs total allocation; paging to disk; thrashing and frame-time collapse; OOM killer on Linux / out-of-memory on Windows; 32-bit process ~4GB address cap; "more RAM beats a bigger page file."
-- [ ] Say all four aloud, timed, 60–90 seconds each. **Record yourself once and listen back.**
+- [x] **Virtual memory** — pages, page table, TLB, page fault (minor vs major), demand paging, swap space, LRU/clock replacement, thrashing.
+- [x] **The 16GB-on-8GB answer** — it usually launches; working set vs total allocation; paging to disk; thrashing and frame-time collapse; OOM killer on Linux / out-of-memory on Windows; 32-bit process ~4GB address cap; "more RAM beats a bigger page file."
+- [x] Say all four aloud, timed, 60–90 seconds each. **Record yourself once and listen back.**
 
 ### OS — Tier 2 (if time)
 
-- [ ] Process vs thread; context switch cost.
-- [ ] User vs kernel space; system calls.
-- [ ] Deadlock: four Coffman conditions; prevention vs avoidance vs detection.
-- [ ] Mutex vs semaphore; race conditions.
+- [x] Process vs thread; context switch cost.
+- [x] User vs kernel space; system calls.
+- [x] Deadlock: four Coffman conditions; prevention vs avoidance vs detection.
+- [x] Mutex vs semaphore; race conditions.
 - [ ] Internal vs external fragmentation; paging vs segmentation.
 - [ ] mmap, copy-on-write, zero-copy.
-- [ ] JVM GC basics — generational heap, G1, when GC pauses matter.
+- [x] JVM GC basics — generational heap, G1, when GC pauses matter.
 
 ### Databases — Tier 1 (you work on a data platform; this is likely)
 
