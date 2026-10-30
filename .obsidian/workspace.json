@@ -11,10 +11,12 @@
             "id": "3486d70475bcbee8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
             }
           }
         ]
@@ -145,7 +147,6 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "bases:Create new base": false
     }
   },
