@@ -129,7 +129,7 @@ Goal: remove surprises, get your setup ready, and solve the single most-reported
 
 - [x] Email the recruiter the questions in the first section (language, environment, search or AI allowed, stdin, debugging or AI component).
 - [x] Pick your strongest language and stick with it. Go is common at Cloudflare and is a plus if you already know it, but do not switch this week.
-- [ ] Set up a blank project with a test runner, and practise reading stdin and printing formatted output in it.
+- [x] Set up a blank project with a test runner, and practise reading stdin and printing formatted output in it.
 
 **Block 2, 75 min: LRU cache, production quality**
 
