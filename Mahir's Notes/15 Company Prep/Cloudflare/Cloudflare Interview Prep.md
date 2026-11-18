@@ -133,11 +133,11 @@ Goal: remove surprises, get your setup ready, and solve the single most-reported
 
 **Block 2, 75 min: LRU cache, production quality**
 
-- [ ] (30 min) `get` and `put` in O(1) with a hash map plus doubly linked list. Narrate every step.
-- [ ] (20 min) Add a TTL per entry with lazy expiry on `get`, using an injectable clock so tests never sleep.
-- [ ] (15 min) Make it thread-safe, and explain why `get` also needs the lock (it changes recency order).
-- [ ] (10 min) Tests: capacity 1, overwrite an existing key, expired key, eviction order.
-- [ ] Follow-up to answer out loud: how would a "memory-layered" version work (small hot in-process cache in front of a bigger one)?
+- [x] (30 min) `get` and `put` in O(1) with a hash map plus doubly linked list. Narrate every step.
+- [x] (20 min) Add a TTL per entry with lazy expiry on `get`, using an injectable clock so tests never sleep.
+- [x] (15 min) Make it thread-safe, and explain why `get` also needs the lock (it changes recency order).
+- [x] (10 min) Tests: capacity 1, overwrite an existing key, expired key, eviction order.
+- [x] Follow-up to answer out loud: how would a "memory-layered" version work (small hot in-process cache in front of a bigger one)?
 
 **Block 3, 45 min: networking primer**
 
