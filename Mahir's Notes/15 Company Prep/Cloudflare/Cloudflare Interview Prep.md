@@ -141,9 +141,9 @@ Goal: remove surprises, get your setup ready, and solve the single most-reported
 
 **Block 3, 45 min: networking primer**
 
-- [ ] Say out loud, end to end, in under 5 minutes: what happens when you type `https://example.com` and press enter. Cover DNS lookup (stub resolver, recursive resolver, root, TLD, authoritative, TTL caching), TCP handshake, TLS handshake (certificate check, key exchange), HTTP request, the CDN or reverse proxy, and the origin.
-- [ ] Then add where Cloudflare sits: anycast IP, the nearest data center terminates TLS, serves from cache or goes to the origin.
-- [ ] Read Cloudflare's own Learning Center pages on DNS, anycast and DDoS if any part felt shaky.
+- [x] Say out loud, end to end, in under 5 minutes: what happens when you type `https://example.com` and press enter. Cover DNS lookup (stub resolver, recursive resolver, root, TLD, authoritative, TTL caching), TCP handshake, TLS handshake (certificate check, key exchange), HTTP request, the CDN or reverse proxy, and the origin.
+- [x] Then add where Cloudflare sits: anycast IP, the nearest data center terminates TLS, serves from cache or goes to the origin.
+- [x] Read Cloudflare's own Learning Center pages on DNS, anycast and DDoS if any part felt shaky.
 
 **Block 4, 10 min:** record yourself doing the URL walkthrough once, listen back, and note your silences.
 
