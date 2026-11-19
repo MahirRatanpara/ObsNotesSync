@@ -166,9 +166,9 @@ Goal: three reported Cloudflare coding problems done to production quality, then
 
 **Coding 3, 40 min: IP in CIDR, from scratch**
 
-- [ ] Parse `"192.168.1.0/24"` and `"192.168.1.77"` yourself: split octets, validate 0-255, build the 32-bit integer, build the mask from the prefix length, compare.
-- [ ] Reject bad input: `256.1.1.1`, `/33`, missing parts, extra dots.
-- [ ] Follow-up: checking against 100,000 CIDRs per request. Answer: a binary trie on the bits (longest-prefix match). Mention IPv6 is the same idea with 128 bits.
+- [x] Parse `"192.168.1.0/24"` and `"192.168.1.77"` yourself: split octets, validate 0-255, build the 32-bit integer, build the mask from the prefix length, compare.
+- [x] Reject bad input: `256.1.1.1`, `/33`, missing parts, extra dots.
+- [x] Follow-up: checking against 100,000 CIDRs per request. Answer: a binary trie on the bits (longest-prefix match). Mention IPv6 is the same idea with 128 bits.
 
 **Break, 15 min.**
 
