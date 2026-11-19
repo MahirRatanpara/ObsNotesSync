@@ -153,16 +153,16 @@ Goal: three reported Cloudflare coding problems done to production quality, then
 
 **Coding 1, 50 min: log parser**
 
-- [ ] Read access-log lines from stdin (for example `timestamp ip method host path status bytes`). Count requests per domain and errors per status code, and print the top N sorted.
-- [ ] Handle: blank lines, lines with missing fields, a non-numeric status, very large files (stream line by line, never load it all).
-- [ ] Follow-ups to answer aloud: count over the last 5 minutes only; the file is 100 GB; logs arrive from 300 servers.
+- [x] Read access-log lines from stdin (for example `timestamp ip method host path status bytes`). Count requests per domain and errors per status code, and print the top N sorted.
+- [x] Handle: blank lines, lines with missing fields, a non-numeric status, very large files (stream line by line, never load it all).
+- [x] Follow-ups to answer aloud: count over the last 5 minutes only; the file is 100 GB; logs arrive from 300 servers.
 
 **Coding 2, 70 min: multi-rule rate limiter**
 
-- [ ] (25 min) Token bucket per key with lazy refill from timestamps, no background thread.
-- [ ] (30 min) `isRateLimited(request)` where rules match on any of IP, method, path, user ID and tenant ID, each with its own limit. A request is limited if any matching rule is over its limit. Decide how you store rules and match them quickly.
-- [ ] (15 min) Thread safety and tests, including two rules matching one request and an empty rule set.
-- [ ] Say out loud: sliding window vs token bucket, and memory per key at 10 million keys.
+- [x] (25 min) Token bucket per key with lazy refill from timestamps, no background thread.
+- [x] (30 min) `isRateLimited(request)` where rules match on any of IP, method, path, user ID and tenant ID, each with its own limit. A request is limited if any matching rule is over its limit. Decide how you store rules and match them quickly.
+- [x] (15 min) Thread safety and tests, including two rules matching one request and an empty rule set.
+- [x] Say out loud: sliding window vs token bucket, and memory per key at 10 million keys.
 
 **Coding 3, 40 min: IP in CIDR, from scratch**
 
