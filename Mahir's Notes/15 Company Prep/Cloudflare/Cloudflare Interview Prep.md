@@ -216,8 +216,8 @@ Goal: get two reps of the "backend service from scratch" style, prepare to expla
 
 **Architecture story, 15 min: a system you built**
 
-- [ ] Pick one system from your work, ideally automation, tooling or a platform, since this team builds infrastructure software. Prepare a 2-minute overview and a diagram you can draw in 3 minutes, with real numbers (requests per second, data size, latency).
-- [ ] Have ready: one tradeoff you made and why, one failure or incident and how you handled it, and what you would change now at 10x scale. A reported candidate was marked down for "not handling scale" here, so lead with numbers.
+- [x] Pick one system from your work, ideally automation, tooling or a platform, since this team builds infrastructure software. Prepare a 2-minute overview and a diagram you can draw in 3 minutes, with real numbers (requests per second, data size, latency).
+- [x] Have ready: one tradeoff you made and why, one failure or incident and how you handled it, and what you would change now at 10x scale. A reported candidate was marked down for "not handling scale" here, so lead with numbers.
 
 **Design 2, 60 min: logs from edge data centers to a core data center**
 
