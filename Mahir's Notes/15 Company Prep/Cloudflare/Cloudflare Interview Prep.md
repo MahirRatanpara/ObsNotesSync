@@ -174,9 +174,9 @@ Goal: three reported Cloudflare coding problems done to production quality, then
 
 **Design toolkit, 40 min**
 
-- [ ] Read the build-it-yourself toolkit table in the Reference section, so you can name a self-hosted component for each job.
-- [ ] Learn anycast in one paragraph: many data centers announce the same IP range over BGP, users reach the nearest, and a failed site withdraws its route so traffic shifts.
-- [ ] Learn the consistency vocabulary: strong vs eventual, quorum reads and writes, leader-based replication, CRDT counters.
+- [x] Read the build-it-yourself toolkit table in the Reference section, so you can name a self-hosted component for each job.
+- [x] Learn anycast in one paragraph: many data centers announce the same IP range over BGP, users reach the nearest, and a failed site withdraws its route so traffic shifts.
+- [x] Learn the consistency vocabulary: strong vs eventual, quorum reads and writes, leader-based replication, CRDT counters.
 
 **Design 1, 60 min: global rate limiter across 300 edge data centers, spoken and drawn**
 
