@@ -301,15 +301,15 @@ You are a senior Cloudflare engineer running a [coding / system design] intervie
 
 **Build-it-yourself toolkit: say these instead of managed cloud services**
 
-| Job | Self-hosted choice | Instead of | Tradeoff to mention |
-| --- | --- | --- | --- |
-| Message queue or log transport | Kafka | SQS, Kinesis, Pub/Sub | Durable and replayable, but you run brokers and watch consumer lag |
-| Analytics and log queries | ClickHouse | Athena, BigQuery | Very fast columnar aggregations; weak at updates and point lookups |
-| Relational data | Postgres with a replica | RDS, Cloud SQL | Strong consistency; you shard it yourself when it outgrows one node |
-| Wide-column, write-heavy | Cassandra or ScyllaDB | DynamoDB | Scales writes linearly; tunable but eventual consistency |
-| Cache and counters | Redis | ElastiCache | Fast; memory-bound, and you need replication for failover |
-| Blob storage | Ceph or MinIO | S3 | You handle disks, replication and erasure coding |
-| Config and coordination | etcd | managed config services | Strongly consistent through Raft; small data only, writes are slower |
+| Job                            | Self-hosted choice      | Instead of              | Tradeoff to mention                                                  |
+| ------------------------------ | ----------------------- | ----------------------- | -------------------------------------------------------------------- |
+| Message queue or log transport | Kafka                   | SQS, Kinesis, Pub/Sub   | Durable and replayable, but you run brokers and watch consumer lag   |
+| Analytics and log queries      | ClickHouse              | Athena, BigQuery        | Very fast columnar aggregations; weak at updates and point lookups   |
+| Relational data                | Postgres with a replica | RDS, Cloud SQL          | Strong consistency; you shard it yourself when it outgrows one node  |
+| Wide-column, write-heavy       | Cassandra or ScyllaDB   | DynamoDB                | Scales writes linearly; tunable but eventual consistency             |
+| Cache and counters             | Redis                   | ElastiCache             | Fast; memory-bound, and you need replication for failover            |
+| Blob storage                   | Ceph or MinIO           | S3                      | You handle disks, replication and erasure coding                     |
+| Config and coordination        | etcd                    | managed config services | Strongly consistent through Raft; small data only, writes are slower |
 
 **Failure checklist for every design**
 
