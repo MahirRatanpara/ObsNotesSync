@@ -186,7 +186,7 @@ Goal: three reported Cloudflare coding problems done to production quality, then
 - Failure: if the counter store in a data center dies, fail open (allow traffic), because a broken limiter must not take a customer's site down. Say when you would fail closed instead (abuse or login endpoints).
 - Config: rules change in seconds, through a pushed config pipeline with versioning.
 
-* [ ] Write down the 3 tradeoffs you named and the 1 you forgot.
+* [x] Write down the 3 tradeoffs you named and the 1 you forgot.
 
 ## Wednesday (5 hours): two backend services from scratch, your architecture story, plus log pipeline and config distribution designs
 
