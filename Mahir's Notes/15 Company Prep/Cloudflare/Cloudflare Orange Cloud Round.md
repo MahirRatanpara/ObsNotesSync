@@ -123,16 +123,16 @@ Your June 2026 Google L4 story bank already has full STAR versions of ML Pipelin
 
 **Coverage matrix** (P = primary fit, S = secondary)
 
-| Story | Curious | Communicate | Right thing | Diversity | Finish line | Empathy |
-| --- | --- | --- | --- | --- | --- | --- |
-| S1 CREST orchestration rebuild | S | S |  |  | P |  |
-| S2 Infra investigation (Spark 3→4 or Terraform/Redis) | P | S | S |  | S |  |
-| S3 ShivAgri for farmers | S |  |  | S | S | P |
-| S4 Conflict, different perspective (scaffold) |  | S | S | P |  | S |
-| S5 Mistake you owned (scaffold) | S | P | P |  |  |  |
-| S6a Learned and shared: MCP sidecar prompt | P | P |  |  |  | S |
-| S6b Learned outside work: CP library, agri domain | P |  |  |  |  |  |
-| S7 Tough feedback or helping a teammate (scaffold; reuse Difficult Feedback) | S |  |  |  |  | P |
+| Story                                                                        | Curious | Communicate | Right thing | Diversity | Finish line | Empathy |
+| ---------------------------------------------------------------------------- | ------- | ----------- | ----------- | --------- | ----------- | ------- |
+| S1 CREST orchestration rebuild                                               | S       | S           |             |           | P           |         |
+| S2 Infra investigation (Spark 3→4 or Terraform/Redis)                        | P       | S           | S           |           | S           |         |
+| S3 ShivAgri for farmers                                                      | S       |             |             | S         | S           | P       |
+| S4 Conflict, different perspective (scaffold)                                |         | S           | S           | P         |             | S       |
+| S5 Mistake you owned (scaffold)                                              | S       | P           | P           |           |             |         |
+| S6a Learned and shared: MCP sidecar prompt                                   | P       | P           |             |           |             | S       |
+| S6b Learned outside work: CP library, agri domain                            | P       |             |             |           |             |         |
+| S7 Tough feedback or helping a teammate (scaffold; reuse Difficult Feedback) | S       |             |             |           |             | P       |
 
 **Card format for every story** (90–120 seconds)
 
@@ -216,12 +216,12 @@ For each prompt, say the story ID and its one-line headline within 15 seconds. G
 3. A conflict with someone who saw it differently - Parallel Exec
 4. Something you're proud of - CNC
 5. Something you learned outside work - n8n
-6. A decision with incomplete information - 
-7. A time you went beyond your role to finish something
-8. A time you put a user's needs first
-9. Tough feedback you received
-10. Something you investigated because it bothered you
-11. A time you chose the right call over the easy one
+6. A decision with incomplete information - Data migration scheduler
+7. A time you went beyond your role to finish something - Metrics Monitoring 
+8. A time you put a user's needs first - Downstream ML team story 
+9. Tough feedback you received - Run Adjustment summary
+10. Something you investigated because it bothered you - Correlation ID setup
+11. A time you chose the right call over the easy one - 
 12. A time you explained something technical to a non-technical person
 
 ### Drill B — Explain it to sales (20 min)
