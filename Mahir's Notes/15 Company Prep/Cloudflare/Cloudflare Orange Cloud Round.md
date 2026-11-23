@@ -211,7 +211,7 @@ Practise out loud and record on your phone. Reading stories silently does not tr
 
 For each prompt, say the story ID and its one-line headline within 15 seconds. Go round twice, shuffled. The goal is recall speed, not polish.
 
-1. A mistake you made
+1. A mistake you made - missed config before the release
 2. Something you learned and shared - CRBOT Experience
 3. A conflict with someone who saw it differently - Parallel Exec
 4. Something you're proud of - CNC
@@ -221,8 +221,8 @@ For each prompt, say the story ID and its one-line headline within 15 seconds. G
 8. A time you put a user's needs first - Downstream ML team story 
 9. Tough feedback you received - Run Adjustment summary
 10. Something you investigated because it bothered you - Correlation ID setup
-11. A time you chose the right call over the easy one - 
-12. A time you explained something technical to a non-technical person
+11. A time you chose the right call over the easy one - Authorization framework in CRBOT
+12. A time you explained something technical to a non-technical person - Ingestion pipeline failing due to missed SLA
 
 ### Drill B — Explain it to sales (20 min)
 
