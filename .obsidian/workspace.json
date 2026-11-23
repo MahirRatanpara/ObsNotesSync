@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Interview Prep.md",
+                "file": "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Orange Cloud Round.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cloudflare Interview Prep"
+              "title": "Cloudflare Orange Cloud Round"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.50390243530273
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "30a8156c470c1591",
@@ -154,8 +155,12 @@
   },
   "active": "9ee3fb4e779d1b2a",
   "lastOpenFiles": [
-    "Mahir's Notes/11 Networking/Fundamentals/Networking Essentials.md",
     "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Interview Prep.md",
+    "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Cloud Interview.md",
+    "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Orange Cloud Round.md",
+    "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Orange Cloud Round — 10-Hour Prep & Practice.md",
+    "Shared Attachments/Cloudflare Orange Cloud Round — 10-Hour Prep & Practice.md",
+    "Mahir's Notes/11 Networking/Fundamentals/Networking Essentials.md",
     "Mahir's Notes/00 Revision Roadmaps/1 Day Emergency Revision.md",
     "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Interview Prep 4-Day Study Plan (Nov 16-20) (1).md",
     "Mahir's Notes/15 Company Prep/Cloudflare/Cloudflare Interview Prep 4-Day Study Plan (Nov 16-20).md",
@@ -182,10 +187,6 @@
     "Mahir's Notes/Flash Cards",
     "Mahir's Notes/Cheat Sheets/LLD Cheat Sheet.md",
     "Mahir's Notes/Cheat Sheets/Java Concurrency Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/Index.md",
-    "Mahir's Notes/Cheat Sheets/HLD Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/Design Patterns Cheat Sheet.md",
-    "Mahir's Notes/Cheat Sheets/DSA Cheat Sheet.md",
     "Mahir's Notes/Cheat Sheets",
     "Mahir's Notes/16 Miscellaneous",
     "Mahir's Notes/15 Company Prep/Behavioural",
