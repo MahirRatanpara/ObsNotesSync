@@ -212,11 +212,11 @@ Practise out loud and record on your phone. Reading stories silently does not tr
 For each prompt, say the story ID and its one-line headline within 15 seconds. Go round twice, shuffled. The goal is recall speed, not polish.
 
 1. A mistake you made
-2. Something you learned and shared
-3. A conflict with someone who saw it differently
-4. Something you're proud of
-5. Something you learned outside work
-6. A decision with incomplete information
+2. Something you learned and shared - CRBOT Experience
+3. A conflict with someone who saw it differently - Parallel Exec
+4. Something you're proud of - CNC
+5. Something you learned outside work - n8n
+6. A decision with incomplete information - 
 7. A time you went beyond your role to finish something
 8. A time you put a user's needs first
 9. Tough feedback you received
